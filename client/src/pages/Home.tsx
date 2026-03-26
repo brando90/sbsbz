@@ -1,6 +1,6 @@
 /*
  * Design: Warm Nocturne — Intimate Evening Social Aesthetic
- * Home: Full-bleed hero with cinematic dance image, diagonal transitions,
+ * Home: Full-bleed hero with real SBSBZ dance photos, diagonal transitions,
  * warm amber/burgundy accents on deep charcoal.
  */
 import { Link } from "wouter";
@@ -17,12 +17,54 @@ const fadeUp = {
   }),
 };
 
+/* Real SBSBZ photos from Google Drive */
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/hero-dance-3aAsEiS4DtkwqWUdQMSnc2.webp";
-const CLASSES_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/classes-section-fbNMSLfGYgYsWjJqJQvxJu.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0007_0b11703e.jpg";
 const COMMUNITY_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-social-DBnZeJDx7LaSFW77jouYup.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
+const CLASSES_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0005_a1b24ce8.jpg";
+const ZOUK_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0006_c8a73ca0.jpg";
+const INSTRUCTORS_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202026-02-05%20at%2010.34.47%20PM_10db0395.jpeg";
+
+/* Instructor bio card images */
+const BRANDO_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-09%20at%201.15.16%20PM_3c9e85ec.jpeg";
+const FONTAINE_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-03%20at%2012.26.38%20PM_9e0ce025.jpeg";
+const NATALIA_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-04%20at%2010.00.16%20AM_d3085849.jpeg";
+const KRISS_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-11%20at%2010.48.57%20AM_9686d3fc.jpeg";
+
+const instructors = [
+  {
+    name: "Brando",
+    role: "Zouk Teacher",
+    bio: "Born in Mexico City. AI researcher at Stanford. Fave zouk music: Firestone (Kygo).",
+    img: BRANDO_IMG,
+  },
+  {
+    name: "Fontaine",
+    role: "Zouk Teacher",
+    bio: "Born in Texas, Stanford undergrad. Startup Founder. Fave zouk music: chill & flowy.",
+    img: FONTAINE_IMG,
+  },
+  {
+    name: "Kriss",
+    role: "Bachata Teacher",
+    bio: "2x Poland Bachata Champion. Fave bachata: I Want It That Way (DJ Alejandro).",
+    img: KRISS_IMG,
+  },
+  {
+    name: "Natalia",
+    role: "Bachata Teacher",
+    bio: "PhD in Cancer Research. Fave bachata: Sin Fin (Romeo Santos & Justin Timberlake).",
+    img: NATALIA_IMG,
+  },
+];
 
 export default function Home() {
   return (
@@ -33,7 +75,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <img
             src={HERO_IMG}
-            alt="Bachata dancers in warm amber lighting"
+            alt="SBSBZ members dancing Bachata at a social"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
@@ -164,7 +206,7 @@ export default function Home() {
               {
                 icon: Calendar,
                 title: "Weekly Classes",
-                desc: "Regular lessons for beginners and advanced dancers, plus socials and special workshops.",
+                desc: "Wednesdays & Thursdays, 7–9 PM. Free for Stanford affiliates. Practice time until 9:30 PM.",
               },
             ].map((item, i) => (
               <motion.div
@@ -203,7 +245,7 @@ export default function Home() {
               <div className="relative rounded-lg overflow-hidden">
                 <img
                   src={COMMUNITY_IMG}
-                  alt="SBSBZ community social event"
+                  alt="SBSBZ members at the Chicago Salsa & Bachata Festival"
                   className="w-full h-[400px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent" />
@@ -306,10 +348,9 @@ export default function Home() {
                 className="space-y-4 mb-8"
               >
                 {[
-                  { label: "Beginner Bachata Sensual", time: "Weekly" },
-                  { label: "Intermediate/Advanced Bachata", time: "Weekly" },
-                  { label: "Brazilian Zouk Fundamentals", time: "Weekly" },
-                  { label: "Styling & Musicality Workshops", time: "Monthly" },
+                  { label: "Wednesday — Zouk (Brando & Fontaine)", time: "7–9 PM" },
+                  { label: "Thursday — Bachata (Kriss & Natalia)", time: "7–9 PM" },
+                  { label: "Free Practice Time", time: "9–9:30 PM" },
                 ].map((cls) => (
                   <div
                     key={cls.label}
@@ -343,7 +384,7 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <img
                   src={CLASSES_IMG}
-                  alt="Dance class in session"
+                  alt="SBSBZ members dancing at a social"
                   className="w-full h-[400px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-l from-charcoal/30 to-transparent" />
@@ -354,8 +395,106 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== CTA ===== */}
+      {/* ===== INSTRUCTORS ===== */}
       <section className="diagonal-top relative bg-charcoal-light overflow-hidden">
+        <div className="container py-20 md:py-28">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+            >
+              Meet Our Teachers
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream"
+            >
+              Our Instructors
+            </motion.h2>
+          </motion.div>
+
+          {/* Kriss & Natalia promo photo */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="max-w-md mx-auto mb-14 rounded-lg overflow-hidden"
+          >
+            <img
+              src={INSTRUCTORS_IMG}
+              alt="Kriss and Natalia — Bachata instructors"
+              className="w-full h-auto"
+            />
+          </motion.div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-80px" }}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
+            {instructors.map((inst, i) => (
+              <motion.div
+                key={inst.name}
+                variants={fadeUp}
+                custom={i}
+                className="group bg-charcoal border border-border/40 rounded-lg overflow-hidden hover:border-amber/40 transition-all duration-500"
+              >
+                <div className="h-64 overflow-hidden">
+                  <img
+                    src={inst.img}
+                    alt={`${inst.name} — ${inst.role}`}
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display text-xl text-cream">
+                    {inst.name}
+                  </h3>
+                  <p className="text-amber text-sm font-medium mb-2">
+                    {inst.role}
+                  </p>
+                  <p className="text-cream/60 text-sm leading-relaxed">
+                    {inst.bio}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ===== ZOUK IMAGE BREAK ===== */}
+      <section className="relative h-[40vh] md:h-[50vh] overflow-hidden">
+        <img
+          src={ZOUK_IMG}
+          alt="SBSBZ members dancing Brazilian Zouk"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-charcoal/40" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <motion.p
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-display text-3xl md:text-5xl text-cream text-center px-4"
+          >
+            Everyone is <span className="text-amber">Welcome</span>
+          </motion.p>
+        </div>
+      </section>
+
+      {/* ===== CTA ===== */}
+      <section className="relative bg-charcoal overflow-hidden">
         <div className="container py-20 md:py-28 text-center">
           <motion.div
             initial="hidden"
@@ -374,8 +513,8 @@ export default function Home() {
               custom={1}
               className="text-cream/70 text-lg max-w-xl mx-auto mb-8"
             >
-              No experience needed. No partner required. Just bring yourself
-              and an open mind. We will take care of the rest.
+              No experience needed. No partner required. Free for Stanford
+              affiliates. Just bring yourself and an open mind.
             </motion.p>
             <motion.div
               variants={fadeUp}

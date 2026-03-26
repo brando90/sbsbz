@@ -1,6 +1,6 @@
 /*
  * Design: Warm Nocturne — Intimate Evening Social Aesthetic
- * Classes: Schedule, class descriptions, and FAQ.
+ * Classes: Real schedule from SBSBZ flyers, class descriptions, and FAQ.
  */
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -17,49 +17,48 @@ const fadeUp = {
 };
 
 const CLASSES_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/classes-section-fbNMSLfGYgYsWjJqJQvxJu.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0005_a1b24ce8.jpg";
 
 const schedule = [
-  {
-    day: "Monday",
-    classes: [
-      {
-        name: "Beginner Bachata Sensual",
-        time: "7:00 PM – 8:00 PM",
-        location: "Roble Studio",
-        level: "All Levels",
-        desc: "Learn the fundamentals of Bachata Sensual — basic steps, connection, and simple turn patterns. No experience or partner needed.",
-      },
-    ],
-  },
   {
     day: "Wednesday",
     classes: [
       {
-        name: "Intermediate Bachata Sensual",
-        time: "7:00 PM – 8:00 PM",
-        location: "Roble Studio",
-        level: "Intermediate",
-        desc: "Build on your foundations with body waves, isolations, and more complex lead/follow patterns.",
+        name: "Brazilian Zouk",
+        time: "7:00 PM – 9:00 PM",
+        location: "Willis Lounge",
+        level: "All Levels",
+        instructors: "Brando & Fontaine",
+        desc: "Explore the flowing movements and head movements of Brazilian Zouk. From zero to Zouk hero — no prior experience needed.",
       },
       {
-        name: "Brazilian Zouk Fundamentals",
-        time: "8:15 PM – 9:15 PM",
-        location: "Roble Studio",
+        name: "Free Practice Time",
+        time: "9:00 PM – 9:30 PM",
+        location: "Willis Lounge",
         level: "All Levels",
-        desc: "Explore the flowing movements and head movements of Brazilian Zouk. Beginners welcome.",
+        instructors: "Open",
+        desc: "Practice what you learned during class with fellow dancers. Social dancing and free practice.",
       },
     ],
   },
   {
-    day: "Friday",
+    day: "Thursday",
     classes: [
       {
-        name: "Open Practice / Social",
-        time: "8:00 PM – 10:00 PM",
-        location: "Roble Studio",
+        name: "Bachata Sensual",
+        time: "7:00 PM – 9:00 PM",
+        location: "EVGR C Dance Room (C153), 726 Serra St",
         level: "All Levels",
-        desc: "Practice what you have learned and social dance with the community. Music, vibes, and good company.",
+        instructors: "Kriss & Natalia",
+        desc: "Learn the fundamentals of Bachata Sensual — from zero to Bachata hero! Connection, body waves, and lead/follow principles.",
+      },
+      {
+        name: "Free Practice Time",
+        time: "9:00 PM – 9:30 PM",
+        location: "EVGR C Dance Room (C153)",
+        level: "All Levels",
+        instructors: "Open",
+        desc: "Practice what you learned during class with fellow dancers. Social dancing and free practice.",
       },
     ],
   },
@@ -72,7 +71,7 @@ const faqs = [
   },
   {
     q: "Do I need dance experience?",
-    a: "Not at all. Our beginner classes start from the very basics. Many of our members had zero dance experience when they joined.",
+    a: "Not at all. Our classes go from zero to hero — many of our members had zero dance experience when they joined.",
   },
   {
     q: "What should I wear?",
@@ -80,7 +79,11 @@ const faqs = [
   },
   {
     q: "Is it free?",
-    a: "Yes! SBSBZ is a non-profit, student-run organization. All our regular classes and socials are free for Stanford students.",
+    a: "Yes! Classes are free for Stanford students and affiliates. Non-Stanford community members are welcome for a small contribution ($5–$10).",
+  },
+  {
+    q: "Who are the instructors?",
+    a: "Bachata is taught by Kriss (2x Poland Bachata Champion) and Natalia (PhD researcher & dancer). Zouk is taught by Brando (AI researcher & founder) and Fontaine (Stanford alum & startup founder).",
   },
 ];
 
@@ -92,7 +95,7 @@ export default function Classes() {
         <div className="absolute inset-0">
           <img
             src={CLASSES_IMG}
-            alt="Dance class in session"
+            alt="SBSBZ members dancing at a social"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-charcoal/75" />
@@ -121,6 +124,7 @@ export default function Classes() {
             className="text-cream/70 text-lg max-w-2xl mx-auto"
           >
             Weekly classes for all levels. No partner or experience required.
+            Free for Stanford affiliates.
           </motion.p>
         </div>
       </section>
@@ -164,7 +168,7 @@ export default function Classes() {
                 <div className="space-y-4">
                   {day.classes.map((cls) => (
                     <div
-                      key={cls.name}
+                      key={cls.name + cls.time}
                       className="bg-charcoal-light border border-border/40 rounded-lg p-6 hover:border-amber/30 transition-all duration-500"
                     >
                       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
@@ -183,6 +187,10 @@ export default function Classes() {
                             <span className="flex items-center gap-1.5 text-cream/50">
                               <MapPin size={14} className="text-amber/70" />
                               {cls.location}
+                            </span>
+                            <span className="flex items-center gap-1.5 text-cream/50">
+                              <Users size={14} className="text-amber/70" />
+                              {cls.instructors}
                             </span>
                           </div>
                         </div>
@@ -205,8 +213,16 @@ export default function Classes() {
             transition={{ delay: 0.3 }}
             className="text-cream/40 text-sm text-center mt-8"
           >
-            Schedule is subject to change. Follow us on Instagram for the latest
-            updates.
+            Schedule is subject to change. Follow us on{" "}
+            <a
+              href="https://www.instagram.com/stanford_sbsbz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber/60 hover:text-amber underline"
+            >
+              Instagram
+            </a>{" "}
+            for the latest updates.
           </motion.p>
         </div>
       </section>

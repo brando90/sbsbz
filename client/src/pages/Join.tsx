@@ -16,7 +16,7 @@ const fadeUp = {
 };
 
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/hero-dance-3aAsEiS4DtkwqWUdQMSnc2.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0008_eb43cb1d.jpg";
 
 const steps = [
   {
@@ -46,9 +46,8 @@ const benefits = [
   "No partner or experience required",
   "Welcoming, inclusive community",
   "Social dance events and parties",
-  "Workshops with guest instructors",
-  "Performance opportunities",
-  "Connections with dancers across the Bay Area",
+  "Workshops with champion-level instructors",
+  "Connections to the Bay Area & national dance scene",
   "A healthy outlet for stress and creativity",
 ];
 
@@ -241,7 +240,7 @@ export default function Join() {
                   <div>
                     <p className="text-sm font-medium text-cream">Location</p>
                     <p className="text-xs text-cream/50">
-                      Roble Studio, Stanford University
+                      Wed: Willis Lounge &middot; Thu: EVGR C153
                     </p>
                   </div>
                 </div>

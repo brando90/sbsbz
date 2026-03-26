@@ -17,14 +17,14 @@ const fadeUp = {
 };
 
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-social-DBnZeJDx7LaSFW77jouYup.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0010_c85d2f35.jpg";
 
 const upcomingEvents = [
   {
     title: "Spring Quarter Welcome Social",
     date: "April 5, 2026",
     time: "8:00 PM – 11:00 PM",
-    location: "Roble Studio, Stanford",
+    location: "Stanford Campus",
     desc: "Kick off Spring Quarter with an evening of Bachata and Zouk social dancing. Open to all — beginners, come try your first dance! Light refreshments provided.",
     tag: "Social",
   },
@@ -32,23 +32,23 @@ const upcomingEvents = [
     title: "Bachata Sensual Workshop: Body Waves & Isolations",
     date: "April 12, 2026",
     time: "3:00 PM – 5:00 PM",
-    location: "Roble Studio, Stanford",
-    desc: "A deep-dive workshop on body waves and isolations in Bachata Sensual. Learn the mechanics behind fluid movement and how to incorporate them into your social dancing.",
+    location: "EVGR C Dance Room (C153)",
+    desc: "A deep-dive workshop with Kriss & Natalia on body waves and isolations in Bachata Sensual. Learn the mechanics behind fluid movement and how to incorporate them into your social dancing.",
     tag: "Workshop",
   },
   {
     title: "Zouk Musicality Night",
     date: "April 19, 2026",
     time: "7:00 PM – 9:30 PM",
-    location: "Roble Studio, Stanford",
-    desc: "Explore the relationship between music and movement in Brazilian Zouk. We will break down how to interpret different genres and rhythms through dance.",
+    location: "Willis Lounge",
+    desc: "Explore the relationship between music and movement in Brazilian Zouk with Brando & Fontaine. We will break down how to interpret different genres and rhythms through dance.",
     tag: "Workshop",
   },
   {
     title: "SBSBZ End-of-Month Social",
     date: "April 26, 2026",
     time: "8:00 PM – 11:00 PM",
-    location: "Roble Studio, Stanford",
+    location: "Stanford Campus",
     desc: "Our monthly social dance party. DJ sets, good vibes, and a welcoming dance floor. All levels welcome.",
     tag: "Social",
   },
@@ -56,19 +56,19 @@ const upcomingEvents = [
 
 const pastHighlights = [
   {
-    title: "Winter Quarter Showcase",
-    date: "March 2026",
-    desc: "Our dancers performed Bachata Sensual and Zouk routines to a packed audience at the Stanford Arts Festival.",
-  },
-  {
-    title: "Bay Area Bachata Festival",
+    title: "Chicago Salsa & Bachata Festival",
     date: "February 2026",
-    desc: "SBSBZ members represented Stanford at the Bay Area Bachata Festival, attending workshops and social dancing.",
+    desc: "SBSBZ members traveled to Chicago for the Salsa & Bachata Festival — workshops, social dancing, and unforgettable memories.",
   },
   {
-    title: "Beginner Bootcamp",
+    title: "Winter Quarter Classes Launch",
     date: "January 2026",
-    desc: "A two-day intensive for complete beginners, covering Bachata basics and an introduction to Zouk.",
+    desc: "Launched our first full quarter of weekly Bachata and Zouk classes with Kriss, Natalia, Brando, and Fontaine.",
+  },
+  {
+    title: "SBSBZ Founded",
+    date: "Fall 2025",
+    desc: "Brando founded SBSBZ to bring Bachata Sensual and Brazilian Zouk to the Stanford community.",
   },
 ];
 

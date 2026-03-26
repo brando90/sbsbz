@@ -1,6 +1,6 @@
 /*
  * Design: Warm Nocturne — Intimate Evening Social Aesthetic
- * About: Mission, dance styles, and leadership team.
+ * About: Mission, dance styles, instructors, and leadership team.
  */
 import { motion } from "framer-motion";
 import { Heart, Zap, Globe, Users } from "lucide-react";
@@ -14,10 +14,23 @@ const fadeUp = {
   }),
 };
 
+/* Real SBSBZ photos */
 const ABOUT_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/about-dance-5Jr9g7ggoyukgiq27S8SxU.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0003_c5ee2812.jpg";
 const COMMUNITY_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-social-DBnZeJDx7LaSFW77jouYup.webp";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
+const ZOUK_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0006_c8a73ca0.jpg";
+
+const leadershipTeam = [
+  { name: "Brando", role: "Founder & Zouk Instructor" },
+  { name: "Abhinav Garg", role: "Officer" },
+  { name: "Elizabeth", role: "Officer" },
+  { name: "Henry Bosch", role: "Officer" },
+  { name: "Lorena Oliveira", role: "Officer" },
+  { name: "Nick Montes", role: "Officer" },
+  { name: "Pau", role: "Officer" },
+];
 
 export default function About() {
   return (
@@ -27,7 +40,7 @@ export default function About() {
         <div className="absolute inset-0">
           <img
             src={ABOUT_IMG}
-            alt="Dance hands in warm light"
+            alt="Brando dancing at a social"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-charcoal/75" />
@@ -236,8 +249,8 @@ export default function About() {
       {/* ===== COMMUNITY IMAGE BREAK ===== */}
       <section className="relative h-[40vh] md:h-[50vh] overflow-hidden">
         <img
-          src={COMMUNITY_IMG}
-          alt="SBSBZ community"
+          src={ZOUK_IMG}
+          alt="SBSBZ members dancing Brazilian Zouk"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/40" />
@@ -254,8 +267,76 @@ export default function About() {
         </div>
       </section>
 
-      {/* ===== VALUES ===== */}
+      {/* ===== LEADERSHIP TEAM ===== */}
       <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container max-w-4xl">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+            >
+              Our People
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream"
+            >
+              Leadership Team
+            </motion.h2>
+          </motion.div>
+
+          {/* Group photo */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="rounded-lg overflow-hidden mb-12"
+          >
+            <img
+              src={COMMUNITY_IMG}
+              alt="SBSBZ leadership team at a Bachata festival"
+              className="w-full h-[300px] md:h-[400px] object-cover"
+            />
+          </motion.div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"
+          >
+            {leadershipTeam.map((member, i) => (
+              <motion.div
+                key={member.name}
+                variants={fadeUp}
+                custom={i}
+                className="bg-charcoal-light border border-border/40 rounded-lg p-5 text-center hover:border-amber/30 transition-all duration-500"
+              >
+                <div className="w-14 h-14 rounded-full bg-amber/10 flex items-center justify-center mx-auto mb-3">
+                  <span className="font-display text-xl text-amber">
+                    {member.name.charAt(0)}
+                  </span>
+                </div>
+                <h3 className="font-display text-lg text-cream mb-1">
+                  {member.name}
+                </h3>
+                <p className="text-cream/50 text-xs">{member.role}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ===== VALUES ===== */}
+      <section className="diagonal-top bg-charcoal-light py-20 md:py-28">
         <div className="container max-w-3xl text-center">
           <motion.div
             initial="hidden"
@@ -299,7 +380,7 @@ export default function About() {
               },
               {
                 title: "Accessible to All",
-                desc: "No partner needed. No special attire. Just come as you are and be ready to move.",
+                desc: "No partner needed. No special attire. Free for Stanford affiliates. Just come as you are and be ready to move.",
               },
             ].map((value, i) => (
               <motion.div
