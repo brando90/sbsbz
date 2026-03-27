@@ -23,13 +23,41 @@ const ZOUK_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0006_c8a73ca0.jpg";
 
 const leadershipTeam = [
-  { name: "Brando", role: "Founder & Zouk Instructor" },
-  { name: "Abhinav Garg", role: "Officer" },
-  { name: "Elizabeth", role: "Officer" },
-  { name: "Henry Bosch", role: "Officer" },
-  { name: "Lorena Oliveira", role: "Officer" },
-  { name: "Nick Montes", role: "Officer" },
-  { name: "Pau", role: "Officer" },
+  {
+    name: "Brando",
+    role: "Founder & Zouk Instructor",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando_dcc73627.webp",
+  },
+  {
+    name: "Abhinav Garg",
+    role: "Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/abhinav_75b397d4.jpeg",
+  },
+  {
+    name: "Elizabeth",
+    role: "Officer",
+    img: null,
+  },
+  {
+    name: "Henry Bosch",
+    role: "Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/henry_b8544d4d.webp",
+  },
+  {
+    name: "Lorena Oliveira",
+    role: "Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/lorena_1b716b7b.webp",
+  },
+  {
+    name: "Nick Montes",
+    role: "Officer",
+    img: null,
+  },
+  {
+    name: "Pau",
+    role: "Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/pau_33a0dc88.webp",
+  },
 ];
 
 export default function About() {
@@ -320,10 +348,18 @@ export default function About() {
                 custom={i}
                 className="bg-charcoal-light border border-border/40 rounded-lg p-5 text-center hover:border-amber/30 transition-all duration-500"
               >
-                <div className="w-14 h-14 rounded-full bg-amber/10 flex items-center justify-center mx-auto mb-3">
-                  <span className="font-display text-xl text-amber">
-                    {member.name.charAt(0)}
-                  </span>
+                <div className="w-16 h-16 rounded-full bg-amber/10 flex items-center justify-center mx-auto mb-3 overflow-hidden">
+                  {member.img ? (
+                    <img
+                      src={member.img}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <span className="font-display text-xl text-amber">
+                      {member.name.charAt(0)}
+                    </span>
+                  )}
                 </div>
                 <h3 className="font-display text-lg text-cream mb-1">
                   {member.name}
