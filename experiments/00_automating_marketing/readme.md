@@ -1,0 +1,1 @@
+codwork schedule prompt created here: https://claude.ai/chat/65d06b58-8990-40f4-a0b6-34226598847b 
