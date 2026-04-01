@@ -4,3 +4,6 @@ dist/
 .env.local
 *.log
 .DS_Store
+
+# SMTP credentials (never commit)
+smtp_config.json

@@ -1,0 +1,12 @@
+[project]
+name = "sbsbz-email-sender"
+version = "0.1.0"
+description = "Automated weekly email sender for SBSBZ (Stanford Bachata Sensual & Brazilian Zouk)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+oauth = ["msal>=1.28.0"]
+
+[project.scripts]
+sbsbz-email = "send_weekly_email:main"
