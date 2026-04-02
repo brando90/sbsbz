@@ -17,8 +17,6 @@ const fadeUp = {
 /* Real SBSBZ photos */
 const ABOUT_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0003_c5ee2812.jpg";
-const COMMUNITY_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
 const ZOUK_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
 
@@ -26,7 +24,7 @@ const leadershipTeam = [
   {
     name: "Brando",
     role: "President & Founder",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-stef-dance-pic_c1e4e7f5.jpg",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-zouk-teacher_43076681.png",
   },
   {
     name: "Henry Bosch",
@@ -316,19 +314,6 @@ export default function About() {
           </motion.div>
 
           {/* Group photo */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="rounded-lg overflow-hidden mb-12"
-          >
-            <img
-              src={COMMUNITY_IMG}
-              alt="SBSBZ leadership team at a Bachata festival"
-              className="w-full h-[300px] md:h-[400px] object-cover"
-            />
-          </motion.div>
 
           <motion.div
             initial="hidden"
