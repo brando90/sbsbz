@@ -349,7 +349,7 @@ export default function Home() {
               >
                 {[
                   { label: "Wednesday — Zouk (Brando & Fontaine)", time: "7–9 PM" },
-                  { label: "Thursday — Bachata (Kriss & Natalia)", time: "7–9 PM" },
+                  { label: "Thursday — Bachata (Kriss & Natalia / Brando & Elisabeth)", time: "7–9 PM" },
                   { label: "Free Practice Time", time: "9–9:30 PM" },
                 ].map((cls) => (
                   <div
@@ -420,7 +420,7 @@ export default function Home() {
             </motion.h2>
           </motion.div>
 
-          {/* Kriss & Natalia promo photo */}
+          {/* Kriss & Natalia / Brando & Elisabeth promo photo */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

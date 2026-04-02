@@ -49,7 +49,7 @@ const schedule = [
         time: "7:00 – 9:00 PM",
         location: "EVGR C Dance Studio",
         level: "All Levels",
-        instructors: "Kriss & Natalia",
+        instructors: "Kriss & Natalia / Brando & Elisabeth",
         desc: "Learn the fundamentals of Bachata Sensual — from zero to Bachata hero! Connection, body waves, and lead/follow principles.",
       },
       {

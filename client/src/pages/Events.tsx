@@ -33,7 +33,7 @@ const upcomingEvents = [
     date: "April 12, 2026",
     time: "3:00 PM – 5:00 PM",
     location: "EVGR C Dance Room (C153)",
-    desc: "A deep-dive workshop with Kriss & Natalia on body waves and isolations in Bachata Sensual. Learn the mechanics behind fluid movement and how to incorporate them into your social dancing.",
+    desc: "A deep-dive workshop with Kriss & Natalia / Brando & Elisabeth on body waves and isolations in Bachata Sensual. Learn the mechanics behind fluid movement and how to incorporate them into your social dancing.",
     tag: "Workshop",
   },
   {
