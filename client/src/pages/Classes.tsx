@@ -25,19 +25,19 @@ const schedule = [
     classes: [
       {
         name: "Brazilian Zouk",
-        time: "7:00 PM – 9:00 PM",
-        location: "Willis Lounge",
+        time: "7:30 – 8:45 PM",
+        location: "Roble 114",
         level: "All Levels",
-        instructors: "Brando & Fontaine",
+        instructors: "Marcos, Brando, Fontaine & Elisabeth",
         desc: "Explore the flowing movements and head movements of Brazilian Zouk. From zero to Zouk hero — no prior experience needed.",
       },
       {
-        name: "Free Practice Time",
-        time: "9:00 PM – 9:30 PM",
-        location: "Willis Lounge",
+        name: "Zouk Social",
+        time: "8:45 – 10:30 PM",
+        location: "Roble 114",
         level: "All Levels",
-        instructors: "Open",
-        desc: "Practice what you learned during class with fellow dancers. Social dancing and free practice.",
+        instructors: "Open Floor",
+        desc: "Put what you learned into practice! Social dancing with fellow Zouk dancers in a relaxed, welcoming atmosphere.",
       },
     ],
   },
@@ -46,19 +46,19 @@ const schedule = [
     classes: [
       {
         name: "Bachata Sensual",
-        time: "7:00 PM – 9:00 PM",
-        location: "EVGR C Dance Room (C153), 726 Serra St",
+        time: "7:00 – 9:00 PM",
+        location: "EVGR C Dance Studio",
         level: "All Levels",
         instructors: "Kriss & Natalia",
         desc: "Learn the fundamentals of Bachata Sensual — from zero to Bachata hero! Connection, body waves, and lead/follow principles.",
       },
       {
-        name: "Free Practice Time",
-        time: "9:00 PM – 9:30 PM",
-        location: "EVGR C Dance Room (C153)",
+        name: "Bachata Social",
+        time: "9:00 – 10:00 PM",
+        location: "EVGR C Dance Studio",
         level: "All Levels",
-        instructors: "Open",
-        desc: "Practice what you learned during class with fellow dancers. Social dancing and free practice.",
+        instructors: "Open Floor",
+        desc: "Social dancing after class! Practice your moves and dance with everyone in a fun, supportive environment.",
       },
     ],
   },
@@ -215,7 +215,7 @@ export default function Classes() {
           >
             Schedule is subject to change. Follow us on{" "}
             <a
-              href="https://www.instagram.com/stanford_sbsbz/"
+              href="https://www.instagram.com/stanford_bachata_sensual_zouk/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-amber/60 hover:text-amber underline"

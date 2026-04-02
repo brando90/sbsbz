@@ -3,7 +3,7 @@
  * Join: How to get involved, contact info, and links.
  */
 import { motion } from "framer-motion";
-import { Instagram, Mail, MapPin, ArrowUpRight, CheckCircle } from "lucide-react";
+import { Instagram, Mail, MapPin, ArrowUpRight, CheckCircle, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const fadeUp = {
@@ -27,7 +27,7 @@ const steps = [
   {
     num: "02",
     title: "Follow Us",
-    desc: "Follow @stanford_sbsbz on Instagram for class updates, event announcements, and behind-the-scenes content.",
+    desc: "Follow @stanford_bachata_sensual_zouk on Instagram for class updates, event announcements, and behind-the-scenes content.",
   },
   {
     num: "03",
@@ -198,7 +198,7 @@ export default function Join() {
               </h3>
               <div className="space-y-5">
                 <a
-                  href="https://www.instagram.com/stanford_sbsbz/"
+                  href="https://www.instagram.com/stanford_bachata_sensual_zouk/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-cream/70 hover:text-amber transition-colors duration-300 group"
@@ -208,7 +208,7 @@ export default function Join() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-cream">Instagram</p>
-                    <p className="text-xs text-cream/50">@stanford_sbsbz</p>
+                    <p className="text-xs text-cream/50">@stanford_bachata_sensual_zouk</p>
                   </div>
                   <ArrowUpRight
                     size={14}
@@ -240,7 +240,7 @@ export default function Join() {
                   <div>
                     <p className="text-sm font-medium text-cream">Location</p>
                     <p className="text-xs text-cream/50">
-                      Wed: Willis Lounge &middot; Thu: EVGR C153
+                      Wed: Roble 114 &middot; Thu: EVGR C Dance Studio
                     </p>
                   </div>
                 </div>
@@ -248,13 +248,13 @@ export default function Join() {
 
               <div className="mt-8 pt-6 border-t border-border/30">
                 <a
-                  href="https://www.instagram.com/stanford_sbsbz/"
+                  href="https://linktr.ee/ultimate_brando9"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button className="w-full bg-amber text-charcoal hover:bg-amber-light font-semibold tracking-wide">
-                    Follow Us on Instagram
-                    <ArrowUpRight size={16} className="ml-2" />
+                    Sign Up & Info
+                    <ExternalLink size={16} className="ml-2" />
                   </Button>
                 </a>
               </div>

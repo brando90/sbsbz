@@ -43,13 +43,13 @@ export default function Footer() {
             <h4 className="font-display text-lg text-amber mb-4">Connect</h4>
             <div className="flex flex-col gap-3">
               <a
-                href="https://www.instagram.com/stanford_sbsbz/"
+                href="https://www.instagram.com/stanford_bachata_sensual_zouk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-cream/60 hover:text-amber text-sm transition-colors duration-300"
               >
                 <Instagram size={16} />
-                @stanford_sbsbz
+                @stanford_bachata_sensual_zouk
               </a>
               <a
                 href="mailto:sbsbz@stanford.edu"
