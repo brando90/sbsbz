@@ -25,38 +25,33 @@ const ZOUK_IMG =
 const leadershipTeam = [
   {
     name: "Brando",
-    role: "Founder & Zouk Instructor",
+    role: "President",
     img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando_dcc73627.webp",
   },
   {
-    name: "Abhinav Garg",
-    role: "Officer",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/abhinav_75b397d4.jpeg",
+    name: "Henry Bosch",
+    role: "Vice President",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/henry_b8544d4d.webp",
   },
   {
     name: "Elizabeth",
-    role: "Officer",
-    img: null,
+    role: "Financial Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/elizabeth_3e0dc739.png",
   },
   {
-    name: "Henry Bosch",
-    role: "Officer",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/henry_b8544d4d.webp",
+    name: "Abhinav Garg",
+    role: "Social Chair",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/abhinav_75b397d4.jpeg",
+  },
+  {
+    name: "Nick Montes",
+    role: "Logistics & Operations",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/nick_01e3496a.png",
   },
   {
     name: "Lorena Oliveira",
     role: "Officer",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/lorena_1b716b7b.webp",
-  },
-  {
-    name: "Nick Montes",
-    role: "Officer",
-    img: null,
-  },
-  {
-    name: "Pau",
-    role: "Officer",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/pau_33a0dc88.webp",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/lorena_new_c1e46175.png",
   },
 ];
 
