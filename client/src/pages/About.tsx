@@ -20,7 +20,7 @@ const ABOUT_IMG =
 const COMMUNITY_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
 const ZOUK_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-zouk-stanford_558433f0.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
 
 const leadershipTeam = [
   {

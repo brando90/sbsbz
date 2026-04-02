@@ -19,19 +19,19 @@ const fadeUp = {
 
 /* Real SBSBZ photos from Google Drive */
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0007_0b11703e.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-collage_6573bfed.png";
 const COMMUNITY_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/zouk-shirt-fun_5702e906.png";
 const CLASSES_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-post5_485f39af.jpg";
 const ZOUK_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-post3_f2e47c60.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
 const INSTRUCTORS_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202026-02-05%20at%2010.34.47%20PM_10db0395.jpeg";
 
 /* Instructor bio card images */
 const BRANDO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-stef-dance-pic_c1e4e7f5.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-zouk-teacher_43076681.png";
 const FONTAINE_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-fontaine_c3ea7eb9.jpg";
 const NATALIA_IMG =

@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Is it free?",
-    a: "Yes! Classes are free for Stanford students and affiliates. Non-Stanford community members are welcome for a small contribution ($5–$10).",
+    a: "Yes! Classes are free for Stanford students and affiliates. Non-Stanford community members are welcome for $10.",
   },
   {
     q: "Who are the instructors?",

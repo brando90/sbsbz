@@ -16,7 +16,7 @@ const fadeUp = {
 };
 
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0008_eb43cb1d.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-social_87318cd8.jpg";
 
 const steps = [
   {
@@ -217,7 +217,7 @@ export default function Join() {
                 </a>
 
                 <a
-                  href="mailto:sbsbz@stanford.edu"
+                  href="mailto:sbsbz.su@gmail.com"
                   className="flex items-center gap-3 text-cream/70 hover:text-amber transition-colors duration-300 group"
                 >
                   <div className="w-10 h-10 bg-amber/10 rounded-lg flex items-center justify-center group-hover:bg-amber/20 transition-colors">
@@ -225,7 +225,7 @@ export default function Join() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-cream">Email</p>
-                    <p className="text-xs text-cream/50">sbsbz@stanford.edu</p>
+                    <p className="text-xs text-cream/50">sbsbz.su@gmail.com</p>
                   </div>
                   <ArrowUpRight
                     size={14}
