@@ -23,17 +23,17 @@ const HERO_IMG =
 const COMMUNITY_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
 const CLASSES_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0005_a1b24ce8.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-post5_485f39af.jpg";
 const ZOUK_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0006_c8a73ca0.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-post3_f2e47c60.jpg";
 const INSTRUCTORS_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202026-02-05%20at%2010.34.47%20PM_10db0395.jpeg";
 
 /* Instructor bio card images */
 const BRANDO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-09%20at%201.15.16%20PM_3c9e85ec.jpeg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-stef-dance-pic_c1e4e7f5.jpg";
 const FONTAINE_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-03%20at%2012.26.38%20PM_9e0ce025.jpeg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-fontaine_c3ea7eb9.jpg";
 const NATALIA_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-04%20at%2010.00.16%20AM_d3085849.jpeg";
 const KRISS_IMG =
@@ -206,7 +206,7 @@ export default function Home() {
               {
                 icon: Calendar,
                 title: "Weekly Classes",
-                desc: "Wednesdays & Thursdays, 7–9 PM. Free for Stanford affiliates. Practice time until 9:30 PM.",
+                desc: "Zouk Wednesdays 7:30 PM, Bachata Thursdays 7 PM. Free for Stanford affiliates. Social dancing after every class.",
               },
             ].map((item, i) => (
               <motion.div
@@ -288,10 +288,10 @@ export default function Home() {
                 custom={3}
                 className="text-cream/70 leading-relaxed mb-8"
               >
-                We are founded with the principle that the most fulfilling way
-                to social dance is a combination of deep connection and
-                awareness of excellent technique, with space for the creative
-                expression of music.
+                Founded in 2022, we believe the most fulfilling way to social
+                dance is a combination of deep connection and awareness of
+                excellent technique, with space for the creative expression of
+                music.
               </motion.p>
               <motion.div variants={fadeUp} custom={4}>
                 <Link href="/about">
@@ -348,9 +348,8 @@ export default function Home() {
                 className="space-y-4 mb-8"
               >
                 {[
-                  { label: "Wednesday — Zouk (Brando & Fontaine)", time: "7–9 PM" },
-                  { label: "Thursday — Bachata (Kriss & Natalia / Brando & Elisabeth)", time: "7–9 PM" },
-                  { label: "Free Practice Time", time: "9–9:30 PM" },
+                  { label: "Wednesday — Zouk", time: "7:30–8:45 PM + Social 8:45–10:30 PM" },
+                  { label: "Thursday — Bachata Sensual", time: "7:00–9:00 PM + Social 9:00–10:00 PM" },
                 ].map((cls) => (
                   <div
                     key={cls.label}

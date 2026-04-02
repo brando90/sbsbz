@@ -20,13 +20,13 @@ const ABOUT_IMG =
 const COMMUNITY_IMG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0004_d0cb47fc.jpg";
 const ZOUK_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0006_c8a73ca0.jpg";
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-zouk-stanford_558433f0.jpg";
 
 const leadershipTeam = [
   {
     name: "Brando",
     role: "President & Founder",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando_dcc73627.webp",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-stef-dance-pic_c1e4e7f5.jpg",
   },
   {
     name: "Henry Bosch",
@@ -128,7 +128,7 @@ export default function About() {
                 custom={2}
                 className="text-cream/70 leading-relaxed mb-4"
               >
-                We are founded with the principle that the most fulfilling way
+                Founded in 2022, we believe the most fulfilling way
                 to social dance is a combination of deep connection and
                 awareness of excellent technique, with space for the creative
                 expression of music. Our mission is to inspire you to co-create
@@ -444,12 +444,12 @@ export default function About() {
             >
               <div className="relative">
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando_dcc73627.webp"
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20221123-WA0024_d4b0f7a2.jpg"
                   alt="Brando Miranda, Founder of SBSBZ"
                   className="w-full rounded-lg object-cover aspect-[3/4]"
                 />
                 <div className="absolute -bottom-3 -right-3 bg-amber/10 border border-amber/20 rounded-lg px-4 py-2">
-                  <p className="font-display text-amber text-sm">Est. 2024</p>
+                  <p className="font-display text-amber text-sm">Est. 2022</p>
                 </div>
               </div>
             </motion.div>
