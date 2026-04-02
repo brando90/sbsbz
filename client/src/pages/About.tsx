@@ -3,7 +3,7 @@
  * About: Mission, dance styles, instructors, and leadership team.
  */
 import { motion } from "framer-motion";
-import { Heart, Zap, Globe, Users } from "lucide-react";
+import { Heart, Zap, Globe, Users, Quote } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -25,7 +25,7 @@ const ZOUK_IMG =
 const leadershipTeam = [
   {
     name: "Brando",
-    role: "President",
+    role: "President & Founder",
     img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando_dcc73627.webp",
   },
   {
@@ -427,6 +427,116 @@ export default function About() {
               </motion.div>
             ))}
           </motion.div>
+        </div>
+      </section>
+
+      {/* ===== FOUNDER'S STORY ===== */}
+      <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container max-w-4xl">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
+            {/* Photo column */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="lg:col-span-2"
+            >
+              <div className="relative">
+                <img
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando_dcc73627.webp"
+                  alt="Brando Miranda, Founder of SBSBZ"
+                  className="w-full rounded-lg object-cover aspect-[3/4]"
+                />
+                <div className="absolute -bottom-3 -right-3 bg-amber/10 border border-amber/20 rounded-lg px-4 py-2">
+                  <p className="font-display text-amber text-sm">Est. 2024</p>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Story column */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="lg:col-span-3"
+            >
+              <motion.p
+                variants={fadeUp}
+                custom={0}
+                className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+              >
+                Origin Story
+              </motion.p>
+              <motion.h2
+                variants={fadeUp}
+                custom={1}
+                className="font-display text-3xl md:text-4xl text-cream mb-6"
+              >
+                From the Dance Floor to Stanford
+              </motion.h2>
+
+              <motion.div
+                variants={fadeUp}
+                custom={2}
+                className="bg-charcoal-light border border-amber/20 rounded-lg p-6 mb-6"
+              >
+                <Quote size={20} className="text-amber/40 mb-3" />
+                <p className="text-cream/80 italic leading-relaxed text-sm">
+                  "The most fulfilling way to social dance is a combination of
+                  deep connection and awareness of good technique, with space for
+                  the creative expression of music."
+                </p>
+                <p className="text-amber/60 text-xs mt-3">— Brando Miranda</p>
+              </motion.div>
+
+              <motion.p
+                variants={fadeUp}
+                custom={3}
+                className="text-cream/70 leading-relaxed mb-4"
+              >
+                SBSBZ was born from a lifelong passion for partner dance. Founder
+                Brando Miranda spent over five years training intensively — at
+                least ten hours a week — studying under world-class instructors,
+                attending international congresses, and completing the official
+                World Master certification program created by Korke and Judith,
+                the originators of Bachata Sensual.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={4}
+                className="text-cream/70 leading-relaxed mb-4"
+              >
+                Before Stanford, Brando founded a similar organization at the
+                University of Illinois Urbana-Champaign, where he taught as an
+                instructor at Urbana Dance Company and built a community around
+                technique-driven, connection-based social dancing. That
+                experience — and the belief that anyone can co-create a beautiful
+                dance with any partner — became the foundation for SBSBZ.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={5}
+                className="text-cream/70 leading-relaxed mb-6"
+              >
+                Today, SBSBZ carries that same mission at Stanford: making
+                world-class partner dance accessible to everyone, no experience
+                or partner required.
+              </motion.p>
+
+              <motion.a
+                variants={fadeUp}
+                custom={6}
+                href="https://brando90.github.io/brandomiranda/dance.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-amber/70 hover:text-amber text-sm transition-colors duration-300 border-b border-amber/30 hover:border-amber pb-0.5"
+              >
+                Read the full story
+                <span className="text-xs">→</span>
+              </motion.a>
+            </motion.div>
+          </div>
         </div>
       </section>
     </div>
