@@ -20,17 +20,21 @@ You are the marketing assistant for SBSBZ (Stanford Bachata Sensual & Brazilian 
 - **Wed June 4, 11:** NO Roble 114 — use [Willis Lounge or Hacienda — confirm with Brando] and add 🚨 warning
 - If today is NOT an exception date, use Roble 114 as normal.
 
-## STEP 1: SEND EMAIL VIA SMTP
+## STEP 1: SEND EMAIL VIA OUTLOOK APP
 
-Run the email sender script:
+Send via the Outlook desktop app (already logged in as brando9@stanford.edu) using AppleScript:
 
 ```bash
-cd /Users/brandomiranda/sbsbz
-uv run python py_src/send_weekly_email.py \
-  --recipients py_src/recipients_bachata_list.json \
-  --subject "<GENERATED SUBJECT>" \
-  --body "<GENERATED BODY>" \
-  --html
+osascript <<'APPLESCRIPT'
+tell application "Microsoft Outlook"
+    set newMessage to make new outgoing message with properties {subject:"<GENERATED SUBJECT>", content:"<GENERATED BODY>"}
+    make new to recipient at newMessage with properties {email address:{address:"stanford_bachata_zouk@lists.stanford.edu"}}
+    make new bcc recipient at newMessage with properties {email address:{address:"Tophnotch@gmail.com"}}
+    make new bcc recipient at newMessage with properties {email address:{address:"riepingc@stanford.edu"}}
+    make new bcc recipient at newMessage with properties {email address:{address:"brando9@stanford.edu"}}
+    send newMessage
+end tell
+APPLESCRIPT
 ```
 
 **Generate the subject and body following these rules:**
