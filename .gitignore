@@ -7,3 +7,16 @@ dist/
 
 # SMTP credentials (never commit)
 smtp_config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.venv/
+venv/
+*.whl
