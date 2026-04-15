@@ -19,7 +19,7 @@ You are the marketing assistant for Stanford Bachata Sensual & Brazilian Zouk (S
 ## SCHEDULE — SPRING 2026
 
 **Zouk**
-- Wednesdays, 7:30–8:45 PM class → 8:45–10:30 PM social
+- Wednesdays, 7:30–8:45 PM class → 8:45–10:00 PM social
 - Roble 114 (small studio, cap ~25)
 - April 2 – May 28, 2026
 - Instructors: Marcos/Brando + Fontaine/Elisabeth
@@ -55,7 +55,7 @@ uv run python py_src/send_weekly_email.py \
 **Subject:** Something engaging that varies week to week.
 
 **Body** — under 200 words. Must include:
-- 🟣 Zouk: Wednesday, 7:30–8:45 PM class + 8:45–10:30 PM social, Roble 114, with Marcos/Brando + Fontaine/Elisabeth
+- 🟣 Zouk: Wednesday, 7:30–8:45 PM class + 8:45–10:00 PM social, Roble 114, with Marcos/Brando + Fontaine/Elisabeth
 - 🔴 Bachata Sensual: Thursday, 7–9 PM class + 9–10 PM social, EVGR C Dance Studio, with Kriss & Natalia (or Brando & Elisabeth)
 - "Beginner-friendly — no partner or experience needed!"
 - "Free for Stanford students & affiliates"
