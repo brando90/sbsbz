@@ -1,19 +1,29 @@
 # MEGA BACHATA birthday event kit — September 18, 2026
 
-**TLDR:** WhatsApp, email, Partiful copy, and a new flyer for Brando’s free belated-birthday social. These are first drafts with an explicit venue placeholder.
+**TLDR:** Complete corrected review package with the dancing-tree flyer, Hacienda address/map, instructor credits, playful taco line, and working website/Linktree. Brando will send the messages himself; final approval for live revisions is pending.
 
-| Deliverable | File |
+[START HERE: complete review packet](https://drive.google.com/file/d/196IkQh9wo6ihoxArZvYTEEV2GzlZXUhu/view)
+
+Local copy: [review-packet.md](review-packet.md)
+
+| Deliverable | Current file |
 |---|---|
-| WhatsApp announcement | [whatsapp.md](whatsapp.md) |
-| Email subject and body | [email.md](email.md) |
-| Partiful fields and description | [partiful.md](partiful.md) |
-| Flyer image | [mega_bachata_flyer_draft_v4.png](assets/mega_bachata_flyer_draft_v4.png) |
+| Flyer — trees, version 5 | [mega_bachata_trees_review_v5.png](assets/mega_bachata_trees_review_v5.png) |
+| WhatsApp message | [whatsapp.md](whatsapp.md) |
+| Email | [email.md](email.md) |
+| Partiful fields and copy | [partiful.md](partiful.md) |
 | Editable flyer wording | [flyer-copy.md](flyer-copy.md) |
-| Sources and extracted branding | [reference-notes.md](reference-notes.md) |
-| Exact image-generation prompt | [image-prompt.md](image-prompt.md) |
+| Event-specific Manus prompt | [manus-event-handoff.md](manus-event-handoff.md) |
+| Reusable promotion prompt | [reusable-promo-prompt.md](reusable-promo-prompt.md) |
+| Approval and delivery record | [dispatch-status.md](dispatch-status.md) |
+| Structured confirmed facts | [event-details.json](event-details.json) |
+| Sources | [reference-notes.md](reference-notes.md) |
+| Exact image prompts | [image-prompt.md](image-prompt.md) |
+| Verification record | [verification.md](verification.md) |
 
-All times are local to Stanford. The event begins Friday at 8 PM with the class and ends Saturday at 1 AM; the social runs Friday 9 PM–Saturday 1 AM.
+Drive event folder: https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo
+Current flyer: https://drive.google.com/file/d/1Dx2AYe_2WQAmvIlBdnMVky1PQYuPXgEv/view
+Reusable prompt at the club root: https://drive.google.com/file/d/1oKks-1m3EpuqhS7z87ekyq7dV2wi05Ek/view
+Existing Partiful: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 
-Shared Drive copies: [September 18 birthday drafts](https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo). The uploaded flyer and four copy files were verified by listing the folder after upload.
-
-The public drafts contain no vendor costs. Messages have not been sent. The [Partiful event](https://partiful.com/e/ohtSD9MnHe6u71JQx60X) is saved with the flyer and description; its location is still unconfirmed.
+All guest-facing facts are confirmed. Times are local to Stanford; the event ends Saturday September 19 at 1 AM. Old flyer versions are archival only. The existing Partiful currently shows version 4 with trees; version 5 and the location/taco/link refinements await final approval. The broken old website destination inside Linktree awaits account-owner sign-in and approval. No messages or invitations were sent.

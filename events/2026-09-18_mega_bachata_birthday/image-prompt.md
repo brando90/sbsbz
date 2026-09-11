@@ -84,3 +84,32 @@ No partner needed • All levels welcome
 VENUE: [TO BE CONFIRMED]
 JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
 Output the full finished portrait flyer with all text sharp and correctly spelled.
+## Version 5: final-review venue, taco endorsement and club links
+
+Built-in image-generation edit, using the version 4 tree flyer as the edit target. Current output: assets/mega_bachata_trees_review_v5.png.
+
+Use case: text-localization. Edit the supplied latest birthday flyer (version 4) which contains TWO GREEN DANCING STANFORD TREE MASCOTS. The trees are mandatory: preserve these exact illustrated characters, their pose, faces, and red-and-white S lettering. No human dancers or human portraits anywhere.
+Make the finished final-review flyer for MEGA BACHATA with these confirmed changes: venue Hacienda Commons at Rains with full address; fun taco endorsement; correct club website and Linktree. Preserve the polished crimson/gold/fuchsia neon design, Stanford architecture, sunset, confetti, headline, date and social prominence. Rebalance the lower portion as needed to fit new details without tiny type or overlapping text. Keep the upper tree illustration and headline intact. The flyer may be a little taller if needed for legibility.
+EXACT REQUIRED TEXT:
+SBSBZ PRESENTS
+STANFORD BACHATA SENSUAL & BRAZILIAN ZOUK
+MEGA BACHATA
+BRANDO’S BELATED BIRTHDAY
+His second-to-last social before graduating
+FRIDAY, SEPTEMBER 18
+2026
+SOCIAL 9 PM–1 AM
+ALL-LEVELS CLASS 8–9 PM
+WITH BRANDO, SARIKA & SOPHIA
+DJ NICK ALL NIGHT
+TACOS BY CHUY • AROUND 10 PM
+BRANDO’S PICK: BEST TACOS IN THE BAY
+MEXICAN-APPROVED
+FREE ENTRY
+No partner needed • All levels welcome
+HACIENDA COMMONS · RAINS
+796 ESCONDIDO RD · STANFORD, CA 94305
+JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
+WEBSITE: brando90.github.io/sbsbz
+LINKTREE: linktr.ee/ultimate_brando9
+Text exact, spelling precise, footer links exact and legible. Taco praise must be attributed to Brando as his personal pick, not an award or independent ranking. Clearly connect the names Brando,Sarika,Sophia to the class. Remove the former venue placeholder completely. No invented QR codes, no vendor prices, no extra facts. Produce the full final poster.

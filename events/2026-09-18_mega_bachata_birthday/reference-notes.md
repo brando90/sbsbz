@@ -27,6 +27,15 @@ The user requested their attached two dancing Stanford tree mascots in place of 
 
 Confirmed: Friday September 18, 2026; all-levels class with Brando, Sarika & Sophia, 8–9 PM; social 9 PM–1 AM; DJ Nick the whole night; taco catering by Chuy, food expected around 10 PM; free event; Brando’s belated birthday and second-to-last social before graduating.
 
-Unconfirmed: venue/address. No new Partiful event existed when the user replied; the new saved event is now verified at https://partiful.com/e/ohtSD9MnHe6u71JQx60X. Leave the venue unconfirmed until supplied.
+Venue confirmed in the user’s follow-up: Hacienda Commons at Rains, 796 Escondido Rd, Stanford, CA 94305. No new Partiful event existed when the user replied; the new saved event is now verified at https://partiful.com/e/ohtSD9MnHe6u71JQx60X. The user supplied Hacienda at Rains; the current map confirms its street address.
 
 Do not carry forward April’s admission prices, venue, separate Zouk class, old instructors, DJ Whoman, pizza, or performance. Do not add alcohol, a birthday age, dress code, sponsors, parking promises, capacity, or a fabricated registration code. Vendor costs do not appear in public copy or artwork.
+
+## Location and current club links (September 11 review update)
+
+- Stanford’s Viennese Ball page lists Rains Hacienda and links directly to the selected map: https://vienneseball.stanford.edu/austria-fortnight (Locations section).
+- Its map link https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 resolves to Rains, Hacienda Commons, 796 Escondido Rd, Stanford, CA 94305. The independent Waze place listing corroborates the address: https://www.waze.com/live-map/directions/us/ca/stanford/rains,-hacienda-commons?to=place.ChIJTXKWqdy6j4ARfWdQmU-kWAY .
+- Canonical website https://brando90.github.io/sbsbz/ verified in the browser and confirmed by the task “Identify sbsbz website repository”. The source consolidation and public deployment are complete; no website source was modified by this event task.
+- Canonical Linktree https://linktr.ee/ultimate_brando9 verified publicly. Its club website button still points to the retired Manus site; the website task found an actual sign-in wall at the editor. This defect is recorded in the Manus handoff, not hidden by substituting a different profile.
+- Taco endorsement is playful copy requested by Brando and attributed to his personal opinion, not a sourced regional award or objective ranking.
+- User now prefers to send messages manually and explicitly requires final approval; all announcement sends remain pending.

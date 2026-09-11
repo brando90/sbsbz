@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** The first-draft copy and flyer pass the event-fact and visual checks. Venue confirmation remains pending; the Partiful event is now saved and announcements have not been sent.
+**TLDR:** The current tree-flyer review package passes the factual, link and visual checks with Hacienda confirmed. Brando’s final approval remains pending; live revisions and all announcements are held.
 
 Checked September 11, 2026.
 
@@ -48,3 +48,19 @@ User confirmed on September 11, 2026: class with Brando, Sarika & Sophia. Added 
 Visual check passed: all three names are spelled correctly and tied to the 8–9 PM class; remaining wording, date, social hours, venue placeholder, and footer link match version 3. Image dimensions: 1122 × 1402 pixels; size: 2,164,872 bytes. All four current copy files passed the instructor-credit and public-copy scans. This mechanical user-supplied factual update received deterministic and visual checks; no additional model review was needed.
 
 Drive replacement and all four updated copy files were verified by metadata readback. The saved Partiful page was checked after leaving the editor: the description names Brando, Sarika & Sophia and the cover displays the same instructor credit. No announcements or invitations were sent.
+
+## Version 5 and full review handoff
+
+User supplied Hacienda at Rains and requested a playful Mexican-approved taco endorsement, corrected club website and Linktree, and manual sending after final review. Updated all current guest-facing copy; created the event-specific Manus handoff, reusable prompt, structured event facts, complete review packet and approval/delivery record. Final approval remains pending and no sends have occurred.
+
+Visual inspection of version 5 passed: dancing Stanford tree mascots (no human dancers), class with Brando, Sarika & Sophia, September 18/2026, 9 PM–1 AM social, 8–9 PM class, free entry, Nick, Chuy around 10 PM, Brando-attributed taco praise, Hacienda Commons/Rains address, correct Partiful/website/Linktree. Google Drive holds a separately named current-review image to avoid confusing it with older artwork. This is a revised draft, not user approval.
+
+The canonical website was verified in the browser and confirmed by the website-owning task. The map is directly linked by Stanford’s Viennese Ball site and resolves to the same full address as Waze. The Linktree profile is correct, but its internal website button remains obsolete and the editor requires sign-in. No live Partiful/Linktree changes were made after the user reiterated final-approval control.
+
+The Gmail connection and historical mailing-list destination are verified; the local email helper import lacks dill, so no send path was tested. WhatsApp main group header matches the club name and approximately 600 members. No member list was saved. Prompts explicitly preserve manual sending, approval boundaries, recipient precision and duplicate-send checks.
+
+Current image: 1024 × 1536 pixels; 2,186,123 bytes.
+
+Current-review deterministic checks passed: every message includes the confirmed address, map, website, Linktree and instructor names; no unresolved venue placeholders or vendor prices remain. Both handoff prompts end with a summary and retain manual sending/approval requirements. The unsent email file was parsed back: full body matches email.md and the attached flyer bytes match version 5 exactly. No message was sent.
+
+Drive final readback: 17 files in the event folder, including the current tree flyer, complete review packet, unsent attached email and full 22-file archive; reusable prompt separately verified in the requested club-root folder. The review packet fetched back with the confirmed address and manual-send status.
