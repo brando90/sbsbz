@@ -17,9 +17,9 @@
 | Address | 796 Escondido Rd, Stanford, CA 94305 |
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
-| Current live cover | assets/mega_bachata_flyer_draft_v4.png |
-| Proposed replacement cover | assets/mega_bachata_party_trees_review_v11.png |
-| Replacement status | Code verified; final approval pending |
+| Current live cover | assets/mega_bachata_party_trees_review_v11.png |
+| Previous cover (archival) | assets/mega_bachata_flyer_draft_v4.png |
+| Replacement status | Version 11 approved, applied and verified on the saved event page |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
 
@@ -54,4 +54,4 @@ Linktree: https://linktr.ee/ultimate_brando9
 
 ## Publication status
 
-The existing saved event is verified. The September 11 location, taco wording and link refinements are prepared for review. User will send announcements himself; all sends remain unapproved.
+The version-11 cover was explicitly approved and applied; the saved event page was visually verified. The September 11 location, taco wording and link refinements remain prepared for review. User will send announcements himself; all sends remain unapproved.

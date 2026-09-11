@@ -1,12 +1,12 @@
 # Complete review — MEGA BACHATA PARTY, September 18, 2026
 
-**TLDR:** Review every guest-facing item below. Nothing has been sent; Brando will send the email and WhatsApp himself. Live Partiful refinements and the Linktree correction remain pending final approval.
+**TLDR:** Review every guest-facing item below. Nothing has been sent; Brando will send the email and WhatsApp himself. The version-11 Partiful cover is approved and live. Remaining Partiful field refinements and the Linktree correction remain pending final approval.
 
 ## Current flyer — version 11, verified event code
 
 [Open or download the current flyer](https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view).
 
-The class and taco icons are restored, the food, venue, address and code share one centerline, with equal divider lengths, gaps and margins, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and prepared Partiful description. Final approval is still pending.
+The class and taco icons are restored, the food, venue, address and code share one centerline, with equal divider lengths, gaps and margins, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and prepared Partiful description. The cover is approved and live on Partiful; remaining package approval is pending.
 
 ![Current version-11 tree flyer](assets/mega_bachata_party_trees_review_v11.png)
 
@@ -107,7 +107,7 @@ Copy the platform-formatted message from [slack.md](https://drive.google.com/fil
 Title: MEGA BACHATA PARTY — Brando’s Belated Birthday
 Start: September 18, 2026, 8:00 PM. End: September 19, 2026, 1:00 AM. Timezone: America/Los_Angeles.
 Location field: Hacienda Commons at Rains, 796 Escondido Rd, Stanford, CA 94305.
-Proposed cover: version-11 tree flyer with verified Partiful code, awaiting final approval. Keep existing privacy settings. Do not create a duplicate event or send invitations.
+Current live cover: approved version-11 tree flyer with verified Partiful code, applied and visually verified. Keep existing privacy settings. Do not create a duplicate event or send invitations.
 
 ```text
 A belated birthday. A big bachata night. One more dance before graduation. 💃🎉
@@ -190,7 +190,7 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 ## Live-page changes awaiting approval
 
-- Existing Partiful: replace the location placeholder with the confirmed venue/address/map; apply the above description, which adds the taco endorsement, working website and Linktree; replace the existing version-4 tree cover with the final verified and approved flyer. No invitations or text blasts.
+- Existing Partiful: replace the location placeholder with the confirmed venue/address/map; apply the above description, which adds the taco endorsement, working website and Linktree. The approved version-11 cover is already live. No invitations or text blasts.
 - Linktree: change only the existing club-website button’s destination from https://sbsbz-dance.manus.space/ to https://brando90.github.io/sbsbz/ . Keep its title, order and other links. The editor currently requires account-owner sign-in.
 
 ## Saved reuse and execution prompts

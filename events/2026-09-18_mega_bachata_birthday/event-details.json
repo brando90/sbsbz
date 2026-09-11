@@ -31,11 +31,11 @@
   "invitations_sent": false,
   "flyer_qr_target": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
   "flyer_food_line": "BEST TACOS IN TOWN · FREE",
-  "flyer_status": "V11_COMMA_FIXED_APPROVAL_PENDING",
+  "flyer_status": "V11_APPROVED_AND_APPLIED_AS_PARTIFUL_COVER",
   "flyer_layout_preview": "assets/mega_bachata_party_trees_review_v11.png",
   "flyer_layout_status": "V11_COMMA_FIXED_CENTERED_VERIFIED_CODE",
   "flyer_ready_for_distribution": false,
-  "live_partiful_cover": "assets/mega_bachata_flyer_draft_v4.png",
+  "live_partiful_cover": "assets/mega_bachata_party_trees_review_v11.png",
   "final_flyer": null,
   "flyer_icons": [
     "gold outline graduation cap beside class",
@@ -68,5 +68,12 @@
     1728
   ],
   "flyer_footer_center_x": 512,
-  "instructor_credit": "Brando, Sarika, & Sophia"
+  "instructor_credit": "Brando, Sarika, & Sophia",
+  "partiful_cover_approval_status": "APPROVED",
+  "partiful_cover_status": "APPLIED_VERIFIED",
+  "partiful_cover_updated_at": "2026-09-11T14:52:41-07:00",
+  "partiful_cover_observed_image_id": "pWzE0ZFRLaiJtjH7LAh61",
+  "partiful_live_title": "MEGA BACHATA PARTY",
+  "partiful_live_location_status": "NO_LOCATION_SET",
+  "partiful_other_field_updates": "PENDING_APPROVAL"
 }

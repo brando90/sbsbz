@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** Version 11 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
+**TLDR:** Version 11 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; the version-11 Partiful cover is approved and live, while remaining field edits and sending remain pending.
 
 Checked September 11, 2026.
 
@@ -111,3 +111,9 @@ Current image: assets/mega_bachata_party_trees_review_v10.png; 2,205,117 bytes; 
 Checked 2026-09-11T14:23:54-07:00. The user relayed a request for a comma after Sarika. Current credit is BRANDO, SARIKA, & SOPHIA. The built-in editor omitted the requested punctuation, so the already-authorized exact local composition method copied the existing comma glyph after BRANDO to the same baseline after SARIKA. Read-only pixel comparison against version 10 confirms every changed pixel lies within x=640…645 and y=1004…1015; all other pixels are identical. The close-up assets/instructor_credit_detail_v11.png was visually inspected.
 
 Current image: assets/mega_bachata_party_trees_review_v11.png; 1024 × 1728; 2,205,113 bytes; SHA-256 (file checksum): 5ed523e8be4534cd9eb389fc2ebdb83dbc83e5cabe0151f94be2218c02a01a76. Native Apple Vision returned the exact event URL from the full image and 768/512-pixel-wide reductions. Current Drive: https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view. All five message blocks retain their facts and links and use the same instructor punctuation. The local portable email matches the current body and image and remains unsent. Quoted reviewer feedback was not interpreted as authorization to publish or send.
+
+## Partiful cover publication — explicitly authorized
+
+Verified 2026-09-11T14:52:41-07:00. User request: “nice! Update the partiful fyler with this new flyer please”. Uploaded assets/mega_bachata_party_trees_review_v11.png through the existing event’s Edit → cover Edit → Upload image control. Waited for uploading to finish and selected Done. The saved page at https://partiful.com/e/ohtSD9MnHe6u71JQx60X visibly shows MEGA BACHATA PARTY, the dancing trees, centered footer and latest cover. Its observed cover image identifier changed from EU65vvxzSbrxDwnlrxALK to pWzE0ZFRLaiJtjH7LAh61. Source checksum and size match the version-11 manifest.
+
+Scope: cover replacement only. The existing title was already MEGA BACHATA PARTY before this operation. The saved page still shows No Location Set and the old description’s venue placeholder; those field edits remain pending. Privacy remains Private as observed in the editor. No invitations, text blasts, email or WhatsApp messages were sent. The cover-only approval does not mark the rest of the package approved.

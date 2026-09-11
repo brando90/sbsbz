@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-11T14:24:45-07:00",
+  "checked_at": "2026-09-11T14:52:41-07:00",
   "repository": "https://github.com/brando90/sbsbz",
   "branch": "codex/mega-bachata-birthday-2026-09-18",
   "verified_asset_commit": "1daf4ab9debd2d7ccbf6b45457a751a6835c96c0",
@@ -96,5 +96,9 @@
   ],
   "approval_status": "PENDING",
   "email_sent": false,
-  "whatsapp_sent": false
+  "whatsapp_sent": false,
+  "live_partiful_cover_version": 11,
+  "partiful_cover_status": "APPLIED_VERIFIED",
+  "partiful_cover_verified_at": "2026-09-11T14:52:41-07:00",
+  "partiful_cover_observed_image_id": "pWzE0ZFRLaiJtjH7LAh61"
 }
