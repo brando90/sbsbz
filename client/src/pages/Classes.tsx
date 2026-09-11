@@ -21,27 +21,6 @@ const CLASSES_IMG = import.meta.env.BASE_URL + "photos/class-social.jpg";
 
 const schedule = [
   {
-    day: "Wednesday",
-    classes: [
-      {
-        name: "Brazilian Zouk",
-        time: "7:30 – 8:45 PM",
-        location: "Roble 114",
-        level: "All Levels",
-        instructors: "Marcos, Brando, Fontaine & Elisabeth",
-        desc: "Explore the flowing movements and head movements of Brazilian Zouk. From zero to Zouk hero — no prior experience needed.",
-      },
-      {
-        name: "Zouk Social",
-        time: "8:45 – 10:30 PM",
-        location: "Roble 114",
-        level: "All Levels",
-        instructors: "Open Floor",
-        desc: "Put what you learned into practice! Social dancing with fellow Zouk dancers in a relaxed, welcoming atmosphere.",
-      },
-    ],
-  },
-  {
     day: "Thursday — Next Quarter",
     classes: [
       {
@@ -91,7 +70,7 @@ const faqs = [
   },
   {
     q: "Who are the instructors?",
-    a: "Bachata is taught by Kriss (2x Poland Bachata Champion) and Natalia (PhD researcher & dancer). Zouk is taught by Brando (AI researcher & founder) and Fontaine (Stanford alum & startup founder).",
+    a: "Bachata is taught by Kriss & Natalia / Brando & Elisabeth. We are offering Bachata only for now; Zouk classes are paused.",
   },
 ];
 
@@ -132,8 +111,8 @@ export default function Classes() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-cream/70 text-lg max-w-2xl mx-auto"
           >
-            Weekly classes for all levels. No partner needed; beginners welcome.
-            Free for Stanford affiliates.
+            Thursday Bachata classes for all levels. No partner needed;
+            beginners welcome. Free for Stanford affiliates.
           </motion.p>
         </div>
       </section>
@@ -159,8 +138,12 @@ export default function Classes() {
               custom={1}
               className="font-display text-3xl md:text-4xl text-cream"
             >
-              Weekly Classes
+              Weekly Bachata Classes
             </motion.h2>
+            <p className="text-cream/70 mt-4">
+              Bachata only for now. No Wednesday classes; Zouk classes are
+              paused.
+            </p>
           </motion.div>
 
           <motion.div
