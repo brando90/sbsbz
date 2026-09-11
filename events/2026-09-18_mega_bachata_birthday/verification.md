@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** Version 8 passes the visual, source-consistency and actual code-decoding checks. Footer divider pairs match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
+**TLDR:** Version 9 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
 
 Checked September 11, 2026.
 
@@ -82,10 +82,20 @@ Approval: PENDING. Email, WhatsApp, invitations and text blasts: NOT SENT. No li
 
 Checked 2026-09-11 13:44 PDT. User requested better bottom-text/rule alignment and asked about Partiful codes, then preferred one Partiful code when offered exact local insertion. The built-in image editor refined the footer. Authorized local compositing preserved the generated artwork, inserted the actual Partiful code, changed its label to JOIN THE PARTY, and matched the gold rule lengths within both pairs (145 pixels upper; 100 pixels lower). Graduation-cap and taco icons, trees, title, date, both time banners, names and venue/address remain intact.
 
-Current asset: assets/mega_bachata_trees_review_v8.png; 1024 × 1536 pixels; 2,474,085 bytes. SHA-256 (file checksum): c5781c25dfe384c2bf65ad7cff3dfcfa20e4bba15f040569c501afb23794e602.
+Version-8 asset: assets/mega_bachata_trees_review_v8.png; 1024 × 1536 pixels; 2,474,085 bytes. SHA-256 (file checksum): c5781c25dfe384c2bf65ad7cff3dfcfa20e4bba15f040569c501afb23794e602.
 
 Native Apple Vision decoded the final full flyer and in-memory resized images at 768 × 1152 and 512 × 768 successfully. All three payloads equal https://partiful.com/e/ohtSD9MnHe6u71JQx60X . Source code images also decode correctly: the event code is 688 × 688 pixels and the separate Linktree code is 624 × 624 pixels.
 
 The unsent email was parsed after replacing its image attachment. Its text and headers are retained, X-Unsent remains 1, and the attachment bytes match version 8 exactly. Message copy retains the correct website, Linktree, map/address and instructors. Prepared Partiful text includes Linktree; the live description update still awaits approval. No live event, profile or message changes were made.
 
-Current Drive flyer: https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view . Older code-pending previews are archival.
+Version-8 Drive flyer: https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view . Older code-pending previews are archival.
+
+## Version 9 — centered footer, finalized design
+
+Checked 2026-09-11T14:03:29-07:00. The user reported that version 8’s two-column footer still looked uneven. Version 9 rebuilds the footer on a shared x=512 centerline using the already-authorized exact local compositing method. The top 1184 rows retain the tree artwork, heading, date, cap icon and both time banners. The canvas extends to 1024 × 1728 to give the centered address and party code breathing room. The original taco and pin icons are retained.
+
+Geometry: food group x=190.194…833.806, with paired 110.194-pixel lines and 24-pixel gaps; venue-and-pin group x=175.168…848.832; address centered on 512; code card x=390…634; club signature x=272.940…751.060, with paired 192.940-pixel rules and 24-pixel gaps. Both rule pairs have 56-pixel outer margins and 2-pixel thickness.
+
+Current asset: assets/mega_bachata_trees_review_v9.png; 2,199,807 bytes; SHA-256 (file checksum): 9ffb27534b1c1360c40eb1965d88f0e88a6a45ca412253060ac94fe6e6b46c2d. Native Apple Vision successfully decoded the actual flyer at 1024 × 1728, 768 × 1296 and 512 × 864. Every result was exactly https://partiful.com/e/ohtSD9MnHe6u71JQx60X . The actual rendered image was visually inspected for text, icon retention, spacing and line balance.
+
+Drive metadata readback reports the same 2,199,807 bytes and the correct event-folder parent: https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view . Version 8 is renamed archival. The unsent email attachment is replaced with these exact bytes, its body matches email.md, and all messages retain the current links and facts. No live Partiful/profile changes or announcements were made. Final approval remains pending.

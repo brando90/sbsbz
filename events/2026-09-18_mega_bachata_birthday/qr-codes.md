@@ -15,3 +15,5 @@ Partiful’s mobile app: open the event, tap the share arrow, then scroll the sh
 The saved standalone codes were generated locally with Apple Core Image, then independently decoded with Apple Vision. The event code is 688 × 688 pixels, 10,361 bytes; the Linktree code is 624 × 624 pixels, 8,498 bytes. No third-party QR subscription or image-generation API key was used.
 
 Version 8 contains the exact Partiful code and passed scanning at 1024, 768 and 512 pixels wide. Its label is JOIN THE PARTY. Older version-6/7 previews contain non-scanning codes and must not be used. Do not regenerate or redraw a verified code during image editing; decode any revised final flyer again. Final publication and sending approval remains pending. No messages, invitations or live event edits were made while creating these standalone assets.
+
+Current flyer: assets/mega_bachata_trees_review_v9.png. Its single centered JOIN THE PARTY code decoded to the exact Partiful URL at widths 1024, 768 and 512 pixels. Version 8 is archival.

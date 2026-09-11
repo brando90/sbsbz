@@ -64,4 +64,8 @@ The user requested aligned footer text and symmetric gold lines, then replied to
 
 ## Drive and GitHub synchronization
 
-The later user attachment exec-91bfb7f1-b9b0-4b04-b86e-2c31cab1d502.png exactly matches archived assets/mega_bachata_trees_layout_v6_code_pending.png. It is separately archived in Drive at https://drive.google.com/file/d/14nTuRE0U_k0IuE0b83xqiHE-F4NvHzbS/view . Current version 8 remains unchanged. asset-sync.json records immutable GitHub file links, Drive links, local/committed checksums, byte counts and verification scope.
+The later user attachment exec-91bfb7f1-b9b0-4b04-b86e-2c31cab1d502.png exactly matches archived assets/mega_bachata_trees_layout_v6_code_pending.png. It is separately archived in Drive at https://drive.google.com/file/d/14nTuRE0U_k0IuE0b83xqiHE-F4NvHzbS/view . Version 8 remained unchanged during that synchronization. asset-sync.json records immutable GitHub file links, Drive links, local/committed checksums, byte counts and verification scope.
+
+## Version 9 — user-requested full symmetry
+
+The user requested a written requirements checklist and a real symmetry fix. The prior image still had a left-hand venue and right-hand code. Version 9 centers the food, venue, address, code and club signature; rule lengths and gaps are matched. Original art and icons are preserved via authorized local compositing. Current asset: assets/mega_bachata_trees_review_v9.png; current Drive: https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view. No sending or live-page approval was granted.

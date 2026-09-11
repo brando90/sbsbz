@@ -17,9 +17,9 @@
   "partiful_url": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
   "admission": "Free",
   "dj": "Nick",
-  "food": "Tacos by Chuy, expected around 10 PM",
+  "food": "Free tacos by Chuy, expected around 10 PM",
   "taco_endorsement": "Brando’s pick: BEST TACOS IN THE BAY. Mexican-approved.",
-  "flyer": "assets/mega_bachata_trees_review_v8.png",
+  "flyer": "assets/mega_bachata_trees_review_v9.png",
   "whatsapp_group": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
   "email_from": "brandojazz@gmail.com",
   "email_to": "stanford_bachata_zouk@lists.stanford.edu",
@@ -31,17 +31,18 @@
   "invitations_sent": false,
   "flyer_qr_target": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
   "flyer_food_line": "BEST TACOS IN TOWN · FREE",
-  "flyer_status": "V8_VERIFIED_REVIEW_APPROVAL_PENDING",
-  "flyer_layout_preview": "assets/mega_bachata_trees_review_v8.png",
-  "flyer_layout_status": "V8_ALIGNED_WITH_VERIFIED_PARTIFUL_CODE",
+  "flyer_status": "V9_DESIGN_FINALIZED_APPROVAL_PENDING",
+  "flyer_layout_preview": "assets/mega_bachata_trees_review_v9.png",
+  "flyer_layout_status": "V9_CENTERED_FOOTER_WITH_VERIFIED_PARTIFUL_CODE",
   "flyer_ready_for_distribution": false,
   "live_partiful_cover": "assets/mega_bachata_flyer_draft_v4.png",
   "final_flyer": null,
   "flyer_icons": [
     "gold outline graduation cap beside class",
-    "gold outline taco beside food"
+    "gold outline taco beside food",
+    "gold location pin beside venue"
   ],
-  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view",
+  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view",
   "available_qr_codes": {
     "partiful": {
       "asset": "assets/partiful_event_qr.png",
@@ -61,5 +62,10 @@
     768,
     512
   ],
-  "flyer_exact_compositing_authorized": true
+  "flyer_exact_compositing_authorized": true,
+  "flyer_dimensions": [
+    1024,
+    1728
+  ],
+  "flyer_footer_center_x": 512
 }

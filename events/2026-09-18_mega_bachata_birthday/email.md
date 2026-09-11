@@ -17,14 +17,14 @@ Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on Friday, September 18, 
 
 • 8–9 PM: All-levels class with Brando, Sarika & Sophia
 • 9 PM–1 AM: Social dancing and party with DJ Nick all night
-• Around 10 PM: Tacos by Chuy—my pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽🌮
+• Around 10 PM: FREE tacos by Chuy—my pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽🌮
 • Admission: FREE
 
 Hacienda Commons at Rains
 796 Escondido Rd, Stanford, CA 94305
 Map and directions: https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8
 
-No partner needed—all levels welcome. Come solo, bring friends, and celebrate with us!
+No partner needed—all levels welcome. Come solo, bring friends, and celebrate with us! Please feel free to forward this invitation.
 
 Join us: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 Website: https://brando90.github.io/sbsbz/

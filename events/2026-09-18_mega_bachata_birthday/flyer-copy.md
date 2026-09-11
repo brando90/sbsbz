@@ -1,6 +1,6 @@
 # Flyer copy — clean tree layout
 
-**TLDR:** Version 8 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The embedded code passes scan checks; final approval is pending.
+**TLDR:** Version 9 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The embedded code passes scan checks; final approval is pending.
 
 MEGA BACHATA
 BRANDO’S BELATED BIRTHDAY
@@ -14,10 +14,14 @@ DJ NICK ALL NIGHT
 FREE ENTRY · NO PARTNER NEEDED
 HACIENDA COMMONS · RAINS
 796 ESCONDIDO RD · STANFORD, CA 94305
-SBSBZ · Stanford Bachata Sensual & Brazilian Zouk
-[One verified Partiful QR code]
+[One verified Partiful QR code, centered]
 JOIN THE PARTY
+SBSBZ · Stanford Bachata Sensual & Brazilian Zouk
 
 ## Production instructions
 
 No confetti, glitter, floating particles, printed URLs, year, graduation line, vendor name, taco timing or longer taco endorsement on this flyer. Retain the full confirmed event facts and URLs in the text messages. The QR code must resolve to https://partiful.com/e/ohtSD9MnHe6u71JQx60X and must be decoded from the finished flyer before distribution.
+
+## Symmetric footer
+
+Canvas: 1024 × 1728 pixels. Center all footer groups on x=512: taco plus food text, free-entry line, location pin plus venue, address, party code and club signature. Paired gold lines use identical lengths and thickness, 24-pixel gaps and 56-pixel outer margins. Keep the top artwork and both time banners unchanged.

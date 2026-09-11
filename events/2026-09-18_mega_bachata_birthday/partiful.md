@@ -18,7 +18,7 @@
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
 | Current live cover | assets/mega_bachata_flyer_draft_v4.png |
-| Proposed replacement cover | assets/mega_bachata_trees_review_v8.png |
+| Proposed replacement cover | assets/mega_bachata_trees_review_v9.png |
 | Replacement status | Code verified; final approval pending |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
@@ -41,7 +41,7 @@ Start the night together with Brando, Sarika & Sophia!
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!
 
-🌮 TACOS BY CHUY — AROUND 10 PM
+🌮 FREE TACOS BY CHUY — AROUND 10 PM
 My pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽
 
 No partner needed. All levels welcome—come solo or bring friends!
