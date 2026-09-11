@@ -1,599 +1,555 @@
-/* ==========================================================
-   SBSBZ Home Page — Fluid Rhythm Design
-   Sections: Hero, About, Dances, Classes, Events, Join CTA
-   ========================================================== */
-
-import { useEffect, useRef } from "react";
+import SiteImage from "@/components/SiteImage";
+/*
+ * Design: Warm Nocturne — Intimate Evening Social Aesthetic
+ * Home: Full-bleed hero with real SBSBZ dance photos, diagonal transitions,
+ * warm amber/burgundy accents on deep charcoal.
+ */
 import { Link } from "wouter";
-import { ArrowRight, Calendar, MapPin, Clock, Users, Music, Heart } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import { motion } from "framer-motion";
+import { ArrowRight, Music, Users, Calendar, Sparkles } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-hero-9V6BxWvPmVJEcRnRcxpps6.webp";
-const ZOUK_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-zouk-D8g3VyFndxPWyGR6jDsnN5.webp";
-const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-community-a7pW75M9DnwKAbFPZKhXN5.webp";
-const CLASS_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-class-5GyBDdVFmVuH9D9ABTWsL3.webp";
-const ABSTRACT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-abstract-RNUvLdtxMuN63mTu8Ghuxm.webp";
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.15, duration: 0.6 },
+  }),
+};
 
-function useReveal() {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          el.classList.add("visible");
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-  return ref;
-}
+/* Real SBSBZ photos from Google Drive */
+const HERO_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-collage_6573bfed.png";
+const COMMUNITY_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/zouk-shirt-fun_5702e906.png";
+const CLASSES_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-post5_485f39af.jpg";
+const ZOUK_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
+const INSTRUCTORS_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202026-02-05%20at%2010.34.47%20PM_10db0395.jpeg";
 
-function RevealSection({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
-  const ref = useReveal();
-  return (
-    <div
-      ref={ref}
-      className={`reveal ${className}`}
-      style={{ transitionDelay: `${delay}ms` }}
-    >
-      {children}
-    </div>
-  );
-}
+/* Instructor bio card images */
+const BRANDO_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-zouk-teacher_43076681.png";
+const FONTAINE_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-fontaine_c3ea7eb9.jpg";
+const NATALIA_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-04%20at%2010.00.16%20AM_d3085849.jpeg";
+const KRISS_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-11%20at%2010.48.57%20AM_9686d3fc.jpeg";
+
+const instructors = [
+  {
+    name: "Brando",
+    role: "Zouk Teacher",
+    bio: "Born in Mexico City. AI researcher at Stanford. Fave zouk music: Firestone (Kygo).",
+    img: BRANDO_IMG,
+  },
+  {
+    name: "Fontaine",
+    role: "Zouk Teacher",
+    bio: "Born in Texas, Stanford undergrad. Startup Founder. Fave zouk music: chill & flowy.",
+    img: FONTAINE_IMG,
+  },
+  {
+    name: "Kriss",
+    role: "Bachata Teacher",
+    bio: "2x Poland Bachata Champion. Fave bachata: I Want It That Way (DJ Alejandro).",
+    img: KRISS_IMG,
+  },
+  {
+    name: "Natalia",
+    role: "Bachata Teacher",
+    bio: "PhD in Cancer Research. Fave bachata: Sin Fin (Romeo Santos & Justin Timberlake).",
+    img: NATALIA_IMG,
+  },
+];
 
 export default function Home() {
   return (
-    <div className="min-h-screen" style={{ background: "oklch(0.975 0.012 75)" }}>
-      <Navbar />
-
-      {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
+    <div className="min-h-screen">
+      {/* ===== HERO ===== */}
+      <section className="relative min-h-[640px] md:min-h-[720px] flex items-center justify-start overflow-hidden film-grain py-28 md:py-36">
         {/* Background image */}
         <div className="absolute inset-0">
-          <img
+          <SiteImage
             src={HERO_IMG}
-            alt="Bachata dance"
+            fallbackLabel=""
+            alt="SBSBZ members dancing Bachata at a social"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0" style={{ background: "linear-gradient(to right, oklch(0.12 0.015 65 / 0.85) 0%, oklch(0.12 0.015 65 / 0.5) 60%, oklch(0.12 0.015 65 / 0.2) 100%)" }} />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-transparent to-transparent" />
         </div>
 
-        {/* Content */}
-        <div className="relative z-10 container mx-auto px-4 lg:px-8 max-w-7xl pt-24 pb-16">
+        {/* Hero content — left-aligned */}
+        <div className="relative z-10 container">
           <div className="max-w-2xl">
-            {/* Badge */}
-            <div
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 text-xs font-semibold tracking-widest uppercase"
-              style={{
-                background: "oklch(0.62 0.19 22 / 0.2)",
-                border: "1px solid oklch(0.62 0.19 22 / 0.4)",
-                color: "oklch(0.9 0.08 22)",
-                fontFamily: "var(--font-body)",
-                backdropFilter: "blur(8px)",
-              }}
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="text-amber font-medium tracking-[0.2em] uppercase text-sm mb-4"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-[oklch(0.62_0.19_22)] animate-pulse" />
-              Stanford University · Est. 2024
-            </div>
-
-            {/* Headline */}
-            <h1
-              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] text-white mb-6"
-              style={{ fontFamily: "var(--font-display)" }}
+              Stanford University
+            </motion.p>
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.4 }}
+              className="font-display text-5xl md:text-7xl lg:text-8xl text-cream leading-[0.95] mb-6"
             >
-              Dance with your
+              Bachata Sensual
               <br />
-              <em className="not-italic" style={{ color: "oklch(0.75 0.15 22)" }}>whole soul</em>
-            </h1>
-
-            <p
-              className="text-lg md:text-xl leading-relaxed mb-10 max-w-lg"
-              style={{ color: "oklch(0.9 0.01 75)", fontFamily: "var(--font-body)" }}
+              <span className="text-amber">&</span> Brazilian Zouk
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.7 }}
+              className="text-cream/70 text-lg md:text-xl leading-relaxed mb-8 max-w-lg"
             >
-              Stanford's community for Bachata Sensual and Brazilian Zouk — where deep connection meets elegant technique. Free classes every Wednesday.
-            </p>
-
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/join"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg"
-                style={{
-                  background: "oklch(0.62 0.19 22)",
-                  color: "white",
-                  fontFamily: "var(--font-body)",
-                  boxShadow: "0 4px 24px oklch(0.62 0.19 22 / 0.4)",
-                }}
-              >
-                Join the community
-                <ArrowRight size={16} />
+              Connection. Technique. Creative expression. Join the Stanford
+              community in discovering the art of partner dance.
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.9 }}
+              className="flex flex-wrap gap-4"
+            >
+              <Link href="/join">
+                <Button
+                  size="lg"
+                  className="bg-amber text-charcoal hover:bg-amber-light font-semibold tracking-wide px-8"
+                >
+                  Join Us <ArrowRight size={18} className="ml-2" />
+                </Button>
               </Link>
-              <Link
-                href="/classes"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm transition-all duration-300 hover:bg-white/20"
-                style={{
-                  border: "1.5px solid oklch(1 0 0 / 0.4)",
-                  color: "white",
-                  fontFamily: "var(--font-body)",
-                  backdropFilter: "blur(8px)",
-                }}
-              >
-                See classes
+              <Link href="/classes">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-cream/30 text-cream hover:bg-cream/10 tracking-wide px-8"
+                >
+                  View Classes
+                </Button>
               </Link>
-            </div>
-
-            {/* Stats */}
-            <div className="flex flex-wrap gap-8 mt-14">
-              {[
-                { value: "Free", label: "For Stanford students" },
-                { value: "Wed", label: "Weekly classes" },
-                { value: "2+", label: "Dance styles" },
-              ].map((stat) => (
-                <div key={stat.label}>
-                  <div
-                    className="text-2xl font-bold text-white"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    {stat.value}
-                  </div>
-                  <div
-                    className="text-xs tracking-wide mt-0.5"
-                    style={{ color: "oklch(0.75 0.01 75)", fontFamily: "var(--font-body)" }}
-                  >
-                    {stat.label}
-                  </div>
-                </div>
-              ))}
-            </div>
+            </motion.div>
           </div>
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-          <div className="w-px h-8 bg-white/30" />
-          <div className="w-1 h-1 rounded-full bg-white/50" />
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+        >
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+            className="w-6 h-10 border-2 border-cream/30 rounded-full flex justify-center pt-2"
+          >
+            <div className="w-1 h-2 bg-amber rounded-full" />
+          </motion.div>
+        </motion.div>
       </section>
 
-      {/* ── ABOUT STRIP ── */}
-      <section className="py-20 md:py-28" style={{ background: "oklch(0.975 0.012 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Text */}
-            <RevealSection>
-              <div
-                className="text-xs font-semibold tracking-widest uppercase mb-4"
-                style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-              >
-                Our Mission
-              </div>
-              <h2
-                className="text-4xl md:text-5xl font-bold leading-tight mb-6"
-                style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-              >
-                Connection through
-                <br />
-                <em style={{ color: "oklch(0.62 0.19 22)" }}>movement</em>
-              </h2>
-              <p
-                className="text-base leading-relaxed mb-5"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-              >
-                We are a student-run community at Stanford dedicated to social dance that is deep, connected, and technically beautiful. Our mission is to inspire you to co-create a dance experience with any partner.
-              </p>
-              <p
-                className="text-base leading-relaxed mb-8"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-              >
-                We do this through Bachata Sensual — a close dance emphasizing full mind, body, and soul connection — and Brazilian Zouk, known for its flowing, wave-like movements. Always non-profit and Stanford student-run.
-              </p>
-              <Link
-                href="/about"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors group"
-                style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-              >
-                Learn more about us
-                <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-              </Link>
-            </RevealSection>
+      {/* ===== WHAT WE DO ===== */}
+      <section className="py-24 md:py-32 bg-charcoal relative">
+        <div className="container">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="text-center mb-16"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+            >
+              What We Do
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-4xl md:text-5xl text-cream"
+            >
+              Dance with Purpose
+            </motion.h2>
+          </motion.div>
 
-            {/* Image */}
-            <RevealSection delay={150}>
-              <div className="relative">
-                <div
-                  className="absolute -top-4 -left-4 w-full h-full rounded-2xl"
-                  style={{ background: "oklch(0.62 0.19 22 / 0.12)" }}
-                />
-                <img
-                  src={COMMUNITY_IMG}
-                  alt="SBSBZ community dancing"
-                  className="relative rounded-2xl w-full h-80 md:h-96 object-cover shadow-xl"
-                />
-                {/* Floating badge */}
-                <div
-                  className="absolute -bottom-5 -right-5 px-5 py-4 rounded-xl shadow-lg"
-                  style={{
-                    background: "oklch(0.99 0.008 75)",
-                    border: "1px solid oklch(0.88 0.015 75)",
-                  }}
-                >
-                  <div
-                    className="text-2xl font-bold"
-                    style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                  >
-                    100%
-                  </div>
-                  <div
-                    className="text-xs tracking-wide"
-                    style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                  >
-                    Free for Stanford
-                  </div>
-                </div>
-              </div>
-            </RevealSection>
-          </div>
-        </div>
-      </section>
-
-      {/* ── TWO DANCES ── */}
-      <section
-        className="py-20 md:py-28 relative overflow-hidden"
-        style={{ background: "oklch(0.94 0.01 75)" }}
-      >
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div className="text-center mb-16">
-              <div
-                className="text-xs font-semibold tracking-widest uppercase mb-4"
-                style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-              >
-                What We Dance
-              </div>
-              <h2
-                className="text-4xl md:text-5xl font-bold"
-                style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-              >
-                Two styles, one community
-              </h2>
-            </div>
-          </RevealSection>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Bachata card */}
-            <RevealSection delay={0}>
-              <div
-                className="group relative overflow-hidden rounded-2xl h-96 cursor-pointer"
-                style={{ boxShadow: "0 8px 40px oklch(0.18 0.015 65 / 0.12)" }}
-              >
-                <img
-                  src={CLASS_IMG}
-                  alt="Bachata Sensual"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div
-                  className="absolute inset-0"
-                  style={{ background: "linear-gradient(to top, oklch(0.12 0.015 65 / 0.85) 0%, transparent 60%)" }}
-                />
-                <div className="absolute bottom-0 left-0 right-0 p-8">
-                  <span className="dance-tag dance-tag-bachata mb-3 inline-block">Bachata Sensual</span>
-                  <h3
-                    className="text-2xl font-bold text-white mb-2"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Bachata Sensual
-                  </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "oklch(0.82 0.01 75)", fontFamily: "var(--font-body)" }}
-                  >
-                    Created by Korke & Judith — a close dance emphasizing body waves, connection, and the creative expression of music.
-                  </p>
-                </div>
-              </div>
-            </RevealSection>
-
-            {/* Zouk card */}
-            <RevealSection delay={150}>
-              <div
-                className="group relative overflow-hidden rounded-2xl h-96 cursor-pointer"
-                style={{ boxShadow: "0 8px 40px oklch(0.18 0.015 65 / 0.12)" }}
-              >
-                <img
-                  src={ZOUK_IMG}
-                  alt="Brazilian Zouk"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div
-                  className="absolute inset-0"
-                  style={{ background: "linear-gradient(to top, oklch(0.12 0.015 65 / 0.85) 0%, transparent 60%)" }}
-                />
-                <div className="absolute bottom-0 left-0 right-0 p-8">
-                  <span className="dance-tag dance-tag-zouk mb-3 inline-block">Brazilian Zouk</span>
-                  <h3
-                    className="text-2xl font-bold text-white mb-2"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    Brazilian Zouk
-                  </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "oklch(0.82 0.01 75)", fontFamily: "var(--font-body)" }}
-                  >
-                    Known for its flowing, wave-like movements and deep connection — a dance that feels like music made visible.
-                  </p>
-                </div>
-              </div>
-            </RevealSection>
-          </div>
-        </div>
-      </section>
-
-      {/* ── WEEKLY CLASS ── */}
-      <section className="py-20 md:py-28" style={{ background: "oklch(0.975 0.012 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Image */}
-            <RevealSection>
-              <div className="relative">
-                <img
-                  src={ABSTRACT_IMG}
-                  alt="Dance movement abstract"
-                  className="rounded-2xl w-full h-72 md:h-80 object-cover"
-                />
-                {/* Schedule card */}
-                <div
-                  className="absolute -bottom-6 left-6 right-6 p-6 rounded-xl shadow-xl"
-                  style={{
-                    background: "oklch(0.99 0.008 75)",
-                    border: "1px solid oklch(0.88 0.015 75)",
-                  }}
-                >
-                  <div className="grid grid-cols-3 gap-4">
-                    {[
-                      { icon: Calendar, label: "Day", value: "Wednesday" },
-                      { icon: Clock, label: "Time", value: "7–10 PM" },
-                      { icon: MapPin, label: "Location", value: "EVGR C" },
-                    ].map(({ icon: Icon, label, value }) => (
-                      <div key={label} className="text-center">
-                        <Icon size={18} className="mx-auto mb-1.5" style={{ color: "oklch(0.62 0.19 22)" }} />
-                        <div
-                          className="text-xs uppercase tracking-wide"
-                          style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                        >
-                          {label}
-                        </div>
-                        <div
-                          className="text-sm font-semibold mt-0.5"
-                          style={{ color: "oklch(0.18 0.015 65)", fontFamily: "var(--font-body)" }}
-                        >
-                          {value}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </RevealSection>
-
-            {/* Text */}
-            <RevealSection delay={150}>
-              <div className="pt-8 lg:pt-0">
-                <div
-                  className="text-xs font-semibold tracking-widest uppercase mb-4"
-                  style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-                >
-                  Weekly Classes
-                </div>
-                <h2
-                  className="text-4xl md:text-5xl font-bold leading-tight mb-6"
-                  style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                >
-                  Every Wednesday,
-                  <br />
-                  <em style={{ color: "oklch(0.62 0.19 22)" }}>come dance</em>
-                </h2>
-                <div className="space-y-4 mb-8">
-                  {[
-                    {
-                      time: "7:00 – 8:00 PM",
-                      title: "Fundamentals I",
-                      desc: "Beginner-friendly Bachata Sensual — body waves, basic connection, and the joy of dance.",
-                    },
-                    {
-                      time: "8:00 – 9:00 PM",
-                      title: "Fundamentals II",
-                      desc: "Intermediate techniques — advanced body waves, dips, and partner work.",
-                    },
-                    {
-                      time: "9:00 – 10:00 PM",
-                      title: "Social / Practica",
-                      desc: "Free social dancing — practice what you've learned and connect with the community.",
-                    },
-                  ].map((item) => (
-                    <div
-                      key={item.time}
-                      className="flex gap-4 p-4 rounded-xl"
-                      style={{ background: "oklch(0.94 0.01 75)" }}
-                    >
-                      <div
-                        className="text-xs font-mono font-medium shrink-0 mt-0.5 w-24"
-                        style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-                      >
-                        {item.time}
-                      </div>
-                      <div>
-                        <div
-                          className="text-sm font-semibold mb-0.5"
-                          style={{ color: "oklch(0.18 0.015 65)", fontFamily: "var(--font-body)" }}
-                        >
-                          {item.title}
-                        </div>
-                        <div
-                          className="text-sm"
-                          style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                        >
-                          {item.desc}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                <Link
-                  href="/classes"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105"
-                  style={{
-                    background: "oklch(0.62 0.19 22)",
-                    color: "white",
-                    fontFamily: "var(--font-body)",
-                  }}
-                >
-                  View full class schedule
-                  <ArrowRight size={16} />
-                </Link>
-              </div>
-            </RevealSection>
-          </div>
-        </div>
-      </section>
-
-      {/* ── VALUES ── */}
-      <section
-        className="py-20 md:py-28"
-        style={{ background: "oklch(0.18 0.015 65)" }}
-      >
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div className="text-center mb-16">
-              <div
-                className="text-xs font-semibold tracking-widest uppercase mb-4"
-                style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-              >
-                Our Values
-              </div>
-              <h2
-                className="text-4xl md:text-5xl font-bold text-white"
-                style={{ fontFamily: "var(--font-display)" }}
-              >
-                What we stand for
-              </h2>
-            </div>
-          </RevealSection>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-80px" }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
             {[
               {
-                icon: Heart,
-                title: "Deep Connection",
-                desc: "We believe the most fulfilling social dance comes from genuine mind, body, and soul connection with your partner.",
+                icon: Music,
+                title: "Bachata Sensual",
+                desc: "A close dance emphasizing full mind, body, and soul connection — created by Korke & Judith.",
               },
               {
-                icon: Music,
-                title: "Musical Expression",
-                desc: "Dance is music made visible. We cultivate sensitivity to rhythm, melody, and the creative space between partners.",
+                icon: Sparkles,
+                title: "Brazilian Zouk",
+                desc: "Flowing, creative partner dance known for its beautiful head movements and musicality.",
               },
               {
                 icon: Users,
-                title: "Inclusive Community",
-                desc: "Always free for Stanford students. We foster a healthy, welcoming environment where everyone can grow as a dancer.",
+                title: "Community",
+                desc: "A welcoming space for all levels. No prior dance experience needed to join our classes.",
               },
-            ].map(({ icon: Icon, title, desc }) => (
-              <RevealSection key={title} delay={0}>
-                <div
-                  className="p-8 rounded-2xl h-full"
-                  style={{ background: "oklch(1 0 0 / 0.05)", border: "1px solid oklch(1 0 0 / 0.08)" }}
-                >
-                  <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-5"
-                    style={{ background: "oklch(0.62 0.19 22 / 0.15)" }}
-                  >
-                    <Icon size={22} style={{ color: "oklch(0.75 0.15 22)" }} />
-                  </div>
-                  <h3
-                    className="text-xl font-bold text-white mb-3"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    {title}
-                  </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "oklch(0.65 0.01 75)", fontFamily: "var(--font-body)" }}
-                  >
-                    {desc}
-                  </p>
+              {
+                icon: Calendar,
+                title: "Weekly Classes",
+                desc: "Zouk Wednesdays 7:30 PM, Bachata Thursdays 7 PM. Free for Stanford affiliates. Social dancing after every class.",
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.title}
+                variants={fadeUp}
+                custom={i}
+                className="group bg-charcoal-light border border-border/40 rounded-lg p-6 hover:border-amber/40 transition-all duration-500"
+              >
+                <div className="w-12 h-12 rounded-lg bg-amber/10 flex items-center justify-center mb-4 group-hover:bg-amber/20 transition-colors duration-500">
+                  <item.icon size={24} className="text-amber" />
                 </div>
-              </RevealSection>
+                <h3 className="font-display text-xl text-cream mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-cream/60 text-sm leading-relaxed">
+                  {item.desc}
+                </p>
+              </motion.div>
             ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ===== ABOUT PREVIEW — diagonal top ===== */}
+      <section className="diagonal-top relative bg-charcoal-light overflow-hidden">
+        <div className="container py-20 md:py-28">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            {/* Image */}
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="relative"
+            >
+              <div className="relative rounded-lg overflow-hidden">
+                <SiteImage
+                  src={COMMUNITY_IMG}
+                  alt="SBSBZ members at the Chicago Salsa & Bachata Festival"
+                  className="w-full h-[400px] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent" />
+              </div>
+              {/* Decorative warm gradient border accent */}
+              <div className="absolute -bottom-3 -right-3 w-full h-full border-2 border-amber/20 rounded-lg -z-10" />
+            </motion.div>
+
+            {/* Text */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              <motion.p
+                variants={fadeUp}
+                custom={0}
+                className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+              >
+                Our Mission
+              </motion.p>
+              <motion.h2
+                variants={fadeUp}
+                custom={1}
+                className="font-display text-3xl md:text-4xl text-cream mb-6"
+              >
+                Connection Through Dance
+              </motion.h2>
+              <motion.p
+                variants={fadeUp}
+                custom={2}
+                className="text-cream/70 leading-relaxed mb-4"
+              >
+                It is our mission to inspire the Stanford community to engage
+                with social dance and have connected, deep, meaningful dances
+                while understanding the mechanics of elegant technique.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={3}
+                className="text-cream/70 leading-relaxed mb-8"
+              >
+                Founded in 2022, we believe the most fulfilling way to social
+                dance is a combination of deep connection and awareness of
+                excellent technique, with space for the creative expression of
+                music.
+              </motion.p>
+              <motion.div variants={fadeUp} custom={4}>
+                <Link href="/about">
+                  <Button
+                    variant="outline"
+                    className="border-amber/40 text-amber hover:bg-amber/10 tracking-wide"
+                  >
+                    Learn More <ArrowRight size={16} className="ml-2" />
+                  </Button>
+                </Link>
+              </motion.div>
+            </motion.div>
           </div>
         </div>
       </section>
 
-      {/* ── JOIN CTA ── */}
-      <section
-        className="py-24 md:py-32 relative overflow-hidden"
-        style={{ background: "oklch(0.975 0.012 75)" }}
-      >
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl text-center">
-          <RevealSection>
-            <div
-              className="text-xs font-semibold tracking-widest uppercase mb-6"
-              style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
+      {/* ===== CLASSES PREVIEW ===== */}
+      <section className="relative py-24 md:py-32 bg-charcoal overflow-hidden">
+        <div className="container">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            {/* Text — left */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
             >
-              Ready to dance?
-            </div>
-            <h2
-              className="text-5xl md:text-6xl font-bold leading-tight mb-6 max-w-2xl mx-auto"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-            >
-              Your first dance is
-              <br />
-              <em style={{ color: "oklch(0.62 0.19 22)" }}>waiting for you</em>
-            </h2>
-            <p
-              className="text-lg leading-relaxed mb-10 max-w-xl mx-auto"
-              style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-            >
-              No experience needed. Just show up on Wednesday evening and we'll take care of the rest. Free for all Stanford students and affiliates.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link
-                href="/join"
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl"
-                style={{
-                  background: "oklch(0.62 0.19 22)",
-                  color: "white",
-                  fontFamily: "var(--font-body)",
-                  boxShadow: "0 4px 24px oklch(0.62 0.19 22 / 0.35)",
-                }}
+              <motion.p
+                variants={fadeUp}
+                custom={0}
+                className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
               >
-                Join our community
-                <ArrowRight size={16} />
-              </Link>
-              <a
-                href="https://www.instagram.com/sbsbz/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105"
-                style={{
-                  border: "1.5px solid oklch(0.88 0.015 75)",
-                  color: "oklch(0.35 0.015 65)",
-                  fontFamily: "var(--font-body)",
-                }}
+                Classes
+              </motion.p>
+              <motion.h2
+                variants={fadeUp}
+                custom={1}
+                className="font-display text-3xl md:text-4xl text-cream mb-6"
               >
-                Follow @sbsbz
-              </a>
-            </div>
-          </RevealSection>
+                Learn at Every Level
+              </motion.h2>
+              <motion.p
+                variants={fadeUp}
+                custom={2}
+                className="text-cream/70 leading-relaxed mb-6"
+              >
+                Whether you are stepping onto the dance floor for the first time
+                or refining advanced techniques, our classes are designed to
+                meet you where you are. No partner or experience required.
+              </motion.p>
+
+              <motion.div
+                variants={fadeUp}
+                custom={3}
+                className="space-y-4 mb-8"
+              >
+                {[
+                  {
+                    label: "Wednesday — Zouk",
+                    time: "7:30–8:45 PM + Social 8:45–10:30 PM",
+                  },
+                  {
+                    label: "Thursday — Bachata Sensual",
+                    time: "7:00–9:00 PM + Social 9:00–10:00 PM",
+                  },
+                ].map(cls => (
+                  <div
+                    key={cls.label}
+                    className="flex items-center justify-between border-b border-border/30 pb-3"
+                  >
+                    <span className="text-cream/90 font-medium">
+                      {cls.label}
+                    </span>
+                    <span className="text-amber/80 text-sm">{cls.time}</span>
+                  </div>
+                ))}
+              </motion.div>
+
+              <motion.div variants={fadeUp} custom={4}>
+                <Link href="/classes">
+                  <Button className="bg-burgundy text-cream hover:bg-burgundy-light tracking-wide">
+                    View Full Schedule <ArrowRight size={16} className="ml-2" />
+                  </Button>
+                </Link>
+              </motion.div>
+            </motion.div>
+
+            {/* Image — right */}
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="relative"
+            >
+              <div className="rounded-lg overflow-hidden">
+                <SiteImage
+                  src={CLASSES_IMG}
+                  alt="SBSBZ members dancing at a social"
+                  className="w-full h-[400px] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-charcoal/30 to-transparent" />
+              </div>
+              <div className="absolute -top-3 -left-3 w-full h-full border-2 border-burgundy/20 rounded-lg -z-10" />
+            </motion.div>
+          </div>
         </div>
       </section>
 
-      <Footer />
+      {/* ===== INSTRUCTORS ===== */}
+      <section className="diagonal-top relative bg-charcoal-light overflow-hidden">
+        <div className="container py-20 md:py-28">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+            >
+              Meet Our Teachers
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream"
+            >
+              Our Instructors
+            </motion.h2>
+          </motion.div>
+
+          {/* Kriss & Natalia / Brando & Elisabeth promo photo */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="max-w-md mx-auto mb-14 rounded-lg overflow-hidden"
+          >
+            <SiteImage
+              src={INSTRUCTORS_IMG}
+              alt="Kriss and Natalia — Bachata instructors"
+              className="w-full h-auto"
+            />
+          </motion.div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-80px" }}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
+            {instructors.map((inst, i) => (
+              <motion.div
+                key={inst.name}
+                variants={fadeUp}
+                custom={i}
+                className="group bg-charcoal border border-border/40 rounded-lg overflow-hidden hover:border-amber/40 transition-all duration-500"
+              >
+                <div className="h-64 overflow-hidden">
+                  <SiteImage
+                    src={inst.img}
+                    fallbackLabel={inst.name}
+                    alt={`${inst.name} — ${inst.role}`}
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display text-xl text-cream">
+                    {inst.name}
+                  </h3>
+                  <p className="text-amber text-sm font-medium mb-2">
+                    {inst.role}
+                  </p>
+                  <p className="text-cream/60 text-sm leading-relaxed">
+                    {inst.bio}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ===== ZOUK IMAGE BREAK ===== */}
+      <section className="relative h-[40vh] md:h-[50vh] overflow-hidden">
+        <SiteImage
+          src={ZOUK_IMG}
+          alt="SBSBZ members dancing Brazilian Zouk"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-charcoal/40" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <motion.p
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-display text-3xl md:text-5xl text-cream text-center px-4"
+          >
+            Everyone is <span className="text-amber">Welcome</span>
+          </motion.p>
+        </div>
+      </section>
+
+      {/* ===== CTA ===== */}
+      <section className="relative bg-charcoal overflow-hidden">
+        <div className="container py-20 md:py-28 text-center">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h2
+              variants={fadeUp}
+              custom={0}
+              className="font-display text-4xl md:text-5xl lg:text-6xl text-cream mb-6"
+            >
+              Ready to <span className="text-amber">Dance</span>?
+            </motion.h2>
+            <motion.p
+              variants={fadeUp}
+              custom={1}
+              className="text-cream/70 text-lg max-w-xl mx-auto mb-8"
+            >
+              No experience needed. No partner required. Free for Stanford
+              affiliates. Just bring yourself and an open mind.
+            </motion.p>
+            <motion.div
+              variants={fadeUp}
+              custom={2}
+              className="flex flex-wrap justify-center gap-4"
+            >
+              <Link href="/join">
+                <Button
+                  size="lg"
+                  className="bg-amber text-charcoal hover:bg-amber-light font-semibold tracking-wide px-10"
+                >
+                  Join SBSBZ
+                </Button>
+              </Link>
+              <Link href="/events">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-cream/30 text-cream hover:bg-cream/10 tracking-wide px-10"
+                >
+                  Upcoming Events
+                </Button>
+              </Link>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,243 +1,533 @@
-/* ==========================================================
-   SBSBZ About Page — Fluid Rhythm Design
-   ========================================================== */
+import SiteImage from "@/components/SiteImage";
+/*
+ * Design: Warm Nocturne — Intimate Evening Social Aesthetic
+ * About: Mission, dance styles, instructors, and leadership team.
+ */
+import { motion } from "framer-motion";
+import { Heart, Zap, Globe, Users, Quote } from "lucide-react";
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { ArrowRight, Heart, Users, Star, Shield } from "lucide-react";
-import { Link } from "wouter";
-import { useEffect, useRef } from "react";
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.12, duration: 0.6 },
+  }),
+};
 
-const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-community-a7pW75M9DnwKAbFPZKhXN5.webp";
-const CLASS_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-class-5GyBDdVFmVuH9D9ABTWsL3.webp";
+/* Real SBSBZ photos */
+const ABOUT_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0003_c5ee2812.jpg";
+const ZOUK_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
 
-function RevealSection({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { el.classList.add("visible"); observer.disconnect(); } },
-      { threshold: 0.1 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-  return <div ref={ref} className={`reveal ${className}`} style={{ transitionDelay: `${delay}ms` }}>{children}</div>;
-}
+const leadershipTeam = [
+  {
+    name: "Brando",
+    role: "President & Founder",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-zouk-teacher_43076681.png",
+  },
+  {
+    name: "Henry Bosch",
+    role: "Vice President",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/henry_b8544d4d.webp",
+  },
+  {
+    name: "Elizabeth",
+    role: "Financial Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/elizabeth_3e0dc739.png",
+  },
+  {
+    name: "Abhinav Garg",
+    role: "Social Chair",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/abhinav_75b397d4.jpeg",
+  },
+  {
+    name: "Nick Montes",
+    role: "Logistics & Operations",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/nick_01e3496a.png",
+  },
+  {
+    name: "Lorena Oliveira",
+    role: "Officer",
+    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/lorena_new_c1e46175.png",
+  },
+];
 
 export default function About() {
   return (
-    <div className="min-h-screen" style={{ background: "oklch(0.975 0.012 75)" }}>
-      <Navbar />
-
-      {/* Page header */}
-      <section
-        className="pt-32 pb-20 relative overflow-hidden"
-        style={{ background: "oklch(0.18 0.015 65)" }}
-      >
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div
-            className="text-xs font-semibold tracking-widest uppercase mb-4"
-            style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-          >
-            About SBSBZ
-          </div>
-          <h1
-            className="text-5xl md:text-6xl font-bold text-white max-w-2xl leading-tight"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            A community built on
-            <em className="block" style={{ color: "oklch(0.75 0.15 22)" }}>connection & dance</em>
-          </h1>
+    <div className="min-h-screen pt-20">
+      {/* ===== HERO BANNER ===== */}
+      <section className="relative py-24 md:py-32 overflow-hidden film-grain">
+        <div className="absolute inset-0">
+          <SiteImage
+            fallbackLabel=""
+            src={ABOUT_IMG}
+            alt="Brando dancing at a social"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-charcoal/75" />
         </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path d="M0 0 C360 60 1080 60 1440 0 L1440 60 L0 60 Z" fill="oklch(0.975 0.012 75)" />
-          </svg>
+        <div className="relative z-10 container text-center">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+          >
+            About Us
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="font-display text-4xl md:text-6xl text-cream mb-4"
+          >
+            Who We Are
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="text-cream/70 text-lg max-w-2xl mx-auto"
+          >
+            A Stanford student-run community dedicated to the art and joy of
+            Bachata Sensual and Brazilian Zouk.
+          </motion.p>
         </div>
       </section>
 
-      {/* Mission */}
-      <section className="py-20 md:py-28">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <RevealSection>
-              <h2
-                className="text-4xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
+      {/* ===== MISSION ===== */}
+      <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              <motion.h2
+                variants={fadeUp}
+                custom={0}
+                className="font-display text-3xl md:text-4xl text-cream mb-6"
               >
                 Our Mission
-              </h2>
-              <p
-                className="text-base leading-relaxed mb-5"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
+              </motion.h2>
+              <motion.p
+                variants={fadeUp}
+                custom={1}
+                className="text-cream/70 leading-relaxed mb-4"
               >
-                It is our mission to inspire the Stanford community to engage with social dance and have connected, deep, meaningful dances while at the same time understanding the mechanics of elegant technique.
-              </p>
-              <p
-                className="text-base leading-relaxed mb-5"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
+                It is our mission to inspire the Stanford community to engage
+                with social dance and have connected, deep, meaningful dances
+                while at the same time understanding the mechanics of elegant
+                technique.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={2}
+                className="text-cream/70 leading-relaxed mb-4"
               >
-                We are founded with the principle that the most fulfilling way to social dance is a combination of deep connection and awareness of excellent technique, with space for the creative expression of music.
-              </p>
-              <p
-                className="text-base leading-relaxed"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
+                Founded in 2022, we believe the most fulfilling way to social
+                dance is a combination of deep connection and awareness of
+                excellent technique, with space for the creative expression of
+                music. Our mission is to inspire you to co-create a dance
+                experience with any lead and follow.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={3}
+                className="text-cream/70 leading-relaxed"
               >
-                Our mission is to inspire you to co-create a dance experience with any lead and follow. The group will always remain <strong>non-profit and Stanford student-run</strong>.
-              </p>
-            </RevealSection>
-            <RevealSection delay={150}>
-              <div className="relative">
-                <div
-                  className="absolute -top-4 -right-4 w-full h-full rounded-2xl"
-                  style={{ background: "oklch(0.62 0.19 22 / 0.1)" }}
-                />
-                <img
-                  src={COMMUNITY_IMG}
-                  alt="SBSBZ community"
-                  className="relative rounded-2xl w-full h-80 object-cover shadow-xl"
-                />
-              </div>
-            </RevealSection>
-          </div>
-        </div>
-      </section>
+                Our focus is the Stanford community and fostering a healthy
+                environment for the development of our Stanford members — where
+                we hope they can grow as dancers and leaders. The group will
+                always remain non-profit and Stanford student-run.
+              </motion.p>
+            </motion.div>
 
-      {/* Bachata Sensual */}
-      <section className="py-20 md:py-24" style={{ background: "oklch(0.94 0.01 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <RevealSection delay={150}>
-              <div className="relative order-2 lg:order-1">
-                <img
-                  src={CLASS_IMG}
-                  alt="Bachata class at Stanford"
-                  className="rounded-2xl w-full h-80 object-cover shadow-xl"
-                />
-              </div>
-            </RevealSection>
-            <RevealSection className="order-1 lg:order-2">
-              <span className="dance-tag dance-tag-bachata mb-4 inline-block">Bachata Sensual</span>
-              <h2
-                className="text-4xl font-bold mb-6"
-                style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-              >
-                The art of Bachata Sensual
-              </h2>
-              <p
-                className="text-base leading-relaxed mb-5"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-              >
-                Bachata Sensual was created by renowned artists <strong>Korke and Judith</strong> — a dance tested and based on solid follow and lead principles of natural motions of energy and how to use this energy with your partner.
-              </p>
-              <p
-                className="text-base leading-relaxed mb-5"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-              >
-                It is a close dance that emphasizes full mind, body, and soul connection. Through body waves, boleros, dips, and the subtle language of touch, dancers co-create a shared experience in real time.
-              </p>
-              <p
-                className="text-base leading-relaxed"
-                style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-              >
-                Our focus is the Stanford community — fostering a healthy environment where members grow as dancers and as people. No prior experience required to join.
-              </p>
-            </RevealSection>
-          </div>
-        </div>
-      </section>
-
-      {/* Principles */}
-      <section className="py-20 md:py-28" style={{ background: "oklch(0.975 0.012 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div className="text-center mb-16">
-              <div
-                className="text-xs font-semibold tracking-widest uppercase mb-4"
-                style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-              >
-                Our Principles
-              </div>
-              <h2
-                className="text-4xl font-bold"
-                style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-              >
-                How we operate
-              </h2>
-            </div>
-          </RevealSection>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { icon: Heart, title: "Non-Profit", desc: "All fees from non-Stanford guests are reinvested into the group to fund events and sustain our community." },
-              { icon: Users, title: "Student-Run", desc: "Organized and led entirely by Stanford students, for the Stanford community." },
-              { icon: Star, title: "Free for Stanford", desc: "Always free for Stanford students, post-docs, professors, and active affiliates." },
-              { icon: Shield, title: "Safe Space", desc: "We maintain clear community standards to ensure a welcoming, respectful environment for all dancers." },
-            ].map(({ icon: Icon, title, desc }, i) => (
-              <RevealSection key={title} delay={i * 80}>
-                <div
-                  className="p-6 rounded-2xl h-full"
-                  style={{ background: "oklch(0.94 0.01 75)", border: "1px solid oklch(0.88 0.015 75)" }}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="grid grid-cols-1 sm:grid-cols-2 gap-5"
+            >
+              {[
+                {
+                  icon: Heart,
+                  title: "Connection",
+                  desc: "Full mind, body, and soul connection through partner dance.",
+                },
+                {
+                  icon: Zap,
+                  title: "Technique",
+                  desc: "Solid lead & follow principles based on natural energy and motion.",
+                },
+                {
+                  icon: Globe,
+                  title: "Expression",
+                  desc: "Space for creative musical interpretation and personal style.",
+                },
+                {
+                  icon: Users,
+                  title: "Community",
+                  desc: "A welcoming, non-profit, student-run environment for growth.",
+                },
+              ].map((item, i) => (
+                <motion.div
+                  key={item.title}
+                  variants={fadeUp}
+                  custom={i}
+                  className="bg-charcoal-light border border-border/40 rounded-lg p-5 hover:border-amber/30 transition-all duration-500"
                 >
-                  <div
-                    className="w-10 h-10 rounded-xl flex items-center justify-center mb-4"
-                    style={{ background: "oklch(0.62 0.19 22 / 0.12)" }}
-                  >
-                    <Icon size={18} style={{ color: "oklch(0.62 0.19 22)" }} />
-                  </div>
-                  <h3
-                    className="text-base font-bold mb-2"
-                    style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                  >
-                    {title}
+                  <item.icon size={22} className="text-amber mb-3" />
+                  <h3 className="font-display text-lg text-cream mb-1">
+                    {item.title}
                   </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                  >
-                    {desc}
+                  <p className="text-cream/60 text-sm leading-relaxed">
+                    {item.desc}
                   </p>
-                </div>
-              </RevealSection>
-            ))}
+                </motion.div>
+              ))}
+            </motion.div>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20" style={{ background: "oklch(0.94 0.01 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl text-center">
-          <RevealSection>
-            <h2
-              className="text-4xl font-bold mb-4"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
+      {/* ===== DANCE STYLES ===== */}
+      <section className="diagonal-top bg-charcoal-light py-20 md:py-28">
+        <div className="container">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
             >
-              Come dance with us
-            </h2>
-            <p
-              className="text-base mb-8 max-w-md mx-auto"
-              style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
+              Our Dances
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream"
             >
-              Every Wednesday evening at EVGR C Dance Room. No experience needed.
-            </p>
-            <Link
-              href="/join"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105"
-              style={{
-                background: "oklch(0.62 0.19 22)",
-                color: "white",
-                fontFamily: "var(--font-body)",
-              }}
+              What We Dance
+            </motion.h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="bg-charcoal border border-border/40 rounded-lg p-8 hover:border-amber/30 transition-all duration-500"
             >
-              Get involved
-              <ArrowRight size={16} />
-            </Link>
-          </RevealSection>
+              <h3 className="font-display text-2xl text-amber mb-4">
+                Bachata Sensual
+              </h3>
+              <p className="text-cream/70 leading-relaxed mb-4">
+                Created by renowned artists Korke and Judith, Bachata Sensual is
+                a dance tested and based on solid follow and lead principles of
+                natural motions of energy and how to use this energy with your
+                partner.
+              </p>
+              <p className="text-cream/70 leading-relaxed">
+                It emphasizes a close embrace and full connection between
+                partners, blending traditional Bachata footwork with body waves,
+                isolations, and fluid movements.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+              className="bg-charcoal border border-border/40 rounded-lg p-8 hover:border-burgundy/30 transition-all duration-500"
+            >
+              <h3 className="font-display text-2xl text-burgundy-light mb-4">
+                Brazilian Zouk
+              </h3>
+              <p className="text-cream/70 leading-relaxed mb-4">
+                Brazilian Zouk is a flowing, creative partner dance known for
+                its beautiful head movements, deep connection, and musicality.
+                Originating from Brazil, it has evolved into a global social
+                dance phenomenon.
+              </p>
+              <p className="text-cream/70 leading-relaxed">
+                Zouk emphasizes fluidity, body awareness, and musical
+                interpretation, making it a perfect complement to Bachata
+                Sensual in our curriculum.
+              </p>
+            </motion.div>
+          </div>
         </div>
       </section>
 
-      <Footer />
+      {/* ===== COMMUNITY IMAGE BREAK ===== */}
+      <section className="relative h-[40vh] md:h-[50vh] overflow-hidden">
+        <SiteImage
+          src={ZOUK_IMG}
+          alt="SBSBZ members dancing Brazilian Zouk"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-charcoal/40" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <motion.p
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-display text-3xl md:text-5xl text-cream text-center px-4"
+          >
+            Everyone is <span className="text-amber">Welcome</span>
+          </motion.p>
+        </div>
+      </section>
+
+      {/* ===== LEADERSHIP TEAM ===== */}
+      <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container max-w-4xl">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+            >
+              Our People
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream"
+            >
+              Leadership Team
+            </motion.h2>
+          </motion.div>
+
+          {/* Group photo */}
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"
+          >
+            {leadershipTeam.map((member, i) => (
+              <motion.div
+                key={member.name}
+                variants={fadeUp}
+                custom={i}
+                className="bg-charcoal-light border border-border/40 rounded-lg p-5 text-center hover:border-amber/30 transition-all duration-500"
+              >
+                <div className="w-16 h-16 rounded-full bg-amber/10 flex items-center justify-center mx-auto mb-3 overflow-hidden">
+                  {member.img ? (
+                    <SiteImage
+                      src={member.img}
+                      fallbackLabel={member.name.charAt(0)}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <span className="font-display text-xl text-amber">
+                      {member.name.charAt(0)}
+                    </span>
+                  )}
+                </div>
+                <h3 className="font-display text-lg text-cream mb-1">
+                  {member.name}
+                </h3>
+                <p className="text-cream/50 text-xs">{member.role}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ===== VALUES ===== */}
+      <section className="diagonal-top bg-charcoal-light py-20 md:py-28">
+        <div className="container max-w-3xl text-center">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+            >
+              Our Values
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream mb-10"
+            >
+              What Guides Us
+            </motion.h2>
+          </motion.div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="space-y-8"
+          >
+            {[
+              {
+                title: "No Experience Required",
+                desc: "Many of our lessons are beginner-friendly. We welcome everyone regardless of dance background.",
+              },
+              {
+                title: "Non-Profit & Student-Run",
+                desc: "SBSBZ exists to serve the Stanford community. We are and will always remain a non-profit, student-run organization.",
+              },
+              {
+                title: "Healthy Environment",
+                desc: "We foster a safe, respectful space where members can grow as dancers and leaders.",
+              },
+              {
+                title: "Accessible to All",
+                desc: "No partner needed. No special attire. Free for Stanford affiliates. Just come as you are and be ready to move.",
+              },
+            ].map((value, i) => (
+              <motion.div
+                key={value.title}
+                variants={fadeUp}
+                custom={i}
+                className="text-left border-l-2 border-amber/40 pl-6"
+              >
+                <h3 className="font-display text-xl text-cream mb-1">
+                  {value.title}
+                </h3>
+                <p className="text-cream/60 leading-relaxed">{value.desc}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ===== FOUNDER'S STORY ===== */}
+      <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container max-w-4xl">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
+            {/* Photo column */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="lg:col-span-2"
+            >
+              <div className="relative">
+                <SiteImage
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20221123-WA0024_d4b0f7a2.jpg"
+                  alt="Brando Miranda, Founder of SBSBZ"
+                  className="w-full rounded-lg object-cover aspect-[3/4]"
+                />
+                <div className="absolute -bottom-3 -right-3 bg-amber/10 border border-amber/20 rounded-lg px-4 py-2">
+                  <p className="font-display text-amber text-sm">Est. 2022</p>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Story column */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="lg:col-span-3"
+            >
+              <motion.p
+                variants={fadeUp}
+                custom={0}
+                className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+              >
+                Origin Story
+              </motion.p>
+              <motion.h2
+                variants={fadeUp}
+                custom={1}
+                className="font-display text-3xl md:text-4xl text-cream mb-6"
+              >
+                From the Dance Floor to Stanford
+              </motion.h2>
+
+              <motion.div
+                variants={fadeUp}
+                custom={2}
+                className="bg-charcoal-light border border-amber/20 rounded-lg p-6 mb-6"
+              >
+                <Quote size={20} className="text-amber/40 mb-3" />
+                <p className="text-cream/80 italic leading-relaxed text-sm">
+                  "The most fulfilling way to social dance is a combination of
+                  deep connection and awareness of good technique, with space
+                  for the creative expression of music."
+                </p>
+                <p className="text-amber/60 text-xs mt-3">— Brando Miranda</p>
+              </motion.div>
+
+              <motion.p
+                variants={fadeUp}
+                custom={3}
+                className="text-cream/70 leading-relaxed mb-4"
+              >
+                SBSBZ was born from a lifelong passion for partner dance.
+                Founder Brando Miranda spent over five years training
+                intensively — at least ten hours a week — studying under
+                world-class instructors, attending international congresses, and
+                completing the official World Master certification program
+                created by Korke and Judith, the originators of Bachata Sensual.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={4}
+                className="text-cream/70 leading-relaxed mb-4"
+              >
+                Before Stanford, Brando founded a similar organization at the
+                University of Illinois Urbana-Champaign, where he taught as an
+                instructor at Urbana Dance Company and built a community around
+                technique-driven, connection-based social dancing. That
+                experience — and the belief that anyone can co-create a
+                beautiful dance with any partner — became the foundation for
+                SBSBZ.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                custom={5}
+                className="text-cream/70 leading-relaxed mb-6"
+              >
+                Today, SBSBZ carries that same mission at Stanford: making
+                world-class partner dance accessible to everyone, no experience
+                or partner required.
+              </motion.p>
+
+              <motion.a
+                variants={fadeUp}
+                custom={6}
+                href="https://brando90.github.io/brandomiranda/dance.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-amber/70 hover:text-amber text-sm transition-colors duration-300 border-b border-amber/30 hover:border-amber pb-0.5"
+              >
+                Read the full story
+                <span className="text-xs">→</span>
+              </motion.a>
+            </motion.div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

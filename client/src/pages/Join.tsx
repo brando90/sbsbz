@@ -1,329 +1,308 @@
-/* ==========================================================
-   SBSBZ Join Page — Fluid Rhythm Design
-   ========================================================== */
+import SiteImage from "@/components/SiteImage";
+/*
+ * Design: Warm Nocturne — Intimate Evening Social Aesthetic
+ * Join: How to get involved, contact info, and links.
+ */
+import { motion } from "framer-motion";
+import {
+  Instagram,
+  Mail,
+  MapPin,
+  ArrowUpRight,
+  CheckCircle,
+  ExternalLink,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { Instagram, MessageCircle, Mail, MapPin, Clock, ArrowRight, CheckCircle } from "lucide-react";
-import { useEffect, useRef } from "react";
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.12, duration: 0.6 },
+  }),
+};
 
-const ABSTRACT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-abstract-RNUvLdtxMuN63mTu8Ghuxm.webp";
-
-function RevealSection({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { el.classList.add("visible"); observer.disconnect(); } },
-      { threshold: 0.1 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-  return <div ref={ref} className={`reveal ${className}`} style={{ transitionDelay: `${delay}ms` }}>{children}</div>;
-}
-
-const channels = [
-  {
-    icon: Instagram,
-    title: "Instagram",
-    handle: "@sbsbz",
-    desc: "Follow us for class announcements, event photos, and community updates.",
-    href: "https://www.instagram.com/sbsbz/",
-    cta: "Follow on Instagram",
-    color: "oklch(0.62 0.19 22)",
-  },
-  {
-    icon: MessageCircle,
-    title: "WhatsApp Group",
-    handle: "SBSBZ Community",
-    desc: "Join our WhatsApp group for weekly class location updates and community chat.",
-    href: "https://linktr.ee/ultimate_brando9",
-    cta: "Join via Linktree",
-    color: "oklch(0.55 0.12 145)",
-  },
-  {
-    icon: Mail,
-    title: "Email",
-    handle: "sbsbz@stanford.edu",
-    desc: "Have questions? Reach out to us directly by email.",
-    href: "mailto:sbsbz@stanford.edu",
-    cta: "Send an email",
-    color: "oklch(0.45 0.08 260)",
-  },
-];
+const HERO_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-social_87318cd8.jpg";
 
 const steps = [
   {
-    number: "01",
-    title: "Just show up",
-    desc: "Come to EVGR C Dance Room any Wednesday at 7 PM. No registration, no prior experience needed.",
+    num: "01",
+    title: "Show Up",
+    desc: "Come to any of our weekly classes. No sign-up needed — just walk in. Check our Classes page for the schedule.",
   },
   {
-    number: "02",
-    title: "Take a class",
-    desc: "Start with Fundamentals I — our beginner-friendly class that covers the basics of Bachata Sensual.",
+    num: "02",
+    title: "Follow Us",
+    desc: "Follow @stanford_bachata_sensual_zouk on Instagram for class updates, event announcements, and behind-the-scenes content.",
   },
   {
-    number: "03",
-    title: "Stay for the social",
-    desc: "After class, stay for the social/practica from 9–10 PM and dance with the community.",
+    num: "03",
+    title: "Join Our Mailing List",
+    desc: "Email us to get added to our mailing list for weekly updates, special workshops, and social invitations.",
   },
   {
-    number: "04",
-    title: "Join our channels",
-    desc: "Follow our Instagram and join our WhatsApp group to stay connected and never miss a class.",
+    num: "04",
+    title: "Dance & Connect",
+    desc: "Come to our socials, make friends, and become part of a community that shares your love for dance.",
   },
+];
+
+const benefits = [
+  "Free weekly classes for all levels",
+  "No partner or experience required",
+  "Welcoming, inclusive community",
+  "Social dance events and parties",
+  "Workshops with champion-level instructors",
+  "Connections to the Bay Area & national dance scene",
+  "A healthy outlet for stress and creativity",
 ];
 
 export default function Join() {
   return (
-    <div className="min-h-screen" style={{ background: "oklch(0.975 0.012 75)" }}>
-      <Navbar />
-
-      {/* Header */}
-      <section
-        className="pt-32 pb-20 relative overflow-hidden"
-        style={{ background: "oklch(0.18 0.015 65)" }}
-      >
-        <div className="absolute inset-0 opacity-20">
-          <img src={ABSTRACT_IMG} alt="" className="w-full h-full object-cover" />
+    <div className="min-h-screen pt-20">
+      {/* ===== HERO ===== */}
+      <section className="relative py-24 md:py-32 overflow-hidden film-grain">
+        <div className="absolute inset-0">
+          <SiteImage
+            fallbackLabel=""
+            src={HERO_IMG}
+            alt="Dancers in warm lighting"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-charcoal/80" />
         </div>
-        <div className="relative container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div
-            className="text-xs font-semibold tracking-widest uppercase mb-4"
-            style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
+        <div className="relative z-10 container text-center">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+          >
+            Get Involved
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="font-display text-4xl md:text-6xl text-cream mb-4"
           >
             Join SBSBZ
-          </div>
-          <h1
-            className="text-5xl md:text-6xl font-bold text-white max-w-2xl leading-tight"
-            style={{ fontFamily: "var(--font-display)" }}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="text-cream/70 text-lg max-w-2xl mx-auto"
           >
-            Start your
-            <em className="block" style={{ color: "oklch(0.75 0.15 22)" }}>dance journey</em>
-          </h1>
-          <p
-            className="text-base mt-6 max-w-lg"
-            style={{ color: "oklch(0.7 0.01 75)", fontFamily: "var(--font-body)" }}
-          >
-            No experience needed. No registration required. Just come on Wednesday evening and we'll take care of the rest.
-          </p>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path d="M0 0 C360 60 1080 60 1440 0 L1440 60 L0 60 Z" fill="oklch(0.975 0.012 75)" />
-          </svg>
+            Becoming part of our community is simple. Here is how to get
+            started.
+          </motion.p>
         </div>
       </section>
 
-      {/* Steps */}
-      <section className="py-20 md:py-28">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div
-              className="text-xs font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
+      {/* ===== HOW TO JOIN ===== */}
+      <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container max-w-4xl">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
             >
-              How to join
-            </div>
-            <h2
-              className="text-4xl font-bold mb-12"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
+              Getting Started
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-4xl text-cream"
             >
-              Four simple steps
-            </h2>
-          </RevealSection>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              Four Simple Steps
+            </motion.h2>
+          </motion.div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-2 gap-6"
+          >
             {steps.map((step, i) => (
-              <RevealSection key={step.number} delay={i * 80}>
-                <div
-                  className="p-6 rounded-2xl h-full relative"
-                  style={{
-                    background: "oklch(0.99 0.008 75)",
-                    border: "1px solid oklch(0.88 0.015 75)",
-                  }}
-                >
-                  <div
-                    className="text-5xl font-bold mb-4 leading-none"
-                    style={{ fontFamily: "var(--font-display)", color: "oklch(0.62 0.19 22 / 0.15)" }}
-                  >
-                    {step.number}
-                  </div>
-                  <h3
-                    className="text-lg font-bold mb-2"
-                    style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                  >
-                    {step.title}
-                  </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                  >
-                    {step.desc}
-                  </p>
-                </div>
-              </RevealSection>
+              <motion.div
+                key={step.num}
+                variants={fadeUp}
+                custom={i}
+                className="bg-charcoal-light border border-border/40 rounded-lg p-6 hover:border-amber/30 transition-all duration-500 group"
+              >
+                <span className="font-display text-4xl text-amber/20 group-hover:text-amber/40 transition-colors duration-500">
+                  {step.num}
+                </span>
+                <h3 className="font-display text-xl text-cream mt-2 mb-2">
+                  {step.title}
+                </h3>
+                <p className="text-cream/60 text-sm leading-relaxed">
+                  {step.desc}
+                </p>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
-      {/* Quick info */}
-      <section className="py-16" style={{ background: "oklch(0.94 0.01 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div
-              className="rounded-2xl p-8 md:p-10"
-              style={{
-                background: "oklch(0.18 0.015 65)",
-              }}
+      {/* ===== BENEFITS ===== */}
+      <section className="diagonal-top bg-charcoal-light py-20 md:py-28">
+        <div className="container max-w-4xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
             >
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {[
-                  { icon: Clock, title: "When", lines: ["Every Wednesday", "7:00 – 10:00 PM"] },
-                  { icon: MapPin, title: "Where", lines: ["EVGR C Dance Room", "Stanford University"] },
-                  { icon: CheckCircle, title: "Cost", lines: ["Free for Stanford students", "$5 honor system for guests"] },
-                ].map(({ icon: Icon, title, lines }) => (
-                  <div key={title} className="flex gap-4">
-                    <div
-                      className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
-                      style={{ background: "oklch(0.62 0.19 22 / 0.2)" }}
-                    >
-                      <Icon size={18} style={{ color: "oklch(0.75 0.15 22)" }} />
-                    </div>
-                    <div>
-                      <div
-                        className="text-xs font-semibold tracking-widest uppercase mb-1"
-                        style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-                      >
-                        {title}
-                      </div>
-                      {lines.map((line) => (
-                        <div
-                          key={line}
-                          className="text-sm text-white"
-                          style={{ fontFamily: "var(--font-body)" }}
-                        >
-                          {line}
-                        </div>
-                      ))}
-                    </div>
+              <motion.p
+                variants={fadeUp}
+                custom={0}
+                className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
+              >
+                Why Join
+              </motion.p>
+              <motion.h2
+                variants={fadeUp}
+                custom={1}
+                className="font-display text-3xl md:text-4xl text-cream mb-6"
+              >
+                What You Get
+              </motion.h2>
+              <motion.div variants={fadeUp} custom={2} className="space-y-3">
+                {benefits.map(b => (
+                  <div key={b} className="flex items-start gap-3">
+                    <CheckCircle
+                      size={18}
+                      className="text-amber mt-0.5 flex-shrink-0"
+                    />
+                    <span className="text-cream/70 text-sm">{b}</span>
                   </div>
                 ))}
-              </div>
-            </div>
-          </RevealSection>
-        </div>
-      </section>
+              </motion.div>
+            </motion.div>
 
-      {/* Communication channels */}
-      <section className="py-20 md:py-28" style={{ background: "oklch(0.975 0.012 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div
-              className="text-xs font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
+            {/* Contact card */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-charcoal border border-border/40 rounded-lg p-8"
             >
-              Stay Connected
-            </div>
-            <h2
-              className="text-4xl font-bold mb-12"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-            >
-              Find us online
-            </h2>
-          </RevealSection>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {channels.map((channel, i) => {
-              const Icon = channel.icon;
-              return (
-                <RevealSection key={channel.title} delay={i * 100}>
-                  <div
-                    className="p-8 rounded-2xl h-full flex flex-col"
-                    style={{
-                      background: "oklch(0.99 0.008 75)",
-                      border: "1px solid oklch(0.88 0.015 75)",
-                    }}
-                  >
-                    <div
-                      className="w-12 h-12 rounded-xl flex items-center justify-center mb-5"
-                      style={{ background: `${channel.color} / 0.1`, backgroundColor: `oklch(from ${channel.color} l c h / 0.1)` }}
-                    >
-                      <Icon size={22} style={{ color: channel.color }} />
-                    </div>
-                    <div
-                      className="text-xs font-semibold tracking-widest uppercase mb-1"
-                      style={{ color: channel.color, fontFamily: "var(--font-body)" }}
-                    >
-                      {channel.title}
-                    </div>
-                    <div
-                      className="text-lg font-bold mb-3"
-                      style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                    >
-                      {channel.handle}
-                    </div>
-                    <p
-                      className="text-sm leading-relaxed mb-6 flex-1"
-                      style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                    >
-                      {channel.desc}
-                    </p>
-                    <a
-                      href={channel.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-sm font-semibold transition-colors group"
-                      style={{ color: channel.color, fontFamily: "var(--font-body)" }}
-                    >
-                      {channel.cta}
-                      <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-                    </a>
+              <h3 className="font-display text-2xl text-cream mb-6">
+                Get in Touch
+              </h3>
+              <div className="space-y-5">
+                <a
+                  href="https://www.instagram.com/stanford_bachata_sensual_zouk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-cream/70 hover:text-amber transition-colors duration-300 group"
+                >
+                  <div className="w-10 h-10 bg-amber/10 rounded-lg flex items-center justify-center group-hover:bg-amber/20 transition-colors">
+                    <Instagram size={18} className="text-amber" />
                   </div>
-                </RevealSection>
-              );
-            })}
+                  <div>
+                    <p className="text-sm font-medium text-cream">Instagram</p>
+                    <p className="text-xs text-cream/50">
+                      @stanford_bachata_sensual_zouk
+                    </p>
+                  </div>
+                  <ArrowUpRight
+                    size={14}
+                    className="ml-auto text-cream/30 group-hover:text-amber transition-colors"
+                  />
+                </a>
+
+                <a
+                  href="mailto:sbsbz.su@gmail.com"
+                  className="flex items-center gap-3 text-cream/70 hover:text-amber transition-colors duration-300 group"
+                >
+                  <div className="w-10 h-10 bg-amber/10 rounded-lg flex items-center justify-center group-hover:bg-amber/20 transition-colors">
+                    <Mail size={18} className="text-amber" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-cream">Email</p>
+                    <p className="text-xs text-cream/50">sbsbz.su@gmail.com</p>
+                  </div>
+                  <ArrowUpRight
+                    size={14}
+                    className="ml-auto text-cream/30 group-hover:text-amber transition-colors"
+                  />
+                </a>
+
+                <div className="flex items-center gap-3 text-cream/70">
+                  <div className="w-10 h-10 bg-amber/10 rounded-lg flex items-center justify-center">
+                    <MapPin size={18} className="text-amber" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-cream">Location</p>
+                    <p className="text-xs text-cream/50">
+                      Wed: Roble 114 &middot; Thu: EVGR C Dance Studio
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-border/30">
+                <a
+                  href="https://linktr.ee/ultimate_brando9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="w-full bg-amber text-charcoal hover:bg-amber-light font-semibold tracking-wide">
+                    Sign Up & Info
+                    <ExternalLink size={16} className="ml-2" />
+                  </Button>
+                </a>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Linktree */}
-      <section className="py-16" style={{ background: "oklch(0.94 0.01 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl text-center">
-          <RevealSection>
-            <h2
-              className="text-3xl font-bold mb-3"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
+      {/* ===== FINAL CTA ===== */}
+      <section className="py-20 md:py-28 bg-charcoal text-center">
+        <div className="container max-w-2xl">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h2
+              variants={fadeUp}
+              custom={0}
+              className="font-display text-3xl md:text-5xl text-cream mb-4"
             >
-              All links in one place
-            </h2>
-            <p
-              className="text-sm mb-6 max-w-sm mx-auto"
-              style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
+              Your First Dance <span className="text-amber">Awaits</span>
+            </motion.h2>
+            <motion.p
+              variants={fadeUp}
+              custom={1}
+              className="text-cream/70 text-lg mb-2"
             >
-              Visit our Linktree for all communication channels, class schedules, and community resources.
-            </p>
-            <a
-              href="https://linktr.ee/ultimate_brando9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-sm transition-all hover:scale-105"
-              style={{
-                background: "oklch(0.62 0.19 22)",
-                color: "white",
-                fontFamily: "var(--font-body)",
-              }}
+              No experience. No partner. No excuses.
+            </motion.p>
+            <motion.p
+              variants={fadeUp}
+              custom={2}
+              className="text-cream/50 text-sm"
             >
-              Visit our Linktree
-              <ArrowRight size={16} />
-            </a>
-          </RevealSection>
+              Just show up to our next class and let the music move you.
+            </motion.p>
+          </motion.div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

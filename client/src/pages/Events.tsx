@@ -1,303 +1,263 @@
-/* ==========================================================
-   SBSBZ Events Page — Fluid Rhythm Design
-   ========================================================== */
-
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { Calendar, MapPin, Clock, ArrowRight, Instagram } from "lucide-react";
+import SiteImage from "@/components/SiteImage";
+/*
+ * Design: Warm Nocturne — Intimate Evening Social Aesthetic
+ * Events: Upcoming events and Friday Night Social.
+ */
+import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { useEffect, useRef } from "react";
+import {
+  Calendar,
+  Clock,
+  MapPin,
+  ArrowRight,
+  Music,
+  Pizza,
+  Users,
+  DollarSign,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
 
-const COMMUNITY_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-community-a7pW75M9DnwKAbFPZKhXN5.webp";
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-hero-9V6BxWvPmVJEcRnRcxpps6.webp";
-const ZOUK_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/2SfSAdoJFhgMEYGNqBnyxz/sbsbz-zouk-D8g3VyFndxPWyGR6jDsnN5.webp";
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.12, duration: 0.6 },
+  }),
+};
 
-function RevealSection({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { el.classList.add("visible"); observer.disconnect(); } },
-      { threshold: 0.1 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-  return <div ref={ref} className={`reveal ${className}`} style={{ transitionDelay: `${delay}ms` }}>{children}</div>;
-}
-
-const upcomingEvents = [
-  {
-    type: "Weekly Class",
-    tag: "bachata",
-    title: "Weekly Bachata & Zouk Class",
-    date: "Every Wednesday",
-    time: "7:00 – 10:00 PM",
-    location: "EVGR C Dance Room, Stanford",
-    desc: "Our regular weekly class — Fundamentals I (beginner), Fundamentals II (intermediate), and a social/practica. Free for Stanford students.",
-    img: COMMUNITY_IMG,
-    cta: { label: "See class details", href: "/classes" },
-  },
-  {
-    type: "Social Event",
-    tag: "social",
-    title: "SBSBZ Social Dance Night",
-    date: "June 21, 2025",
-    time: "TBA",
-    location: "Stanford Campus",
-    desc: "Our upcoming social dance event — a full evening of Bachata Sensual and Brazilian Zouk with the community. Details to be announced on Instagram.",
-    img: HERO_IMG,
-    cta: { label: "Follow for updates", href: "https://www.instagram.com/sbsbz/", external: true },
-  },
-];
-
-const pastEvents = [
-  {
-    title: "SBSBZ Social (November 2024)",
-    date: "November 2, 2024",
-    type: "Social",
-    img: ZOUK_IMG,
-  },
-];
+/* Social dance floor photo from IG */
+const HERO_IMG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-zouk-stanford_558433f0.jpg";
 
 export default function Events() {
   return (
-    <div className="min-h-screen" style={{ background: "oklch(0.975 0.012 75)" }}>
-      <Navbar />
-
-      {/* Header */}
-      <section
-        className="pt-32 pb-20 relative overflow-hidden"
-        style={{ background: "oklch(0.18 0.015 65)" }}
-      >
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div
-            className="text-xs font-semibold tracking-widest uppercase mb-4"
-            style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
+    <div className="min-h-screen pt-20">
+      {/* ===== HERO ===== */}
+      <section className="relative py-24 md:py-32 overflow-hidden film-grain">
+        <div className="absolute inset-0">
+          <SiteImage
+            fallbackLabel=""
+            src={HERO_IMG}
+            alt="SBSBZ social dance night"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-charcoal/70" />
+        </div>
+        <div className="relative z-10 container text-center">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
           >
             Events
-          </div>
-          <h1
-            className="text-5xl md:text-6xl font-bold text-white max-w-2xl leading-tight"
-            style={{ fontFamily: "var(--font-display)" }}
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="font-display text-4xl md:text-6xl text-cream mb-4"
           >
-            Dance events &
-            <em className="block" style={{ color: "oklch(0.75 0.15 22)" }}>socials</em>
-          </h1>
-          <p
-            className="text-base mt-6 max-w-lg"
-            style={{ color: "oklch(0.7 0.01 75)", fontFamily: "var(--font-body)" }}
+            What&apos;s Happening
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="text-cream/70 text-lg max-w-2xl mx-auto"
           >
-            From weekly classes to special social nights — here's where the SBSBZ community gathers to dance, connect, and celebrate.
-          </p>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path d="M0 0 C360 60 1080 60 1440 0 L1440 60 L0 60 Z" fill="oklch(0.975 0.012 75)" />
-          </svg>
+            Socials, workshops, and performances — there is always something to
+            look forward to.
+          </motion.p>
         </div>
       </section>
 
-      {/* Upcoming events */}
-      <section className="py-20 md:py-28">
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div
-              className="text-xs font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
+      {/* ===== FRIDAY NIGHT SOCIAL — FEATURED ===== */}
+      <section className="py-20 md:py-28 bg-charcoal">
+        <div className="container max-w-4xl">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-center mb-14"
+          >
+            <motion.p
+              variants={fadeUp}
+              custom={0}
+              className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3"
             >
-              Upcoming
-            </div>
-            <h2
-              className="text-4xl font-bold mb-12"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
+              Featured Event
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              custom={1}
+              className="font-display text-3xl md:text-5xl text-cream"
             >
-              What's coming up
-            </h2>
-          </RevealSection>
+              Friday Night
+            </motion.h2>
+          </motion.div>
 
-          <div className="space-y-8">
-            {upcomingEvents.map((event, i) => (
-              <RevealSection key={event.title} delay={i * 100}>
-                <div
-                  className="rounded-2xl overflow-hidden"
-                  style={{
-                    background: "oklch(0.99 0.008 75)",
-                    border: "1px solid oklch(0.88 0.015 75)",
-                    boxShadow: "0 2px 20px oklch(0.18 0.015 65 / 0.06)",
-                  }}
-                >
-                  <div className="grid grid-cols-1 md:grid-cols-5">
-                    <div className="md:col-span-2 h-56 md:h-auto">
-                      <img
-                        src={event.img}
-                        alt={event.title}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div className="md:col-span-3 p-8 flex flex-col justify-between">
-                      <div>
-                        <div className="flex items-center gap-3 mb-4">
-                          <span
-                            className={`dance-tag ${
-                              event.tag === "bachata" ? "dance-tag-bachata" : event.tag === "zouk" ? "dance-tag-zouk" : "dance-tag-social"
-                            }`}
-                          >
-                            {event.type}
-                          </span>
-                        </div>
-                        <h3
-                          className="text-2xl font-bold mb-3"
-                          style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                        >
-                          {event.title}
-                        </h3>
-                        <p
-                          className="text-sm leading-relaxed mb-5"
-                          style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-                        >
-                          {event.desc}
-                        </p>
-                        <div className="flex flex-wrap gap-4 mb-6">
-                          {[
-                            { icon: Calendar, text: event.date },
-                            { icon: Clock, text: event.time },
-                            { icon: MapPin, text: event.location },
-                          ].map(({ icon: Icon, text }) => (
-                            <div
-                              key={text}
-                              className="flex items-center gap-1.5 text-xs"
-                              style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                            >
-                              <Icon size={13} style={{ color: "oklch(0.62 0.19 22)" }} />
-                              {text}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                      {event.cta.external ? (
-                        <a
-                          href={event.cta.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-sm font-semibold transition-colors group w-fit"
-                          style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-                        >
-                          {event.cta.label}
-                          <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-                        </a>
-                      ) : (
-                        <Link
-                          href={event.cta.href}
-                          className="inline-flex items-center gap-2 text-sm font-semibold transition-colors group w-fit"
-                          style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-                        >
-                          {event.cta.label}
-                          <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-                        </Link>
-                      )}
-                    </div>
-                  </div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="bg-gradient-to-br from-charcoal-light to-charcoal border border-amber/20 rounded-2xl overflow-hidden"
+          >
+            {/* Schedule cards */}
+            <div className="p-6 md:p-10 space-y-5">
+              {/* Bachata Class */}
+              <div className="flex items-center gap-4 md:gap-6 bg-charcoal/60 border border-border/30 rounded-xl p-4 md:p-5">
+                <div className="text-center flex-shrink-0 w-20">
+                  <p className="text-amber font-display text-xl md:text-2xl">
+                    7 – 8 PM
+                  </p>
+                  <p className="text-amber/60 text-[10px] uppercase tracking-widest mt-0.5">
+                    Bachata Class
+                  </p>
                 </div>
-              </RevealSection>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Past events */}
-      <section className="py-20 md:py-24" style={{ background: "oklch(0.94 0.01 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <RevealSection>
-            <div
-              className="text-xs font-semibold tracking-widest uppercase mb-4"
-              style={{ color: "oklch(0.62 0.19 22)", fontFamily: "var(--font-body)" }}
-            >
-              Past Events
-            </div>
-            <h2
-              className="text-4xl font-bold mb-12"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-            >
-              Memories from the dance floor
-            </h2>
-          </RevealSection>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {pastEvents.map((event, i) => (
-              <RevealSection key={event.title} delay={i * 100}>
-                <div
-                  className="rounded-2xl overflow-hidden"
-                  style={{
-                    background: "oklch(0.99 0.008 75)",
-                    border: "1px solid oklch(0.88 0.015 75)",
-                  }}
-                >
-                  <div className="h-48 overflow-hidden">
-                    <img
-                      src={event.img}
-                      alt={event.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <span className="dance-tag dance-tag-social mb-3 inline-block">{event.type}</span>
-                    <h3
-                      className="text-base font-bold mb-1"
-                      style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-                    >
-                      {event.title}
-                    </h3>
-                    <p
-                      className="text-xs"
-                      style={{ color: "oklch(0.52 0.015 65)", fontFamily: "var(--font-body)" }}
-                    >
-                      {event.date}
-                    </p>
-                  </div>
+                <div className="w-px h-12 bg-amber/30" />
+                <div>
+                  <h3 className="text-cream font-display text-lg md:text-xl">
+                    Bachata <span className="text-amber">Class</span>
+                  </h3>
+                  <p className="text-cream/60 text-sm">
+                    with{" "}
+                    <span className="text-amber/80 font-medium">
+                      Brando &amp; Elisabeth
+                    </span>
+                  </p>
+                  <p className="text-cream/40 text-xs flex items-center gap-1 mt-1">
+                    <MapPin size={12} /> Hacienda Commons
+                  </p>
                 </div>
-              </RevealSection>
-            ))}
-          </div>
+              </div>
+
+              {/* Zouk Class */}
+              <div className="flex items-center gap-4 md:gap-6 bg-charcoal/60 border border-border/30 rounded-xl p-4 md:p-5">
+                <div className="text-center flex-shrink-0 w-20">
+                  <p className="text-amber font-display text-xl md:text-2xl">
+                    7 – 8 PM
+                  </p>
+                  <p className="text-amber/60 text-[10px] uppercase tracking-widest mt-0.5">
+                    Zouk Class
+                  </p>
+                </div>
+                <div className="w-px h-12 bg-amber/30" />
+                <div>
+                  <h3 className="text-cream font-display text-lg md:text-xl">
+                    Zouk <span className="text-amber">Class</span>
+                  </h3>
+                  <p className="text-cream/60 text-sm">
+                    with{" "}
+                    <span className="text-amber/80 font-medium">
+                      Marcos &amp; Partner
+                    </span>
+                  </p>
+                  <p className="text-cream/40 text-xs flex items-center gap-1 mt-1">
+                    <MapPin size={12} /> Willis&apos;s
+                  </p>
+                </div>
+              </div>
+
+              {/* Social Night */}
+              <div className="flex items-center gap-4 md:gap-6 bg-charcoal/60 border border-amber/20 rounded-xl p-4 md:p-5">
+                <div className="text-center flex-shrink-0 w-20">
+                  <p className="text-amber font-display text-xl md:text-2xl">
+                    8 – 12 AM
+                  </p>
+                  <p className="text-amber/60 text-[10px] uppercase tracking-widest mt-0.5">
+                    Open Social
+                  </p>
+                </div>
+                <div className="w-px h-12 bg-amber/30" />
+                <div>
+                  <h3 className="text-cream font-display text-lg md:text-xl">
+                    Social <span className="italic text-amber">Night</span>
+                  </h3>
+                  <p className="text-cream/60 text-sm flex items-center gap-1">
+                    <Music size={14} className="text-amber/70" /> DJ Whoman
+                  </p>
+                </div>
+              </div>
+
+              {/* Perks row */}
+              <div className="flex flex-wrap justify-center gap-4 pt-4">
+                <div className="flex items-center gap-2 bg-amber/10 rounded-full px-4 py-2">
+                  <Pizza size={16} className="text-amber" />
+                  <span className="text-cream text-sm font-medium">
+                    Free Pizza
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 bg-amber/10 rounded-full px-4 py-2">
+                  <Users size={16} className="text-amber" />
+                  <span className="text-cream text-sm font-medium">
+                    No Partner Needed
+                  </span>
+                </div>
+              </div>
+
+              {/* Pricing */}
+              <div className="flex flex-wrap justify-center items-center gap-3 pt-2">
+                <span className="bg-amber/20 text-amber font-semibold text-sm px-4 py-1.5 rounded-full flex items-center gap-1.5">
+                  <DollarSign size={14} /> Free for Stanford
+                </span>
+                <span className="text-cream/40 text-sm">•</span>
+                <span className="bg-charcoal-light text-cream/70 font-medium text-sm px-4 py-1.5 rounded-full border border-border/30">
+                  $10 Non-Stanford
+                </span>
+              </div>
+
+              <p className="text-center text-cream/40 text-xs tracking-[0.15em] uppercase pt-2">
+                All Levels Welcome
+              </p>
+            </div>
+          </motion.div>
         </div>
       </section>
 
-      {/* Instagram CTA */}
-      <section className="py-20" style={{ background: "oklch(0.975 0.012 75)" }}>
-        <div className="container mx-auto px-4 lg:px-8 max-w-7xl text-center">
-          <RevealSection>
-            <Instagram size={32} className="mx-auto mb-4" style={{ color: "oklch(0.62 0.19 22)" }} />
-            <h2
-              className="text-3xl font-bold mb-3"
-              style={{ fontFamily: "var(--font-display)", color: "oklch(0.18 0.015 65)" }}
-            >
-              Stay in the loop
-            </h2>
-            <p
-              className="text-sm mb-6 max-w-sm mx-auto"
-              style={{ color: "oklch(0.42 0.015 65)", fontFamily: "var(--font-body)" }}
-            >
-              Follow us on Instagram for real-time event announcements, class updates, and behind-the-scenes dance moments.
+      {/* ===== CTA ===== */}
+      <section className="diagonal-top bg-charcoal-light py-20 md:py-28">
+        <div className="container max-w-3xl text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <p className="text-amber tracking-[0.2em] uppercase text-sm font-medium mb-3">
+              Stay in the Loop
             </p>
-            <a
-              href="https://www.instagram.com/sbsbz/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all hover:scale-105"
-              style={{
-                background: "oklch(0.62 0.19 22)",
-                color: "white",
-                fontFamily: "var(--font-body)",
-              }}
-            >
-              <Instagram size={16} />
-              Follow @sbsbz
-            </a>
-          </RevealSection>
+            <h2 className="font-display text-3xl md:text-4xl text-cream mb-4">
+              Don&apos;t Miss a Beat
+            </h2>
+            <p className="text-cream/60 text-lg mb-8 max-w-xl mx-auto">
+              Follow us on Instagram for event announcements, class updates, and
+              behind-the-scenes moments from the SBSBZ community.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href="https://www.instagram.com/stanford_bachata_sensual_zouk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-amber text-charcoal hover:bg-amber-light font-semibold tracking-wide px-8">
+                  Follow on Instagram
+                </Button>
+              </a>
+              <Link href="/join">
+                <Button
+                  variant="outline"
+                  className="border-amber/40 text-amber hover:bg-amber/10 font-semibold tracking-wide px-8"
+                >
+                  Join the Community <ArrowRight size={16} className="ml-2" />
+                </Button>
+              </Link>
+            </div>
+          </motion.div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }
