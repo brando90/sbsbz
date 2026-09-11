@@ -18,27 +18,27 @@ const fadeUp = {
   }),
 };
 
-/* Real SBSBZ photos from Google Drive */
+/* Local club photos; sources and recovery notes are in docs/photos.md. */
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-collage_6573bfed.png";
+  import.meta.env.BASE_URL + "photos/zouk-stanford.webp";
 const COMMUNITY_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/zouk-shirt-fun_5702e906.png";
+  import.meta.env.BASE_URL + "photos/zouk-shirt-fun.webp";
 const CLASSES_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-post5_485f39af.jpg";
+  import.meta.env.BASE_URL + "photos/natalia-teaching-class.jpg";
 const ZOUK_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
+  import.meta.env.BASE_URL + "photos/natalia-teaching-class.jpg";
 const INSTRUCTORS_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202026-02-05%20at%2010.34.47%20PM_10db0395.jpeg";
+  import.meta.env.BASE_URL + "photos/instructors.jpg";
 
 /* Instructor bio card images */
 const BRANDO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-zouk-teacher_43076681.png";
+  import.meta.env.BASE_URL + "photos/brando-zouk-teacher.jpg";
 const FONTAINE_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-fontaine_c3ea7eb9.jpg";
+  import.meta.env.BASE_URL + "photos/fontaine.jpg";
 const NATALIA_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-04%20at%2010.00.16%20AM_d3085849.jpeg";
+  import.meta.env.BASE_URL + "photos/natalia.jpg";
 const KRISS_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/WhatsApp%20Image%202025-12-11%20at%2010.48.57%20AM_9686d3fc.jpeg";
+  import.meta.env.BASE_URL + "photos/kriss.jpg";
 
 const instructors = [
   {
@@ -77,7 +77,7 @@ export default function Home() {
           <SiteImage
             src={HERO_IMG}
             fallbackLabel=""
-            alt="SBSBZ members dancing Bachata at a social"
+            alt="SBSBZ members dancing Zouk at a social"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
@@ -247,7 +247,7 @@ export default function Home() {
               <div className="relative rounded-lg overflow-hidden">
                 <SiteImage
                   src={COMMUNITY_IMG}
-                  alt="SBSBZ members at the Chicago Salsa & Bachata Festival"
+                  alt="SBSBZ members posing together in the dance studio"
                   className="w-full h-[400px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent" />
@@ -391,7 +391,7 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <SiteImage
                   src={CLASSES_IMG}
-                  alt="SBSBZ members dancing at a social"
+                  alt="SBSBZ members practicing partner dance in class"
                   className="w-full h-[400px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-l from-charcoal/30 to-transparent" />
@@ -484,7 +484,7 @@ export default function Home() {
       <section className="relative h-[40vh] md:h-[50vh] overflow-hidden">
         <SiteImage
           src={ZOUK_IMG}
-          alt="SBSBZ members dancing Brazilian Zouk"
+          alt="SBSBZ dancers practicing in the studio"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/40" />

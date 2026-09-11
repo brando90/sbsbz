@@ -28,7 +28,7 @@ const fadeUp = {
 
 /* Social dance floor photo from IG */
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/ig-zouk-stanford_558433f0.jpg";
+  import.meta.env.BASE_URL + "photos/zouk-stanford.webp";
 
 export default function Events() {
   return (

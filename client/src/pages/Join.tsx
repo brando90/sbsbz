@@ -24,7 +24,7 @@ const fadeUp = {
 };
 
 const HERO_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/community-social_87318cd8.jpg";
+  import.meta.env.BASE_URL + "photos/community-recap.jpg";
 
 const steps = [
   {

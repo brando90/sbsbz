@@ -39,6 +39,6 @@ The September 11, 2026 consolidation keeps the newer design from `sbsbz-web` and
 
 ## Photos
 
-The original external photo host returned HTTP 403 (access denied) for all 19 current photo addresses on September 11, 2026. Pages preserve those addresses and descriptions and display branded fallbacks when a photo fails, rather than broken-image icons. These fallbacks are not replacement photographs.
+The website now stores 13 recovered photographs in `client/public/photos/`, restoring 18 image placements across all five pages. Images publish with the site and no longer rely on the original host, which returned access-denied errors. Three officer portraits (Elizabeth, Nick, and Lorena) still need their original uploads and currently show initials.
 
-To restore a photo permanently, put the original image in `client/public/photos/` and use `import.meta.env.BASE_URL + "photos/filename.jpg"` for its page reference. This serves it from the same host as the website. Existing photos are not stored in either repository's history.
+See [photo sources and recovery notes](docs/photos.md) for original Drive and Instagram sources, reused club pictures, and the missing filenames. Use `import.meta.env.BASE_URL + "photos/filename.jpg"` when adding another saved photo so it works on GitHub Pages and on a future custom domain.
