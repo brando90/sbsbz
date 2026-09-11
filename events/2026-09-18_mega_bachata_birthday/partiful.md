@@ -7,7 +7,7 @@
 | Field | Value |
 |---|---|
 | Event link | https://partiful.com/e/ohtSD9MnHe6u71JQx60X |
-| Title | MEGA BACHATA — Brando’s Belated Birthday |
+| Title | MEGA BACHATA PARTY — Brando’s Belated Birthday |
 | Host | Brando / Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) |
 | Start | Friday, September 18, 2026, 8:00 PM |
 | End | Saturday, September 19, 2026, 1:00 AM |
@@ -18,7 +18,7 @@
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
 | Current live cover | assets/mega_bachata_flyer_draft_v4.png |
-| Proposed replacement cover | assets/mega_bachata_trees_review_v9.png |
+| Proposed replacement cover | assets/mega_bachata_party_trees_review_v10.png |
 | Replacement status | Code verified; final approval pending |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |

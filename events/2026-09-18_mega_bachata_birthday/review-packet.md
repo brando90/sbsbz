@@ -1,14 +1,14 @@
-# Complete review — MEGA BACHATA, September 18, 2026
+# Complete review — MEGA BACHATA PARTY, September 18, 2026
 
 **TLDR:** Review every guest-facing item below. Nothing has been sent; Brando will send the email and WhatsApp himself. Live Partiful refinements and the Linktree correction remain pending final approval.
 
-## Current flyer — version 9, verified event code
+## Current flyer — version 10, verified event code
 
-[Open or download the current flyer](https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view).
+[Open or download the current flyer](https://drive.google.com/file/d/1w3JAgQXNQ1TkUKZWDBVzOLuvfrJqK6hh/view).
 
 The class and taco icons are restored, the food, venue, address and code share one centerline, with equal divider lengths, gaps and margins, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and prepared Partiful description. Final approval is still pending.
 
-![Current version-9 tree flyer](assets/mega_bachata_trees_review_v9.png)
+![Current version-10 tree flyer](assets/mega_bachata_party_trees_review_v10.png)
 
 ## Event facts and exact destinations
 
@@ -36,7 +36,7 @@ The class and taco icons are restored, the food, venue, address and code share o
 After final approval, attach the approved tree flyer and use this message:
 
 ```text
-🎉 *MEGA BACHATA — my belated birthday party!*
+🎉 *MEGA BACHATA PARTY — my belated birthday!*
 
 It’s my second-to-last social before graduating, and I’d love to dance with you! 💃
 
@@ -60,14 +60,14 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 ## Email — exact subject and body
 
-Subject: FREE MEGA BACHATA 🎉 Brando’s birthday social · Friday, September 18
+Subject: FREE MEGA BACHATA PARTY 🎉 Brando’s birthday social · Friday, September 18
 
-Attachment: version-9 tree flyer with verified Partiful code. The portable unsent email contains this exact image; sending awaits final approval.
+Attachment: version-10 tree flyer with verified Partiful code. The portable unsent email contains this exact image; sending awaits final approval.
 
 ```text
 Hi everyone!
 
-I’m celebrating my belated birthday with a MEGA BACHATA night, and you’re invited! This is my second-to-last social before graduating, so I’d love to see familiar faces and meet new ones on the dance floor.
+I’m celebrating my belated birthday with a MEGA BACHATA PARTY, and you’re invited! This is my second-to-last social before graduating, so I’d love to see familiar faces and meet new ones on the dance floor.
 
 Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on Friday, September 18, 2026:
 
@@ -98,12 +98,16 @@ brando9@stanford.edu
 website: https://brando90.github.io/brandomiranda/
 ```
 
+## Slack and Discord — manual-post drafts
+
+Copy the platform-formatted message from [slack.md](slack.md) or [discord.md](discord.md) after final approval. Both include the confirmed event facts, map, website, Linktree and existing Partiful link. Brando selects the destination channel and posts himself; neither message has been sent.
+
 ## Partiful — exact description
 
-Title: MEGA BACHATA — Brando’s Belated Birthday
+Title: MEGA BACHATA PARTY — Brando’s Belated Birthday
 Start: September 18, 2026, 8:00 PM. End: September 19, 2026, 1:00 AM. Timezone: America/Los_Angeles.
 Location field: Hacienda Commons at Rains, 796 Escondido Rd, Stanford, CA 94305.
-Proposed cover: version-9 tree flyer with verified Partiful code, awaiting final approval. Keep existing privacy settings. Do not create a duplicate event or send invitations.
+Proposed cover: version-10 tree flyer with verified Partiful code, awaiting final approval. Keep existing privacy settings. Do not create a duplicate event or send invitations.
 
 ```text
 A belated birthday. A big bachata night. One more dance before graduation. 💃🎉

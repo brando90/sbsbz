@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** Version 9 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
+**TLDR:** Version 10 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
 
 Checked September 11, 2026.
 
@@ -99,3 +99,9 @@ Geometry: food group x=190.194…833.806, with paired 110.194-pixel lines and 24
 Current asset: assets/mega_bachata_trees_review_v9.png; 2,199,807 bytes; SHA-256 (file checksum): 9ffb27534b1c1360c40eb1965d88f0e88a6a45ca412253060ac94fe6e6b46c2d. Native Apple Vision successfully decoded the actual flyer at 1024 × 1728, 768 × 1296 and 512 × 864. Every result was exactly https://partiful.com/e/ohtSD9MnHe6u71JQx60X . The actual rendered image was visually inspected for text, icon retention, spacing and line balance.
 
 Drive metadata readback reports the same 2,199,807 bytes and the correct event-folder parent: https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view . Version 8 is renamed archival. The unsent email attachment is replaced with these exact bytes, its body matches email.md, and all messages retain the current links and facts. No live Partiful/profile changes or announcements were made. Final approval remains pending.
+
+## Version 10 — MEGA BACHATA PARTY title
+
+Checked 2026-09-11T14:14:01-07:00. User explicitly added PARTY to the event title. The built-in image editor produced the three-line MEGA / BACHATA / PARTY heading. Its headline patch was normalized to the existing canvas and composited above row 418; the original lower artwork, centered footer, icons and functional party code remain unchanged. Visual inspection confirms all three title words, birthday subtitle, organization spelling, facts and symmetry. Native Apple Vision decodes the exact event URL at 1024 × 1728, 768 × 1296 and 512 × 864.
+
+Current image: assets/mega_bachata_party_trees_review_v10.png; 2,205,117 bytes; SHA-256 (file checksum): 2b32c304328f8167c9cddc0c926b4f8d1c7e4404abed4326fb78c06691626428. Current Drive: https://drive.google.com/file/d/1w3JAgQXNQ1TkUKZWDBVzOLuvfrJqK6hh/view. Version 9 is archival. All current titles and email subject/body were updated. Saved Slack and Discord variants each provide one complete code block. The portable email remains unsent with its exact current image attached. Live Partiful title/cover/description changes remain pending user approval.

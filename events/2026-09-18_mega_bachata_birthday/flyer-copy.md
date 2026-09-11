@@ -1,8 +1,8 @@
 # Flyer copy — clean tree layout
 
-**TLDR:** Version 9 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The embedded code passes scan checks; final approval is pending.
+**TLDR:** Version 10 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The embedded code passes scan checks; final approval is pending.
 
-MEGA BACHATA
+MEGA BACHATA PARTY
 BRANDO’S BELATED BIRTHDAY
 [Dancing Stanford tree mascots]
 FRIDAY, SEPTEMBER 18

@@ -69,3 +69,7 @@ The later user attachment exec-91bfb7f1-b9b0-4b04-b86e-2c31cab1d502.png exactly 
 ## Version 9 — user-requested full symmetry
 
 The user requested a written requirements checklist and a real symmetry fix. The prior image still had a left-hand venue and right-hand code. Version 9 centers the food, venue, address, code and club signature; rule lengths and gaps are matched. Original art and icons are preserved via authorized local compositing. Current asset: assets/mega_bachata_trees_review_v9.png; current Drive: https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view. No sending or live-page approval was granted.
+
+## Version 10 — corrected title
+
+The user explicitly changed the event title to MEGA BACHATA PARTY. Current flyer: assets/mega_bachata_party_trees_review_v10.png; https://drive.google.com/file/d/1w3JAgQXNQ1TkUKZWDBVzOLuvfrJqK6hh/view. Current copy and prepared Partiful title follow that exact title. Historical images and prompts preserve earlier wording for provenance. No live event/profile edits or sends occurred.

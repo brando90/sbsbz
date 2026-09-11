@@ -1,11 +1,11 @@
 # Complete event-promotion request checklist
 
-**TLDR:** Version 9 finalizes the centered tree flyer; all invitation copy, prompts and source assets are saved for reuse. Public-page changes and sending still await Brando’s final approval, and he prefers to send messages himself.
+**TLDR:** Version 10 finalizes the centered tree flyer; all invitation copy, prompts and source assets are saved for reuse. Public-page changes and sending still await Brando’s final approval, and he prefers to send messages himself.
 
 ## Flyer requirements — completed
 
 - [x] Use Stanford Bachata Sensual & Brazilian Zouk branding and the supplied dancing Stanford tree characters; no human dancers.
-- [x] Put MEGA BACHATA at the top, trees beneath, and Brando’s belated birthday subtitle.
+- [x] Put MEGA BACHATA PARTY at the top, trees beneath, and Brando’s belated birthday subtitle.
 - [x] Show Friday, September 18; omit the year from the flyer.
 - [x] Match the prominence of CLASS 8–9 PM and SOCIAL 9 PM–1 AM.
 - [x] Credit the all-levels class to Brando, Sarika & Sophia; Nick plays all night.
@@ -40,4 +40,4 @@ Linktree: https://linktr.ee/ultimate_brando9
 Party: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 Map: https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8
 
-Provenance: the user’s requests in this task; original tree image saved as assets/source_dancing_stanford_trees.png. Current flyer: assets/mega_bachata_trees_review_v9.png. Older two-column-footer versions are archival.
+Provenance: the user’s requests in this task; original tree image saved as assets/source_dancing_stanford_trees.png. Current flyer: assets/mega_bachata_party_trees_review_v10.png. Older two-column-footer versions are archival.

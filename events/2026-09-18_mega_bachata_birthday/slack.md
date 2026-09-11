@@ -1,14 +1,13 @@
-# WhatsApp announcement
+# Slack announcement
 
-**TLDR:** Ready-to-review message for Brando to send himself to the main club group; not sent. Attach the current dancing-trees flyer.
+**TLDR:** Ready-to-review message for Brando to post himself after final approval; not sent. Attach the approved dancing-trees flyer to the selected channel.
 
----
-
+```text
 🎉 *MEGA BACHATA PARTY — my belated birthday!*
 
 It’s my second-to-last social before graduating, and I’d love to dance with you! 💃
 
-*Friday, September 18 · FREE ENTRY*
+*Friday, September 18, 2026 · FREE ENTRY*
 🕗 All-levels class with *Brando, Sarika & Sophia*: *8–9 PM*
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
 🌮 FREE tacos by Chuy around 10 PM—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
@@ -24,3 +23,4 @@ Website: https://brando90.github.io/sbsbz/
 Linktree: https://linktr.ee/ultimate_brando9
 — Brando
 Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
+```
