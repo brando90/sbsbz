@@ -1,13 +1,39 @@
 {
-  "checked_at": "2026-09-11T14:16:42-07:00",
+  "checked_at": "2026-09-11T14:24:45-07:00",
   "repository": "https://github.com/brando90/sbsbz",
   "branch": "codex/mega-bachata-birthday-2026-09-18",
-  "verified_asset_commit": "0b1ce6f211f5a408ec72cf2efe1ab30f319518b8",
+  "verified_asset_commit": "1daf4ab9debd2d7ccbf6b45457a751a6835c96c0",
   "drive_folder": "https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo",
   "assets": [
     {
+      "version": 11,
+      "status": "CURRENT_REVIEW_COMMA_FIXED",
+      "asset": "assets/mega_bachata_party_trees_review_v11.png",
+      "bytes": 2205113,
+      "sha256": "5ed523e8be4534cd9eb389fc2ebdb83dbc83e5cabe0151f94be2218c02a01a76",
+      "drive_url": "https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view",
+      "github_url": "https://github.com/brando90/sbsbz/blob/1daf4ab9debd2d7ccbf6b45457a751a6835c96c0/events/2026-09-18_mega_bachata_birthday/assets/mega_bachata_party_trees_review_v11.png",
+      "git_bytes_match_local": true,
+      "drive_verification": "uploaded source file; metadata readback checked after upload",
+      "dimensions": [
+        1024,
+        1728
+      ],
+      "qr_decoded_at_widths": [
+        1024,
+        768,
+        512
+      ],
+      "changed_pixel_bounds": [
+        640,
+        1004,
+        646,
+        1016
+      ]
+    },
+    {
       "version": 10,
-      "status": "CURRENT_REVIEW_TITLE_UPDATED",
+      "status": "ARCHIVE_BEFORE_COMMA_FIX",
       "asset": "assets/mega_bachata_party_trees_review_v10.png",
       "bytes": 2205117,
       "sha256": "2b32c304328f8167c9cddc0c926b4f8d1c7e4404abed4326fb78c06691626428",
