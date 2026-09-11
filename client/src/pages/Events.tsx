@@ -1,7 +1,7 @@
 import SiteImage from "@/components/SiteImage";
 /*
  * Design: Warm Nocturne — Intimate Evening Social Aesthetic
- * Events: Upcoming events and Friday Night Social.
+ * Events: Upcoming events and the featured social.
  */
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -11,7 +11,7 @@ import {
   MapPin,
   ArrowRight,
   Music,
-  Pizza,
+  Utensils,
   Users,
   DollarSign,
 } from "lucide-react";
@@ -27,8 +27,7 @@ const fadeUp = {
 };
 
 /* Social dance floor photo from IG */
-const HERO_IMG =
-  import.meta.env.BASE_URL + "photos/zouk-stanford.webp";
+const HERO_IMG = import.meta.env.BASE_URL + "photos/zouk-stanford.webp";
 
 export default function Events() {
   return (
@@ -73,7 +72,7 @@ export default function Events() {
         </div>
       </section>
 
-      {/* ===== FRIDAY NIGHT SOCIAL — FEATURED ===== */}
+      {/* ===== MEGA BACHATA PARTY — FEATURED ===== */}
       <section className="py-20 md:py-28 bg-charcoal">
         <div className="container max-w-4xl">
           <motion.div
@@ -94,8 +93,12 @@ export default function Events() {
               custom={1}
               className="font-display text-3xl md:text-5xl text-cream"
             >
-              Friday Night
+              Mega Bachata Party
             </motion.h2>
+            <p className="text-cream/70 mt-4">
+              A belated birthday. A big bachata night. One more dance before
+              graduation.
+            </p>
           </motion.div>
 
           <motion.div
@@ -105,58 +108,51 @@ export default function Events() {
             transition={{ duration: 0.7 }}
             className="bg-gradient-to-br from-charcoal-light to-charcoal border border-amber/20 rounded-2xl overflow-hidden"
           >
+            <div className="p-6 md:p-10 pb-0 md:pb-0 flex flex-wrap justify-center gap-x-6 gap-y-3 text-cream/80 text-sm">
+              <span className="flex items-center gap-2">
+                <Calendar size={16} className="text-amber" /> Friday, September
+                18, 2026
+              </span>
+              <span className="flex items-center gap-2">
+                <Clock size={16} className="text-amber" /> 8 PM – 1 AM
+              </span>
+              <span className="flex items-center gap-2">
+                <MapPin size={16} className="text-amber" /> Hacienda Commons at
+                Rains
+              </span>
+            </div>
+            <p className="px-6 pt-4 text-center text-cream/70 text-sm">
+              <a
+                href="https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 hover:text-amber"
+              >
+                796 Escondido Rd, Stanford, CA 94305 · Get Directions
+              </a>
+            </p>
             {/* Schedule cards */}
             <div className="p-6 md:p-10 space-y-5">
               {/* Bachata Class */}
               <div className="flex items-center gap-4 md:gap-6 bg-charcoal/60 border border-border/30 rounded-xl p-4 md:p-5">
                 <div className="text-center flex-shrink-0 w-20">
                   <p className="text-amber font-display text-xl md:text-2xl">
-                    7 – 8 PM
+                    8 – 9 PM
                   </p>
                   <p className="text-amber/60 text-[10px] uppercase tracking-widest mt-0.5">
-                    Bachata Class
+                    All-Levels Class
                   </p>
                 </div>
                 <div className="w-px h-12 bg-amber/30" />
                 <div>
                   <h3 className="text-cream font-display text-lg md:text-xl">
-                    Bachata <span className="text-amber">Class</span>
+                    All-Levels <span className="text-amber">Bachata Class</span>
                   </h3>
                   <p className="text-cream/60 text-sm">
                     with{" "}
                     <span className="text-amber/80 font-medium">
-                      Brando &amp; Elisabeth
+                      Brando, Sarika, &amp; Sophia
                     </span>
-                  </p>
-                  <p className="text-cream/40 text-xs flex items-center gap-1 mt-1">
-                    <MapPin size={12} /> Hacienda Commons
-                  </p>
-                </div>
-              </div>
-
-              {/* Zouk Class */}
-              <div className="flex items-center gap-4 md:gap-6 bg-charcoal/60 border border-border/30 rounded-xl p-4 md:p-5">
-                <div className="text-center flex-shrink-0 w-20">
-                  <p className="text-amber font-display text-xl md:text-2xl">
-                    7 – 8 PM
-                  </p>
-                  <p className="text-amber/60 text-[10px] uppercase tracking-widest mt-0.5">
-                    Zouk Class
-                  </p>
-                </div>
-                <div className="w-px h-12 bg-amber/30" />
-                <div>
-                  <h3 className="text-cream font-display text-lg md:text-xl">
-                    Zouk <span className="text-amber">Class</span>
-                  </h3>
-                  <p className="text-cream/60 text-sm">
-                    with{" "}
-                    <span className="text-amber/80 font-medium">
-                      Marcos &amp; Partner
-                    </span>
-                  </p>
-                  <p className="text-cream/40 text-xs flex items-center gap-1 mt-1">
-                    <MapPin size={12} /> Willis&apos;s
                   </p>
                 </div>
               </div>
@@ -165,7 +161,7 @@ export default function Events() {
               <div className="flex items-center gap-4 md:gap-6 bg-charcoal/60 border border-amber/20 rounded-xl p-4 md:p-5">
                 <div className="text-center flex-shrink-0 w-20">
                   <p className="text-amber font-display text-xl md:text-2xl">
-                    8 – 12 AM
+                    9 PM – 1 AM
                   </p>
                   <p className="text-amber/60 text-[10px] uppercase tracking-widest mt-0.5">
                     Open Social
@@ -177,7 +173,8 @@ export default function Events() {
                     Social <span className="italic text-amber">Night</span>
                   </h3>
                   <p className="text-cream/60 text-sm flex items-center gap-1">
-                    <Music size={14} className="text-amber/70" /> DJ Whoman
+                    <Music size={14} className="text-amber/70" /> DJ Nick — all
+                    night
                   </p>
                 </div>
               </div>
@@ -185,9 +182,9 @@ export default function Events() {
               {/* Perks row */}
               <div className="flex flex-wrap justify-center gap-4 pt-4">
                 <div className="flex items-center gap-2 bg-amber/10 rounded-full px-4 py-2">
-                  <Pizza size={16} className="text-amber" />
+                  <Utensils size={16} className="text-amber" />
                   <span className="text-cream text-sm font-medium">
-                    Free Pizza
+                    Chuy’s tacos expected around 10 PM
                   </span>
                 </div>
                 <div className="flex items-center gap-2 bg-amber/10 rounded-full px-4 py-2">
@@ -201,17 +198,28 @@ export default function Events() {
               {/* Pricing */}
               <div className="flex flex-wrap justify-center items-center gap-3 pt-2">
                 <span className="bg-amber/20 text-amber font-semibold text-sm px-4 py-1.5 rounded-full flex items-center gap-1.5">
-                  <DollarSign size={14} /> Free for Stanford
-                </span>
-                <span className="text-cream/40 text-sm">•</span>
-                <span className="bg-charcoal-light text-cream/70 font-medium text-sm px-4 py-1.5 rounded-full border border-border/30">
-                  $10 Non-Stanford
+                  <DollarSign size={14} /> Free Entry
                 </span>
               </div>
 
-              <p className="text-center text-cream/40 text-xs tracking-[0.15em] uppercase pt-2">
-                All Levels Welcome
+              <p className="text-center text-cream/60 text-sm pt-2">
+                All levels welcome. Come solo or bring friends!
               </p>
+              <div className="text-center pt-4">
+                <a
+                  href="https://partiful.com/e/ohtSD9MnHe6u71JQx60X"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-amber text-charcoal hover:bg-amber-light font-semibold px-8">
+                    Save Your Spot on Partiful{" "}
+                    <ArrowRight size={16} className="ml-2" />
+                  </Button>
+                </a>
+                <p className="text-cream/50 text-xs mt-3">
+                  Check Partiful for the latest event updates.
+                </p>
+              </div>
             </div>
           </motion.div>
         </div>

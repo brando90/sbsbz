@@ -19,26 +19,18 @@ const fadeUp = {
 };
 
 /* Local club photos; sources and recovery notes are in docs/photos.md. */
-const HERO_IMG =
-  import.meta.env.BASE_URL + "photos/zouk-stanford.webp";
-const COMMUNITY_IMG =
-  import.meta.env.BASE_URL + "photos/zouk-shirt-fun.webp";
+const HERO_IMG = import.meta.env.BASE_URL + "photos/zouk-stanford.webp";
+const COMMUNITY_IMG = import.meta.env.BASE_URL + "photos/zouk-shirt-fun.webp";
 const CLASSES_IMG =
   import.meta.env.BASE_URL + "photos/natalia-teaching-class.jpg";
-const ZOUK_IMG =
-  import.meta.env.BASE_URL + "photos/natalia-teaching-class.jpg";
-const INSTRUCTORS_IMG =
-  import.meta.env.BASE_URL + "photos/instructors.jpg";
+const ZOUK_IMG = import.meta.env.BASE_URL + "photos/natalia-teaching-class.jpg";
+const INSTRUCTORS_IMG = import.meta.env.BASE_URL + "photos/instructors.jpg";
 
 /* Instructor bio card images */
-const BRANDO_IMG =
-  import.meta.env.BASE_URL + "photos/brando-zouk-teacher.jpg";
-const FONTAINE_IMG =
-  import.meta.env.BASE_URL + "photos/fontaine.jpg";
-const NATALIA_IMG =
-  import.meta.env.BASE_URL + "photos/natalia.jpg";
-const KRISS_IMG =
-  import.meta.env.BASE_URL + "photos/kriss.jpg";
+const BRANDO_IMG = import.meta.env.BASE_URL + "photos/brando-zouk-teacher.jpg";
+const FONTAINE_IMG = import.meta.env.BASE_URL + "photos/fontaine.jpg";
+const NATALIA_IMG = import.meta.env.BASE_URL + "photos/natalia.jpg";
+const KRISS_IMG = import.meta.env.BASE_URL + "photos/kriss.jpg";
 
 const instructors = [
   {
@@ -208,7 +200,7 @@ export default function Home() {
               {
                 icon: Calendar,
                 title: "Weekly Classes",
-                desc: "Zouk Wednesdays 7:30 PM, Bachata Thursdays 7 PM. Free for Stanford affiliates. Social dancing after every class.",
+                desc: "Next quarter: Thursday Bachata 7–10 PM — beginner, intermediate, then social. Zouk Wednesdays at 7:30 PM. Free for Stanford affiliates.",
               },
             ].map((item, i) => (
               <motion.div
@@ -355,13 +347,13 @@ export default function Home() {
                     time: "7:30–8:45 PM + Social 8:45–10:30 PM",
                   },
                   {
-                    label: "Thursday — Bachata Sensual",
-                    time: "7:00–9:00 PM + Social 9:00–10:00 PM",
+                    label: "Thursday — Bachata (Next Quarter)",
+                    time: "Beginner 7–8 PM · Intermediate 8–9 PM · Social 9–10 PM",
                   },
                 ].map(cls => (
                   <div
                     key={cls.label}
-                    className="flex items-center justify-between border-b border-border/30 pb-3"
+                    className="flex flex-col gap-1 border-b border-border/30 pb-3"
                   >
                     <span className="text-cream/90 font-medium">
                       {cls.label}

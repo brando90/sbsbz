@@ -1,7 +1,7 @@
 import SiteImage from "@/components/SiteImage";
 /*
  * Design: Warm Nocturne — Intimate Evening Social Aesthetic
- * Classes: Real schedule from SBSBZ flyers, class descriptions, and FAQ.
+ * Classes: Weekly schedule, class descriptions, and common questions.
  */
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -17,8 +17,7 @@ const fadeUp = {
   }),
 };
 
-const CLASSES_IMG =
-  import.meta.env.BASE_URL + "photos/class-social.jpg";
+const CLASSES_IMG = import.meta.env.BASE_URL + "photos/class-social.jpg";
 
 const schedule = [
   {
@@ -43,15 +42,23 @@ const schedule = [
     ],
   },
   {
-    day: "Thursday",
+    day: "Thursday — Next Quarter",
     classes: [
       {
-        name: "Bachata Sensual",
-        time: "7:00 – 9:00 PM",
+        name: "Beginner Bachata Sensual",
+        time: "7:00 – 8:00 PM",
         location: "EVGR C Dance Studio",
-        level: "All Levels",
+        level: "Beginner",
         instructors: "Kriss & Natalia / Brando & Elisabeth",
-        desc: "Learn the fundamentals of Bachata Sensual — from zero to Bachata hero! Connection, body waves, and lead/follow principles.",
+        desc: "Start with the fundamentals of Bachata Sensual: connection, basic steps, and lead/follow principles. No prior experience needed.",
+      },
+      {
+        name: "Intermediate Bachata Sensual",
+        time: "8:00 – 9:00 PM",
+        location: "EVGR C Dance Studio",
+        level: "Intermediate",
+        instructors: "Kriss & Natalia / Brando & Elisabeth",
+        desc: "Build on your foundations with more detailed technique, body movement, and musicality.",
       },
       {
         name: "Bachata Social",
@@ -72,7 +79,7 @@ const faqs = [
   },
   {
     q: "Do I need dance experience?",
-    a: "Not at all. Our classes go from zero to hero — many of our members had zero dance experience when they joined.",
+    a: "Our beginner class welcomes complete beginners. The intermediate class builds on the basics, and everyone is welcome at the social afterward.",
   },
   {
     q: "What should I wear?",
@@ -125,7 +132,7 @@ export default function Classes() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-cream/70 text-lg max-w-2xl mx-auto"
           >
-            Weekly classes for all levels. No partner or experience required.
+            Weekly classes for all levels. No partner needed; beginners welcome.
             Free for Stanford affiliates.
           </motion.p>
         </div>
