@@ -19,6 +19,7 @@ Open the local address printed by the development server. Edit pages in `client/
 
 ```sh
 npx --yes pnpm@10.4.1 check
+node --test scripts/check-photos.test.mjs
 npx --yes pnpm@10.4.1 build:pages
 ```
 
@@ -42,3 +43,7 @@ The September 11, 2026 consolidation keeps the newer design from `sbsbz-web` and
 The website now stores 13 recovered photographs in `client/public/photos/`, restoring 18 image placements across all five pages. Images publish with the site and no longer rely on the original host, which returned access-denied errors. Three officer portraits (Elizabeth, Nick, and Lorena) still need their original uploads and currently show initials.
 
 See [photo sources and recovery notes](docs/photos.md) for original Drive and Instagram sources, reused club pictures, and the missing filenames. Use `import.meta.env.BASE_URL + "photos/filename.jpg"` when adding another saved photo so it works on GitHub Pages and on a future custom domain.
+
+**Permanent storage rule:** Every photograph used by the website must be committed to this repository in the same change as its page reference. Google Drive is an intake/source archive; the deployed website must load the saved repository files. Do not use temporary local paths or external photo-host addresses for published images.
+
+Before committing a new photograph, stage it with `git add client/public/photos/filename.jpg` and run `npx --yes pnpm@10.4.1 check:photos`. The production build runs this check automatically: it rejects missing, empty, untracked, or symlinked photo files, checks literal photo references and remote raster-image addresses in page source, and verifies that every photo is copied unchanged into the published output. A failed build stops deployment, leaving the last successful website online. Build from a Git clone so tracking can be verified.

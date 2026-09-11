@@ -1,8 +1,10 @@
 import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { spawnSync } from "node:child_process";
+import { checkPhotoSources, checkPhotoOutput } from "./check-photos.mjs";
 
 const root = resolve(import.meta.dirname, "..");
+const photos = checkPhotoSources(root);
 const build = spawnSync(process.execPath, [
   resolve(root, "node_modules/vite/bin/vite.js"),
   "build", "--base", process.env.PAGES_BASE || "/sbsbz/",
@@ -18,3 +20,4 @@ for (const route of ["about", "classes", "events", "join", "404"]) {
 copyFileSync(resolve(output, "index.html"), resolve(output, "404.html"));
 writeFileSync(resolve(output, ".nojekyll"), "");
 rmSync(resolve(output, "__manus__"), { recursive: true, force: true });
+checkPhotoOutput(root, photos);
