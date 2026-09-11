@@ -1,6 +1,6 @@
 # Complete event-promotion request checklist
 
-**TLDR:** Version 11 finalizes the centered tree flyer; all invitation copy, prompts and source assets are saved for reuse. The version-11 Partiful cover is approved and applied; other page changes and sending still await Brando’s final approval, and he prefers to send messages himself.
+**TLDR:** Version 11 finalizes the centered tree flyer, and the Partiful cover, full birthday title, location and description are approved and live. All invitation copy and reusable prompts are saved for manual sending; the separate Linktree website-button correction remains pending.
 
 ## Flyer requirements — completed
 
@@ -28,11 +28,11 @@
 - [x] Save source art, current flyer, prior versions, invitation text, unsent email and package archive in the club Drive.
 - [x] Version the current assets and copy on the event GitHub branch.
 
-## Approval boundary — still pending
+## Publication and approval boundary
 
 - [ ] Brando’s final approval of the complete revised package.
 - [x] Apply the approved version-11 cover to the existing Partiful event and verify it on the saved page.
-- [ ] Apply venue, description and link refinements after approval; do not create a duplicate event.
+- [x] Apply the explicitly approved full birthday title, venue/address, description and link refinements to the existing Partiful event; verify the saved page.
 - [ ] Correct Linktree’s old club-website button after account sign-in and approval.
 - [ ] Brando manually sends the invitations, especially WhatsApp. Nothing has been sent by this task.
 

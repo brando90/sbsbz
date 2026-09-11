@@ -1,6 +1,6 @@
 # Flyer copy — clean tree layout
 
-**TLDR:** Version 11 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The embedded code passes scan checks, and this flyer is approved and live as the Partiful cover. Remaining package and sending approval is pending.
+**TLDR:** Version 11 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The code passes scan checks, and the flyer, title, location and description are approved and live on Partiful; automatic sending remains unapproved.
 
 MEGA BACHATA PARTY
 BRANDO’S BELATED BIRTHDAY

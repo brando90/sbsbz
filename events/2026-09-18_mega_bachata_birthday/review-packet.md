@@ -1,12 +1,12 @@
 # Complete review — MEGA BACHATA PARTY, September 18, 2026
 
-**TLDR:** Review every guest-facing item below. Nothing has been sent; Brando will send the email and WhatsApp himself. The version-11 Partiful cover is approved and live. Remaining Partiful field refinements and the Linktree correction remain pending final approval.
+**TLDR:** The version-11 Partiful cover, full birthday title, venue/address and description are approved and live. Nothing has been sent; Brando will send the messages himself, and the separate Linktree website-button correction remains pending approval.
 
 ## Current flyer — version 11, verified event code
 
 [Open or download the current flyer](https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view).
 
-The class and taco icons are restored, the food, venue, address and code share one centerline, with equal divider lengths, gaps and margins, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and prepared Partiful description. The cover is approved and live on Partiful; remaining package approval is pending.
+The class and taco icons are restored, the food, venue, address and code share one centerline, with equal divider lengths, gaps and margins, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and live Partiful description. The cover, full birthday title, location and description are approved and live on Partiful; automatic sending is not authorized.
 
 ![Current version-11 tree flyer](assets/mega_bachata_party_trees_review_v11.png)
 
@@ -188,13 +188,13 @@ Linktree: https://linktr.ee/ultimate_brando9
 Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 ```
 
-## Live-page changes awaiting approval
+## Live-page status
 
-- Existing Partiful: replace the location placeholder with the confirmed venue/address/map; apply the above description, which adds the taco endorsement, working website and Linktree. The approved version-11 cover is already live. No invitations or text blasts.
-- Linktree: change only the existing club-website button’s destination from https://sbsbz-dance.manus.space/ to https://brando90.github.io/sbsbz/ . Keep its title, order and other links. The editor currently requires account-owner sign-in.
+- Existing Partiful: the full birthday title, Hacienda Commons at Rains location/address, map and exact description above are saved and verified, including the taco endorsement, working website, Linktree and corrected instructor punctuation. The approved version-11 cover is live. No invitations or text blasts were sent.
+- Linktree, separately pending approval: change only the existing club-website button’s destination from https://sbsbz-dance.manus.space/ to https://brando90.github.io/sbsbz/ . Keep its title, order and other links. The editor currently requires account-owner sign-in.
 
 ## Saved reuse and execution prompts
 
-Use [the event-specific Manus prompt](https://drive.google.com/file/d/15QI7vES0_1Lc1L85jE2sJcT5yG2_Z_cu/view) for this event. The reusable prompt is also saved at the club Drive root: https://drive.google.com/file/d/1oKks-1m3EpuqhS7z87ekyq7dV2wi05Ek/view . Both default to preparation only and require approval before live edits; messages remain manual.
+Use [the event-specific Manus prompt](https://drive.google.com/file/d/15QI7vES0_1Lc1L85jE2sJcT5yG2_Z_cu/view) for this event. The reusable prompt is also saved at the club Drive root: https://drive.google.com/file/d/1oKks-1m3EpuqhS7z87ekyq7dV2wi05Ek/view . The event-specific prompt records Partiful as completed and requires approval for any additional live edits; both prompts keep messages manual.
 
 Address evidence: [Stanford’s Rains Hacienda map listing](https://vienneseball.stanford.edu/austria-fortnight), corroborated by [Waze’s named-place address](https://www.waze.com/live-map/directions/us/ca/stanford/rains,-hacienda-commons?to=place.ChIJTXKWqdy6j4ARfWdQmU-kWAY). The taco superlative is Brando’s personal endorsement.

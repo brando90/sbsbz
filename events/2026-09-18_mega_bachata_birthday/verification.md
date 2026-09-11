@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** Version 11 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; the version-11 Partiful cover is approved and live, while remaining field edits and sending remain pending.
+**TLDR:** Version 11 passes the visual, source-consistency and actual code-decoding checks, with a centered footer, matching dividers, retained icons and the exact Partiful event destination. The cover, full birthday title, location and description are now approved and verified live; no messages or invitations were sent.
 
 Checked September 11, 2026.
 
@@ -117,3 +117,17 @@ Current image: assets/mega_bachata_party_trees_review_v11.png; 1024 × 1728; 2,2
 Verified 2026-09-11T14:52:41-07:00. User request: “nice! Update the partiful fyler with this new flyer please”. Uploaded assets/mega_bachata_party_trees_review_v11.png through the existing event’s Edit → cover Edit → Upload image control. Waited for uploading to finish and selected Done. The saved page at https://partiful.com/e/ohtSD9MnHe6u71JQx60X visibly shows MEGA BACHATA PARTY, the dancing trees, centered footer and latest cover. Its observed cover image identifier changed from EU65vvxzSbrxDwnlrxALK to pWzE0ZFRLaiJtjH7LAh61. Source checksum and size match the version-11 manifest.
 
 Scope: cover replacement only. The existing title was already MEGA BACHATA PARTY before this operation. The saved page still shows No Location Set and the old description’s venue placeholder; those field edits remain pending. Privacy remains Private as observed in the editor. No invitations, text blasts, email or WhatsApp messages were sent. The cover-only approval does not mark the rest of the package approved.
+
+## Partiful title, location and description publication — explicitly authorized
+
+Verified 2026-09-11T15:07:59-07:00. User request: “the partiful text is outdated...look at flyer and conv and update the partiful...we are nearly done!” Updated the existing event through its browser editor and selected Done. Read back the saved event page at https://partiful.com/e/ohtSD9MnHe6u71JQx60X, outside the editor.
+
+- Title: MEGA BACHATA PARTY — Brando’s Belated Birthday.
+- Dedicated location: Hacienda Commons at Rains; selected search result 796 Escondido Rd, Stanford, CA, United States. The saved location button displays 796 Escondido Rd, Stanford, CA.
+- Description: exact copy from partiful.md, including ZIP 94305, confirmed map, free entry, class 8–9 PM with Brando, Sarika, & Sophia, social 9 PM–1 AM, Nick all night, free tacos by Chuy around 10 PM and Brando’s personal endorsement.
+- Live links: https://brando90.github.io/sbsbz/ and https://linktr.ee/ultimate_brando9 .
+- Cover retained: version 11; observed image identifier pWzE0ZFRLaiJtjH7LAh61. Source image bytes were unchanged.
+- Existing date/time retained: Friday, September 18, 8 PM through Saturday, September 19, 1 AM. Privacy was observed as Private in the editor and preserved.
+- No invitations, text blasts, email, WhatsApp, Slack or Discord posts were sent. The Linktree profile itself was not edited.
+
+This completed update supersedes the earlier historical notes that the live location was unset and description changes were pending. A separate read-only consistency check found the prepared copy consistent with the confirmed facts. The website-owning task was informed that the obsolete Partiful location placeholder has been removed.

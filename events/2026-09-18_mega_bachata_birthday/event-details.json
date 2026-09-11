@@ -24,7 +24,7 @@
   "email_from": "brandojazz@gmail.com",
   "email_to": "stanford_bachata_zouk@lists.stanford.edu",
   "email_copy": "brando.science@gmail.com",
-  "approval_status": "PENDING",
+  "approval_status": "PARTIFUL_APPROVED_OTHER_ACTIONS_PENDING",
   "send_mode": "USER_SENDS_MANUALLY",
   "email_sent": false,
   "whatsapp_sent": false,
@@ -73,7 +73,12 @@
   "partiful_cover_status": "APPLIED_VERIFIED",
   "partiful_cover_updated_at": "2026-09-11T14:52:41-07:00",
   "partiful_cover_observed_image_id": "pWzE0ZFRLaiJtjH7LAh61",
-  "partiful_live_title": "MEGA BACHATA PARTY",
-  "partiful_live_location_status": "NO_LOCATION_SET",
-  "partiful_other_field_updates": "PENDING_APPROVAL"
+  "partiful_live_title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
+  "partiful_live_location_status": "SET_VERIFIED",
+  "partiful_other_field_updates": "APPLIED_VERIFIED",
+  "partiful_details_verified_at": "2026-09-11T15:07:59-07:00",
+  "partiful_description_status": "APPLIED_VERIFIED",
+  "partiful_details_approval_status": "APPROVED",
+  "partiful_live_location": "Hacienda Commons at Rains",
+  "partiful_live_address": "796 Escondido Rd, Stanford, CA 94305"
 }

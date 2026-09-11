@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-11T14:52:41-07:00",
+  "checked_at": "2026-09-11T15:07:59-07:00",
   "repository": "https://github.com/brando90/sbsbz",
   "branch": "codex/mega-bachata-birthday-2026-09-18",
   "verified_asset_commit": "1daf4ab9debd2d7ccbf6b45457a751a6835c96c0",
@@ -94,11 +94,16 @@
       "drive_verification": "uploaded source file; size and parent folder read back"
     }
   ],
-  "approval_status": "PENDING",
+  "approval_status": "PARTIFUL_APPROVED_OTHER_ACTIONS_PENDING",
   "email_sent": false,
   "whatsapp_sent": false,
   "live_partiful_cover_version": 11,
   "partiful_cover_status": "APPLIED_VERIFIED",
   "partiful_cover_verified_at": "2026-09-11T14:52:41-07:00",
-  "partiful_cover_observed_image_id": "pWzE0ZFRLaiJtjH7LAh61"
+  "partiful_cover_observed_image_id": "pWzE0ZFRLaiJtjH7LAh61",
+  "partiful_details_status": "APPLIED_VERIFIED",
+  "partiful_details_verified_at": "2026-09-11T15:07:59-07:00",
+  "partiful_live_title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
+  "partiful_live_location": "Hacienda Commons at Rains",
+  "invitations_sent": false
 }

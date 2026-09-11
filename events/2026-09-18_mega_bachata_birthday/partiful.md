@@ -1,6 +1,6 @@
 # Partiful event
 
-**TLDR:** Current review copy for the existing event; reuse this event and the latest tree flyer. No invitations or text blasts are authorized.
+**TLDR:** The title, location, description and version-11 tree cover below are approved, saved and verified on the existing event. No invitations or text blasts are authorized.
 
 ## Event fields
 
@@ -54,4 +54,4 @@ Linktree: https://linktr.ee/ultimate_brando9
 
 ## Publication status
 
-The version-11 cover was explicitly approved and applied; the saved event page was visually verified. The September 11 location, taco wording and link refinements remain prepared for review. User will send announcements himself; all sends remain unapproved.
+The version-11 cover, full birthday title, dedicated Hacienda Commons at Rains location, address/map, taco wording, instructor punctuation, website and Linktree are approved, applied and verified on the saved event page. Verification recorded 2026-09-11T15:07:59-07:00. The description above matches the live description. Brando will send announcements himself; no invitations or text blasts were sent.
