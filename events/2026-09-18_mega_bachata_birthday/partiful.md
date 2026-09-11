@@ -17,7 +17,9 @@
 | Address | 796 Escondido Rd, Stanford, CA 94305 |
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
-| Cover | assets/mega_bachata_trees_review_v5.png |
+| Current live cover | assets/mega_bachata_flyer_draft_v4.png |
+| Latest layout preview — not ready to upload | assets/mega_bachata_trees_layout_v7_icons_code_pending.png |
+| Final replacement cover | Pending code repair, successful scan and final approval |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
 

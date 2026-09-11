@@ -1,25 +1,23 @@
-# Flyer copy
+# Flyer copy — clean tree layout
 
-**TLDR:** Current tree-flyer wording with confirmed venue, instructors, playful taco endorsement and correct club links; awaiting Brando’s final review.
+**TLDR:** The version-7 target places the title above the trees, uses matching class/social banners, and replaces printed links with one Linktree quick-response (QR) code. The current image is a layout preview: its embedded code needs repair and verification.
 
-SBSBZ PRESENTS
-STANFORD BACHATA SENSUAL & BRAZILIAN ZOUK
 MEGA BACHATA
 BRANDO’S BELATED BIRTHDAY
-His second-to-last social before graduating
+[Dancing Stanford tree mascots]
 FRIDAY, SEPTEMBER 18
-2026
+[Small gold graduation-cap icon] CLASS 8–9 PM
+ALL LEVELS · BRANDO, SARIKA & SOPHIA
 SOCIAL 9 PM–1 AM
-ALL-LEVELS CLASS 8–9 PM
-WITH BRANDO, SARIKA & SOPHIA
 DJ NICK ALL NIGHT
-TACOS BY CHUY • AROUND 10 PM
-BRANDO’S PICK: BEST TACOS IN THE BAY
-MEXICAN-APPROVED
-FREE ENTRY
-No partner needed • All levels welcome
+[Small gold taco icon] BEST TACOS IN TOWN · FREE
+FREE ENTRY · NO PARTNER NEEDED
 HACIENDA COMMONS · RAINS
 796 ESCONDIDO RD · STANFORD, CA 94305
-JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
-WEBSITE: brando90.github.io/sbsbz
-LINKTREE: linktr.ee/ultimate_brando9
+SBSBZ · Stanford Bachata Sensual & Brazilian Zouk
+[One verified Linktree QR code]
+SCAN FOR LINKS
+
+## Production instructions
+
+No confetti, glitter, floating particles, printed URLs, year, graduation line, vendor name, taco timing or longer taco endorsement on this flyer. Retain the full confirmed event facts and URLs in the text messages. The QR code must resolve to https://linktr.ee/ultimate_brando9 and must be decoded from the finished flyer before distribution.

@@ -2,11 +2,15 @@
 
 **TLDR:** Review every guest-facing item below. Nothing has been sent; Brando will send the email and WhatsApp himself. Live Partiful refinements and the Linktree correction remain pending final approval.
 
-## Current flyer — TREES version 5
+## Version 7 layout preview — CODE REPAIR PENDING
 
-[Open or download the current tree flyer](https://drive.google.com/file/d/1Dx2AYe_2WQAmvIlBdnMVky1PQYuPXgEv/view). This is the only current review artwork; older human-dancer files are historical references, not the sending asset.
+[Open the latest preview in Drive](https://drive.google.com/file/d/1ERJllbP5QWmxrBEQK9RvM28TXh9ALEQm/view).
 
-![Current tree flyer](assets/mega_bachata_trees_review_v5.png)
+[Retained version-5 review artwork](https://drive.google.com/file/d/1Dx2AYe_2WQAmvIlBdnMVky1PQYuPXgEv/view). This is the prior review image; the latest layout preview below is not ready for distribution.
+
+The clean layout and restored small class/taco icons are ready, but the code in the layout preview fails scanning. Do not distribute it. A standalone verified Linktree code is saved as assets/linktree_qr.png; permission to insert it with exact local compositing is pending. The version-5 Drive artwork remains unchanged until the revised final image passes the scan check.
+
+![Version 7 layout preview — do not distribute](assets/mega_bachata_trees_layout_v7_icons_code_pending.png)
 
 ## Event facts and exact destinations
 
@@ -31,7 +35,7 @@
 
 ## WhatsApp — exact message
 
-Attach the current tree flyer and use this message:
+After code repair and final approval, attach the approved tree flyer and use this message:
 
 ```text
 🎉 *MEGA BACHATA — my belated birthday party!*
@@ -60,7 +64,7 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 Subject: FREE MEGA BACHATA 🎉 Brando’s birthday social · Friday, September 18
 
-Attachment: current dancing-trees flyer, version 5.
+Attachment: final approved tree flyer, pending code repair and a successful scan. The portable unsent email still carries version 5 and needs its attachment refreshed before manual sending.
 
 ```text
 Hi everyone!
@@ -101,7 +105,7 @@ website: https://brando90.github.io/brandomiranda/
 Title: MEGA BACHATA — Brando’s Belated Birthday
 Start: September 18, 2026, 8:00 PM. End: September 19, 2026, 1:00 AM. Timezone: America/Los_Angeles.
 Location field: Hacienda Commons at Rains, 796 Escondido Rd, Stanford, CA 94305.
-Cover: current tree flyer, version 5. Keep existing privacy settings. Do not create a duplicate event or send invitations.
+Cover: final approved tree flyer, pending code repair and a successful scan. Keep existing privacy settings. Do not create a duplicate event or send invitations.
 
 ```text
 A belated birthday. A big bachata night. One more dance before graduation. 💃🎉
@@ -134,7 +138,7 @@ Linktree: https://linktr.ee/ultimate_brando9
 
 ## Live-page changes awaiting approval
 
-- Existing Partiful: replace the location placeholder with the confirmed venue/address/map; apply the above description, which adds the taco endorsement, working website and Linktree; replace the existing version-4 tree cover with version 5. No invitations or text blasts.
+- Existing Partiful: replace the location placeholder with the confirmed venue/address/map; apply the above description, which adds the taco endorsement, working website and Linktree; replace the existing version-4 tree cover with the final verified and approved flyer. No invitations or text blasts.
 - Linktree: change only the existing club-website button’s destination from https://sbsbz-dance.manus.space/ to https://brando90.github.io/sbsbz/ . Keep its title, order and other links. The editor currently requires account-owner sign-in.
 
 ## Saved reuse and execution prompts

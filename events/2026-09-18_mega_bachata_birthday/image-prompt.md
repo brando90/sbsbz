@@ -113,3 +113,42 @@ JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
 WEBSITE: brando90.github.io/sbsbz
 LINKTREE: linktr.ee/ultimate_brando9
 Text exact, spelling precise, footer links exact and legible. Taco praise must be attributed to Brando as his personal pick, not an award or independent ranking. Clearly connect the names Brando,Sarika,Sophia to the class. Remove the former venue placeholder completely. No invented QR codes, no vendor prices, no extra facts. Produce the full final poster.
+
+## Version 6 — clean layout and Linktree code
+
+Mode: built-in image-generation edit. Initial references: version-5 flyer and assets/source_qr_screenshot.png. Initial output passed visual inspection but failed QR decoding, so it is not a distribution asset.
+
+Edit the attached Stanford MEGA BACHATA flyer into a substantially cleaner, less busy final review version. This is an image EDIT, first reference is flyer, second is an actual working Linktree QR screenshot. User loves the dancing Stanford tree mascots; preserve their exact character design and never show human dancers.
+
+COMPOSITION: Portrait 2:3. Put enormous MEGA BACHATA at the TOP, then BRANDO’S BELATED BIRTHDAY as a smaller subtitle. Put the dancing trees UNDERNEATH the title, inside one simple restrained neon circle. Retain the cardinal/burgundy, cream/gold and subtle hot pink color palette, premium event-poster typography, a quiet darkened Stanford campus sunset background. Radically simplify background. REMOVE ALL confetti, floating ribbons, glitter, glowing particles, starbursts, sparkle texture, extra ornaments, leaves in foreground and busy details. Calm negative space around text. Do not make up any new information.
+
+Below trees: FRIDAY, SEPTEMBER 18 — no year. Then two stacked banners with IDENTICAL big bold typography and visual format:
+CLASS 8–9 PM
+SOCIAL 9 PM–1 AM
+Class banner must be just as readable and nearly as prominent as social. Directly beneath class banner in smaller plain type: ALL LEVELS · BRANDO, SARIKA & SOPHIA
+Directly beneath social banner: DJ NICK ALL NIGHT
+
+Near bottom a compact appetizing line: BEST TACOS IN TOWN · FREE
+Separate short line: FREE ENTRY · NO PARTNER NEEDED
+Venue footer:
+HACIENDA COMMONS · RAINS
+796 ESCONDIDO RD · STANFORD, CA 94305
+Very small organizer line where it fits cleanly: SBSBZ · Stanford Bachata Sensual & Brazilian Zouk
+
+REMOVE second-to-last social, REMOVE 2026, REMOVE taco vendor timing/name/endorsement paragraphs/Mexican-approved. No printed URLs anywhere. Replace the three website links at bottom with ONE large crisp black QR code on a WHITE square with an ample clear white quiet zone, unobstructed. Use the actual supplied QR pattern from reference 2 exactly, excluding the surrounding gray screenshot background and excluding its View on mobile heading. Do NOT invent a lookalike pattern or stylize/distort the modules; this is a functional scannable code that must retain the exact pattern. Label simply SCAN FOR LINKS. Reserve at least 250 x 250 pixels for the square in a 1024px wide image. The code is for https://linktr.ee/ultimate_brando9 via its existing Linktree redirect, but DO NOT print that URL. Keep venue address legible next to QR if that is cleaner. Ensure all text is correctly spelled and not crowded. Overall title-top, trees-under, clear identical time banners, minimalist lively Stanford dance flyer.
+
+### QR correction
+
+Supporting insert: assets/linktree_qr.png, generated deterministically with Apple Core Image for the literal direct profile URL and independently decoded with Apple Vision. No image-generation API keys were used.
+
+Make ONLY this specific surgical correction to the first attached flyer: replace the small unusable QR image in its lower-right white card with the exact functional black-and-white QR code in the second attachment. Preserve its exact machine-readable pattern, every square/module, with no stylization, no rounded reshaping, no invented modules. It must encode exactly https://linktr.ee/ultimate_brando9 . The white margin is required and must remain. The square QR region should occupy about 230x230 pixels in the 1024-wide flyer; slightly enlarge only that bottom-right card if needed while keeping ample distance from the address. Label below: SCAN FOR LINKS. Preserve EVERYTHING ELSE in the first flyer exactly: the title at the top, dancing trees underneath, background without confetti, all text and dates/times/instructors. Do not redraw the rest of the poster or change its composition. Copy the actual reference code, not an artistic approximation. No printed URLs anywhere.
+
+## Version 7 — restore class and taco icons
+
+Mode: built-in image-generation edit. Input: assets/mega_bachata_trees_layout_v6_code_pending.png. Output: assets/mega_bachata_trees_layout_v7_icons_code_pending.png. This is a layout preview only; the code repair is still pending.
+
+Edit the attached clean MEGA BACHATA flyer. Make ONLY TWO small decorative additions, restoring the cute line icons from the earlier style:
+1. A small elegant GOLD OUTLINE GRADUATION-CAP icon immediately to the left of the CLASS 8–9 PM heading, inside its neon banner. Keep the heading large, clear and centered together with the icon; do not reduce it to small type. The instructor line stays exactly ALL LEVELS · BRANDO, SARIKA & SOPHIA.
+2. A small cute GOLD OUTLINE TACO icon immediately to the left of BEST TACOS IN TOWN · FREE. Keep all that text exactly and on one clean line. Reclaim a little space from its decorative horizontal rules if necessary.
+Use consistent simple stroke weight, similar to the existing gold location-pin icon. Small, tasteful, readable, minimal. These are the only icons to restore; no confetti, particles, sparkles or extra decorations.
+Preserve all other pixels/design as closely as possible: huge title at top, birthday subtitle, the TWO DANCING STANFORD TREES beneath, calm campus sunset, date Friday September 18 with no year, matching large class/social neon banners, disc jockey Nick line, free entry/no partner needed, Hacienda Commons · Rains, address 796 Escondido Rd · Stanford, CA 94305, club branding, and lower-right scan-card. No human dancers. No changes to wording or event facts. Do not make the layout busier beyond the two small line-art icons. Do not alter the QR pattern or claim it is verified. Output the revised portrait flyer.

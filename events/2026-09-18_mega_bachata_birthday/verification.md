@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** The current tree-flyer review package passes the factual, link and visual checks with Hacienda confirmed. Brando’s final approval remains pending; live revisions and all announcements are held.
+**TLDR:** Version 7 passes the requested visual check: the clean layout now includes small class and taco icons. Its embedded code fails scanning, so it is a layout preview only; code repair, final approval and distribution remain pending.
 
 Checked September 11, 2026.
 
@@ -64,3 +64,16 @@ Current image: 1024 × 1536 pixels; 2,186,123 bytes.
 Current-review deterministic checks passed: every message includes the confirmed address, map, website, Linktree and instructor names; no unresolved venue placeholders or vendor prices remain. Both handoff prompts end with a summary and retain manual sending/approval requirements. The unsent email file was parsed back: full body matches email.md and the attached flyer bytes match version 5 exactly. No message was sent.
 
 Drive final readback: 17 files in the event folder, including the current tree flyer, complete review packet, unsent attached email and full 22-file archive; reusable prompt separately verified in the requested club-root folder. The review packet fetched back with the confirmed address and manual-send status.
+
+## Version 6–7 layout revision and restored icons
+
+Checked 2026-09-11 13:33 PDT. Version 6 moved the main title above the trees, enlarged class hours to match social hours, removed confetti, displayed year, graduation line and printed URLs, and shortened the food line. Version 7 restores a small gold outline graduation-cap icon beside class and a matching taco icon beside food. The actual generated version-7 image was visually inspected: both icons appear; tree characters, event wording, times, instructor spelling, venue and address remain correct.
+
+Image: assets/mega_bachata_trees_layout_v7_icons_code_pending.png; 1024 × 1536 pixels; 1,971,814 bytes; SHA-256 (file checksum) 482a207094869dc17657e36bb7001fbf1b9d45b19017f27c3d075b68908780a6.
+
+Code check: native Apple Vision decoded assets/linktree_qr.png successfully to https://linktr.ee/ultimate_brando9 . The supplied screenshot also decodes and redirects to that profile. Both version-6 image-edit attempts and the version-7 preview fail scanning (decoder exit 2, no payload). These images must not be distributed. Permission to insert the exact code using local compositing remains unanswered; no alternative editing method was used on the flyer.
+
+Documentation now distinguishes the version-7 layout preview, retained version-5 review artwork, and live version-4 Partiful cover. The portable unsent email retains its version-5 attachment and must be refreshed only after a final image is verified and approved. Text message URLs remain intact. Cosmetic icon changes do not require another model-review round; source consistency and actual scan checks are the proportionate verification.
+
+Drive layout preview: https://drive.google.com/file/d/1ERJllbP5QWmxrBEQK9RvM28TXh9ALEQm/view
+Approval: PENDING. Email, WhatsApp, invitations and text blasts: NOT SENT. No live Partiful or Linktree revisions in this update.

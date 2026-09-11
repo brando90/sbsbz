@@ -39,3 +39,17 @@ Do not carry forward April’s admission prices, venue, separate Zouk class, old
 - Canonical Linktree https://linktr.ee/ultimate_brando9 verified publicly. Its club website button still points to the retired Manus site; the website task found an actual sign-in wall at the editor. This defect is recorded in the Manus handoff, not hidden by substituting a different profile.
 - Taco endorsement is playful copy requested by Brando and attributed to his personal opinion, not a sourced regional award or objective ranking.
 - User now prefers to send messages manually and explicitly requires final approval; all announcement sends remain pending.
+
+## Version 6: uncluttered flyer and Linktree code
+
+User’s September 11, 1:10 PM screenshot saved unchanged as assets/source_qr_screenshot.png (26,442 bytes). Original attachment: /var/folders/yy/4p8d8d5j0_307c2lt30hsqdr0000gn/T/TemporaryItems/NSIRD_screencaptureui_wOCRbK/Screenshot 2026-09-11 at 1.10.00 PM.png. The screenshot is a visual source, not an instruction document.
+
+Native Apple Vision decoded its quick-response (QR) payload as https://linktr.ee/qr/91e55203-96de-4b5a-987c-cb55800e4df3?utm_source=qr_code&utm_medium=desktop_profile . A read-only redirect check returned 302 to https://linktr.ee/ultimate_brando9?utm_source=qr_code&utm_medium=desktop_profile and then 200 OK.
+
+Requested revision: headline above trees; equally legible class/social banners; no confetti, displayed year or graduation line; only “BEST TACOS IN TOWN · FREE” for tacos; one Linktree code and no printed web addresses on the flyer. Full URLs and fuller event details remain in WhatsApp, email and Partiful copy.
+
+The simpler direct code assets/linktree_qr.png (624 × 624 pixels) was generated with Apple Core Image and decoded successfully to https://linktr.ee/ultimate_brando9 . Two built-in image edits changed the code pattern and failed decoding; the first clean layout is preserved only as assets/mega_bachata_trees_layout_v6_code_pending.png. It must not be distributed until the code is repaired and verified.
+
+## Version 7: restore two small icons
+
+User requested the cute icons back after approving the cleaner visual direction: a small gold outline graduation cap beside the class and a matching gold outline taco beside the food line. All other layout and event wording stay the same. This is visual-draft authorization only; exact local code insertion and final distribution approval remain pending.

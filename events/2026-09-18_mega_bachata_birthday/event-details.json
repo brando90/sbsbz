@@ -28,5 +28,18 @@
   "send_mode": "USER_SENDS_MANUALLY",
   "email_sent": false,
   "whatsapp_sent": false,
-  "invitations_sent": false
+  "invitations_sent": false,
+  "flyer_qr_target": "https://linktr.ee/ultimate_brando9",
+  "flyer_food_line": "BEST TACOS IN TOWN · FREE",
+  "flyer_status": "PRIOR_V5_REVIEW_ASSET_NOT_FINAL",
+  "flyer_layout_preview": "assets/mega_bachata_trees_layout_v7_icons_code_pending.png",
+  "flyer_layout_status": "V7_ICONS_PREVIEW_CODE_REPAIR_PENDING",
+  "flyer_ready_for_distribution": false,
+  "live_partiful_cover": "assets/mega_bachata_flyer_draft_v4.png",
+  "final_flyer": null,
+  "flyer_icons": [
+    "gold outline graduation cap beside class",
+    "gold outline taco beside food"
+  ],
+  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/1ERJllbP5QWmxrBEQK9RvM28TXh9ALEQm/view"
 }
