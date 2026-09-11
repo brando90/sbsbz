@@ -7,7 +7,7 @@
 | WhatsApp announcement | [whatsapp.md](whatsapp.md) |
 | Email subject and body | [email.md](email.md) |
 | Partiful fields and description | [partiful.md](partiful.md) |
-| Flyer image | [mega_bachata_flyer_draft_v3.png](assets/mega_bachata_flyer_draft_v3.png) |
+| Flyer image | [mega_bachata_flyer_draft_v4.png](assets/mega_bachata_flyer_draft_v4.png) |
 | Editable flyer wording | [flyer-copy.md](flyer-copy.md) |
 | Sources and extracted branding | [reference-notes.md](reference-notes.md) |
 | Exact image-generation prompt | [image-prompt.md](image-prompt.md) |

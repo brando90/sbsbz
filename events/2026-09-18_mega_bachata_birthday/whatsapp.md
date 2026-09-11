@@ -10,7 +10,7 @@ It’s my second-to-last social before graduating, and I’d love to dance with 
 
 *Friday, September 18*
 *FREE ENTRY*
-🕗 All-levels class: 8–9 PM
+🕗 All-levels class with Brando, Sarika & Sophia: 8–9 PM
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
 🌮 Tacos by Chuy around 10 PM
 📍 [VENUE + ADDRESS]

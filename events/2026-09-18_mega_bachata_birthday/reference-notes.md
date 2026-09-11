@@ -9,7 +9,7 @@
 - Historical artwork folder: https://drive.google.com/drive/folders/14FCSasRWstnwbqeB_OBHrTq7VV2siOBe
 - Marketing protocol: https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ/edit — source for club identity, welcoming voice, and club Linktree; historic schedules and send instructions are not current event facts or authorization.
 - April 3 event and flyer: https://partiful.com/e/niKvpO6dr5Jw88soWYz2 — read in the browser, original displayed cover saved as assets/reference_april_03_2026.avif; a lossless format conversion is saved as assets/reference_april_03_2026.png. Browser-exposed cover resolution is 400 × 600 pixels.
-- User’s September 11 request, including Abhinav’s confirmed date/times/DJ/catering, birthday context, and follow-up confirming free admission and an all-levels class.
+- User’s September 11 request, including Abhinav’s confirmed date/times/DJ/catering, birthday context, and follow-ups confirming free admission, an all-levels class, and instructors Brando, Sarika & Sophia.
 
 ## Reusable information extracted before design
 
@@ -25,8 +25,8 @@ The user requested their attached two dancing Stanford tree mascots in place of 
 
 ## Current facts and boundaries
 
-Confirmed: Friday September 18, 2026; all-levels class 8–9 PM; social 9 PM–1 AM; DJ Nick the whole night; taco catering by Chuy, food expected around 10 PM; free event; Brando’s belated birthday and second-to-last social before graduating.
+Confirmed: Friday September 18, 2026; all-levels class with Brando, Sarika & Sophia, 8–9 PM; social 9 PM–1 AM; DJ Nick the whole night; taco catering by Chuy, food expected around 10 PM; free event; Brando’s belated birthday and second-to-last social before graduating.
 
-Unconfirmed: venue/address and instructors. No new Partiful event existed when the user replied; the new saved event is now verified at https://partiful.com/e/ohtSD9MnHe6u71JQx60X. Leave the venue and instructor details unconfirmed until supplied.
+Unconfirmed: venue/address. No new Partiful event existed when the user replied; the new saved event is now verified at https://partiful.com/e/ohtSD9MnHe6u71JQx60X. Leave the venue unconfirmed until supplied.
 
 Do not carry forward April’s admission prices, venue, separate Zouk class, old instructors, DJ Whoman, pizza, or performance. Do not add alcohol, a birthday age, dress code, sponsors, parking promises, capacity, or a fabricated registration code. Vendor costs do not appear in public copy or artwork.

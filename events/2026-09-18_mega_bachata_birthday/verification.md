@@ -6,7 +6,7 @@ Checked September 11, 2026.
 
 - Calendar check: September 18, 2026 is Friday; the 1 AM end is Saturday September 19.
 - Public-copy scan: no vendor costs, old date, old admission, old disc jockey, or pizza claims in whatsapp.md, email.md, partiful.md, or flyer-copy.md.
-- Body length: WhatsApp 76 words; email 115 words.
+- Initial draft body length: WhatsApp 76 words; email 115 words (before the later instructor credit).
 - Flyer: 1122 × 1402 pixels; exact text visually checked against flyer-copy.md; date, social hours, class, free entry, Nick, Chuy, birthday/graduation framing, and placeholders are legible and correct.
 - Google Drive: uploaded flyer and four copy files verified in the new Marketing subfolder by connector readback.
 - Partiful: title, description, time range and uploaded image verified in the browser. The initial sign-in blocker was resolved; the saved event is verified at https://partiful.com/e/ohtSD9MnHe6u71JQx60X. Location is still unset.
@@ -40,3 +40,11 @@ User-requested cosmetic refinement on September 11, 2026: replaced the human dan
 Visual check passed: the two trees retain the reference pose, expressions, and red-and-white S lettering; the red screenshot panel is removed; no human dancers remain; all event text, date, times, footer link, venue placeholder, and background design remain correct. Dimensions remain 1122 × 1402 pixels. No substantive factual changes or additional model review were needed for this cosmetic preference update. Existing copy remains unchanged.
 
 Drive replacement verified by metadata readback: same flyer file, 2,190,695 bytes. Partiful upload completed, and the saved event page was visually checked with the tree flyer displayed. No announcements or invitations were sent.
+
+## Version 4: confirmed class instructors
+
+User confirmed on September 11, 2026: class with Brando, Sarika & Sophia. Added the names to WhatsApp, email, Partiful description, and editable flyer wording; removed the obsolete unconfirmed-instructor language from current source notes. The built-in image edit adds WITH BRANDO, SARIKA & SOPHIA beneath the all-levels class time while retaining the Stanford tree illustration.
+
+Visual check passed: all three names are spelled correctly and tied to the 8–9 PM class; remaining wording, date, social hours, venue placeholder, and footer link match version 3. Image dimensions: 1122 × 1402 pixels; size: 2,164,872 bytes. All four current copy files passed the instructor-credit and public-copy scans. This mechanical user-supplied factual update received deterministic and visual checks; no additional model review was needed.
+
+Drive replacement and all four updated copy files were verified by metadata readback. The saved Partiful page was checked after leaving the editor: the description names Brando, Sarika & Sophia and the cover displays the same instructor credit. No announcements or invitations were sent.

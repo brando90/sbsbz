@@ -58,3 +58,29 @@ Preserve ALL other parts of the existing flyer as closely as possible: size, por
 Text invariants: SBSBZ PRESENTS; STANFORD BACHATA SENSUAL & BRAZILIAN ZOUK; MEGA BACHATA; BRANDO’S BELATED BIRTHDAY; His second-to-last social before graduating; FRIDAY, SEPTEMBER 18; 2026; SOCIAL 9 PM–1 AM; ALL-LEVELS CLASS 8–9 PM; DJ NICK ALL NIGHT; TACOS BY CHUY AROUND 10 PM; FREE ENTRY; No partner needed • All levels welcome; VENUE: [TO BE CONFIRMED]; JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X. The link is case-sensitive and must remain exactly as in the target flyer. Do not change or reflow the footer. This is only an illustration replacement.
 
 **TL;DR:** Replace the human dancers with the attached Stanford tree mascots using the built-in image-generation tool, preserving the flyer text and all other design elements.
+## Version 4: confirmed instructors
+
+**TLDR:** Built-in image edit adds the user-confirmed instructors Brando, Sarika & Sophia to the class credit, using version 3 as the edit target.
+
+Use case: text-localization. Edit target: the supplied latest MEGA BACHATA promotional flyer, version 3 with two dancing Stanford trees. Make one precise text update to credit the newly confirmed class instructors. In the lower information area, make the class read exactly:
+ALL-LEVELS CLASS
+8–9 PM
+WITH BRANDO, SARIKA & SOPHIA
+Fit this cleanly with readable balanced typography. You may modestly increase the height of the class information area or add a centered instructor credit strip directly under the three-column info row above FREE ENTRY if that makes all three names readable, but keep the design polished and avoid overlap. Sarika is spelled S A R I K A. Sophia is spelled S O P H I A. Brando is spelled B R A N D O.
+Preserve all remaining wording and visual elements: the two green tree mascots with red-and-white S lettering and original expressions/pose, magenta neon ring, Stanford sandstone arches and tower, red/gold/pink sunset, confetti, main title hierarchy, free-entry badge, date, footer. Do not add portraits or human dancers. Do not change the location placeholder or the exact link.
+All existing wording that must remain:
+SBSBZ PRESENTS
+STANFORD BACHATA SENSUAL & BRAZILIAN ZOUK
+MEGA BACHATA
+BRANDO’S BELATED BIRTHDAY
+His second-to-last social before graduating
+FRIDAY, SEPTEMBER 18
+2026
+SOCIAL 9 PM–1 AM
+DJ NICK ALL NIGHT
+TACOS BY CHUY AROUND 10 PM
+FREE ENTRY
+No partner needed • All levels welcome
+VENUE: [TO BE CONFIRMED]
+JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
+Output the full finished portrait flyer with all text sharp and correctly spelled.

@@ -1,6 +1,6 @@
 # Partiful event
 
-**TLDR:** Complete event fields and guest-facing description for the September 18 birthday social; venue and instructor names remain unconfirmed.
+**TLDR:** Complete event fields and guest-facing description for the September 18 birthday social; the venue remains unconfirmed.
 
 ## Event fields
 
@@ -15,7 +15,7 @@
 | Social starts | Friday, September 18, 9:00 PM |
 | Location | [VENUE + ADDRESS TO BE CONFIRMED] |
 | Admission | Free |
-| Cover | assets/mega_bachata_flyer_draft_v3.png |
+| Cover | assets/mega_bachata_flyer_draft_v4.png |
 
 ## Description to paste
 
@@ -28,7 +28,7 @@ FRIDAY, SEPTEMBER 18, 2026
 🎟 FREE ENTRY
 
 8–9 PM — ALL-LEVELS CLASS
-Start the night together with an all-levels class. Instructor details coming soon.
+Start the night together with an all-levels class with Brando, Sarika & Sophia!
 
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!
