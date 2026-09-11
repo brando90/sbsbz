@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** Version 7 passes the requested visual check: the clean layout now includes small class and taco icons. Its embedded code fails scanning, so it is a layout preview only; code repair, final approval and distribution remain pending.
+**TLDR:** Version 8 passes the visual, source-consistency and actual code-decoding checks. Footer divider pairs match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
 
 Checked September 11, 2026.
 
@@ -77,3 +77,15 @@ Documentation now distinguishes the version-7 layout preview, retained version-5
 
 Drive layout preview: https://drive.google.com/file/d/1ERJllbP5QWmxrBEQK9RvM28TXh9ALEQm/view
 Approval: PENDING. Email, WhatsApp, invitations and text blasts: NOT SENT. No live Partiful or Linktree revisions in this update.
+
+## Version 8 — final review with aligned footer and functioning event code
+
+Checked 2026-09-11 13:44 PDT. User requested better bottom-text/rule alignment and asked about Partiful codes, then preferred one Partiful code when offered exact local insertion. The built-in image editor refined the footer. Authorized local compositing preserved the generated artwork, inserted the actual Partiful code, changed its label to JOIN THE PARTY, and matched the gold rule lengths within both pairs (145 pixels upper; 100 pixels lower). Graduation-cap and taco icons, trees, title, date, both time banners, names and venue/address remain intact.
+
+Current asset: assets/mega_bachata_trees_review_v8.png; 1024 × 1536 pixels; 2,474,085 bytes. SHA-256 (file checksum): c5781c25dfe384c2bf65ad7cff3dfcfa20e4bba15f040569c501afb23794e602.
+
+Native Apple Vision decoded the final full flyer and in-memory resized images at 768 × 1152 and 512 × 768 successfully. All three payloads equal https://partiful.com/e/ohtSD9MnHe6u71JQx60X . Source code images also decode correctly: the event code is 688 × 688 pixels and the separate Linktree code is 624 × 624 pixels.
+
+The unsent email was parsed after replacing its image attachment. Its text and headers are retained, X-Unsent remains 1, and the attachment bytes match version 8 exactly. Message copy retains the correct website, Linktree, map/address and instructors. Prepared Partiful text includes Linktree; the live description update still awaits approval. No live event, profile or message changes were made.
+
+Current Drive flyer: https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view . Older code-pending previews are archival.

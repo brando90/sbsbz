@@ -18,8 +18,8 @@
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
 | Current live cover | assets/mega_bachata_flyer_draft_v4.png |
-| Latest layout preview — not ready to upload | assets/mega_bachata_trees_layout_v7_icons_code_pending.png |
-| Final replacement cover | Pending code repair, successful scan and final approval |
+| Proposed replacement cover | assets/mega_bachata_trees_review_v8.png |
+| Replacement status | Code verified; final approval pending |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
 

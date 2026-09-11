@@ -1,6 +1,6 @@
 # Flyer copy — clean tree layout
 
-**TLDR:** The version-7 target places the title above the trees, uses matching class/social banners, and replaces printed links with one Linktree quick-response (QR) code. The current image is a layout preview: its embedded code needs repair and verification.
+**TLDR:** Version 8 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The embedded code passes scan checks; final approval is pending.
 
 MEGA BACHATA
 BRANDO’S BELATED BIRTHDAY
@@ -15,9 +15,9 @@ FREE ENTRY · NO PARTNER NEEDED
 HACIENDA COMMONS · RAINS
 796 ESCONDIDO RD · STANFORD, CA 94305
 SBSBZ · Stanford Bachata Sensual & Brazilian Zouk
-[One verified Linktree QR code]
-SCAN FOR LINKS
+[One verified Partiful QR code]
+JOIN THE PARTY
 
 ## Production instructions
 
-No confetti, glitter, floating particles, printed URLs, year, graduation line, vendor name, taco timing or longer taco endorsement on this flyer. Retain the full confirmed event facts and URLs in the text messages. The QR code must resolve to https://linktr.ee/ultimate_brando9 and must be decoded from the finished flyer before distribution.
+No confetti, glitter, floating particles, printed URLs, year, graduation line, vendor name, taco timing or longer taco endorsement on this flyer. Retain the full confirmed event facts and URLs in the text messages. The QR code must resolve to https://partiful.com/e/ohtSD9MnHe6u71JQx60X and must be decoded from the finished flyer before distribution.

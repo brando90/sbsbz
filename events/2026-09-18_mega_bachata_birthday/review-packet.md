@@ -2,15 +2,13 @@
 
 **TLDR:** Review every guest-facing item below. Nothing has been sent; Brando will send the email and WhatsApp himself. Live Partiful refinements and the Linktree correction remain pending final approval.
 
-## Version 7 layout preview — CODE REPAIR PENDING
+## Current flyer — version 8, verified event code
 
-[Open the latest preview in Drive](https://drive.google.com/file/d/1ERJllbP5QWmxrBEQK9RvM28TXh9ALEQm/view).
+[Open or download the current flyer](https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view).
 
-[Retained version-5 review artwork](https://drive.google.com/file/d/1Dx2AYe_2WQAmvIlBdnMVky1PQYuPXgEv/view). This is the prior review image; the latest layout preview below is not ready for distribution.
+The class and taco icons are restored, the footer rules have equal lengths within each pair, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and prepared Partiful description. Final approval is still pending.
 
-The clean layout and restored small class/taco icons are ready, but the code in the layout preview fails scanning. Do not distribute it. A standalone verified Linktree code is saved as assets/linktree_qr.png; permission to insert it with exact local compositing is pending. The version-5 Drive artwork remains unchanged until the revised final image passes the scan check.
-
-![Version 7 layout preview — do not distribute](assets/mega_bachata_trees_layout_v7_icons_code_pending.png)
+![Current version-8 tree flyer](assets/mega_bachata_trees_review_v8.png)
 
 ## Event facts and exact destinations
 
@@ -35,7 +33,7 @@ The clean layout and restored small class/taco icons are ready, but the code in 
 
 ## WhatsApp — exact message
 
-After code repair and final approval, attach the approved tree flyer and use this message:
+After final approval, attach the approved tree flyer and use this message:
 
 ```text
 🎉 *MEGA BACHATA — my belated birthday party!*
@@ -64,7 +62,7 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 Subject: FREE MEGA BACHATA 🎉 Brando’s birthday social · Friday, September 18
 
-Attachment: final approved tree flyer, pending code repair and a successful scan. The portable unsent email still carries version 5 and needs its attachment refreshed before manual sending.
+Attachment: version-8 tree flyer with verified Partiful code. The portable unsent email contains this exact image; sending awaits final approval.
 
 ```text
 Hi everyone!
@@ -105,7 +103,7 @@ website: https://brando90.github.io/brandomiranda/
 Title: MEGA BACHATA — Brando’s Belated Birthday
 Start: September 18, 2026, 8:00 PM. End: September 19, 2026, 1:00 AM. Timezone: America/Los_Angeles.
 Location field: Hacienda Commons at Rains, 796 Escondido Rd, Stanford, CA 94305.
-Cover: final approved tree flyer, pending code repair and a successful scan. Keep existing privacy settings. Do not create a duplicate event or send invitations.
+Proposed cover: version-8 tree flyer with verified Partiful code, awaiting final approval. Keep existing privacy settings. Do not create a duplicate event or send invitations.
 
 ```text
 A belated birthday. A big bachata night. One more dance before graduation. 💃🎉

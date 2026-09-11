@@ -8,8 +8,8 @@
 | Email announcement | Prepared for manual sending; not sent |
 | Existing Partiful | Created earlier; version-4 tree cover and instructors already saved |
 | Venue/taco/website refinements to Partiful | Prepared for final review; not yet applied |
-| Latest tree layout v7 | Preview with class/taco icons; code repair pending; not distributable |
-| Retained tree review v5 | Prior review image; still attached to the unsent email; not the final flyer |
+| Current tree flyer v8 | Icons and balanced footer; Partiful code verified; final approval pending |
+| Unsent email attachment | Updated to the exact version-8 flyer; not sent |
 | Linktree website destination | Old destination is broken; proposed fix awaits approval and account sign-in |
 | Final approval | Pending; no prior approval transfers to these revisions |
 | Invitation/text-blast authorization | None |

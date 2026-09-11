@@ -53,3 +53,11 @@ The simpler direct code assets/linktree_qr.png (624 × 624 pixels) was generated
 ## Version 7: restore two small icons
 
 User requested the cute icons back after approving the cleaner visual direction: a small gold outline graduation cap beside the class and a matching gold outline taco beside the food line. All other layout and event wording stay the same. This is visual-draft authorization only; exact local code insertion and final distribution approval remain pending.
+
+## Partiful event code
+
+Partiful’s official help article confirms event-sharing codes are available in its mobile app via the event’s share arrow and horizontal sharing menu: https://help.partiful.com/en-us/articles/15525327-how-do-i-generate-a-qr-code-that-i-can-use-to-share-my-event . The user asked whether one could be created for their existing event. Saved assets/partiful_event_qr.png encodes exactly https://partiful.com/e/ohtSD9MnHe6u71JQx60X and passes native Apple Vision decoding. It has not replaced the flyer’s previously requested Linktree destination.
+
+## Version 8 and code destination decision
+
+The user requested aligned footer text and symmetric gold lines, then replied to the exact-local-compositing choice that one Partiful code would be best if only one is used. Selected one code labelled JOIN THE PARTY; broader club links remain in the prepared description and messages. Image editing adjusted the footer, and exact local composition inserted the verified code and matched each pair of divider strokes. Code generation/insertion is authorized; final approval for publication and all sends is still pending.
