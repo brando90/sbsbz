@@ -17,40 +17,42 @@ const fadeUp = {
 
 /* Real SBSBZ photos */
 const ABOUT_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0003_c5ee2812.jpg";
+  import.meta.env.BASE_URL + "photos/brando-dancing.jpg";
 const ZOUK_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/natalia-teaching-class_67613290.png";
+  import.meta.env.BASE_URL + "photos/natalia-teaching-class.jpg";
 
+// Three original officer portraits await recovery; keep their initials visible.
+// See docs/photos.md for the missing source filenames.
 const leadershipTeam = [
   {
     name: "Brando",
     role: "President & Founder",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/brando-zouk-teacher_43076681.png",
+    img: import.meta.env.BASE_URL + "photos/brando-zouk-teacher.jpg",
   },
   {
     name: "Henry Bosch",
     role: "Vice President",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/henry_b8544d4d.webp",
+    img: import.meta.env.BASE_URL + "photos/henry.webp",
   },
   {
     name: "Elizabeth",
     role: "Financial Officer",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/elizabeth_3e0dc739.png",
+    img: undefined,
   },
   {
     name: "Abhinav Garg",
     role: "Social Chair",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/abhinav_75b397d4.jpeg",
+    img: import.meta.env.BASE_URL + "photos/abhinav.jpeg",
   },
   {
     name: "Nick Montes",
     role: "Logistics & Operations",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/nick_01e3496a.png",
+    img: undefined,
   },
   {
     name: "Lorena Oliveira",
     role: "Officer",
-    img: "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/lorena_new_c1e46175.png",
+    img: undefined,
   },
 ];
 
@@ -432,7 +434,7 @@ export default function About() {
             >
               <div className="relative">
                 <SiteImage
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20221123-WA0024_d4b0f7a2.jpg"
+                  src={import.meta.env.BASE_URL + "photos/brando-dancing.jpg"}
                   alt="Brando Miranda, Founder of SBSBZ"
                   className="w-full rounded-lg object-cover aspect-[3/4]"
                 />

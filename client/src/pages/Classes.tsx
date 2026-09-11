@@ -18,7 +18,7 @@ const fadeUp = {
 };
 
 const CLASSES_IMG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663473601426/7gzhQsJe2FTkW26T6eRQxD/IMG-20260209-WA0005_a1b24ce8.jpg";
+  import.meta.env.BASE_URL + "photos/class-social.jpg";
 
 const schedule = [
   {
