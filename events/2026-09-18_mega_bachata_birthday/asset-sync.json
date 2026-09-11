@@ -1,13 +1,33 @@
 {
-  "checked_at": "2026-09-11T13:49:58-07:00",
+  "checked_at": "2026-09-11T14:06:09-07:00",
   "repository": "https://github.com/brando90/sbsbz",
   "branch": "codex/mega-bachata-birthday-2026-09-18",
-  "verified_asset_commit": "121d40cd56d39267f3efea2ed17900c78c0cb743",
+  "verified_asset_commit": "e2a332c561dbbb49de21b57fdc6709f5db8f0f0b",
   "drive_folder": "https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo",
   "assets": [
     {
+      "version": 9,
+      "status": "CURRENT_REVIEW_DESIGN_FINALIZED",
+      "asset": "assets/mega_bachata_trees_review_v9.png",
+      "bytes": 2199807,
+      "sha256": "9ffb27534b1c1360c40eb1965d88f0e88a6a45ca412253060ac94fe6e6b46c2d",
+      "drive_url": "https://drive.google.com/file/d/1FTs3XHUvBcHOADHQbKgKjthzkNHao3YY/view",
+      "github_url": "https://github.com/brando90/sbsbz/blob/e2a332c561dbbb49de21b57fdc6709f5db8f0f0b/events/2026-09-18_mega_bachata_birthday/assets/mega_bachata_trees_review_v9.png",
+      "git_bytes_match_local": true,
+      "drive_verification": "uploaded source file; size and parent folder read back",
+      "dimensions": [
+        1024,
+        1728
+      ],
+      "qr_decoded_at_widths": [
+        1024,
+        768,
+        512
+      ]
+    },
+    {
       "version": 8,
-      "status": "CURRENT_REVIEW",
+      "status": "ARCHIVE_TWO_COLUMN_FOOTER",
       "asset": "assets/mega_bachata_trees_review_v8.png",
       "bytes": 2474085,
       "sha256": "c5781c25dfe384c2bf65ad7cff3dfcfa20e4bba15f040569c501afb23794e602",
