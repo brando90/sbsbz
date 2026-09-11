@@ -1,5 +1,9 @@
 # SBSBZ — Stanford Bachata Sensual & Brazilian Zouk
 
+**TLDR:** The live website is [brando90.github.io/sbsbz](https://brando90.github.io/sbsbz/). Edit the current design in [sbsbz-web](https://github.com/brando90/sbsbz-web); this repository's `gh-pages` branch hosts its generated public files for free.
+
+This `main` branch retains the older website design and the separate email automation. The development commands below apply to that older version. Current website build and publishing instructions are in `sbsbz-web/README.md`; changes to this older source do not deploy the live site.
+
 Website for Stanford's student-run Bachata Sensual and Brazilian Zouk dance community.
 
 ## About
