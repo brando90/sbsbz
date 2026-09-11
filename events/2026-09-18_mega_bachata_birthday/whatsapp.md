@@ -1,6 +1,6 @@
 # WhatsApp announcement
 
-**TLDR:** Copy the message below after replacing the venue and event-link placeholders.
+**TLDR:** Copy the message below after replacing the venue placeholder.
 
 ---
 
@@ -17,7 +17,7 @@ It’s my second-to-last social before graduating, and I’d love to dance with 
 
 No partner needed—all levels welcome. Bring your friends!
 
-Join us: [NEW PARTIFUL LINK]
+Join us: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 — Brando
 
 Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)

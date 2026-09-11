@@ -6,6 +6,7 @@
 
 | Field | Value |
 |---|---|
+| Event link | https://partiful.com/e/ohtSD9MnHe6u71JQx60X |
 | Title | MEGA BACHATA — Brando’s Belated Birthday |
 | Host | Brando / Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) |
 | Start | Friday, September 18, 2026, 8:00 PM |
@@ -14,7 +15,7 @@
 | Social starts | Friday, September 18, 9:00 PM |
 | Location | [VENUE + ADDRESS TO BE CONFIRMED] |
 | Admission | Free |
-| Cover | assets/mega_bachata_flyer_draft.png |
+| Cover | assets/mega_bachata_flyer_draft_v2.png |
 
 ## Description to paste
 
@@ -44,4 +45,6 @@ Club links: https://linktr.ee/ultimate_brando9
 
 ## Browser setup status
 
-On September 11, 2026, the new-event form was populated with this title and description, Friday September 18 at 8 PM through Saturday September 19 at 1 AM (Pacific time), and the generated flyer was uploaded successfully. Selecting Save draft displayed a sign-up/phone-verification screen. The event is **not yet saved or published**, and no new event link is available. The in-app browser tab is preserved for sign-in. Venue remains a placeholder. No invitations or announcements have been sent.
+Saved event page verified September 11, 2026: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
+
+The browser shows the correct title, Brando Miranda as host, Friday September 18 at 8 PM through Saturday September 19 at 1 AM (Pacific time), the full description, and the uploaded flyer. The earlier sign-in blocker was resolved. The page still shows No Location Set; the venue remains a placeholder. No invitations or announcements were sent by this task.

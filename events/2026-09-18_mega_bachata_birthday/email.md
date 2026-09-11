@@ -1,6 +1,6 @@
 # Email announcement
 
-**TLDR:** Event announcement from Brando; replace the venue and event-link placeholders before sending.
+**TLDR:** Event announcement from Brando; replace the venue placeholder before sending.
 
 **Subject:** FREE MEGA BACHATA 🎉 Brando’s birthday social · Friday, September 18
 
@@ -20,7 +20,7 @@ Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on **Friday, September 18
 
 No partner needed—all levels welcome. Come solo, bring friends, and celebrate with us!
 
-**Join us:** [NEW PARTIFUL LINK]
+**Join us:** https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 
 See you on the dance floor,
 Brando

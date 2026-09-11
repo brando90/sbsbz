@@ -23,6 +23,6 @@
 
 Confirmed: Friday September 18, 2026; all-levels class 8–9 PM; social 9 PM–1 AM; DJ Nick the whole night; taco catering by Chuy, food expected around 10 PM; free event; Brando’s belated birthday and second-to-last social before graduating.
 
-Unconfirmed: venue/address and instructors. No new Partiful event existed when the user replied. Leave those fields clearly marked until confirmed.
+Unconfirmed: venue/address and instructors. No new Partiful event existed when the user replied; the new saved event is now verified at https://partiful.com/e/ohtSD9MnHe6u71JQx60X. Leave the venue and instructor details unconfirmed until supplied.
 
 Do not carry forward April’s admission prices, venue, separate Zouk class, old instructors, DJ Whoman, pizza, or performance. Do not add alcohol, a birthday age, dress code, sponsors, parking promises, capacity, or a fabricated registration code. Vendor costs do not appear in public copy or artwork.

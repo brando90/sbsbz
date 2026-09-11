@@ -1,6 +1,6 @@
 # Flyer copy
 
-**TLDR:** Approved event facts and exact editable wording for the first-draft flyer; the venue and new Partiful event link still need filling in.
+**TLDR:** Approved event facts and exact editable wording for the first-draft flyer; the venue still needs filling in.
 
 SBSBZ PRESENTS
 STANFORD BACHATA SENSUAL & BRAZILIAN ZOUK
@@ -23,4 +23,4 @@ FREE ENTRY
 No partner needed • All levels welcome
 
 VENUE: [TO BE CONFIRMED]
-EVENT LINK: [PARTIFUL COMING SOON]
+JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
