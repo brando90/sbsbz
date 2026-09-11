@@ -1,59 +1,44 @@
-# SBSBZ — Stanford Bachata Sensual & Brazilian Zouk
+# Stanford Bachata Sensual & Brazilian Zouk
 
-**TLDR:** The live website is [brando90.github.io/sbsbz](https://brando90.github.io/sbsbz/). Edit the current design in [sbsbz-web](https://github.com/brando90/sbsbz-web); this repository's `gh-pages` branch hosts its generated public files for free.
+**TLDR:** This is the single active repository for the SBSBZ (Stanford Bachata Sensual & Brazilian Zouk) website and its existing email tools. Open **https://brando90.github.io/sbsbz/** to view the website; changes merged into `main` build and publish automatically.
 
-This `main` branch retains the older website design and the separate email automation. The development commands below apply to that older version. Current website build and publishing instructions are in `sbsbz-web/README.md`; changes to this older source do not deploy the live site.
+## View or edit the website
 
-Website for Stanford's student-run Bachata Sensual and Brazilian Zouk dance community.
+The website is at **[brando90.github.io/sbsbz](https://brando90.github.io/sbsbz/)**. Opening `client/index.html` directly from disk shows a link to the live site; the React source needs a development server to run locally.
 
-## About
+Use Node.js 22 or newer, then:
 
-SBSBZ is a student-run organization at Stanford University dedicated to social dance — specifically Bachata Sensual and Brazilian Zouk. We hold free weekly classes every Wednesday evening.
-
-## Tech Stack
-
-- React 19 + TypeScript
-- Tailwind CSS 4
-- Vite
-- Fraunces + Outfit typography
-
-## Development
-
-```bash
-pnpm install
-pnpm dev
+```sh
+npx --yes pnpm@10.4.1 install --frozen-lockfile
+npx --yes pnpm@10.4.1 dev
 ```
 
-## Email Sender
+Open the local address printed by the development server. Edit pages in `client/src/pages/` and shared navigation in `client/src/components/`.
 
-Automated weekly email sender for Stanford mailing lists. Sends from `brando9@stanford.edu` via Microsoft 365 SMTP.
+## Build and publish
 
-### Quick Start
-
-```bash
-# Setup (one-time)
-mkdir -p ~/.config/sbsbz
-# Create ~/.config/sbsbz/smtp_config.json — see py_src/SETUP.md
-
-# Dry run
-python py_src/send_weekly_email.py --dry-run --subject "This Week's Classes 💃🕺" --body "Hello!"
-
-# Send to all weekly lists
-python py_src/send_weekly_email.py --subject "This Week's Classes 💃🕺" --body-file weekly_email.txt
-
-# Send to quarterly lists
-python py_src/send_weekly_email.py --quarterly --subject "Quarterly Update" --body-file quarterly.txt
-
-# Test with a single address
-python py_src/send_weekly_email.py --test-addr you@gmail.com --subject "Test" --body "Test"
-
-# Pipe from stdin
-echo "Email body" | python py_src/send_weekly_email.py --subject "Subject" --stdin
+```sh
+npx --yes pnpm@10.4.1 check
+npx --yes pnpm@10.4.1 build:pages
 ```
 
-See `py_src/SETUP.md` for full setup instructions including Stanford app password generation.
+The GitHub Actions workflow builds and publishes only `dist/public/` after a push to `main`. GitHub Pages is configured to use **GitHub Actions**, with no second repository or cross-repository credential. Email recipients, Python tools, project notes, and source history are not included in the deployed website.
 
-## Links
+The default build path is `/sbsbz/`. GitHub Actions obtains the actual path from the Pages settings, including `/` if an owned custom domain is added later. Direct visits and refreshes work for Home, About, Classes, Events, and Join.
 
-- Instagram: [@sbsbz](https://www.instagram.com/sbsbz/)
-- Linktree: [linktr.ee/ultimate_brando9](https://linktr.ee/ultimate_brando9)
+## Preserved history and tools
+
+The September 11, 2026 consolidation keeps the newer design from `sbsbz-web` and both Git histories. The former `sbsbz-web` repository is retained only as a backup; there is no runtime or publishing dependency on it.
+
+- Original `sbsbz` version: commit `0ea277a0a96c9bb163dfc0945692187e1e45f69d`.
+- Imported `sbsbz-web` version: commit `870520bbf24abf8a3d4b92c0221b9008b38ddba3`.
+- Previous published build remains in the `gh-pages` branch as a rollback copy; new builds use GitHub Actions.
+- Existing email tools and recipient lists remain in `py_src/`; see [setup instructions](py_src/SETUP.md). No email is sent by the website deployment.
+- Existing marketing prompts remain in `automation/prompts/` and `experiments/00_automating_marketing/`.
+- The unmerged configuration draft remains on `claude/init-brando-config-utils-pYA8W`, commit `889cbed`; it has not been silently applied or deleted.
+
+## Photos
+
+The original external photo host returned HTTP 403 (access denied) for all 19 current photo addresses on September 11, 2026. Pages preserve those addresses and descriptions and display branded fallbacks when a photo fails, rather than broken-image icons. These fallbacks are not replacement photographs.
+
+To restore a photo permanently, put the original image in `client/public/photos/` and use `import.meta.env.BASE_URL + "photos/filename.jpg"` for its page reference. This serves it from the same host as the website. Existing photos are not stored in either repository's history.
