@@ -23,14 +23,13 @@ const fadeUp = {
   }),
 };
 
-const HERO_IMG =
-  import.meta.env.BASE_URL + "photos/community-recap.jpg";
+const HERO_IMG = import.meta.env.BASE_URL + "photos/community-recap.jpg";
 
 const steps = [
   {
     num: "01",
     title: "Show Up",
-    desc: "Come to any of our weekly classes. No sign-up needed — just walk in. Check our Classes page for the schedule.",
+    desc: "Come to our Thursday Bachata classes. No sign-up needed — just walk in. Check our Classes page for the schedule.",
   },
   {
     num: "02",
@@ -248,7 +247,7 @@ export default function Join() {
                   <div>
                     <p className="text-sm font-medium text-cream">Location</p>
                     <p className="text-xs text-cream/50">
-                      Wed: Roble 114 &middot; Thu: EVGR C Dance Studio
+                      Thursday Bachata: EVGR C Dance Studio
                     </p>
                   </div>
                 </div>

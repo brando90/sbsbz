@@ -200,7 +200,7 @@ export default function Home() {
               {
                 icon: Calendar,
                 title: "Weekly Classes",
-                desc: "Next quarter: Thursday Bachata 7–10 PM — beginner, intermediate, then social. Zouk Wednesdays at 7:30 PM. Free for Stanford affiliates.",
+                desc: "Next quarter: Thursday Bachata 7–10 PM — beginner, intermediate, then social. Bachata only for now. Free for Stanford affiliates.",
               },
             ].map((item, i) => (
               <motion.div
@@ -342,10 +342,6 @@ export default function Home() {
                 className="space-y-4 mb-8"
               >
                 {[
-                  {
-                    label: "Wednesday — Zouk",
-                    time: "7:30–8:45 PM + Social 8:45–10:30 PM",
-                  },
                   {
                     label: "Thursday — Bachata (Next Quarter)",
                     time: "Beginner 7–8 PM · Intermediate 8–9 PM · Social 9–10 PM",
