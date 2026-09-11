@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-11T13:49:58-07:00",
+  "repository": "https://github.com/brando90/sbsbz",
+  "branch": "codex/mega-bachata-birthday-2026-09-18",
+  "verified_asset_commit": "121d40cd56d39267f3efea2ed17900c78c0cb743",
+  "drive_folder": "https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo",
+  "assets": [
+    {
+      "version": 8,
+      "status": "CURRENT_REVIEW",
+      "asset": "assets/mega_bachata_trees_review_v8.png",
+      "bytes": 2474085,
+      "sha256": "c5781c25dfe384c2bf65ad7cff3dfcfa20e4bba15f040569c501afb23794e602",
+      "drive_url": "https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view",
+      "github_url": "https://github.com/brando90/sbsbz/blob/121d40cd56d39267f3efea2ed17900c78c0cb743/events/2026-09-18_mega_bachata_birthday/assets/mega_bachata_trees_review_v8.png",
+      "git_bytes_match_local": true,
+      "drive_verification": "uploaded source file; size and parent folder read back"
+    },
+    {
+      "version": 6,
+      "status": "ARCHIVE_CODE_NOT_SCANNABLE",
+      "asset": "assets/mega_bachata_trees_layout_v6_code_pending.png",
+      "bytes": 1988687,
+      "sha256": "5b9245235286e2c0b878e141872e00faa144c7ea4b049640f86fec19262be03d",
+      "drive_url": "https://drive.google.com/file/d/14nTuRE0U_k0IuE0b83xqiHE-F4NvHzbS/view",
+      "github_url": "https://github.com/brando90/sbsbz/blob/121d40cd56d39267f3efea2ed17900c78c0cb743/events/2026-09-18_mega_bachata_birthday/assets/mega_bachata_trees_layout_v6_code_pending.png",
+      "git_bytes_match_local": true,
+      "drive_verification": "uploaded source file; size and parent folder read back"
+    }
+  ],
+  "approval_status": "PENDING",
+  "email_sent": false,
+  "whatsapp_sent": false
+}

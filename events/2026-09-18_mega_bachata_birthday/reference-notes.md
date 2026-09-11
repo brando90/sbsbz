@@ -61,3 +61,7 @@ Partiful’s official help article confirms event-sharing codes are available in
 ## Version 8 and code destination decision
 
 The user requested aligned footer text and symmetric gold lines, then replied to the exact-local-compositing choice that one Partiful code would be best if only one is used. Selected one code labelled JOIN THE PARTY; broader club links remain in the prepared description and messages. Image editing adjusted the footer, and exact local composition inserted the verified code and matched each pair of divider strokes. Code generation/insertion is authorized; final approval for publication and all sends is still pending.
+
+## Drive and GitHub synchronization
+
+The later user attachment exec-91bfb7f1-b9b0-4b04-b86e-2c31cab1d502.png exactly matches archived assets/mega_bachata_trees_layout_v6_code_pending.png. It is separately archived in Drive at https://drive.google.com/file/d/14nTuRE0U_k0IuE0b83xqiHE-F4NvHzbS/view . Current version 8 remains unchanged. asset-sync.json records immutable GitHub file links, Drive links, local/committed checksums, byte counts and verification scope.

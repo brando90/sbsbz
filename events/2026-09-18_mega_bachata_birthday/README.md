@@ -24,6 +24,7 @@ Local copy: [review-packet.md](review-packet.md)
 | Sources | [reference-notes.md](reference-notes.md) |
 | Exact image prompts | [image-prompt.md](image-prompt.md) |
 | Verification record | [verification.md](verification.md) |
+| Drive/GitHub version and checksum record | [asset-sync.json](asset-sync.json) |
 
 Drive event folder: https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo
 Current version-8 flyer: https://drive.google.com/file/d/1tQddBrtBWPg7IqDyJQsLN1d6W5jJEhLo/view
