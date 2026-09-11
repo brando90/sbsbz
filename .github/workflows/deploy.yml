@@ -26,6 +26,7 @@ jobs:
         uses: actions/configure-pages@v5
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
+      - run: node --test scripts/check-photos.test.mjs
       - run: pnpm build:pages
         env:
           PAGES_BASE: ${{ steps.pages.outputs.base_path }}/

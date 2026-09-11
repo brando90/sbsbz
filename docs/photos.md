@@ -37,3 +37,11 @@ The former host returned HTTP 403 (access denied) for all 19 unique photo addres
 The other unavailable exact exports are `community-collage_6573bfed.png`, `ig-post5_485f39af.jpg`, and `IMG-20221123-WA0024_d4b0f7a2.jpg`; the table above identifies the authentic club images reused in those placements. Image descriptions were corrected where needed to match the recovered studio and social photographs.
 
 To restore a remaining original, save it in `client/public/photos/`, replace the matching `img: undefined` in `client/src/pages/About.tsx` with `import.meta.env.BASE_URL + "photos/filename.jpg"`, update this record, and verify the image in the built site before publishing.
+
+## Drive follow-up and permanent storage
+
+On September 11, the [club Drive](https://drive.google.com/drive/folders/1cfAKuuzU9hRaaGp1GbzDIaIyJH-lX-3J) was checked again, including Marketing, Classes, Events, and the Roles & Responsibilities folder. The Marketing image previews include dance photographs and class flyers; searches for Elizabeth/Elisabeth, Nick, and Lorena returned no named image files. No additional officer portrait could be reliably assigned from these sources. This does not establish that a portrait cannot be embedded in another document or stored under an unidentified name.
+
+All 13 images currently used by the website are committed in this repository. Keep each new photo and its page reference in the same commit, and preserve the source link in this record. Drive links here document provenance; they are not live image dependencies.
+
+`scripts/check-photos.mjs` runs automatically before and after every production Pages build. It checks Git tracking, local files, literal `photos/filename` references, remote raster-image address regressions, and exact output copies. Keep page references in this literal form; if introducing dynamic image paths or a different asset-loading mechanism, extend the check and verify the rendered images. The three explicitly missing portraits remain documented initials rather than references to absent files.

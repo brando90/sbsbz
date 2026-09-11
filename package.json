@@ -10,6 +10,7 @@
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
+    "check:photos": "node scripts/check-photos.mjs",
     "format": "prettier --write ."
   },
   "dependencies": {
