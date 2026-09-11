@@ -44,3 +44,17 @@ Line 2: JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X
 Copy the case-sensitive event link EXACTLY, including lowercase oht, capital SD, digit 9, capital M, lowercase n, capital H, lowercase e, digits 6 and 71, capital JQ, lowercase x, digits 60, capital X. Remove the old EVENT LINK: [PARTIFUL COMING SOON] wording completely. Do not add QR codes or any other changes. Keep the same aspect ratio and resolution. This is a first-draft flyer with the newly verified Partiful event link but a still-unconfirmed venue.
 
 **TL;DR:** Use the built-in image-generation tool to update only the footer with the verified Partiful link, preserving the event design and venue placeholder.
+
+## Version 3: user-preferred dancing tree illustration
+
+Source: assets/source_dancing_stanford_trees.png, preserved from the user attachment; original upload path is recorded in reference-notes.md. Edit target: assets/mega_bachata_flyer_draft_v2.png. Built-in image-generation tool used.
+
+Targeted edit to the FIRST supplied image (the current complete MEGA BACHATA flyer). The SECOND supplied image is the exact user-preferred replacement artwork: two joyful green Stanford tree mascots dancing together, with black limbs and red varsity S letters outlined in white.
+
+Replace ONLY the human dancing couple in the upper central neon circle with these two dancing tree mascots. Faithfully preserve the tree mascots' distinctive illustration: both dark-green evergreen silhouettes, black outlines, closed happy eyes, smiles, black limbs, red-and-white varsity S lettering, and their paired dance/dip pose from the provided source. Remove the source image's red rectangular background and screenshot border; integrate the isolated tree pair naturally into the existing glowing fuchsia ring, with subtle rim light if useful. It must read unmistakably as the user's two tree characters, not humans in costumes or newly invented mascots. Size the tree pair to fit within the current illustration footprint, fully visible above the MEGA headline without touching the small organization header.
+
+Preserve ALL other parts of the existing flyer as closely as possible: size, portrait aspect ratio, Stanford sunset architecture, gold-and-burgundy palette, confetti, neon ring, every text line, typography, line breaks, dates, times and footer. Absolutely no extra copy, labels, logos, prices, new sponsors or fabricated details. No people should remain in the central illustration.
+
+Text invariants: SBSBZ PRESENTS; STANFORD BACHATA SENSUAL & BRAZILIAN ZOUK; MEGA BACHATA; BRANDO’S BELATED BIRTHDAY; His second-to-last social before graduating; FRIDAY, SEPTEMBER 18; 2026; SOCIAL 9 PM–1 AM; ALL-LEVELS CLASS 8–9 PM; DJ NICK ALL NIGHT; TACOS BY CHUY AROUND 10 PM; FREE ENTRY; No partner needed • All levels welcome; VENUE: [TO BE CONFIRMED]; JOIN: partiful.com/e/ohtSD9MnHe6u71JQx60X. The link is case-sensitive and must remain exactly as in the target flyer. Do not change or reflow the footer. This is only an illustration replacement.
+
+**TL;DR:** Replace the human dancers with the attached Stanford tree mascots using the built-in image-generation tool, preserving the flyer text and all other design elements.

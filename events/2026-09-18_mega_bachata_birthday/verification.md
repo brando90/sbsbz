@@ -32,3 +32,11 @@ SUMMARY: The draft copy and image agree with confirmed event details and preserv
 After the completed review, the browser showed the newly saved Partiful page. Its verified link replaced the temporary placeholders in WhatsApp/email copy and the flyer footer. The earlier sign-in blocker is resolved. These mechanical link/status changes receive deterministic source and visual checks without another model review.
 
 Version 2 footer checked visually: partiful.com/e/ohtSD9MnHe6u71JQx60X matches the observed saved event address character-for-character. The updated cover completed upload to Partiful and replaced the Drive file in place; Drive metadata reports 2,230,029 bytes.
+
+## Version 3: dancing Stanford trees
+
+User-requested cosmetic refinement on September 11, 2026: replaced the human dancers with the attached two green dancing Stanford tree mascots. Saved the original screenshot under assets/source_dancing_stanford_trees.png and the edited flyer under assets/mega_bachata_flyer_draft_v3.png. The built-in image-generation tool made the edit; the exact prompt and attachment provenance are recorded in image-prompt.md and reference-notes.md.
+
+Visual check passed: the two trees retain the reference pose, expressions, and red-and-white S lettering; the red screenshot panel is removed; no human dancers remain; all event text, date, times, footer link, venue placeholder, and background design remain correct. Dimensions remain 1122 × 1402 pixels. No substantive factual changes or additional model review were needed for this cosmetic preference update. Existing copy remains unchanged.
+
+Drive replacement verified by metadata readback: same flyer file, 2,190,695 bytes. Partiful upload completed, and the saved event page was visually checked with the tree flyer displayed. No announcements or invitations were sent.

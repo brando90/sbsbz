@@ -1,13 +1,13 @@
 # MEGA BACHATA birthday event kit — September 18, 2026
 
-**TLDR:** WhatsApp, email, Partiful copy, and a new flyer for Brando’s free belated-birthday social. These are first drafts with explicit a venue placeholder.
+**TLDR:** WhatsApp, email, Partiful copy, and a new flyer for Brando’s free belated-birthday social. These are first drafts with an explicit venue placeholder.
 
 | Deliverable | File |
 |---|---|
 | WhatsApp announcement | [whatsapp.md](whatsapp.md) |
 | Email subject and body | [email.md](email.md) |
 | Partiful fields and description | [partiful.md](partiful.md) |
-| Flyer image | [mega_bachata_flyer_draft_v2.png](assets/mega_bachata_flyer_draft_v2.png) |
+| Flyer image | [mega_bachata_flyer_draft_v3.png](assets/mega_bachata_flyer_draft_v3.png) |
 | Editable flyer wording | [flyer-copy.md](flyer-copy.md) |
 | Sources and extracted branding | [reference-notes.md](reference-notes.md) |
 | Exact image-generation prompt | [image-prompt.md](image-prompt.md) |

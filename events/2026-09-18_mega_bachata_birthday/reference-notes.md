@@ -16,8 +16,12 @@
 - Organization: Stanford Bachata Sensual & Brazilian Zouk (SBSBZ).
 - Inclusive language: no partner needed; all levels welcome.
 - April flyer style: burgundy/cardinal-red sunset, gold and cream lettering, fuchsia neon ring, illustrated dancing couple, Stanford sandstone arches and Hoover Tower.
-- New design: retains those elements with a larger MEGA BACHATA headline, prominent date and social hours, and a FREE ENTRY badge.
-- The illustrated people are generic dancers, not portraits of Brando or confirmed instructors. The architecture is atmosphere, not a venue confirmation.
+- New design: retains the palette, architecture, and neon ring with a larger MEGA BACHATA headline, prominent date and social hours, and a FREE ENTRY badge; version 3 replaces the human dancers with the user-supplied tree mascots.
+- The first two versions used generic human dancers, not portraits of Brando or confirmed instructors. Version 3 uses the requested tree mascots. The architecture is atmosphere, not a venue confirmation.
+
+## User-preferred illustration (September 11 update)
+
+The user requested their attached two dancing Stanford tree mascots in place of the human dancers. Original screenshot saved unchanged as assets/source_dancing_stanford_trees.png (861,467 bytes). Original upload path: /var/folders/yy/4p8d8d5j0_307c2lt30hsqdr0000gn/T/TemporaryItems/NSIRD_screencaptureui_VfAqqP/Screenshot 2026-09-11 at 11.06.45 AM.png. This is a visual source, not an instruction document. The new flyer uses these characters while retaining the existing event wording and background.
 
 ## Current facts and boundaries
 

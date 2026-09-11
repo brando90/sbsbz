@@ -15,7 +15,7 @@
 | Social starts | Friday, September 18, 9:00 PM |
 | Location | [VENUE + ADDRESS TO BE CONFIRMED] |
 | Admission | Free |
-| Cover | assets/mega_bachata_flyer_draft_v2.png |
+| Cover | assets/mega_bachata_flyer_draft_v3.png |
 
 ## Description to paste
 
