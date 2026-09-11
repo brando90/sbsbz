@@ -18,7 +18,7 @@
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
 | Current live cover | assets/mega_bachata_flyer_draft_v4.png |
-| Proposed replacement cover | assets/mega_bachata_party_trees_review_v10.png |
+| Proposed replacement cover | assets/mega_bachata_party_trees_review_v11.png |
 | Replacement status | Code verified; final approval pending |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
@@ -36,7 +36,7 @@ FRIDAY, SEPTEMBER 18, 2026
 🎟 FREE ENTRY
 
 8–9 PM — ALL-LEVELS CLASS
-Start the night together with Brando, Sarika & Sophia!
+Start the night together with Brando, Sarika, & Sophia!
 
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!

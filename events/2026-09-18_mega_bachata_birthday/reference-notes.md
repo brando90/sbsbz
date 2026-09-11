@@ -73,3 +73,7 @@ The user requested a written requirements checklist and a real symmetry fix. The
 ## Version 10 — corrected title
 
 The user explicitly changed the event title to MEGA BACHATA PARTY. Current flyer: assets/mega_bachata_party_trees_review_v10.png; https://drive.google.com/file/d/1w3JAgQXNQ1TkUKZWDBVzOLuvfrJqK6hh/view. Current copy and prepared Partiful title follow that exact title. Historical images and prompts preserve earlier wording for provenance. No live event/profile edits or sends occurred.
+
+## Version 11 — reviewer punctuation request
+
+User supplied feedback asking for the Oxford comma after Sarika. Current flyer and copy now use Brando, Sarika, & Sophia. Current flyer: assets/mega_bachata_party_trees_review_v11.png; https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view. A six-by-twelve-pixel punctuation patch is the only visual change. The quoted “looks good” feedback was not treated as final publication/sending approval.

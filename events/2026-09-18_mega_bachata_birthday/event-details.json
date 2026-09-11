@@ -19,7 +19,7 @@
   "dj": "Nick",
   "food": "Free tacos by Chuy, expected around 10 PM",
   "taco_endorsement": "Brando’s pick: BEST TACOS IN THE BAY. Mexican-approved.",
-  "flyer": "assets/mega_bachata_party_trees_review_v10.png",
+  "flyer": "assets/mega_bachata_party_trees_review_v11.png",
   "whatsapp_group": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
   "email_from": "brandojazz@gmail.com",
   "email_to": "stanford_bachata_zouk@lists.stanford.edu",
@@ -31,9 +31,9 @@
   "invitations_sent": false,
   "flyer_qr_target": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
   "flyer_food_line": "BEST TACOS IN TOWN · FREE",
-  "flyer_status": "V10_TITLE_UPDATED_APPROVAL_PENDING",
-  "flyer_layout_preview": "assets/mega_bachata_party_trees_review_v10.png",
-  "flyer_layout_status": "V10_PARTY_TITLE_CENTERED_VERIFIED_CODE",
+  "flyer_status": "V11_COMMA_FIXED_APPROVAL_PENDING",
+  "flyer_layout_preview": "assets/mega_bachata_party_trees_review_v11.png",
+  "flyer_layout_status": "V11_COMMA_FIXED_CENTERED_VERIFIED_CODE",
   "flyer_ready_for_distribution": false,
   "live_partiful_cover": "assets/mega_bachata_flyer_draft_v4.png",
   "final_flyer": null,
@@ -42,7 +42,7 @@
     "gold outline taco beside food",
     "gold location pin beside venue"
   ],
-  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/1w3JAgQXNQ1TkUKZWDBVzOLuvfrJqK6hh/view",
+  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view",
   "available_qr_codes": {
     "partiful": {
       "asset": "assets/partiful_event_qr.png",
@@ -67,5 +67,6 @@
     1024,
     1728
   ],
-  "flyer_footer_center_x": 512
+  "flyer_footer_center_x": 512,
+  "instructor_credit": "Brando, Sarika, & Sophia"
 }

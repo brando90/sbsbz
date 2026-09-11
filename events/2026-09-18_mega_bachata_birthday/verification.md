@@ -1,6 +1,6 @@
 # Verification of the September 18 marketing kit
 
-**TLDR:** Version 10 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
+**TLDR:** Version 11 passes the visual, source-consistency and actual code-decoding checks. The full footer is centered, divider lengths and gaps match, the class/taco icons remain, and the code opens the exact Partiful event; publication and sending approval is still pending.
 
 Checked September 11, 2026.
 
@@ -105,3 +105,9 @@ Drive metadata readback reports the same 2,199,807 bytes and the correct event-f
 Checked 2026-09-11T14:14:01-07:00. User explicitly added PARTY to the event title. The built-in image editor produced the three-line MEGA / BACHATA / PARTY heading. Its headline patch was normalized to the existing canvas and composited above row 418; the original lower artwork, centered footer, icons and functional party code remain unchanged. Visual inspection confirms all three title words, birthday subtitle, organization spelling, facts and symmetry. Native Apple Vision decodes the exact event URL at 1024 × 1728, 768 × 1296 and 512 × 864.
 
 Current image: assets/mega_bachata_party_trees_review_v10.png; 2,205,117 bytes; SHA-256 (file checksum): 2b32c304328f8167c9cddc0c926b4f8d1c7e4404abed4326fb78c06691626428. Current Drive: https://drive.google.com/file/d/1w3JAgQXNQ1TkUKZWDBVzOLuvfrJqK6hh/view. Version 9 is archival. All current titles and email subject/body were updated. Saved Slack and Discord variants each provide one complete code block. The portable email remains unsent with its exact current image attached. Live Partiful title/cover/description changes remain pending user approval.
+
+## Version 11 — comma after Sarika
+
+Checked 2026-09-11T14:23:54-07:00. The user relayed a request for a comma after Sarika. Current credit is BRANDO, SARIKA, & SOPHIA. The built-in editor omitted the requested punctuation, so the already-authorized exact local composition method copied the existing comma glyph after BRANDO to the same baseline after SARIKA. Read-only pixel comparison against version 10 confirms every changed pixel lies within x=640…645 and y=1004…1015; all other pixels are identical. The close-up assets/instructor_credit_detail_v11.png was visually inspected.
+
+Current image: assets/mega_bachata_party_trees_review_v11.png; 1024 × 1728; 2,205,113 bytes; SHA-256 (file checksum): 5ed523e8be4534cd9eb389fc2ebdb83dbc83e5cabe0151f94be2218c02a01a76. Native Apple Vision returned the exact event URL from the full image and 768/512-pixel-wide reductions. Current Drive: https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view. All five message blocks retain their facts and links and use the same instructor punctuation. The local portable email matches the current body and image and remains unsent. Quoted reviewer feedback was not interpreted as authorization to publish or send.

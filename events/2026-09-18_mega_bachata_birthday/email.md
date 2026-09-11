@@ -15,7 +15,7 @@ I’m celebrating my belated birthday with a MEGA BACHATA PARTY, and you’re in
 
 Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on Friday, September 18, 2026:
 
-• 8–9 PM: All-levels class with Brando, Sarika & Sophia
+• 8–9 PM: All-levels class with Brando, Sarika, & Sophia
 • 9 PM–1 AM: Social dancing and party with DJ Nick all night
 • Around 10 PM: FREE tacos by Chuy—my pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽🌮
 • Admission: FREE
