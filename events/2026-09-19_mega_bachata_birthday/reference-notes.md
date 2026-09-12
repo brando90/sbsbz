@@ -23,7 +23,7 @@
 
 The user requested their attached two dancing Stanford tree mascots in place of the human dancers. Original screenshot saved unchanged as assets/source_dancing_stanford_trees.png (861,467 bytes). Original upload path: /var/folders/yy/4p8d8d5j0_307c2lt30hsqdr0000gn/T/TemporaryItems/NSIRD_screencaptureui_VfAqqP/Screenshot 2026-09-11 at 11.06.45 AM.png. This is a visual source, not an instruction document. The new flyer uses these characters while retaining the existing event wording and background.
 
-## Current facts and boundaries
+## Original September 18 facts and boundaries (historical)
 
 Confirmed: Friday September 18, 2026; all-levels class with Brando, Sarika & Sophia, 8–9 PM; social 9 PM–1 AM; DJ Nick the whole night; taco catering by Chuy, food expected around 10 PM; free event; Brando’s belated birthday and second-to-last social before graduating.
 
@@ -77,3 +77,11 @@ The user explicitly changed the event title to MEGA BACHATA PARTY. Current flyer
 ## Version 11 — reviewer punctuation request
 
 User supplied feedback asking for the Oxford comma after Sarika. Current flyer and copy now use Brando, Sarika, & Sophia. Current flyer: assets/mega_bachata_party_trees_review_v11.png; https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view. A six-by-twelve-pixel punctuation patch is the only visual change. The quoted “looks good” feedback was not treated as final publication/sending approval.
+
+## Current date correction
+
+User confirmed 2026-09-11T18:53:10-07:00: the same event moves to Saturday, September 19, 2026. Class remains 8–9 PM, social 9 PM–1 AM, ending Sunday September 20. All other guest-facing details remain unchanged by explicit instruction. Earlier September 18 confirmations above are historical.
+
+## Current instructor correction
+
+User confirmed 2026-09-11T19:58:33-07:00: Marta is Brando’s follow, replacing the previous Sarika/Sophia credit. Current public credit is Brando & Marta. The current event is Saturday September 19; earlier dates and instructor names above document previous versions only.

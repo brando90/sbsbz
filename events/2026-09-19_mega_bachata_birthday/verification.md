@@ -1,6 +1,6 @@
-# Verification of the September 18 marketing kit
+# Verification of the September 19 marketing kit
 
-**TLDR:** Version 11 passes the visual, source-consistency and actual code-decoding checks, with a centered footer, matching dividers, retained icons and the exact Partiful event destination. The cover, full birthday title, location and description are now approved and verified live; no messages or invitations were sent.
+**TLDR:** The current version-13 flyer and copy advertise Saturday September 19 with Brando & Marta; class remains 8–9 PM and social 9 PM–1 AM. The current event code passes actual decoding at three sizes, and earlier verification sections below preserve historical versions.
 
 Checked September 11, 2026.
 
@@ -131,3 +131,17 @@ Verified 2026-09-11T15:07:59-07:00. User request: “the partiful text is outdat
 - No invitations, text blasts, email, WhatsApp, Slack or Discord posts were sent. The Linktree profile itself was not edited.
 
 This completed update supersedes the earlier historical notes that the live location was unset and description changes were pending. A separate read-only consistency check found the prepared copy consistent with the confirmed facts. The website-owning task was informed that the obsolete Partiful location placeholder has been removed.
+
+## Historical intermediate: Saturday, September 19 reschedule
+
+User instruction recorded 2026-09-11T18:53:10-07:00: change only the date/day to Saturday September 19, 2026 and retain the flyer’s 1 AM end. The event folder moved from events/2026-09-18_mega_bachata_birthday to events/2026-09-19_mega_bachata_birthday. Version 12 changes only the date band at rows 806–887, retaining the original artwork, class/social times, icons, centered footer and exact event code. Native Apple Vision decoded the exported flyer at 1024, 768 and 512 pixels wide to https://partiful.com/e/ohtSD9MnHe6u71JQx60X. Calendar weekdays verified deterministically; event ends Sunday September 20. Publication completed; see the version-13 saved-page verification below.
+
+## Version 13 — Brando & Marta
+
+Checked 2026-09-11T19:58:33-07:00. The built-in image edit replaces the class credit with ALL LEVELS • BRANDO & MARTA. Authorized local compositing applied only the instructor line, rows 982–1017, to the version-12 dated flyer. Actual exported image visually inspected: Saturday September 19, class8–9PM, social9PM–1AM, Brando & Marta, original trees/icons/centered footer/address retained. Native Apple Vision decodes the full image and 768/512-pixel-wide reductions to the exact existing event URL. Current image: assets/mega_bachata_party_sept19_brando_marta_v13.png; 2211889 bytes; SHA-256: ce558a5edad5baa603a87ae3ce49a0cf7e79d89d1970116b6b5546948a2d7cef. Drive: https://drive.google.com/file/d/1CoRiYcX50MKqT6IFknMLEbIM6A_MWFhC/view.
+
+## Current version 13 — saved-page and website verification
+
+Verified 2026-09-11T20:03:57-07:00: existing Partiful https://partiful.com/e/ohtSD9MnHe6u71JQx60X saved outside the editor with Saturday September 19, 8 PM–1 AM, Brando & Marta, full venue/address and correct links. Final cover image identifier hkipR6CHHT4cLsEGVhCQd. The exported flyer scans to this Partiful event at widths 1024, 768 and 512 pixels. Drive confirms 2,211,889 bytes in the event folder.
+
+The website owner verified https://brando90.github.io/sbsbz/events/ with Brando & Marta and the Saturday schedule after pull request https://github.com/brando90/sbsbz/pull/10 merged at 39852f51e6cd588e37e60af99776594a9aefd2bd; deployment https://github.com/brando90/sbsbz/actions/runs/34669262222 succeeded. A separate current-copy consistency check found and corrected the packet’s explicit end-date field to Sunday September 20; all five message blocks match their source files. No announcement or invitation sent.

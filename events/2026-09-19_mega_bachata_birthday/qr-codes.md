@@ -20,4 +20,6 @@ Version-9 flyer (archival): assets/mega_bachata_trees_review_v9.png. Its single 
 
 Version-10 flyer (archival): assets/mega_bachata_party_trees_review_v10.png. The exact centered JOIN THE PARTY code is preserved and decodes to https://partiful.com/e/ohtSD9MnHe6u71JQx60X at widths 1024, 768 and 512 pixels.
 
-Current flyer: assets/mega_bachata_party_trees_review_v11.png. Its unchanged JOIN THE PARTY code decoded to the exact existing Partiful URL at widths 1024, 768 and 512 pixels.
+Version-11 flyer (archival): assets/mega_bachata_party_trees_review_v11.png. Its unchanged JOIN THE PARTY code decoded to the exact existing Partiful URL at widths 1024, 768 and 512 pixels.
+
+Current flyer: assets/mega_bachata_party_sept19_brando_marta_v13.png. Its exact JOIN THE PARTY code decodes to https://partiful.com/e/ohtSD9MnHe6u71JQx60X at widths 1024, 768 and 512 pixels. The existing event link is unchanged by the reschedule.

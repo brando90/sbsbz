@@ -178,3 +178,19 @@ User: “I think the title should say Mega Bachata Party, the word party is miss
 ## Version 11 — instructor punctuation
 
 User relayed: “There should be a comma after Sarika … because there is one after Brando.” Built-in image edit requested exactly ALL LEVELS · BRANDO, SARIKA, & SOPHIA, changing nothing else. Generated output /Users/sanmikoyejo-mba-1/.codex/generated_images/01a091a2-a60f-7472-a330-1987c380c0c7/exec-06b73fb1-2b7e-4a9a-a60e-50580b0bf53a.png still omitted the comma and was not used. Authorized native composition instead copied the existing punctuation from the version-10 source rectangle x=530,y=1004,width=6,height=12 to x=640,y=1004. This retains the exact font and baseline and leaves every other pixel unchanged. Output: assets/mega_bachata_party_trees_review_v11.png.
+
+## Version 12 — date-only reschedule
+
+Built-in image generation edited version 11 with this prompt; the generated date band alone was composited into the original 1024×1728 image, using the previously authorized exact local compositing method. Only rows 806–887 changed; the functional event code and all other artwork are preserved.
+
+```text
+Use case: text-localization. Replace only FRIDAY, SEPTEMBER 18 with SATURDAY, SEPTEMBER 19 in the existing gold date line. Keep it centered on one line with equal margins. Preserve the MEGA BACHATA PARTY title, birthday subtitle, dancing Stanford trees, class 8–9 PM, social 9 PM–1 AM, instructor punctuation, Nick, tacos, venue/address, icons, symmetric footer and exact Partiful code. No redesign, year, confetti or humans.
+```
+
+## Version 13 — instructor correction
+
+Built-in image edit, followed by the previously authorized exact local compositing method to preserve all other artwork and the functional event code.
+
+```text
+Replace only the small white instructor-credit line beneath CLASS 8–9 PM with ALL LEVELS • BRANDO & MARTA. Center it in the same place and preserve the existing white type style. Keep Saturday September 19, all times, tree mascots, headline, birthday subtitle, Nick, tacos, address, icons, symmetric footer and exact Partiful code unchanged. No other text or design changes.
+```

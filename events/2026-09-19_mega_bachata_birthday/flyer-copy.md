@@ -1,13 +1,13 @@
 # Flyer copy — clean tree layout
 
-**TLDR:** Version 11 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The code passes scan checks, and the flyer, title, location and description are approved and live on Partiful; automatic sending remains unapproved.
+**TLDR:** Version 13 places the title above the trees, uses matching class/social banners, and replaces printed links with one Partiful quick-response (QR) code. The code passes scan checks, and the flyer, title, location and description are approved and live on Partiful; automatic sending remains unapproved.
 
 MEGA BACHATA PARTY
 BRANDO’S BELATED BIRTHDAY
 [Dancing Stanford tree mascots]
-FRIDAY, SEPTEMBER 18
+SATURDAY, SEPTEMBER 19
 [Small gold graduation-cap icon] CLASS 8–9 PM
-ALL LEVELS · BRANDO, SARIKA, & SOPHIA
+ALL LEVELS · BRANDO & MARTA
 SOCIAL 9 PM–1 AM
 DJ NICK ALL NIGHT
 [Small gold taco icon] BEST TACOS IN TOWN · FREE

@@ -1,22 +1,22 @@
-# Complete review — MEGA BACHATA PARTY, September 18, 2026
+# Complete review — MEGA BACHATA PARTY, September 19, 2026
 
-**TLDR:** The version-11 Partiful cover, full birthday title, venue/address and description are approved and live. Nothing has been sent; Brando will send the messages himself, and the separate Linktree website-button correction remains pending approval.
+**TLDR:** The version-13 Partiful cover, full birthday title, venue/address and description are approved and live. Nothing has been sent; Brando will send the messages himself, and the separate Linktree website-button correction remains pending approval.
 
-## Current flyer — version 11, verified event code
+## Current flyer — version 13, verified event code
 
-[Open or download the current flyer](https://drive.google.com/file/d/1IX0leNo7UzZiIohnpDGeOwdUQNzpAzpn/view).
+[Open or download the current flyer](https://drive.google.com/file/d/1CoRiYcX50MKqT6IFknMLEbIM6A_MWFhC/view).
 
 The class and taco icons are restored, the food, venue, address and code share one centerline, with equal divider lengths, gaps and margins, and the code labelled JOIN THE PARTY opens the existing Partiful event. Native scanning passed at image widths 1024, 768 and 512 pixels. Linktree stays in the text messages and live Partiful description. The cover, full birthday title, location and description are approved and live on Partiful; automatic sending is not authorized.
 
-![Current version-11 tree flyer](assets/mega_bachata_party_trees_review_v11.png)
+![Current version-13 tree flyer](assets/mega_bachata_party_sept19_brando_marta_v13.png)
 
 ## Event facts and exact destinations
 
 | Item | Final-review value |
 |---|---|
-| Date | Friday, September 18, 2026 |
-| Class | 8–9 PM with Brando, Sarika, & Sophia; all levels |
-| Social | Friday 9 PM–Saturday 1 AM; DJ Nick all night |
+| Date | Saturday, September 19, 2026 |
+| Class | 8–9 PM with Brando & Marta; all levels |
+| Social | Saturday 9 PM–Sunday 1 AM; DJ Nick all night |
 | Venue | Hacienda Commons at Rains |
 | Address | 796 Escondido Rd, Stanford, CA 94305 |
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
@@ -40,8 +40,8 @@ After final approval, attach the approved tree flyer and use this message:
 
 It’s my second-to-last social before graduating, and I’d love to dance with you! 💃
 
-*Friday, September 18 · FREE ENTRY*
-🕗 All-levels class with *Brando, Sarika, & Sophia*: *8–9 PM*
+*Saturday, September 19 · FREE ENTRY*
+🕗 All-levels class with *Brando & Marta*: *8–9 PM*
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
 🌮 FREE tacos by Chuy around 10 PM—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
 
@@ -60,18 +60,18 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 ## Email — exact subject and body
 
-Subject: FREE MEGA BACHATA PARTY 🎉 Brando’s birthday social · Friday, September 18
+Subject: FREE MEGA BACHATA PARTY 🎉 Brando’s birthday social · Saturday, September 19
 
-Attachment: version-11 tree flyer with verified Partiful code. The portable unsent email contains this exact image; sending awaits final approval.
+Attachment: version-13 tree flyer with verified Partiful code. The portable unsent email contains this exact image; sending awaits final approval.
 
 ```text
 Hi everyone!
 
 I’m celebrating my belated birthday with a MEGA BACHATA PARTY, and you’re invited! This is my second-to-last social before graduating, so I’d love to see familiar faces and meet new ones on the dance floor.
 
-Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on Friday, September 18, 2026:
+Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on Saturday, September 19, 2026:
 
-• 8–9 PM: All-levels class with Brando, Sarika, & Sophia
+• 8–9 PM: All-levels class with Brando & Marta
 • 9 PM–1 AM: Social dancing and party with DJ Nick all night
 • Around 10 PM: FREE tacos by Chuy—my pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽🌮
 • Admission: FREE
@@ -105,23 +105,23 @@ Copy the platform-formatted message from [slack.md](https://drive.google.com/fil
 ## Partiful — exact description
 
 Title: MEGA BACHATA PARTY — Brando’s Belated Birthday
-Start: September 18, 2026, 8:00 PM. End: September 19, 2026, 1:00 AM. Timezone: America/Los_Angeles.
+Start: September 19, 2026, 8:00 PM. End: September 20, 2026, 1:00 AM. Timezone: America/Los_Angeles.
 Location field: Hacienda Commons at Rains, 796 Escondido Rd, Stanford, CA 94305.
-Current live cover: approved version-11 tree flyer with verified Partiful code, applied and visually verified. Keep existing privacy settings. Do not create a duplicate event or send invitations.
+Current live cover: approved version-13 tree flyer with verified Partiful code, applied and visually verified. Keep existing privacy settings. Do not create a duplicate event or send invitations.
 
 ```text
 A belated birthday. A big bachata night. One more dance before graduation. 💃🎉
 
 Come celebrate my belated birthday with Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)! This is my second-to-last social before I graduate, and I’d love to share the dance floor with you.
 
-FRIDAY, SEPTEMBER 18, 2026
+SATURDAY, SEPTEMBER 19, 2026
 📍 Hacienda Commons at Rains
 796 Escondido Rd, Stanford, CA 94305
 🗺 Map and directions: https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8
 🎟 FREE ENTRY
 
 8–9 PM — ALL-LEVELS CLASS
-Start the night together with Brando, Sarika, & Sophia!
+Start the night together with Brando & Marta!
 
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!
@@ -145,8 +145,8 @@ Linktree: https://linktr.ee/ultimate_brando9
 
 It’s my second-to-last social before graduating, and I’d love to dance with you! 💃
 
-*Friday, September 18, 2026 · FREE ENTRY*
-🕗 All-levels class with *Brando, Sarika, & Sophia*: *8–9 PM*
+*Saturday, September 19, 2026 · FREE ENTRY*
+🕗 All-levels class with *Brando & Marta*: *8–9 PM*
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
 🌮 FREE tacos by Chuy around 10 PM—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
 
@@ -170,8 +170,8 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 It’s my second-to-last social before graduating, and I’d love to dance with you! 💃
 
-**Friday, September 18, 2026 · FREE ENTRY**
-🕗 All-levels class with **Brando, Sarika, & Sophia**: **8–9 PM**
+**Saturday, September 19, 2026 · FREE ENTRY**
+🕗 All-levels class with **Brando & Marta**: **8–9 PM**
 🔥 Social: **9 PM–1 AM** with DJ Nick all night
 🌮 FREE tacos by Chuy around 10 PM—my pick for **BEST TACOS IN THE BAY**. Approved by your resident Mexican, Brando 🇲🇽
 
@@ -190,7 +190,7 @@ Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)
 
 ## Live-page status
 
-- Existing Partiful: the full birthday title, Hacienda Commons at Rains location/address, map and exact description above are saved and verified, including the taco endorsement, working website, Linktree and corrected instructor punctuation. The approved version-11 cover is live. No invitations or text blasts were sent.
+- Existing Partiful: the full birthday title, Hacienda Commons at Rains location/address, map and exact description above are saved and verified, including the taco endorsement, working website, Linktree and updated instructor credit. The approved version-13 cover is live. No invitations or text blasts were sent.
 - Linktree, separately pending approval: change only the existing club-website button’s destination from https://sbsbz-dance.manus.space/ to https://brando90.github.io/sbsbz/ . Keep its title, order and other links. The editor currently requires account-owner sign-in.
 
 ## Saved reuse and execution prompts

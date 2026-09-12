@@ -1,14 +1,14 @@
 # Complete event-promotion request checklist
 
-**TLDR:** Version 11 finalizes the centered tree flyer, and the Partiful cover, full birthday title, location and description are approved and live. All invitation copy and reusable prompts are saved for manual sending; the separate Linktree website-button correction remains pending.
+**TLDR:** Version 13 finalizes the centered tree flyer, and the Partiful cover, full birthday title, location and description are approved and live. All invitation copy and reusable prompts are saved for manual sending; the separate Linktree website-button correction remains pending.
 
 ## Flyer requirements — completed
 
 - [x] Use Stanford Bachata Sensual & Brazilian Zouk branding and the supplied dancing Stanford tree characters; no human dancers.
 - [x] Put MEGA BACHATA PARTY at the top, trees beneath, and Brando’s belated birthday subtitle.
-- [x] Show Friday, September 18; omit the year from the flyer.
+- [x] Show Saturday, September 19; omit the year from the flyer.
 - [x] Match the prominence of CLASS 8–9 PM and SOCIAL 9 PM–1 AM.
-- [x] Credit the all-levels class to Brando, Sarika, & Sophia, with the requested comma after Sarika; Nick plays all night.
+- [x] Credit the all-levels class to Brando & Marta; Nick plays all night.
 - [x] Show FREE ENTRY and NO PARTNER NEEDED.
 - [x] Shorten flyer food text to BEST TACOS IN TOWN · FREE.
 - [x] Retain the cute gold graduation-cap, taco and location-pin icons.
@@ -31,7 +31,7 @@
 ## Publication and approval boundary
 
 - [ ] Brando’s final approval of the complete revised package.
-- [x] Apply the approved version-11 cover to the existing Partiful event and verify it on the saved page.
+- [x] Apply the approved version-13 cover to the existing Partiful event and verify it on the saved page.
 - [x] Apply the explicitly approved full birthday title, venue/address, description and link refinements to the existing Partiful event; verify the saved page.
 - [ ] Correct Linktree’s old club-website button after account sign-in and approval.
 - [ ] Brando manually sends the invitations, especially WhatsApp. Nothing has been sent by this task.
@@ -41,4 +41,4 @@ Linktree: https://linktr.ee/ultimate_brando9
 Party: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 Map: https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8
 
-Provenance: the user’s requests in this task; original tree image saved as assets/source_dancing_stanford_trees.png. Current flyer: assets/mega_bachata_party_trees_review_v11.png. Older two-column-footer versions are archival.
+Provenance: the user’s requests in this task; original tree image saved as assets/source_dancing_stanford_trees.png. Current flyer: assets/mega_bachata_party_sept19_brando_marta_v13.png. Older two-column-footer versions are archival.

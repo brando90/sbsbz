@@ -1,15 +1,15 @@
 # Approval and delivery status
 
-**TLDR:** PARTIFUL TITLE, LOCATION, DESCRIPTION AND COVER APPROVED AND APPLIED. Brando prefers to send messages himself, especially WhatsApp; no email, WhatsApp announcement, Partiful invitation or text blast has been sent by this task.
+**TLDR:** SATURDAY SEPTEMBER 19, BRANDO & MARTA AND THE VERSION-13 PARTIFUL COVER ARE APPLIED. Brando prefers to send messages himself, especially WhatsApp; no email, WhatsApp announcement, Partiful invitation or text blast has been sent by this task.
 
 | Item | State |
 |---|---|
 | WhatsApp announcement | Prepared for manual sending; not sent |
 | Email announcement | Prepared for manual sending; not sent |
-| Existing Partiful | Full birthday title, dedicated venue/address, description and version-11 tree cover applied and verified with explicit user authorization |
-| Venue/taco/website refinements to Partiful | Applied and verified on the saved page, including the map, Linktree and corrected instructor punctuation |
-| Current tree flyer v11 | Approved and applied as Partiful cover; code verified; sending remains pending |
-| Unsent email attachment | Updated to the exact version-11 flyer; not sent |
+| Existing Partiful | Full birthday title, dedicated venue/address, description and version-13 tree cover applied and verified with explicit user authorization |
+| Venue/taco/website refinements to Partiful | Applied and verified on the saved page, including the map, Linktree and Brando & Marta instructor credit |
+| Current tree flyer v13 | Approved and applied as Partiful cover; code verified; sending remains pending |
+| Unsent email attachment | Updated to the exact version-13 flyer; not sent |
 | Linktree website destination | Old destination is broken; proposed fix awaits approval and account sign-in |
 | Approval scope | Partiful title, location, description and cover approved and applied; separate Linktree edit and automatic sending remain unapproved |
 | Invitation/text-blast authorization | None |
@@ -22,6 +22,14 @@ Website owner confirmed consolidation and deployment: https://brando90.github.io
 
 After the user manually sends, record only what they confirm or what an authorized sent-history check verifies: channel, time with timezone, destination, attachment version, observable message identifier and outcome. Do not mark messages sent based on approval alone.
 
+## Historical publication records
+
 Cover completion verified: 2026-09-11T14:52:41-07:00 at https://partiful.com/e/ohtSD9MnHe6u71JQx60X . Applied assets/mega_bachata_party_trees_review_v11.png; visible saved cover image identifier pWzE0ZFRLaiJtjH7LAh61. User explicitly requested this replacement. Remaining location/description changes were not applied.
 
 Partiful details completion verified: 2026-09-11T15:07:59-07:00. Following the user’s explicit request to update the outdated event text, saved the full title “MEGA BACHATA PARTY — Brando’s Belated Birthday”, selected 796 Escondido Rd, Stanford, CA, United States as the dedicated address, named the location “Hacienda Commons at Rains”, and applied the exact description in partiful.md. The saved page confirms the map, ZIP 94305 in the description, instructor credit “Brando, Sarika, & Sophia”, class 8–9 PM, social 9 PM–1 AM, Nick, free entry, free tacos by Chuy around 10 PM, birthday/graduation wording, website and Linktree. The version-11 cover is retained. This supersedes the earlier cover-only location/description status. Date/times, privacy and guest list were not changed. No announcements or invitations were sent.
+
+## Current reschedule and instructor update
+
+2026-09-11T19:58:33-07:00: User changed only the day/date to Saturday September 19, then replaced the class credit with Brando & Marta. Class remains 8–9 PM and social 9 PM–1 AM, ending Sunday September 20. Updated the existing Partiful description and cover; corrected the accidental 2 AM header after the user explicitly retained 1 AM. Current flyer: assets/mega_bachata_party_sept19_brando_marta_v13.png. Current Drive: https://drive.google.com/file/d/1CoRiYcX50MKqT6IFknMLEbIM6A_MWFhC/view. No email, WhatsApp, Slack, Discord, Partiful invitations or text blasts sent. Website date update was published through https://github.com/brando90/sbsbz/pull/9; instructor update is published and live-verified through https://github.com/brando90/sbsbz/pull/10 (commit 39852f51e6cd588e37e60af99776594a9aefd2bd).
+
+Saved Partiful verification: 2026-09-11T20:03:57-07:00. Outside the editor, the existing event shows Saturday Sep 19, 8 PM–1 AM, Hacienda Commons at Rains, the complete address and description with Brando & Marta. Cover image identifier: hkipR6CHHT4cLsEGVhCQd. Guest count remains 1 Going; activity remains 1 update. No messages or invitations were sent.
