@@ -152,7 +152,7 @@ export default function Events() {
                   <p className="text-cream/60 text-sm">
                     with{" "}
                     <span className="text-amber/80 font-medium">
-                      Brando, Sarika, &amp; Sophia
+                      Brando &amp; Marta
                     </span>
                   </p>
                 </div>
