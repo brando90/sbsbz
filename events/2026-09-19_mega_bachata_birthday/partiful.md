@@ -1,6 +1,6 @@
 # Partiful event
 
-**TLDR:** The title, location, description and version-13 tree cover below are approved, saved and verified on the existing event. No invitations or text blasts are authorized.
+**TLDR:** The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent.
 
 ## Event fields
 
@@ -18,8 +18,9 @@
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | Free |
 | Current live cover | assets/mega_bachata_party_sept19_brando_marta_v13.png |
+| Prepared replacement cover | assets/mega_bachata_party_mediterranean_v14.png |
 | Previous cover (archival) | assets/mega_bachata_flyer_draft_v4.png |
-| Replacement status | Version 13 approved, applied and verified on the saved event page |
+| Replacement status | Version 14 verified locally and in Drive; Chrome upload blocked |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
 
@@ -41,8 +42,7 @@ Start the night together with Brando & Marta!
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!
 
-🌮 FREE TACOS BY CHUY
-My pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽
+🍽 Free AMAZING Mediterranean Food
 
 No partner needed. All levels welcome—come solo or bring friends!
 
@@ -54,4 +54,4 @@ Linktree: https://linktr.ee/ultimate_brando9
 
 ## Publication status
 
-The user-authorized Saturday September 19 reschedule and Brando & Marta instructor credit are applied to the existing event, along with the version-13 cover. Class remains 8–9 PM and social 9 PM–1 AM, ending Sunday September 20. The dedicated venue, full address/map, free entry, tacos and current website/Linktree remain intact. Verification recorded 2026-09-11T19:58:33-07:00; no messages or invitations were sent.
+The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent. Verified 2026-09-12T12:30:09-07:00. The Saturday date, Brando & Marta class credit, schedule, full address/map, links, private setting and 1 Going / 1 activity update remain unchanged.

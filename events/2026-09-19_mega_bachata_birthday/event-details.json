@@ -16,9 +16,8 @@
   "partiful_url": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
   "admission": "Free",
   "dj": "Nick",
-  "food": "Free tacos by Chuy",
-  "taco_endorsement": "Brando’s pick: BEST TACOS IN THE BAY. Mexican-approved.",
-  "flyer": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
+  "food": "Free AMAZING Mediterranean Food",
+  "flyer": "assets/mega_bachata_party_mediterranean_v14.png",
   "whatsapp_group": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
   "email_from": "brandojazz@gmail.com",
   "email_to": "stanford_bachata_zouk@lists.stanford.edu",
@@ -29,19 +28,19 @@
   "whatsapp_sent": false,
   "invitations_sent": false,
   "flyer_qr_target": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
-  "flyer_food_line": "BEST TACOS IN TOWN · FREE",
-  "flyer_status": "V13_SATURDAY_BRANDO_MARTA",
-  "flyer_layout_preview": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
-  "flyer_layout_status": "DATE_AND_INSTRUCTOR_ONLY_SYMMETRY_PRESERVED",
+  "flyer_food_line": "Free AMAZING Mediterranean Food",
+  "flyer_status": "V14_MEDITERRANEAN_FOOD",
+  "flyer_layout_preview": "assets/mega_bachata_party_mediterranean_v14.png",
+  "flyer_layout_status": "FOOD_BAND_ONLY_SYMMETRY_PRESERVED",
   "flyer_ready_for_distribution": true,
   "live_partiful_cover": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
-  "final_flyer": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
+  "final_flyer": "assets/mega_bachata_party_mediterranean_v14.png",
   "flyer_icons": [
     "gold outline graduation cap beside class",
-    "gold outline taco beside food",
+    "gold outline hummus bowl beside food",
     "gold location pin beside venue"
   ],
-  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/1CoRiYcX50MKqT6IFknMLEbIM6A_MWFhC/view",
+  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/13QgipFRjh24jnm8f7L5MU93Z7BRd6XRV/view",
   "available_qr_codes": {
     "partiful": {
       "asset": "assets/partiful_event_qr.png",
@@ -69,13 +68,13 @@
   "flyer_footer_center_x": 512,
   "instructor_credit": "Brando & Marta",
   "partiful_cover_approval_status": "APPROVED",
-  "partiful_cover_status": "APPLIED_VERIFIED",
+  "partiful_cover_status": "UPLOAD_BLOCKED_CHROME_FILE_ACCESS",
   "partiful_cover_updated_at": "2026-09-11T19:58:33-07:00",
   "partiful_cover_observed_image_id": "hkipR6CHHT4cLsEGVhCQd",
   "partiful_live_title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
   "partiful_live_location_status": "SET_VERIFIED",
   "partiful_other_field_updates": "APPLIED_VERIFIED",
-  "partiful_details_verified_at": "2026-09-11T21:05:54-07:00",
+  "partiful_details_verified_at": "2026-09-12T12:30:09-07:00",
   "partiful_description_status": "APPLIED_VERIFIED",
   "partiful_details_approval_status": "APPROVED",
   "partiful_live_location": "Hacienda Commons at Rains",
@@ -88,8 +87,28 @@
   "instructor_update_requested_at": "2026-09-11T19:58:33-07:00",
   "partiful_instructor_status": "APPLIED_VERIFIED",
   "website_event_status": "APPLIED_VERIFIED",
-  "website_event_update_pr": "https://github.com/brando90/sbsbz/pull/11",
-  "website_event_update_commit": "7c059e325378929c2dde468bc7bde738ac1f70cc",
+  "website_event_update_pr": "https://github.com/brando90/sbsbz/pull/13",
+  "website_event_update_commit": "c6d67bdd3dcb20080f383192463b895607c62215",
   "public_food_timing": "Do not advertise a serving time",
-  "public_food_timing_status": "OMITTED_FROM_PUBLIC_COPY_AND_LIVE_PAGES"
+  "public_food_timing_status": "OMITTED_FROM_PUBLIC_COPY_AND_LIVE_PAGES",
+  "food_vendor_status": "QUOTE_PENDING_NOT_BOOKED",
+  "food_vendor_candidate": "Holyland",
+  "public_food_vendor": null,
+  "food_preferences": {
+    "include": [
+      "chicken kebabs",
+      "kefta kebabs",
+      "extra hummus",
+      "salad"
+    ],
+    "exclude": [
+      "eggplant",
+      "baba ghanouj",
+      "rice",
+      "fries"
+    ],
+    "pita": "small amount",
+    "budget_max_all_in_usd": 700
+  },
+  "website_event_deployment": "https://github.com/brando90/sbsbz/actions/runs/34714191367"
 }

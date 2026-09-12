@@ -1,17 +1,17 @@
 # Approval and delivery status
 
-**TLDR:** SATURDAY SEPTEMBER 19, BRANDO & MARTA AND THE VERSION-13 PARTIFUL COVER ARE APPLIED. Brando prefers to send messages himself, especially WhatsApp; no email, WhatsApp announcement, Partiful invitation or text blast has been sent by this task.
+**TLDR:** The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent.
 
 | Item | State |
 |---|---|
 | WhatsApp announcement | Prepared for manual sending; not sent |
 | Email announcement | Prepared for manual sending; not sent |
-| Existing Partiful | Full birthday title, dedicated venue/address, description and version-13 tree cover applied and verified with explicit user authorization |
-| Venue/taco/website refinements to Partiful | Applied and verified on the saved page, including the map, Linktree and Brando & Marta instructor credit |
-| Current tree flyer v13 | Approved and applied as Partiful cover; code verified; sending remains pending |
-| Unsent email attachment | Updated to the exact version-13 flyer; not sent |
+| Existing Partiful | Full title, venue/address and new description verified; cover replacement blocked |
+| Venue/food/website refinements to Partiful | Applied and verified on the saved page, including the map, Linktree and Brando & Marta instructor credit |
+| Current tree flyer v14 | Current version 14 verified in Drive/local files; Partiful upload blocked |
+| Unsent email attachment | Updated to the exact version-14 flyer; not sent |
 | Linktree website destination | Old destination is broken; proposed fix awaits approval and account sign-in |
-| Approval scope | Partiful title, location, description and cover approved and applied; separate Linktree edit and automatic sending remain unapproved |
+| Approval scope | Partiful corrections requested; title/location/new description applied, cover upload blocked; separate Linktree edit and automatic sending remain unapproved |
 | Invitation/text-blast authorization | None |
 
 Proposed WhatsApp target: Stanford Bachata Sensual & Brazilian Zouk (SBSBZ), approximately 600 members, verified by the current chat header. Exact membership was not exported. No message was sent or left in the composer.
@@ -37,3 +37,7 @@ Saved Partiful verification: 2026-09-11T20:03:57-07:00. Outside the editor, the 
 ## Public taco timing removed
 
 2026-09-11T21:05:54-07:00: User requested free tacos without an advertised serving time. Removed timing from WhatsApp, Slack, Discord, email, the unsent email body, Partiful copy and the review packet. The saved Partiful page now reads FREE TACOS BY CHUY, retains the same version-13 cover and schedule, and still shows 1 Going / 1 activity update. Website update published through https://github.com/brando90/sbsbz/pull/11 at 7c059e325378929c2dde468bc7bde738ac1f70cc; https://github.com/brando90/sbsbz/actions/runs/34671977076 succeeded and its owner verified FREE tacos by Chuy on the live page. Expanded reusable-promo-prompt.md with date/DJ/tacos inputs, standing defaults, complete production requirements and manual-send boundary. Original service logistics remain in historical organizer reference notes only. Nothing sent.
+
+## Mediterranean food revision — current
+
+2026-09-12T12:30:09-07:00: The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent. New flyer: assets/mega_bachata_party_mediterranean_v14.png. Drive: https://drive.google.com/file/d/13QgipFRjh24jnm8f7L5MU93Z7BRd6XRV/view. Website published via https://github.com/brando90/sbsbz/pull/13, merge c6d67bdd3dcb20080f383192463b895607c62215; deployment https://github.com/brando90/sbsbz/actions/runs/34714191367 succeeded and the website task verified the exact live phrase. No serving time, vendor claim or old endorsement in current public copy. Holyland quote remains unbooked; no eggplant, rice or fries.

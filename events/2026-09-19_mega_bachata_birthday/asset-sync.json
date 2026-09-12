@@ -1,12 +1,38 @@
 {
-  "checked_at": "2026-09-11T20:03:57-07:00",
+  "checked_at": "2026-09-12T12:30:09-07:00",
   "repository": "https://github.com/brando90/sbsbz",
   "branch": "codex/mega-bachata-birthday-2026-09-19",
   "drive_folder": "https://drive.google.com/drive/folders/1wjDXw_Ff_ILvrtbAFaByLyPwEfXz62Eo",
   "assets": [
     {
+      "version": 14,
+      "status": "CURRENT_MEDITERRANEAN_FOOD",
+      "asset": "assets/mega_bachata_party_mediterranean_v14.png",
+      "bytes": 2276865,
+      "sha256": "2ce7ca7bd6aded958ae003f0a065f5468ca65d4e66dc17990290db5610cc421b",
+      "drive_url": "https://drive.google.com/file/d/13QgipFRjh24jnm8f7L5MU93Z7BRd6XRV/view",
+      "github_url": "https://github.com/brando90/sbsbz/blob/codex/mega-bachata-birthday-2026-09-19/events/2026-09-19_mega_bachata_birthday/assets/mega_bachata_party_mediterranean_v14.png",
+      "github_ref_type": "branch",
+      "dimensions": [
+        1024,
+        1728
+      ],
+      "qr_decoded_at_widths": [
+        1024,
+        768,
+        512
+      ],
+      "drive_verification": "Uploaded exact local file; readback size 2276865 and event parent match.",
+      "changed_pixel_count": 65107,
+      "pixels_changed_outside_food_band": 0,
+      "food_band_rows": [
+        1184,
+        1247
+      ]
+    },
+    {
       "version": 13,
-      "status": "CURRENT_SEPT19_BRANDO_MARTA",
+      "status": "ARCHIVE_PREVIOUS_TACO_WORDING",
       "asset": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
       "bytes": 2211889,
       "sha256": "ce558a5edad5baa603a87ae3ce49a0cf7e79d89d1970116b6b5546948a2d7cef",
@@ -137,11 +163,11 @@
   "email_sent": false,
   "whatsapp_sent": false,
   "live_partiful_cover_version": 13,
-  "partiful_cover_status": "APPLIED_VERIFIED",
+  "partiful_cover_status": "UPLOAD_BLOCKED_CHROME_FILE_ACCESS",
   "partiful_cover_verified_at": "2026-09-11T19:58:33-07:00",
   "partiful_cover_observed_image_id": "hkipR6CHHT4cLsEGVhCQd",
   "partiful_details_status": "APPLIED_VERIFIED",
-  "partiful_details_verified_at": "2026-09-11T19:58:33-07:00",
+  "partiful_details_verified_at": "2026-09-12T12:30:09-07:00",
   "partiful_live_title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
   "partiful_live_location": "Hacienda Commons at Rains",
   "invitations_sent": false,

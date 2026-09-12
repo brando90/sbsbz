@@ -85,3 +85,7 @@ User confirmed 2026-09-11T18:53:10-07:00: the same event moves to Saturday, Sept
 ## Current instructor correction
 
 User confirmed 2026-09-11T19:58:33-07:00: Marta is Brando’s follow, replacing the previous Sarika/Sophia credit. Current public credit is Brando & Marta. The current event is Saturday September 19; earlier dates and instructor names above document previous versions only.
+
+## Latest correction — Mediterranean food
+
+2026-09-12T12:30:09-07:00: Brando replaced public taco promotion with “Free AMAZING Mediterranean Food”. All earlier taco plans above are historical. Candidate Holyland booking/menu are unconfirmed; buy within $600–$700 all-in, prioritizing kebabs, hummus and salad. No eggplant/baba ghanouj, rice or fries; minimal pita. No public food time. No vendor order/contact/cancellation by this task.

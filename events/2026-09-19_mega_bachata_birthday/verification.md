@@ -1,6 +1,6 @@
 # Verification of the September 19 marketing kit
 
-**TLDR:** The current version-13 flyer and copy advertise Saturday September 19 with Brando & Marta; class remains 8–9 PM and social 9 PM–1 AM. The current event code passes actual decoding at three sizes, and earlier verification sections below preserve historical versions.
+**TLDR:** The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent.
 
 Checked September 11, 2026.
 
@@ -149,3 +149,7 @@ The website owner verified https://brando90.github.io/sbsbz/events/ with Brando 
 ## Public copy and reusable prompt — no taco serving time
 
 2026-09-11T21:05:54-07:00: The saved Partiful page and published website omit taco timing. Read back the Partiful description, schedule, address and retained cover hkipR6CHHT4cLsEGVhCQd. The website owner verified the one-line update through pull request https://github.com/brando90/sbsbz/pull/11. Current public source files and the unsent email are checked for removal of the old taco time; the final flyer bytes remain unchanged. The reusable prompt now distinguishes a genuinely new event from a reschedule, carries explicit defaults into one final review, requires actual code decoding, and prohibits automatic sends.
+
+## Version 14 — Mediterranean revision
+
+2026-09-12T12:30:09-07:00: Visually inspected the actual 1024 × 1728 export: exact requested food phrase, hummus-bowl icon, symmetric rules, correct Saturday date, Brando & Marta and original schedule/address. Exactly 65,107 pixels changed inside rows 1184–1247; zero changed outside. Apple Vision decoded the finished flyer at widths 1024, 768 and 512 to https://partiful.com/e/ohtSD9MnHe6u71JQx60X. File size: 2276865 bytes; SHA-256: 2ce7ca7bd6aded958ae003f0a065f5468ca65d4e66dc17990290db5610cc421b. Drive metadata matches size and parent. Partiful saved-page readback confirms the new description, date/schedule/address and 1 Going / 1 activity update; old cover hkipR6CHHT4cLsEGVhCQd remains because Chrome denied the file upload. Website task verified the exact phrase live after pull request 13 and successful deployment. Current message bodies, email attachment and archive receive deterministic consistency checks before the Git push.

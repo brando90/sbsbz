@@ -194,3 +194,7 @@ Built-in image edit, followed by the previously authorized exact local compositi
 ```text
 Replace only the small white instructor-credit line beneath CLASS 8–9 PM with ALL LEVELS • BRANDO & MARTA. Center it in the same place and preserve the existing white type style. Keep Saturday September 19, all times, tree mascots, headline, birthday subtitle, Nick, tacos, address, icons, symmetric footer and exact Partiful code unchanged. No other text or design changes.
 ```
+
+## Version 14 — Mediterranean food
+
+2026-09-12T12:30:09-07:00: Built-in image edit on version 13: replace only the food row with exact text “Free AMAZING Mediterranean Food”, in centered gold serif type, and replace the taco with a small gold hummus bowl. Preserve equal divider lengths and gaps, all other text/art, the tree mascots and verified Partiful code. No vendor or serving time. Authorized native compositing copied only rows 1184–1247; all other pixels remain identical. Output: assets/mega_bachata_party_mediterranean_v14.png. Generated source: /Users/sanmikoyejo-mba-1/.codex/generated_images/01a091a2-a60f-7472-a330-1987c380c0c7/exec-5d09aedc-3116-4995-9d60-2fe73e8c655b.png.

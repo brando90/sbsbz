@@ -10,7 +10,7 @@ It’s my second-to-last social before graduating, and I’d love to dance with 
 *Saturday, September 19, 2026 · FREE ENTRY*
 🕗 All-levels class with *Brando & Marta*: *8–9 PM*
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
-🌮 FREE tacos by Chuy—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
+🍽 Free AMAZING Mediterranean Food
 
 📍 *Hacienda Commons at Rains*
 796 Escondido Rd, Stanford, CA 94305
