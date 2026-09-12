@@ -110,11 +110,12 @@ export default function Events() {
           >
             <div className="p-6 md:p-10 pb-0 md:pb-0 flex flex-wrap justify-center gap-x-6 gap-y-3 text-cream/80 text-sm">
               <span className="flex items-center gap-2">
-                <Calendar size={16} className="text-amber" /> Friday, September
-                18, 2026
+                <Calendar size={16} className="text-amber" /> Saturday,
+                September 19, 2026
               </span>
               <span className="flex items-center gap-2">
-                <Clock size={16} className="text-amber" /> 8 PM – 1 AM
+                <Clock size={16} className="text-amber" /> 8 PM – 1 AM (ends
+                Sunday, September 20)
               </span>
               <span className="flex items-center gap-2">
                 <MapPin size={16} className="text-amber" /> Hacienda Commons at
