@@ -41,7 +41,7 @@ Start the night together with Brando & Marta!
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!
 
-🌮 FREE TACOS BY CHUY — AROUND 10 PM
+🌮 FREE TACOS BY CHUY
 My pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽
 
 No partner needed. All levels welcome—come solo or bring friends!

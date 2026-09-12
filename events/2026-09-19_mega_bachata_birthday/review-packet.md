@@ -21,7 +21,7 @@ The class and taco icons are restored, the food, venue, address and code share o
 | Address | 796 Escondido Rd, Stanford, CA 94305 |
 | Map | https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8 |
 | Admission | FREE |
-| Food | Tacos by Chuy, expected around 10 PM |
+| Food | Tacos by Chuy |
 | Existing Partiful | https://partiful.com/e/ohtSD9MnHe6u71JQx60X |
 | Website | https://brando90.github.io/sbsbz/ |
 | Linktree | https://linktr.ee/ultimate_brando9 |
@@ -43,7 +43,7 @@ It’s my second-to-last social before graduating, and I’d love to dance with 
 *Saturday, September 19 · FREE ENTRY*
 🕗 All-levels class with *Brando & Marta*: *8–9 PM*
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
-🌮 FREE tacos by Chuy around 10 PM—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
+🌮 FREE tacos by Chuy—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
 
 📍 *Hacienda Commons at Rains*
 796 Escondido Rd, Stanford, CA 94305
@@ -73,7 +73,7 @@ Join Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) on Saturday, September 19
 
 • 8–9 PM: All-levels class with Brando & Marta
 • 9 PM–1 AM: Social dancing and party with DJ Nick all night
-• Around 10 PM: FREE tacos by Chuy—my pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽🌮
+• FREE tacos by Chuy—my pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽🌮
 • Admission: FREE
 
 Hacienda Commons at Rains
@@ -126,7 +126,7 @@ Start the night together with Brando & Marta!
 9 PM–1 AM — SOCIAL / PARTY
 DJ Nick is with us for the whole night. Come dance, catch up with friends, and celebrate!
 
-🌮 FREE TACOS BY CHUY — AROUND 10 PM
+🌮 FREE TACOS BY CHUY
 My pick for BEST TACOS IN THE BAY. Approved by your resident Mexican, Brando 🇲🇽
 
 No partner needed. All levels welcome—come solo or bring friends!
@@ -148,7 +148,7 @@ It’s my second-to-last social before graduating, and I’d love to dance with 
 *Saturday, September 19, 2026 · FREE ENTRY*
 🕗 All-levels class with *Brando & Marta*: *8–9 PM*
 🔥 Social: *9 PM–1 AM* with DJ Nick all night
-🌮 FREE tacos by Chuy around 10 PM—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
+🌮 FREE tacos by Chuy—my pick for *BEST TACOS IN THE BAY*. Approved by your resident Mexican, Brando 🇲🇽
 
 📍 *Hacienda Commons at Rains*
 796 Escondido Rd, Stanford, CA 94305
@@ -173,7 +173,7 @@ It’s my second-to-last social before graduating, and I’d love to dance with 
 **Saturday, September 19, 2026 · FREE ENTRY**
 🕗 All-levels class with **Brando & Marta**: **8–9 PM**
 🔥 Social: **9 PM–1 AM** with DJ Nick all night
-🌮 FREE tacos by Chuy around 10 PM—my pick for **BEST TACOS IN THE BAY**. Approved by your resident Mexican, Brando 🇲🇽
+🌮 FREE tacos by Chuy—my pick for **BEST TACOS IN THE BAY**. Approved by your resident Mexican, Brando 🇲🇽
 
 📍 **Hacienda Commons at Rains**
 796 Escondido Rd, Stanford, CA 94305

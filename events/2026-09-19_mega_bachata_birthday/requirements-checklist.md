@@ -23,8 +23,9 @@
 - [x] WhatsApp invitation for the main club group, email and existing Partiful fields/description.
 - [x] Include the address, map, working website, Linktree and event link in invitations.
 - [x] Keep the second-to-last-social detail and Brando’s playful personal taco endorsement in longer copy.
-- [x] Confirm free admission, free tacos by Chuy around 10 PM, and the full schedule without public vendor costs.
-- [x] Save the event-specific Manus handoff and reusable event-promotion prompt.
+- [x] Confirm free admission, free tacos by Chuy, and the full schedule without public vendor costs.
+- [x] Save the event-specific Manus handoff and complete reusable prompt with date/DJ/tacos inputs and explicit standing defaults.
+- [x] Omit taco arrival and serving time from every public invitation, Partiful and website; keep organizer logistics separate.
 - [x] Save source art, current flyer, prior versions, invitation text, unsent email and package archive in the club Drive.
 - [x] Version the current assets and copy on the event GitHub branch.
 

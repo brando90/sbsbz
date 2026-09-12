@@ -16,7 +16,7 @@
   "partiful_url": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
   "admission": "Free",
   "dj": "Nick",
-  "food": "Free tacos by Chuy, expected around 10 PM",
+  "food": "Free tacos by Chuy",
   "taco_endorsement": "Brando’s pick: BEST TACOS IN THE BAY. Mexican-approved.",
   "flyer": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
   "whatsapp_group": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
@@ -75,7 +75,7 @@
   "partiful_live_title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
   "partiful_live_location_status": "SET_VERIFIED",
   "partiful_other_field_updates": "APPLIED_VERIFIED",
-  "partiful_details_verified_at": "2026-09-11T19:58:33-07:00",
+  "partiful_details_verified_at": "2026-09-11T21:05:54-07:00",
   "partiful_description_status": "APPLIED_VERIFIED",
   "partiful_details_approval_status": "APPROVED",
   "partiful_live_location": "Hacienda Commons at Rains",
@@ -88,6 +88,8 @@
   "instructor_update_requested_at": "2026-09-11T19:58:33-07:00",
   "partiful_instructor_status": "APPLIED_VERIFIED",
   "website_event_status": "APPLIED_VERIFIED",
-  "website_event_update_pr": "https://github.com/brando90/sbsbz/pull/10",
-  "website_event_update_commit": "39852f51e6cd588e37e60af99776594a9aefd2bd"
+  "website_event_update_pr": "https://github.com/brando90/sbsbz/pull/11",
+  "website_event_update_commit": "7c059e325378929c2dde468bc7bde738ac1f70cc",
+  "public_food_timing": "Do not advertise a serving time",
+  "public_food_timing_status": "OMITTED_FROM_PUBLIC_COPY_AND_LIVE_PAGES"
 }

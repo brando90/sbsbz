@@ -37,3 +37,5 @@ Reusable prompt at the club root: https://drive.google.com/file/d/1oKks-1m3Epuqh
 Existing Partiful: https://partiful.com/e/ohtSD9MnHe6u71JQx60X
 
 All guest-facing facts are confirmed. Times are local to Stanford; the event ends Sunday September 20 at 1 AM. The existing Partiful now shows the approved version-13 tree flyer, verified on the saved event page. The current version-13 image scans correctly to the Partiful event at full size and two smaller sizes. The unsent email now attaches this exact image. Older versions are archival. The event title, dedicated location, address/map, taco wording, website and Linktree in the description are now applied and verified. The broken old website destination inside Linktree awaits account-owner sign-in and approval. No messages or invitations were sent.
+
+Public food wording is FREE tacos by Chuy, with no advertised serving time. For future events, use [the reusable event-production prompt](reusable-promo-prompt.md) and provide the date, DJ, taco plans and any exceptions to the saved defaults.
