@@ -185,7 +185,7 @@ export default function Events() {
                 <div className="flex items-center gap-2 bg-amber/10 rounded-full px-4 py-2">
                   <Utensils size={16} className="text-amber" />
                   <span className="text-cream text-sm font-medium">
-                    FREE tacos by Chuy
+                    FREE Mediterranean food
                   </span>
                 </div>
                 <div className="flex items-center gap-2 bg-amber/10 rounded-full px-4 py-2">
