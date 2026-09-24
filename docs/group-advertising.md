@@ -30,6 +30,8 @@ Aim for one approved class/quarter announcement in each suitable audience channe
 
 ## Same-day campus outreach
 
+Current campaign scope: only newly researched email routes remain authorized for further attempts. Do not repost to WhatsApp, Slack, Discord or any recently covered channel. The table below records existing successes for future reuse, not another same-day dispatch.
+
 Start with accepted community channels that can publish immediately. Keep newsletter/editor outreach in a separate queue; an approved future issue cannot help a class tonight. Set the class start time as the cutoff for new same-day promotion.
 
 The 09-24-2026 campaign confirmed 14 social posts: eight Slack channels, one dance-community Discord channel, and five WhatsApp groups. The main club WhatsApp already had an officer announcement. Club, Rains and CentroGrads email list copies were also confirmed. These counts establish posts, not unique readers or all-campus coverage.
@@ -42,7 +44,7 @@ The 09-24-2026 campaign confirmed 14 social posts: eight Slack channels, one dan
 | Existing WhatsApp communities | Rains Events; Stanford Latinos; Mexicanos en Stanford; visiting student researchers; Deck House dance group | Verify the exact chat header and recent posts before composing. Confirm the outgoing message after send. An inaccessible composer is not a send receipt. |
 | Restricted residence or student groups | Willing existing resident/student member relay | Ask for one permitted forward and a posted confirmation with group name. Check against the campaign ledger before forwarding. Do not bypass member-only restrictions. |
 | Broad undergraduate outreach | In The Cards; permitted student/residence relays | Submit ahead for the Sunday issue. The current weekly web listing may be edited, but same-day updates require editor acceptance. Student Engagement's response window observed on 09-24-2026 was one to two business days. |
-| Postdoc peer community | Postdoc-exchange lead from an existing member | Verify current list rules and coordinate with the pending administrator request; use a permitted member relay. This route is not yet confirmed successful. |
+| Postdoc peer community | `postdoc-exchange@lists.stanford.edu`; owner fallback `postdoc-exchange-owner@lists.stanford.edu` | [Official list page](https://mailman.stanford.edu/mailman/listinfo/postdoc-exchange) says anyone may post and requires an `[EVENT]` subject tag. A correctly tagged Gmail submission on 09-24-2026 was immediately rejected. Do not assume the public rule guarantees acceptance or retry unchanged. Owner guidance/relay requested; actual accepted sender and subscription requirements remain unverified. Coordinate with the announcements administrator for one share. |
 
 ArtsUpdate approved the 09-24-2026 submission for an upcoming newsletter. Its approval says the listing remains active through the submitted end date; do not submit booster reminders. Record approved and published separately.
 
