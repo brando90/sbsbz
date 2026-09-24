@@ -28,6 +28,26 @@ Aim for one approved class/quarter announcement in each suitable audience channe
 
 [In The Cards](https://ose.stanford.edu/cards) is described by the Office of Student Engagement as a Sunday email to the entire undergraduate student body. Use its linked submission form with Stanford access; if access is unavailable, contact `studentengagement@stanford.edu` for the permitted submission route. Current form deadline must be checked. This is an additional lead, not one of the six routes in the initial trial; a listed lead does not mean a submission was made.
 
+## Same-day campus outreach
+
+Start with accepted community channels that can publish immediately. Keep newsletter/editor outreach in a separate queue; an approved future issue cannot help a class tonight. Set the class start time as the cutoff for new same-day promotion.
+
+The 09-24-2026 campaign confirmed 14 social posts: eight Slack channels, one dance-community Discord channel, and five WhatsApp groups. The main club WhatsApp already had an officer announcement. Club, Rains and CentroGrads email list copies were also confirmed. These counts establish posts, not unique readers or all-campus coverage.
+
+| Channel family | Working route | How to repeat and verify |
+|---|---|---|
+| Residence communities | Rains resident announcements; Escondido Village Graduate Residences residents-all and dance; Lyman general | Select the exact Slack workspace/channel, inspect recent messages and rules, post confirmed copy once only if absent, save the visible message link privately. |
+| Academic communities | Computer science doctoral and master's random channels; Data Science random; EDGE social | Use the existing permitted social channel, not academic announcements. Recheck relevance and permission each term. |
+| Dance community | Social Dance @ Stanford Discord cross-campus announcements | Inspect recent officer posts; publish once and save the message link/readback. |
+| Existing WhatsApp communities | Rains Events; Stanford Latinos; Mexicanos en Stanford; visiting student researchers; Deck House dance group | Verify the exact chat header and recent posts before composing. Confirm the outgoing message after send. An inaccessible composer is not a send receipt. |
+| Restricted residence or student groups | Willing existing resident/student member relay | Ask for one permitted forward and a posted confirmation with group name. Check against the campaign ledger before forwarding. Do not bypass member-only restrictions. |
+| Broad undergraduate outreach | In The Cards; permitted student/residence relays | Submit ahead for the Sunday issue. The current weekly web listing may be edited, but same-day updates require editor acceptance. Student Engagement's response window observed on 09-24-2026 was one to two business days. |
+| Postdoc peer community | Postdoc-exchange lead from an existing member | Verify current list rules and coordinate with the pending administrator request; use a permitted member relay. This route is not yet confirmed successful. |
+
+ArtsUpdate approved the 09-24-2026 submission for an upcoming newsletter. Its approval says the listing remains active through the submitted end date; do not submit booster reminders. Record approved and published separately.
+
+Before repeating, read all same-day campaign records, reconcile replies, and distinguish posted, queued, relay offered, rejected, and unverified. Keep exact recipient details, timestamps and message receipts private. No verified route currently establishes that every undergraduate, medical student, resident, fellow or postdoc received the announcement.
+
 ## Copy conventions
 
 For editors: “Would the announcement below fit your community? If so, could you share it through the appropriate channel? We aim to introduce our classes once per quarter; please let us know your preferred process, lead time and permitted frequency.” Follow with the current class details and public club link.
