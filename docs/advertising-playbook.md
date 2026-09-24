@@ -58,6 +58,14 @@ Use the approved, current original flyer with the caption; add the venue map whe
 - Check recent posts and dispatch records first. An officer's existing announcement counts; do not repost the same advert. Never treat pending moderation as a failed send and blindly retry.
 - Use one appropriate route per audience where practical; avoid overlapping mass blasts, collecting individual addresses, adding people to mailing lists, or using clinical/on-call channels.
 
+## Escondido Village Graduate Residences (EVGR) B mailing route
+
+Use `evgr-b-chat@lists.stanford.edu` only through a willing neighborhood resident. Direct posting from the organizer account returned a residents-only notice. Keep it out of automatic recipient lists; do not retry as if it were a moderation delay. The `evgr-b-announce` list is reserved for community-associate events, so do not use it for general club advertising. An urgent-message escalation route is not appropriate for routine class promotion. This building-specific restriction does not establish other buildings’ policies.
+
+## Quarterly audience routes
+
+Follow [the group advertising protocol](group-advertising.md) for medical students, residents/fellows, postdocs, ArtsUpdate, Dance-News and Comunidad. Aim for one appropriate announcement per quarter, subject to each channel’s restrictions. Reconcile existing submissions and replies before sending; pending moderation and an offered relay are not verified distribution.
+
 ## Verify and leave context
 
 Read back the actual outgoing message, audience, date and attachments before sending. Afterward record the destination, timestamp, permalink or sent receipt, and whether it is draft, sent, awaiting moderation, published, skipped as duplicate, or blocked. Mail-server acceptance does not prove recipient delivery or list distribution. Keep private receipts and chats outside public commits; publish only the reusable playbook and sanitized templates.
