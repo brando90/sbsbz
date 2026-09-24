@@ -1,5 +1,7 @@
 # Stanford Bachata Sensual & Brazilian Zouk
 
+**Doc link:** <https://github.com/brando90/sbsbz/blob/main/README.md>
+
 **TLDR:** This is the single active repository for the SBSBZ (Stanford Bachata Sensual & Brazilian Zouk) website and its existing email tools. Open **https://brando90.github.io/sbsbz/** to view the website; changes merged into `main` build and publish automatically.
 
 ## Advertising and future-agent context
@@ -32,6 +34,8 @@ The GitHub Actions workflow builds and publishes only `dist/public/` after a pus
 The default build path is `/sbsbz/`. GitHub Actions obtains the actual path from the Pages settings, including `/` if an owned custom domain is added later. Direct visits and refreshes work for Home, About, Classes, Events, and Join.
 
 ## Preserved history and tools
+
+The [09-24-2026 consolidation audit](docs/repository-consolidation.md) confirms that all 92 archived source paths are present here; `sbsbz-web` does not need a local checkout. Repository guidance is mirrored in [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md).
 
 The September 11, 2026 consolidation keeps the newer design from `sbsbz-web` and both Git histories. The former `sbsbz-web` repository is retained only as a backup; there is no runtime or publishing dependency on it.
 
