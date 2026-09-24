@@ -2,6 +2,10 @@
 
 **TLDR:** This is the single active repository for the SBSBZ (Stanford Bachata Sensual & Brazilian Zouk) website and its existing email tools. Open **https://brando90.github.io/sbsbz/** to view the website; changes merged into `main` build and publish automatically.
 
+## Advertising and future-agent context
+
+Read [the advertising playbook](docs/advertising-playbook.md) before preparing or sending a campaign. It contains the reusable WhatsApp caption, instructor fallback, asset rules, and posting/verification workflow, with a link to the shared Google document. Older marketing prompts are historical examples.
+
 ## View or edit the website
 
 The website is at **[brando90.github.io/sbsbz](https://brando90.github.io/sbsbz/)**. Opening `client/index.html` directly from disk shows a link to the live site; the React source needs a development server to run locally.
