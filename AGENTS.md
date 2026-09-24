@@ -2,13 +2,13 @@
 
 **Doc link:** <https://github.com/brando90/sbsbz/blob/main/AGENTS.md>
 
-**TLDR:** Use `brando90/sbsbz` for all Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) website, email-tool, and marketing work. `brando90/sbsbz-web` is archived; its useful source and history have already been consolidated here.
+**TLDR:** Use `brando90/sbsbz` for all Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) website, email-tool, and marketing work. `brando90/sbsbz-web` was deleted from GitHub on 09-24-2026 after its useful source and history were preserved here.
 
 ## One active repository
 
 - Canonical repository: <https://github.com/brando90/sbsbz>; normal local checkout: `~/sbsbz`.
 - On the Stanford Network Analysis Project (SNAP) cluster, the shared checkout is `/dfs/scratch0/brando9/sbsbz`, with `~/sbsbz` pointing there on configured nodes.
-- `sbsbz-web` is a historical backup, not a second application or a dependency. Do not recreate its checkout, develop there, or use its old cross-repository publishing instructions unless explicitly asked to recover history.
+- `sbsbz-web` no longer exists on GitHub and is not a second application or a dependency. Do not recreate its checkout, develop there, or use its old cross-repository publishing instructions unless explicitly asked to recover history.
 - The current `main` branch contains the website under `client/`, email tools under `py_src/`, and existing marketing material. It publishes <https://brando90.github.io/sbsbz/> through `.github/workflows/deploy.yml`; only `dist/public/` is deployed.
 - Before editing, inspect the current branch and working-tree changes. Older event branches can contain outdated README instructions referring to `sbsbz-web`; preserve their work and consult current `origin/main` guidance. Do not reset or merge an event branch merely to change repositories.
 - See `~/sbsbz/docs/repository-consolidation.md` for the file audit and retained design/history references. Use the current README for development and build commands.

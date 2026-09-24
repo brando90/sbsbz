@@ -37,7 +37,7 @@ The default build path is `/sbsbz/`. GitHub Actions obtains the actual path from
 
 The [09-24-2026 consolidation audit](docs/repository-consolidation.md) confirms that all 92 archived source paths are present here; `sbsbz-web` does not need a local checkout. Repository guidance is mirrored in [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md).
 
-The September 11, 2026 consolidation keeps the newer design from `sbsbz-web` and both Git histories. The former `sbsbz-web` repository is retained only as a backup; there is no runtime or publishing dependency on it.
+The September 11, 2026 consolidation keeps the newer design from `sbsbz-web` and both Git histories. The former `sbsbz-web` repository was deleted from GitHub on 09-24-2026 at the owner’s request. Its useful source and imported history remain here, and a verified local Git bundle preserves its final references; there is no runtime or publishing dependency on it.
 
 - Original `sbsbz` version: commit `0ea277a0a96c9bb163dfc0945692187e1e45f69d`.
 - Imported `sbsbz-web` version: commit `870520bbf24abf8a3d4b92c0221b9008b38ddba3`.

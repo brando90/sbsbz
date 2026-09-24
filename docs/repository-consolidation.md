@@ -25,7 +25,7 @@ The extra ignored directories in the old launch checkout were `node_modules/` an
 
 - [Design brainstorm](../ideas.md), shared components in `client/src/components/`, build tooling, and package lockfile already exist in the active repository.
 - [Consolidation pull request](https://github.com/brando90/sbsbz/pull/4) imported source commit `870520bbf24abf8a3d4b92c0221b9008b38ddba3`, preserving the original source history.
-- [Archived repository](https://github.com/brando90/sbsbz-web) retains the final archive notice and its history. It has no runtime or publishing role.
+- The former `brando90/sbsbz-web` repository was deleted from GitHub on 09-24-2026 at the owner’s explicit request, after the audit above. A subsequent GitHub lookup returned 404 while `brando90/sbsbz` remained accessible. The verified local backup is `~/sbsbz/.git/sbsbz-web-before-removal.bundle`; it preserves the final archive notice, history, and local references without publishing private local snapshots. The old checkouts were moved to the Mac’s Trash.
 - Existing event branches in `sbsbz` remain separate work; this cleanup does not discard or merge their commits.
 
 ## Working location
