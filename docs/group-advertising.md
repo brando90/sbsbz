@@ -58,6 +58,8 @@ For ArtsUpdate: keep the published description within 150 characters, place full
 
 ## Scheduled email follow-through
 
+Hard duplicate rule: never send the same advert to the same list or substantially the same audience twice on the same local calendar day, including different sender accounts and moderator/member relays. Check queued, sent, approved and published receipts before every send. A pending or uncertain submission blocks another send. The quarterly target is one approved introduction, not daily advertising. After a same-day rejection, do not resend the advert body or switch accounts; a necessary process reply must avoid repeating promotional copy.
+
 On 09-24-2026, the user authorized and enabled the Codex task follow-up named “SBSBZ new mailing-list outreach.” It checks hourly before the 7 PM class cutoff, then changes to daily 10 AM local while routes remain unresolved, and weekly Monday 10 AM for future-quarter readiness after resolution. These later cadence changes are instructions for the scheduled run, not already-applied settings. It continues until canceled.
 
 The scheduled work handles new email routes only: read replies, meet actual list/editor requirements, submit once when due, verify publication and update the private ledger and shared document. It must not repost recently covered social channels or the approved Autumn Dance-News announcement. Checks are not sends. Respect stated response windows; absent guidance, wait at least two business days before one concise follow-up. Stop promoting an occurrence at its start time and use only confirmed future-class facts afterward. Report meaningful results or failures and stay quiet otherwise. No scheduler can guarantee editor acceptance or audience-wide delivery.
