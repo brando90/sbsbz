@@ -50,6 +50,12 @@ ArtsUpdate approved the 09-24-2026 submission for an upcoming newsletter. Its ap
 
 Before repeating, read all same-day campaign records, reconcile replies, and distinguish posted, queued, relay offered, rejected, and unverified. Keep exact recipient details, timestamps and message receipts private. No verified route currently establishes that every undergraduate, medical student, resident, fellow or postdoc received the announcement.
 
+## Submission-route corrections from the trial
+
+The medical-student executive list rejected the first request without stating a reason. Ask its owner for eligibility and sender/submission requirements; do not retry the advert or treat the calendar-request route as guaranteed acceptance.
+
+Student Engagement does not manage In The Cards. Its staff referred this campaign to the student-managed [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdh0hzTBNL0WmNsJcAehLsHey-U3-NELvEXmqJmO8T3iPxolw/viewform) and [program page](https://www.assu.stanford.edu/240/In-The-Cards). The form denied access to the connected personal Google account; Stanford-account requirements or an alternate route must be confirmed with the editors. No form submission is recorded yet. Historical newsletter deadlines do not establish the current cutoff.
+
 ## Copy conventions
 
 For editors: “Would the announcement below fit your community? If so, could you share it through the appropriate channel? We aim to introduce our classes once per quarter; please let us know your preferred process, lead time and permitted frequency.” Follow with the current class details and public club link.
