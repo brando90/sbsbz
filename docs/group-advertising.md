@@ -56,6 +56,12 @@ For editors: “Would the announcement below fit your community? If so, could yo
 
 For ArtsUpdate: keep the published description within 150 characters, place full venue/schedule and repeat-publication preferences in editor notes, and verify the end time after leaving the field before submitting. Preserve the submitted text and confirmation privately.
 
+## Scheduled email follow-through
+
+On 09-24-2026, the user authorized and enabled the Codex task follow-up named “SBSBZ new mailing-list outreach.” It checks hourly before the 7 PM class cutoff, then changes to daily 10 AM local while routes remain unresolved, and weekly Monday 10 AM for future-quarter readiness after resolution. These later cadence changes are instructions for the scheduled run, not already-applied settings. It continues until canceled.
+
+The scheduled work handles new email routes only: read replies, meet actual list/editor requirements, submit once when due, verify publication and update the private ledger and shared document. It must not repost recently covered social channels or the approved Autumn Dance-News announcement. Checks are not sends. Respect stated response windows; absent guidance, wait at least two business days before one concise follow-up. Stop promoting an occurrence at its start time and use only confirmed future-class facts afterward. Report meaningful results or failures and stay quiet otherwise. No scheduler can guarantee editor acceptance or audience-wide delivery.
+
 ## Storage and synchronization
 
 Reusable rules live here and in the Weekly Advertising tab of the [shared advertising document](https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ/edit). Keep both current. Campaign outcomes and private receipts live under `events/<MM-DD-YYYY>-<campaign>/` in the canonical working checkout and may be summarized in the existing shared working document. Do not publish private email text, screenshots, receipt identifiers, or membership data to this public repository. Update the source rule and recorded outcome separately; neither overrides the other.
