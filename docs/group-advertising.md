@@ -54,7 +54,7 @@ Before repeating, read all same-day campaign records, reconcile replies, and dis
 
 The medical-student executive list rejected the first request without stating a reason. Ask its owner for eligibility and sender/submission requirements; do not retry the advert or treat the calendar-request route as guaranteed acceptance.
 
-Student Engagement does not manage In The Cards. Its staff referred this campaign to the student-managed [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdh0hzTBNL0WmNsJcAehLsHey-U3-NELvEXmqJmO8T3iPxolw/viewform) and [program page](https://www.assu.stanford.edu/240/In-The-Cards). The form denied access to the connected personal Google account; Stanford-account requirements or an alternate route must be confirmed with the editors. No form submission is recorded yet. Historical newsletter deadlines do not establish the current cutoff.
+Student Engagement does not manage In The Cards. Its staff referred this campaign to the student-managed [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdh0hzTBNL0WmNsJcAehLsHey-U3-NELvEXmqJmO8T3iPxolw/viewform) and [program page](https://www.assu.stanford.edu/240/In-The-Cards). The form denied access to the connected personal Google account; Student Engagement subsequently confirmed that a Stanford Google account is required. Selecting the Stanford account reached university sign-in; complete authenticated sign-in before submitting. Do not request access from the personal account or repeatedly ask the same process question. No form submission is recorded yet. Historical newsletter deadlines do not establish the current cutoff.
 
 ## Copy conventions
 
