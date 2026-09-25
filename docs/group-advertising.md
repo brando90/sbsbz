@@ -88,3 +88,9 @@ Additional official leads for eligibility checks, not confirmed advertising perm
 - [CardinalEngage](https://ose.stanford.edu/student-orgs/policies/operational/marketing-and-promotion) and the [central event calendar](https://events.stanford.edu/): check the existing club listing/event and organizer access before adding an entry.
 
 Business, Education, Sustainability, Humanities and Sciences, and Engineering outside existing computer science channels need explicit audience mapping. Research, alumni and career newsletters are not suitable by default. Current coverage remains partial; no verified route establishes that everyone on campus received the advert. Social-history inspection is authorized for the audit, while scheduled advertising remains email-only.
+
+## Residence-list eligibility correction — 09-25-2026
+
+Escondido Village Graduate Residences A rejected the class advert: only neighborhood community associates may post to its announce list. The moderator identifies neighborhood chat for residents and community-associate review/forwarding for outside organizers. Do not retry announce directly, invent a forwarding address, label ordinary promotion urgent, or bypass the restriction. Check the existing residence-wide social post and any pending relay before requesting another share.
+
+Verify the active mailbox before every scheduled search. An empty result from another connected account is not evidence about the outreach mailbox; use an authenticated browser fallback and record the verified account privately.
