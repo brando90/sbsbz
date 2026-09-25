@@ -66,10 +66,25 @@ For ArtsUpdate: keep the published description within 150 characters, place full
 
 Hard duplicate rule: never send the same advert to the same list or substantially the same audience twice on the same local calendar day, including different sender accounts and moderator/member relays. Check queued, sent, approved and published receipts before every send. A pending or uncertain submission blocks another send. The quarterly target is one approved introduction, not daily advertising. After a same-day rejection, do not resend the advert body or switch accounts; a necessary process reply must avoid repeating promotional copy.
 
-On 09-24-2026, the user authorized and enabled the Codex task follow-up named “SBSBZ new mailing-list outreach.” It checks hourly before the 7 PM class cutoff, then changes to daily 10 AM local while routes remain unresolved, and weekly Monday 10 AM for future-quarter readiness after resolution. These later cadence changes are instructions for the scheduled run, not already-applied settings. It continues until canceled.
+On 09-24-2026, the user authorized and enabled the Codex task follow-up named “SBSBZ new mailing-list outreach.” It checks hourly before the 7 PM class cutoff, then changes to daily 10 AM local while routes remain unresolved, and weekly Monday 10 AM for future-quarter readiness after resolution. The daily 10 AM cadence was applied after the class-start cutoff on 09-24-2026. The weekly change remains conditional on resolving the current-quarter routes. It continues until canceled.
 
 The scheduled work handles new email routes only: read replies, meet actual list/editor requirements, submit once when due, verify publication and update the private ledger and shared document. It must not repost recently covered social channels or the approved Autumn Dance-News announcement. Checks are not sends. Respect stated response windows; absent guidance, wait at least two business days before one concise follow-up. Stop promoting an occurrence at its start time and use only confirmed future-class facts afterward. Report meaningful results or failures and stay quiet otherwise. No scheduler can guarantee editor acceptance or audience-wide delivery.
 
 ## Storage and synchronization
 
 Reusable rules live here and in the Weekly Advertising tab of the [shared advertising document](https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ/edit). Keep both current. Campaign outcomes and private receipts live under `events/<MM-DD-YYYY>-<campaign>/` in the canonical working checkout and may be summarized in the existing shared working document. Do not publish private email text, screenshots, receipt identifiers, or membership data to this public repository. Update the source rule and recorded outcome separately; neither overrides the other.
+
+## Campus coverage audit
+
+Track undergraduate years, master's students, doctoral students, medical and physician assistant students, residents, clinical fellows, postdocs, international/visiting communities and off-campus students separately. Check all [seven schools](https://www.stanford.edu/academics/schools) against the [official academic-unit index](https://bulletin.stanford.edu/departments). The index includes programs and other units as well as departments; it is an inventory for finding omissions, not a bulk mailing list. A post in a computer science channel does not establish all master's or doctoral coverage.
+
+Prefer one suitable broad route, map which cohorts it actually reaches, and investigate department routes only for unresolved gaps. Check officer posts, sent messages, pending moderation and coordinated relays across accounts and platforms. Unknown coverage and an inaccessible history are not evidence that no post exists. Maintain the private audience matrix and unit checklist with evidence and next actions; never infer unique reach from channel counts.
+
+Additional official leads for eligibility checks, not confirmed advertising permissions:
+
+- [Bechtel social newsletter](https://bechtel.stanford.edu/engage-our-center/newsletters): international-community events; check editorial acceptance and overlap.
+- [Stanford Law Weekly Digest](https://law.stanford.edu/i-am-a-current-student/): community access required; outside-club submissions unverified.
+- Graduate Student Council announcements: verify the current route; old Grad Announce pages are historical evidence only.
+- [CardinalEngage](https://ose.stanford.edu/student-orgs/policies/operational/marketing-and-promotion) and the [central event calendar](https://events.stanford.edu/): check the existing club listing/event and organizer access before adding an entry.
+
+Business, Education, Sustainability, Humanities and Sciences, and Engineering outside existing computer science channels need explicit audience mapping. Research, alumni and career newsletters are not suitable by default. Current coverage remains partial; no verified route establishes that everyone on campus received the advert. Social-history inspection is authorized for the audit, while scheduled advertising remains email-only.
