@@ -94,3 +94,9 @@ Business, Education, Sustainability, Humanities and Sciences, and Engineering ou
 Escondido Village Graduate Residences A rejected the class advert: only neighborhood community associates may post to its announce list. The moderator identifies neighborhood chat for residents and community-associate review/forwarding for outside organizers. Do not retry announce directly, invent a forwarding address, label ordinary promotion urgent, or bypass the restriction. Check the existing residence-wide social post and any pending relay before requesting another share.
 
 Verify the active mailbox before every scheduled search. An empty result from another connected account is not evidence about the outreach mailbox; use an authenticated browser fallback and record the verified account privately.
+
+## Resident/fellow newsletter route — 09-28-2026
+
+Graduate Medical Education (GME) offered newsletter inclusion; actual publication is unverified. The newsletter is issued on the second Tuesday of each month, with submissions due the preceding Friday. Use the [event submission form](https://docs.google.com/forms/d/e/1FAIpQLScEdrvYcAXkiospQUl3STm1WbQSrFu6Sls6sPgHjmoW45vWQA/viewform) for future events. This establishes a submission route, not automatic acceptance or quarterly repeat permission.
+
+The next regular issue is 10-13-2026, with a 10-09-2026 deadline. Both the 09-24 class and 10-02 party precede that issue. A process-only clarification asked the editor to hold those dated items and confirm the intended issue and replacement procedure. Do not submit a duplicate form while that request is pending. Prepare replacement copy only from confirmed future details; a requested venue is not an approved venue.
