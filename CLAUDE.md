@@ -20,3 +20,7 @@ Before club advertising work, read docs/advertising-playbook.md and the current 
 Follow the latest explicit user request. Older marketing prompts are historical examples, not current schedules or automatic permission to send. This repository is public: do not commit chat screenshots, private exports, credentials, or private dispatch receipts. Keep shared behavior changes mirrored in AGENTS.md and CLAUDE.md.
 
 For quarterly audience outreach, also read `docs/group-advertising.md`. Check existing Sent messages, moderator replies and private campaign receipts before sending; a new task must not repeat an already-submitted quarter announcement. Keep reusable routing rules aligned with the shared advertising document.
+
+## Club email copies (Brando, 10-02-2026)
+
+For Stanford Bachata Sensual & Brazilian Zouk messages, do not copy the work inbox `brando.science@gmail.com`. Blind-copy (BCC) `brandojazz@gmail.com` and `brando9@stanford.edu`, deduplicating envelope recipients. This club-specific preference overrides the general email audit-copy default. Preserve other explicitly authorized recipients.
