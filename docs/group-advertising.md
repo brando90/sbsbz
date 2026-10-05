@@ -110,3 +110,7 @@ The next regular issue is 10-13-2026, with a 10-09-2026 deadline. Both the 09-24
 ## Residence sender restrictions and delivery — 10-03-2026
 
 Residence email outcome correction: Rains Chat and Lyman Unofficial rejected the party advert from the personal Gmail sender, with notices citing probable nonmember restrictions. A later Rains list-delivered copy from the Stanford sender is verified; Rains is covered, while Lyman publication remains unverified. That historical account switch is not a reusable retry procedure. Do not retry either advert, switch senders after rejection, or infer that an older successful residence post permits every account. For a future permitted campaign, verify the approved sender or coordinate one owner-authorized member relay after checking existing posts and pending submissions.
+
+## Bechtel submission restriction — 10-05-2026
+
+The [Communications Support Request Form](https://docs.google.com/forms/d/e/1FAIpQLSf5zOXzufIIlcSL3mDLBsM3lrCwZ0GG-Us6KLz2Ko3aBhEwgA/viewform) linked from the newsletter site is explicitly for Student Affairs professional staff. It is not a student-club advertising submission route; do not submit as staff. The social newsletter remains an unverified lead until its editor confirms external-club eligibility, lead time and frequency. Check existing submissions and relays before any contact.
