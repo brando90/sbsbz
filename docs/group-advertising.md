@@ -114,3 +114,7 @@ Residence email outcome correction: Rains Chat and Lyman Unofficial rejected the
 ## Bechtel submission restriction — 10-05-2026
 
 The [Communications Support Request Form](https://docs.google.com/forms/d/e/1FAIpQLSf5zOXzufIIlcSL3mDLBsM3lrCwZ0GG-Us6KLz2Ko3aBhEwgA/viewform) linked from the newsletter site is explicitly for Student Affairs professional staff. It is not a student-club advertising submission route; do not submit as staff. The social newsletter remains an unverified lead until its editor confirms external-club eligibility, lead time and frequency. Check existing submissions and relays before any contact.
+
+## Medical-owner follow-up — 10-07-2026
+
+Medical-student route: one process-only follow-up has now been sent in the existing owner conversation after cross-account checks. No advert copy or attachments were repeated. Owner guidance and student-wide publication remain unverified. Do not send another routine nudge; wait for an actionable reply or investigate an appropriate alternative without duplicating pending outreach.
