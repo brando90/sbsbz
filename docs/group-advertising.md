@@ -6,7 +6,7 @@
 
 For Stanford Bachata Sensual & Brazilian Zouk (SBSBZ). Updated 10-08-2026.
 
-Current offering: Bachata Sensual classes only. No Brazilian Zouk classes are currently offered; do not advertise Zouk classes until the organizer explicitly confirms they have resumed. The club’s full name remains Stanford Bachata Sensual & Brazilian Zouk. This current-class rule does not rewrite historical events.
+Flyer preference clarified 10-08-2026: keep Brazilian Zouk named on club flyers even while its schedule is unconfirmed. Current scheduled classes are Bachata; do not invent Zouk times or imply that Zouk classes are already running. Preserve the approved flyer wording, headline and design unless the organizer requests changes. Do not remove Brazilian Zouk or add a slogan such as “Come as you are” merely because no Zouk time is known. Existing flyers and print jobs are accepted as-is for now; do not resend, replace or reprint them because of this preference correction. This supersedes the earlier interpretation requiring Bachata-only flyer headlines.
 
 Current-week duplicate guard: any officer’s advert for the current week counts toward campaign and audience coverage across accounts and platforms. Confirmed coverage or a pending relay means no repeat; uncertain coverage means investigate and hold. A corrected flyer, changed sender, missing inbox copy or scheduled wake never justifies a resend. Preserve the once-per-quarter moderated-email introduction target and any stricter channel limit; a weekly class or reminder does not override them.
 

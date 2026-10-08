@@ -15,8 +15,10 @@ Free for Stanford students and affiliates; beginners welcome, with no partner or
 
 Use the [group advertising protocol](../../docs/group-advertising.md) for audience duplicate checks, editor eligibility and frequency. Attachments are subject to channel rules; Dance-News accepts no attachments. Keep private correspondence, recipient lists, screenshots and dispatch receipts outside the public repository.
 
-Asset correction on 10-08-2026: current downloads promote Bachata only, with the original campus-casual illustration and club links preserved. The file names and public download URLs are unchanged. [Portable Network Graphics (PNG) image](assets/SBSBZ-Weekly-Class-Student-Friendly-10-08-2026.png) and [asset verification](assets/verification.json) accompany the print and social formats.
+Asset edit on 10-08-2026: current downloads promote Bachata only, with the original campus-casual illustration and club links preserved. The file names and public download URLs are unchanged. [Portable Network Graphics (PNG) image](assets/SBSBZ-Weekly-Class-Student-Friendly-10-08-2026.png) and [asset verification](assets/verification.json) accompany the print and social formats.
 
+
+Organizer clarification on 10-08-2026: removing Brazilian Zouk and adding “Come as you are” was not requested. Existing files and queued print jobs remain as-is; no resend or reprint. For future requested flyer work, retain Brazilian Zouk with its schedule unconfirmed and preserve the approved wording/design. Current scheduled classes remain Bachata; no Zouk time is inferred.
 
 ## Distinct variant B — Your First Class
 
