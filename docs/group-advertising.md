@@ -34,7 +34,7 @@ Aim for one approved class/quarter announcement in each suitable audience channe
 
 ## Same-day campus outreach
 
-Current campaign scope: only newly researched email routes remain authorized for further attempts. Do not repost to WhatsApp, Slack, Discord or any recently covered channel. The table below records existing successes for future reuse, not another same-day dispatch.
+Ongoing email-follow-up automation scope: handle only eligible newly researched email routes; do not automatically repost to WhatsApp, Slack, Discord or other social channels. The separate user-authorized manual advertising pass on 10-08-2026 and its outcomes are recorded below; that dated authorization does not expand future automation authority. The table below records existing routes for future reuse, not another same-day dispatch.
 
 Start with accepted community channels that can publish immediately. Keep newsletter/editor outreach in a separate queue; an approved future issue cannot help a class tonight. Set the class start time as the cutoff for new same-day promotion.
 
