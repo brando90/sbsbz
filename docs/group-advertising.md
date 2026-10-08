@@ -1,6 +1,10 @@
 # Group advertising protocol
 
-For Stanford Bachata Sensual & Brazilian Zouk (SBSBZ). Updated 09-24-2026.
+**Doc link:** <https://github.com/brando90/sbsbz/blob/main/docs/group-advertising.md>
+
+**TLDR:** Introduce current classes once per quarter through suitable student-community routes, subject to channel rules; repeat only where the editor permits the frequency. Check existing officer posts, pending submissions and overlapping audiences before every sharing request.
+
+For Stanford Bachata Sensual & Brazilian Zouk (SBSBZ). Updated 10-08-2026.
 
 ## Quarterly workflow
 
@@ -118,3 +122,72 @@ The [Communications Support Request Form](https://docs.google.com/forms/d/e/1FAI
 ## Medical-owner follow-up — 10-07-2026
 
 Medical-student route: one process-only follow-up has now been sent in the existing owner conversation after cross-account checks. No advert copy or attachments were repeated. Owner guidance and student-wide publication remain unverified. Do not send another routine nudge; wait for an actionable reply or investigate an appropriate alternative without duplicating pending outreach.
+
+
+## Full weekly advertising pass and departmental requests — 10-08-2026
+
+A human-authorized full advertising pass can include the current flyer, permitted social communities, email/editor submissions and campus print distribution within the requested scope. Check current officer posts and private campaign records first, and finish each applicable route with a readback or an explicit unresolved status. This does not expand the existing email-only heartbeat: its scheduled checks reconcile replies and eligible email routes, without automatically posting to social communities, printing, or repeating the full pass. Recording a protocol does not create another schedule.
+
+The selected 10-08-2026 weekly flyer is the **student-friendly campus-casual edition**: [Portable Document Format (PDF) for printing/sharing](https://drive.google.com/file/d/1rDTzXLMvVFivjWsxOJ_pWNxXW2dJq8yo/view) and [JPEG image for social sharing](https://drive.google.com/file/d/15WOXh7h-UJ6SFD-M565AZls3HCBEknFt/view). These are dated campaign assets, not confirmation that an old schedule or venue remains current. Use the current confirmed occurrence and approved flyer; respect attachment restrictions, including Dance-News's no-attachments rule.
+
+### How to use the public route directory
+
+- **Organizer/editor request:** the official page identifies a social, student-organization, events or communications contact. Send one concise sharing request with complete current copy and the flyer when attachments are appropriate. Ask whether it fits the community and request the preferred route, lead time and permitted frequency. A source-listed address verifies a contact, not acceptance or student-wide distribution.
+- **Student-services routing fallback:** the official page identifies an administrator. Ask for the appropriate student-social editor or permitted community route. Do not present an administrative inbox as a broadcast list. Prefer the social organizer when available and use a fallback only after a redirect or unresolved access; do not contact both simultaneously.
+- **List with social-topic evidence:** verify approved sender, membership/moderation and outside-club eligibility before a direct post. “Students may post” does not grant posting permission to an outside organizer. Do not subscribe merely to bypass a restriction.
+- Aim for one approved introduction per quarter, subject to stricter channel rules. Weekly classes do not imply permission for weekly advertisements. Repeat reminders only after explicit channel acceptance and the required interval; an approved continuing newsletter listing needs no booster submission.
+- Deduplicate by actual audience across lists, editors, platforms, accounts and member relays. One shared editor may cover several departments, and school-wide/graduate routes may overlap department requests. Check pending, sent, accepted and officer posts before every send; an inaccessible history is unknown, not evidence of absence. Keep undergraduate, master's, doctoral, medical, clinical and postdoctoral coverage distinct.
+- Do not use research, academic-mandatory, clinical/on-call, career or alumni channels for ordinary dance promotion. Preserve unresolved contacts and permissions instead of guessing addresses. Maintain private submission/distribution evidence separately from this public directory.
+
+### Public social and event contacts
+
+Retrieved from official pages on 10-08-2026; recheck roles and rules before reuse. Every row remains an organizer request or an eligibility lead unless the owner explicitly confirms direct-list permission. No row records campaign submission or publication.
+
+| Community | Source-listed route | Official remit and limits |
+|---|---|---|
+| Engineering graduate students | `soegradcouncil@stanford.edu` | [Dean's Graduate Student Advisory Council](https://engineering.stanford.edu/students-academics/student-success-and-engagement/graduate-programs/deans-graduate-student): school-wide graduate council; request the appropriate student-life route, not an assumed broadcast. |
+| Aeronautics and Astronautics | `patrickf@stanford.edu`; social-list lead `aiaa@lists.stanford.edu` | [Student groups](https://aa.stanford.edu/our-culture/student-groups): advisory liaison and social student organization; outside posting unverified. Choose one organizer route. |
+| Electrical Engineering | `ee-students-forum@lists.stanford.edu` | [Official undergraduate handbook](https://ughb.stanford.edu/majors-minors/electrical-engineering-program): social activities are appropriate and students may post; nonmember/external-club permission unresolved. Exclude the separate mandatory academic list. |
+| Materials Science and Engineering | `njmarch@stanford.edu` | [Student organizations](https://mse.stanford.edu/stay-involved/student-organizations): source-listed graduate social chair; roster year unstated, confirm incumbent and sharing eligibility. Undergraduate population is separate. |
+| Mechanical Engineering | `megsc_members@lists.stanford.edu` | [Student organizations](https://me.stanford.edu/our-culture/student-organizations): graduate committee organizes social/community events and invites contact; sharing request, not established all-student broadcast. |
+| African and African-American Studies | `skiapi@stanford.edu` | [Contact page](https://aaas.stanford.edu/about/contact): event contact; outside-club eligibility unresolved. |
+| Anthropology | `dylancha@stanford.edu` | [Staff page](https://anthropology.stanford.edu/people/staff): marketing support; request student-social routing. |
+| Art and Art History | `jgwhite@stanford.edu` | [Julianne White](https://art.stanford.edu/people/julianne-white): events and communications manager; outside-club eligibility unresolved. |
+| Chemistry graduate students | `chemistry-sac@stanford.edu` | [Graduate committee](https://chemistry.stanford.edu/academics/student-organizations/graduate-student-affairs-committee): student social committee; external sharing/frequency unresolved. |
+| Chemistry undergraduate students | `chemistry-scs@mailman.stanford.edu` | [Undergraduate society](https://chemistry.stanford.edu/academics/student-organizations/stanford-chemistry-society-schs): social mission; distinct undergraduate cohort, direct posting permission unverified. |
+| Classics | `simeonp@stanford.edu` | [Contact page](https://classics.stanford.edu/about/contact-location): operations/events coordinator; one editor request. |
+| Comparative Literature; French and Italian; German Studies; Iberian and Latin American Cultures; Slavic Languages and Literatures | `dlclevents@stanford.edu` | [Division events/communications profile](https://dlcl.stanford.edu/people/andrea-brown) and [school field index](https://humsci.stanford.edu/find-your-field-study): **one shared request for five departments**, not five duplicate copies. |
+| Economics | `econ-werise@stanford.edu` | [Doctoral student life](https://economics.stanford.edu/graduate/graduate-degree-programs/doctoral-program/student-life): student group with socials/newsletter; roster labeled 2024–2025, recheck activity and eligibility. |
+| History | `chamill@stanford.edu` | [Administrative team](https://history.stanford.edu/people/our-administrative-team): events and communications coordinator; external sharing unresolved. |
+| Music | `mstill@stanford.edu` | [Recital publicity](https://music.stanford.edu/play/recitals-more/scheduling-recitals): department publicist for sponsored recitals; request appropriate student-social route, do not assume dance-advert eligibility. |
+| Education | `sgarcia8@stanford.edu` | [Student organizations](https://ed.stanford.edu/students/student-orgs): contact for all student organizations, including Student Guild's social community. [School lists](https://ed.stanford.edu/students/useful-emails) require subscribed students to post; no outside direct broadcast. |
+| Doerr School of Sustainability | `jdrubzep@stanford.edu` | [Community liaisons](https://sustainability.stanford.edu/our-liaisons): community-building coordinator for coterminal/graduate students and postdocs; request student sharing without duplicating postdoc outreach. Undergraduate reach remains unverified. |
+| Law | `jwdalton@law.stanford.edu` | [Official graduate-education contacts](https://vpge.stanford.edu/guidance-students/problem-solving-crisis-intervention/school-deans-office-contacts) and [Law Student Affairs remit](https://law.stanford.edu/education/international-and-global-opportunities/visiting-exchange-students-program-info/): student-affairs routing contact. [Weekly Digest](https://law.stanford.edu/i-am-a-current-student/) requires community access; external submissions unverified. |
+| Business master's students | `hayes_margaret@gsb.stanford.edu` | [Official graduate-education contacts](https://vpge.stanford.edu/guidance-students/problem-solving-crisis-intervention/school-deans-office-contacts) and [Margaret Long Hayes profile](https://www.gsb.stanford.edu/contact/margaret-long-hayes): student-life routing fallback for Master of Business Administration and Master of Science in Management programs; not a verified event editor or doctoral route. |
+
+### Public student-services routing fallbacks
+
+These contacts are administrative referrals, not permitted advertising lists. Recheck their current role, and choose one appropriate referral rather than emailing every row.
+
+| Community | Source-listed contact | Official source |
+|---|---|---|
+| Bioengineering | `kkbechler@stanford.edu` | [Student-services contacts](https://gfs.stanford.edu/contacts) |
+| Civil and Environmental Engineering | `nanaoki@stanford.edu` | [Department student services](https://cee.stanford.edu/academics-admission/commencement); consider overlap with Sustainability |
+| Management Science and Engineering | `lcottle@stanford.edu` | [Student organizations](https://msande.stanford.edu/our-culture/student-organizations) |
+| Applied Physics | `ahakgul@stanford.edu` | [Student-services contacts](https://gfs.stanford.edu/contacts) |
+| Biology graduate students | `lorenar3@stanford.edu` | [Graduate student resources](https://biology.stanford.edu/academics/phd-program/graduate-student-resources) |
+| East Asian Languages and Cultures | `cyrilm@stanford.edu` | [Student-services profile](https://ealc.stanford.edu/people/cyril-millendez) |
+| English graduate students | `blazzari@stanford.edu` | [Who does what](https://english.stanford.edu/who-does-what) |
+| Linguistics | `regina.miller@stanford.edu` | [Contact page](https://linguistics.stanford.edu/about/contact) |
+| Mathematics | `mathstudentservices@stanford.edu` | [Student-services contact](https://mathematics.stanford.edu/academics/undergraduate-students/math-major/how-declare) |
+| Political Science | `snelson4@stanford.edu` | [Sarah Nelson](https://politicalscience.stanford.edu/people/sarah-nelson) |
+| Psychology | `asims@stanford.edu` | [Undergraduate program](https://psychology.stanford.edu/academics/undergraduate-program); [communication policy](https://psychology.stanford.edu/community-resources/communication-policies-and-guidelines) limits departmental lists to official/academic business, so request an independent student-social association route |
+| Religious Studies graduate students | `jillj@stanford.edu` | [Contact page](https://religiousstudies.stanford.edu/about/contact-us) |
+| Statistics | `susiele@stanford.edu` | [Susie Ementon](https://statistics.stanford.edu/people/susie-ementon) |
+| Theater and Performance Studies | `tapsstudentservices@stanford.edu` | [Contact page](https://taps.stanford.edu/contact/) |
+
+### Unresolved cohorts and contacts
+
+Chemical Engineering's [graduate student-life page](https://cheme.stanford.edu/academics-admissions/graduate-programs/phd-program-overview), Philosophy's [Hume Society](https://philosophy.stanford.edu/academics/graduate-program-philosophy/graduate-life), Physics's [undergraduate society](https://physics.stanford.edu/undergraduate/stanford-university-physics-society-sups) and Sociology's [graduate association](https://sociology.stanford.edu/doctoral/association-sociology-graduate-students-asgs) identify social communities, but a current suitable organizer email or posting permission remains unresolved. Computer Science and Data Science have known social-channel routes; inspect current officer posts before repeating. Communication and the remaining interdisciplinary programs require suitable route research rather than guessed list addresses.
+
+Medicine's [Biosciences Student Association](https://med.stanford.edu/sbsa.html) is a distinct graduate social-community lead across Medicine, Humanities and Sciences, and Engineering. Its official officer link redirects to a historical year, so verify the current organizer before use. A funding/program proposal is not an advertisement submission. Medical/physician-assistant students, residents/clinical fellows, and postdocs retain their coordinated routes above: check pending editor/owner conversations before any alternate request and do not bypass them through clinical department mailboxes. School contacts and association membership establish possible routing, not complete cohort coverage.
