@@ -1,0 +1,32 @@
+{
+  "3300": [
+    "https://chat.whatsapp.com/LZw0R9UTsKgFfY2oBmXAwV",
+    "https://linktr.ee/stanfordbachatazouk"
+  ],
+  "1600": [
+    "https://chat.whatsapp.com/LZw0R9UTsKgFfY2oBmXAwV",
+    "https://linktr.ee/stanfordbachatazouk"
+  ],
+  "sha256": {
+    "pdf": "15c4043256d0dc0ff43e4f7e13fe7aaf0b459486b704eddbb36d6adaabd75492",
+    "jpg": "a8974f01e55351e651a12fd81075a3d218347831cc3e551cbe5922ec0fc3d666",
+    "png": "28f394b094be92b8bd9341ec0fc9d93674c20edefb0123c662bcffcbea16b68a"
+  },
+  "scope": "Bachata-only; club handles and links preserved; no Zouk class promotion",
+  "page_points": [
+    612,
+    792
+  ],
+  "image_pixels": [
+    2550,
+    3300
+  ],
+  "source_illustration": {
+    "sha256": "355e85b87a699c8148d954533d0f85e5891ae5cbb22bcc05090d006b2ad7d1d1",
+    "changed": false
+  },
+  "visual_inspection": {
+    "status": "passed",
+    "findings": "Bachata-only headline and three class/social time rows legible; no clipping, overlaps, or Zouk class promotion. Original campus casual illustration retained."
+  }
+}

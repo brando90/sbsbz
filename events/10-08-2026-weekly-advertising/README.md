@@ -14,3 +14,5 @@ Free for Stanford students and affiliates; beginners welcome, with no partner or
 | JPEG image, social sharing | [JPEG flyer](assets/SBSBZ-Weekly-Class-Student-Friendly-10-08-2026.jpg) | [Drive JPEG](https://drive.google.com/file/d/15WOXh7h-UJ6SFD-M565AZls3HCBEknFt/view) |
 
 Use the [group advertising protocol](../../docs/group-advertising.md) for audience duplicate checks, editor eligibility and frequency. Attachments are subject to channel rules; Dance-News accepts no attachments. Keep private correspondence, recipient lists, screenshots and dispatch receipts outside the public repository.
+
+Asset correction on 10-08-2026: current downloads promote Bachata only, with the original campus-casual illustration and club links preserved. The file names and public download URLs are unchanged. [Portable Network Graphics (PNG) image](assets/SBSBZ-Weekly-Class-Student-Friendly-10-08-2026.png) and [asset verification](assets/verification.json) accompany the print and social formats.
