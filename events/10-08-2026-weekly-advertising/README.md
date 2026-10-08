@@ -16,3 +16,16 @@ Free for Stanford students and affiliates; beginners welcome, with no partner or
 Use the [group advertising protocol](../../docs/group-advertising.md) for audience duplicate checks, editor eligibility and frequency. Attachments are subject to channel rules; Dance-News accepts no attachments. Keep private correspondence, recipient lists, screenshots and dispatch receipts outside the public repository.
 
 Asset correction on 10-08-2026: current downloads promote Bachata only, with the original campus-casual illustration and club links preserved. The file names and public download URLs are unchanged. [Portable Network Graphics (PNG) image](assets/SBSBZ-Weekly-Class-Student-Friendly-10-08-2026.png) and [asset verification](assets/verification.json) accompany the print and social formats.
+
+
+## Distinct variant B — Your First Class
+
+This separate indoor-classroom illustration uses the same current Bachata-only schedule and club links as Campus Casual A; A is unchanged. Future class dates, instructors and venues still require confirmation.
+
+| Format | Repository asset | Shared Drive asset |
+|---|---|---|
+| PDF print/share | [Variant B PDF](assets/SBSBZ-Weekly-Class-Your-First-Class-10-08-2026.pdf) | [Drive variant B PDF](https://drive.google.com/file/d/1j2Rve2HwMzmgBv32PbLQOpsGFGCNPQBy/view) |
+| JPEG social image | [Variant B JPEG](assets/SBSBZ-Weekly-Class-Your-First-Class-10-08-2026.jpg) | [Drive variant B JPEG](https://drive.google.com/file/d/1_3k88azOQMXVQWvAv-iGtfVmM2gyCSr0/view) |
+| PNG image | [Variant B PNG](assets/SBSBZ-Weekly-Class-Your-First-Class-10-08-2026.png) | — |
+
+[Variant B verification](assets/verification-your-first-class.json) records matching copy, image dimensions and decoded links. The [variant builder](build_weekly_flyer_first_class.py) uses the [shared layout source](build_weekly_flyer.py) and [original B illustration](assets/B-your-first-class.png). It requires the existing Python imaging/document dependencies, a Poppler `pdftoppm` executable on the path, and the specified macOS fonts. Existing variant files must be preserved before rebuilding. Saving another design does not authorize another advertisement.

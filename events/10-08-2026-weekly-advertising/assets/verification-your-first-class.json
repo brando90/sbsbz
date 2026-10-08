@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-08T20:13:35.545143+00:00",
+  "design": "B - Your First Class",
+  "scope": "Bachata-only, identical current copy/schedule/links to Campus Casual A",
+  "source_illustration": "B-your-first-class.png",
+  "source_illustration_sha256": "8ee3035a7df745931948165a69c3d1a38d42e3677c3437c90eb98d2d5e49ce9b",
+  "page_points": [
+    612,
+    792
+  ],
+  "image_pixels": [
+    2550,
+    3300
+  ],
+  "qr_checks": {
+    "3300": [
+      "https://chat.whatsapp.com/LZw0R9UTsKgFfY2oBmXAwV",
+      "https://linktr.ee/stanfordbachatazouk"
+    ],
+    "1600": [
+      "https://chat.whatsapp.com/LZw0R9UTsKgFfY2oBmXAwV",
+      "https://linktr.ee/stanfordbachatazouk"
+    ]
+  },
+  "sha256": {
+    "pdf": "d258e7ebacae96acdf40ee7e94d873708769060ec1a8f09f6d7c5572141a002f",
+    "jpg": "6a5a60f0c6b01fa335951b952fe93d470454702a53bc412df450686bea44dbe9",
+    "png": "fbc3852337e55ff9dc603b1dc972a2ce2315fa48dd2a830c8808a6272218e368"
+  },
+  "campus_casual_unchanged_sha256": {
+    "pdf": "15c4043256d0dc0ff43e4f7e13fe7aaf0b459486b704eddbb36d6adaabd75492",
+    "jpg": "a8974f01e55351e651a12fd81075a3d218347831cc3e551cbe5922ec0fc3d666",
+    "png": "28f394b094be92b8bd9341ec0fc9d93674c20edefb0123c662bcffcbea16b68a"
+  },
+  "text_matches_campus_casual": true,
+  "visual_inspection": {
+    "status": "passed",
+    "findings": "Headline, indoor workshop illustration, three schedule rows, QR codes and footer legible; no clipping or overlap. No Zouk class, old party or instructor claim."
+  }
+}
