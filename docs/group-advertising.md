@@ -6,6 +6,8 @@
 
 For Stanford Bachata Sensual & Brazilian Zouk (SBSBZ). Updated 10-08-2026.
 
+Current offering: Bachata Sensual classes only. No Brazilian Zouk classes are currently offered; do not advertise Zouk classes until the organizer explicitly confirms they have resumed. The club’s full name remains Stanford Bachata Sensual & Brazilian Zouk. This current-class rule does not rewrite historical events.
+
 ## Quarterly workflow
 
 Aim for one approved class/quarter announcement in each suitable audience channel each quarter. This is a club planning target, not blanket permission from list owners. Use the current confirmed quarter details, prepare early, and obey any stricter channel rule. Recheck the route and owner each term. A previously published quarter announcement satisfies that quarter's first-post target; never resend it merely because a new agent started.

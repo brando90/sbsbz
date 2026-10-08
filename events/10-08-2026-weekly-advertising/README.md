@@ -6,7 +6,7 @@
 
 Instructor source: organizer correction received 10-08-2026. This dated correction applies to the 10-08-2026 class; future instructors remain subject to weekly confirmation.
 
-Free for Stanford students and affiliates; beginners welcome, with no partner or experience needed. The flyer is a reusable weekly asset: check [current club updates](https://linktr.ee/stanfordbachatazouk) for future dates, instructors, venues and changes. Brazilian Zouk timing is supplied through class updates; this flyer does not establish a fixed Zouk schedule.
+Free for Stanford students and affiliates; beginners welcome, with no partner or experience needed. The flyer is a reusable weekly asset: check [current club updates](https://linktr.ee/stanfordbachatazouk) for future dates, instructors, venues and changes. Current classes are Bachata Sensual only. No Brazilian Zouk classes are currently offered; advertise Zouk classes only after explicit organizer confirmation that they have resumed. The club’s full name is unchanged.
 
 | Format | Repository asset | Shared Drive asset |
 |---|---|---|
