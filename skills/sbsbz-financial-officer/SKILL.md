@@ -37,7 +37,7 @@ As of 10-09-2026 the FO role is in transition. Read the newest "Team responsibil
 2. Read the invoice: run `pdftotext -layout`, render it with `pdftoppm -r 70 -png -singlefile` and look at the page; open images directly.
 3. From the chats and the FO, collect: the agreed rate and the message it came from, each date taught, who actually taught (announcements are sometimes wrong), what was already paid and by whom, and the funding status.
 4. Write `private/<payee>-<MM-DD-YYYY>-facts.json` following `references/invoice-facts.example.json`. Unknown values stay `null`; never guess.
-5. Run `python3 scripts/invoice_check.py private/<facts>.json --out private/<payee>-check-report.md`. Exit 2 means blocked, 1 means fixes needed, 0 means ready for FO review.
+5. Run `python3 scripts/invoice_check.py private/<facts>.json --out private/<payee>-check-report.md`. Exit 2 means blocked, 1 means fixes needed, 0 means no fixes. The verdict also says whether the next step is a funding request, waiting for approval, or FO review of the payment.
 6. Write `private/packet.md` containing:
    - the verdict and findings
    - the GrantEd draft
@@ -49,22 +49,24 @@ As of 10-09-2026 the FO role is in transition. Read the newest "Team responsibil
 7. Report to Brando in a few lines: the verdict, the fixes, the decisions he owns, and the drafts awaiting his "send".
 
 **A submittable invoice has:**
+
 - the payee's legal name, a working email and a phone number
 - an invoice number and an invoice date
 - "Billed to: Stanford Bachata Sensual & Brazilian Zouk (SBSBZ), VSO account 5089, Stanford University"
 - **one session per invoice** with its service date, a description ("Guest dance instruction, SBSBZ weekly Bachata class, MM-DD-YYYY") and the agreed rate
-- no Venmo, Zelle or cash instructions, because Stanford pays by check or direct deposit after payee setup
+- no Venmo, Zelle or cash instructions: Stanford pays outside payees by check (mail or pickup) after they return the W-9 that GrantEd emails them
 - PDF format
 
-Ask for future sessions' invoices at least a month ahead.
+Ask for future sessions' invoices at least a month ahead. A recurring outside instructor also needs OSE's non-student registration: the Non-Student Involvement Form, a HireRight background check and Core 10 training (policy P9). Start it with the first invoice.
 
 ## Workflow B: GSC Quick Grant packet (monthly)
 Build it from the class plan (dates × instructor × agreed rate) and any social quotes:
+
 - One funding line per session or expense, each in the right account.
 - Keep each application under $1,000; split by month.
-- Submit at least one month ahead. That is ASSU guidance relayed by the FO; requests a week or less ahead may be denied.
+- Submit at least one month ahead (ASSU). GSC itself needs 3 weekly meetings for ≤$500 and 4 for ≤$1,000.
 - GSC's weekly cutoff is Sunday 5 PM.
-- List every session on the GSC Funding Calendar at least 14 days ahead.
+- List every session on the GSC Funding Calendar at least 14 days ahead (mandatory).
 - Fill the answers from `references/gsc-quick-grant-answers.md` with measured attendance.
 - Plan a sign-in sheet with names and emails at every session.
 
@@ -72,19 +74,21 @@ Output: `private/grant-packet-<month>.md`, ready to paste.
 
 ## Workflow C: payment request after the session
 Before paying, all of these must hold:
-- approved funding covering that date
-- a written quote and the payee's acceptance (an email thread)
-- a corrected invoice
+
+- approved funding covering that date, since unapproved payment requests are rejected
+- a written agreement on the amount (an email or text thread)
+- a corrected, itemized invoice
 - the attendance list
-- the payee set up in Stanford's system
+- the payee's correct email (for the W-9 request), and OSE registration if they teach regularly
 
 The `invoice_check.py` draft holds the field values: Service Payment, vendor, service date, amount, account, description, attachments. After the FO submits, confirm with the payee that payment arrived and add the ledger row.
 
 ## Workflow D: someone paid out of pocket
-Collect receipts or Venmo screenshots and match each to an approved funding line. Without approval, a reimbursement is unlikely: say so. Never let Stanford pay a vendor whom an organizer already paid; route the money as a reimbursement to the organizer instead, if GrantEd allows it.
+Collect itemized receipts and proof of payment, and match each to an approved funding line. Without prior approval, expect rejection: say so. Paying a person for a service by Venmo, Zelle or Apple Cash is not allowed, so those payments are not reimbursable (policy P3). Never let Stanford pay a vendor whom an organizer already paid for the same session.
 
 ## Workflow E: ledger and status digest (monthly, or when asked)
 Compare the newest GrantEd statement export with the Accounting sheet. List:
+
 - open applications and their status
 - approved but unspent allocations, which are taken back after June 30
 - pending payments
@@ -97,15 +101,16 @@ Write `private/status-MM-DD-YYYY.md` and send Brando or the FO a five-line summa
 `references/policy.md` lists each rule with its source and whether it is official or from club notes. Cite the source when a rule decides an outcome.
 
 ## Lessons
-- 10-09-2026, first test on a guest instructor's invoice for a 10-01-2026 class: five fixes and three checks:
-  - email truncated to `.co`
+- 10-09-2026, first test on a guest instructor's invoice for a 10-01-2026 class: five fixes and five checks.
+
+  The fixes:
+  - email truncated to `.co`, which would misroute the W-9 request
   - club named "SBKZ"
   - Venmo/Zelle payment instructions
-  - no written quote with acceptance
+  - no OSE registration for a recurring instructor
   - no attendance list
-  - and the session had passed with no approved funding
 
-  Ask instructors for one invoice per future session at least a month ahead, using the template above.
+  The session had passed with no approved funding, and the organizer had already paid by Venmo, which cannot be reimbursed. Ask instructors for one invoice per future session at least a month ahead, using the template above.
 - 09-2026: GSC approved only half of a request because a photo is not an attendee list.
 - 09-23-2026: a $1,000 request for a 10-02-2026 party, sent nine days ahead, was not decided in time.
 - 06-30-2025: GSC took back unspent allocations at fiscal-year end.

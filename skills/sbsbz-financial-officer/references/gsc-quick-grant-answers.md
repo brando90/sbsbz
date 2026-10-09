@@ -20,16 +20,16 @@
 
 | Account | Description | Event name | Event date | Amount |
 |---|---|---|---|---|
-| Compensation (or Honoraria; match past approvals) | `Guest dance instruction — [instructor], [level] class` | Weekly Bachata & Brazilian Zouk Classes | `[MM-DD-YYYY]` | agreed rate |
+| Honoraria (service payments book here; the club statement also has a Compensation line used in 01-2026, so match past approvals) | `Guest dance instruction — [instructor], [level] class` | Weekly Bachata & Brazilian Zouk Classes | `[MM-DD-YYYY]` | agreed rate |
 | Honoraria | `DJ, [hours] h × $[rate]/h` | `[Social name]` | `[date]` | quote |
 | Event Food & Provisions | `[food] for ~[N] attendees at $[x]/person` | `[Social name]` | `[date]` | quote |
 
-Keep each application under $1,000 (split by month). Larger totals go to committee review and may need someone at a GSC meeting.
+Keep each application under $1,000 (split by month). Over $1,000 needs someone at a GSC meeting and 5 meetings of lead time; ≤$500 needs 3 and ≤$1,000 needs 4 (ASSU /206). Submit by Sunday 5 PM, and at least a month ahead (ASSU /196).
 
 ## Questions
 
 1. **Description (≤150 words).** SBSBZ hosts weekly Bachata and Brazilian Zouk classes that teach partner-dance fundamentals, promote physical wellness and build community among Stanford students. Classes are open to all levels and emphasize inclusivity, cultural exchange and social connection. `[Sessions in this request: dates, levels, instructor(s), location.]`
-2. **GSC Funding Calendar listing.** Paste the calendar link(s) for each session, listed at least 14 days before the event, with event name, organizing VSO (Voluntary Student Organization), date, time, location, blurb (≤150 words) and RSVP link. Template: `Weekly Bachata class — [day] [MM-DD-YYYY], 7–10 PM, [room]`.
+2. **GSC Funding Calendar listing.** Paste the calendar link(s) for each session, listed at least 14 days before the event (mandatory), with event name, organizing VSO (Voluntary Student Organization), date, time, location, blurb (≤150 words) and RSVP link. Template: `Weekly Bachata class — [day] [MM-DD-YYYY], 7–10 PM, [room]`.
 3. **Annual grant?** `[No / Yes: explain why a Quick Grant instead of a funding modification.]` Mention any existing allocation that applies, such as an approved amount for classes this year.
 4. **Open to Stanford students? Cost-saving venue?** Yes. Open to all Stanford graduate and undergraduate students; free for Stanford students. Held in free campus rooms (`[room]`). *(The 2026 guide said "exclusively" here but also reported non-affiliate attendance below; keep the answers consistent.)*
 5. **Expected undergraduates.** `[number]` per session, based on the sign-up lists from `[dates]`.
