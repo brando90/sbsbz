@@ -15,7 +15,7 @@
 | Financial Officer roles & tips (2024) | `1EPeOk8cGtrUkGJ7uH93tgvmlocybncJ_OoiU-fSonKI` | Older notes; GSC Sunday 5 PM deadline. |
 | Transition Planner (Dan, 09-2026) | `1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA` | Tango Club advice: university rules on outside payments. |
 | Arts grant draft | repo `docs/funding/bachata-arts-grant-draft.md` | Non-GSC grant routes and budget-worksheet rules. |
-| WhatsApp | local desktop data via `scripts/wa_finance_find.py` | Invoices, rate sheets and FO updates: "SBSZ Official Officers Chat", the FO's 1:1 chat, and per-instructor groups named "Awesome <Name> Bachata Teacher (…)". |
+| WhatsApp | local desktop data via `scripts/wa_finance_find.py` | Invoices, rate sheets and FO updates: "SBSZ Official Officers Chat", the FO's 1:1 chat, and per-instructor groups named `Awesome <Name> Bachata Teacher (…)`. |
 | Email | Gmail / Stanford Outlook connectors | GrantEd notifications, `banking@sse.stanford.edu`, GSC replies, emailed quotes. |
-| Official rules | GrantEd Help Center <https://sse.frontkb.com/en>; GSC grants <https://www.assu.stanford.edu/finances/assu-funding-grants/graduate-vso-grants> | Authoritative policy; see `policy.md`. |
+| Official rules | GrantEd Help Center <https://sse.frontkb.com/en>; GSC grants <https://www.assu.stanford.edu/206/Graduate-VSO-Grants>; ASSU funding <https://www.assu.stanford.edu/196/ASSU-Funding> | Authoritative policy; see `policy.md`. |
 | Community payments | <https://assuepay.stanford.edu/> (payer → make a payment → club name or group ID) | How outside members pay the club officially. The payer does this; agents never pay. |

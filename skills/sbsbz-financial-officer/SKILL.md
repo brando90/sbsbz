@@ -28,7 +28,7 @@ As of 10-09-2026 the FO role is in transition. Read the newest "Team responsibil
    python3 $W --list-chats "<payee first name>"
    python3 $W --chat "Awesome <Name>" --chat "<Name> 1:1 chat name" --since YYYY-MM-DD --copy-to ~/sbsbz/events/MM-DD-YYYY-fo-<payee>/private/source
    ```
-   It queries a temporary copy of `ChatStorage.sqlite`, prints only attachments and finance keyword hits, copies the media and writes `manifest.json` with SHA-256 hashes. If a file "is not downloaded on this Mac", open that chat in the WhatsApp app through background computer use (`net.whatsapp.WhatsApp`) and download it. Useful chats: "SBSZ Official Officers Chat", the FO's 1:1 chat, and per-instructor groups named "Awesome <Name> Bachata Teacher (…)". Captions matter: an instructor's rate can sit in the caption of a rate-sheet image rather than in the image.
+   It queries a temporary copy of `ChatStorage.sqlite`, prints only attachments and finance keyword hits, copies the media and writes `manifest.json` with SHA-256 hashes. If a file "is not downloaded on this Mac", open that chat in the WhatsApp app through background computer use (`net.whatsapp.WhatsApp`) and download it. Useful chats: "SBSZ Official Officers Chat", the FO's 1:1 chat, and per-instructor groups named `Awesome <Name> Bachata Teacher (…)`. Captions matter: an instructor's rate can sit in the caption of a rate-sheet image rather than in the image.
 3. **Email:** Gmail and Stanford Outlook connectors. Search `invoice`, `quote`, `GrantEd`, `GSC funding`, `banking@sse.stanford.edu`.
 4. **Drive:** see `references/sources.md` for the onboarding guide, the statement export and the Accounting sheet.
 
