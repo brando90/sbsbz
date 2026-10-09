@@ -203,6 +203,18 @@ Current social contacts for Chemical Engineering, Philosophy, Physics and Sociol
 
 Medicine's Biosciences role inbox is a distinct graduate social-community lead across Medicine, Humanities and Sciences, and Engineering. Its personal-officer link redirects to a historical year, so use the source-listed executive role inbox for coordination and confirm the current organizer. A funding/program proposal is not an advertisement submission. Medical/physician-assistant students, residents/clinical fellows, and postdocs retain their coordinated routes above: check pending editor/owner conversations before any alternate request and do not bypass them through clinical department mailboxes. School contacts and association membership establish possible routing, not complete cohort coverage.
 
+## Email-route reconciliation — 10-09-2026
+
+The 39 sending-server acceptances recorded below are historical, not 39 verified audience deliveries. One Business School address subsequently returned a permanent unknown-user failure; do not retry it.
+
+- Statistics: coordinator confirmed sharing. Exact list membership and reach remain unverified; treat the quarterly introduction as covered.
+- Sociology graduate students: coordinator promised a relay; distribution remains pending.
+- Philosophy graduate students: a forward addressed to the graduate list with the flyer is verified; individual/member delivery is not independently verified. Hold further submissions.
+- Physics undergraduates: the society leader directed submission to `sups-stanford@lists.stanford.edu`, also linked from the [official society page](https://physics.stanford.edu/undergraduate/stanford-university-physics-society-sups). A process-only reply asked about prior officer coverage and permitted sender/attachments. No direct list advert has been sent; await clarification.
+- Business School: the failed address is unsuitable. The [official Office of Student Life contact](https://www.gsb.stanford.edu/stanford-community/plan-event/reservations) is a routing lead only; advertising eligibility and audience overlap require verification before outreach.
+
+No advert was resent during this check. Keep medical, clinical, postdoctoral, moderation and other owner-relay holds; the medical route's one routine follow-up is already used. New dates or future instructors require organizer confirmation. Daily email-only checks continue; no social posting, printing or flyer redesign is authorized by a wake-up.
+
 ## Sanitized campaign outcome — 10-08-2026
 
 Thirty-nine new department sharing requests were accepted by the sending mail server; student distribution is not verified. One Chemistry Student Advisory Committee request is held for nonmember moderation: wait for the moderator, with no resend or sender switch. The Anthropology contact is away until 10-12-2026; wait for return. Biology contact availability is limited on 10-08-2026. Existing pending clinical and postdoctoral routes remain held, and WhatsApp was already covered that day.
