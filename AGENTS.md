@@ -28,3 +28,5 @@ For Stanford Bachata Sensual & Brazilian Zouk messages, do not copy the work inb
 ## Printing flyers (Brando, 10-09-2026)
 
 To print club flyers on Stanford Cardinal Print, follow `skills/sbsbz-cardinal-print-flyers/SKILL.md` and use its `scripts/print_flyers.sh`. When Brando asks to print, print: he has approved the cost. The skill also holds a copy-paste prompt for Claude, Codex or ChatGPT agents.
+
+For Financial Officer (FO) work (instructor, DJ or food invoices and quotes, GSC/ASSU funding requests, GrantEd payments, reimbursements, the club ledger), follow `skills/sbsbz-financial-officer/SKILL.md`. Agents prepare GrantEd-ready packets in a gitignored `events/MM-DD-YYYY-fo-<task>/private/` folder; the FO signs in and submits, and agents never pay anyone.
