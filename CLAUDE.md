@@ -24,3 +24,7 @@ For quarterly audience outreach, also read `docs/group-advertising.md`. Check ex
 ## Club email copies (Brando, 10-02-2026)
 
 For Stanford Bachata Sensual & Brazilian Zouk messages, do not copy the work inbox `brando.science@gmail.com`. Blind-copy (BCC) `brandojazz@gmail.com` and `brando9@stanford.edu`, deduplicating envelope recipients. This club-specific preference overrides the general email audit-copy default. Preserve other explicitly authorized recipients.
+
+## Printing flyers (Brando, 10-09-2026)
+
+To print club flyers on Stanford Cardinal Print, follow `skills/sbsbz-cardinal-print-flyers/SKILL.md` and use its `scripts/print_flyers.sh`. When Brando asks to print, print: he has approved the cost. The skill also holds a copy-paste prompt for Claude, Codex or ChatGPT agents.
