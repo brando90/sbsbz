@@ -9,7 +9,7 @@ description: Print Stanford Bachata Sensual & Brazilian Zouk (SBSBZ) club flyers
 
 **TLDR:** When Brando asks for SBSBZ flyers to be printed, submit the current print-ready PDFs to Stanford Cardinal Print with `scripts/print_flyers.sh` (default 25 color, one-sided Letter copies per design), confirm every job reached Stanford's server, and tell him the job numbers so he can release them at any Cardinal Print device within 48 hours.
 
-Google Drive copy: the "Agent skills and prompts" folder in the club's shared Marketing folder, <https://drive.google.com/drive/folders/1U3EmA7i5W0O1hrDmYw37QiYi9aDxEG05>. GitHub is the canonical copy; update both when this procedure changes.
+Google Drive copy: the "Agent skills and prompts" folder in the club's shared Marketing folder, <https://drive.google.com/drive/folders/1U3EmA7i5W0O1hrDmYw37QiYi9aDxEG05>. GitHub is the canonical copy; update both when this procedure changes. Installed copies for local agents live in `~/.claude/skills/sbsbz-cardinal-print-flyers/` (Claude Code) and `~/.codex/skills/sbsbz-cardinal-print-flyers/` (Codex and the ChatGPT desktop agent); refresh them from GitHub after edits.
 
 ## Brando's standing preferences
 
@@ -31,7 +31,10 @@ Google Drive copy: the "Agent skills and prompts" folder in the club's shared Ma
 3. **Dry run, then submit** from any directory:
 
    ```bash
-   S=~/sbsbz/skills/sbsbz-cardinal-print-flyers/scripts/print_flyers.sh
+   # the script ships in this skill's folder; use whichever installed copy exists
+   S=$(ls ~/sbsbz/skills/sbsbz-cardinal-print-flyers/scripts/print_flyers.sh \
+         ~/.claude/skills/sbsbz-cardinal-print-flyers/scripts/print_flyers.sh \
+         ~/.codex/skills/sbsbz-cardinal-print-flyers/scripts/print_flyers.sh 2>/dev/null | head -1)
    A=~/sbsbz/events/10-09-2026-three-flyer-print/assets
    $S --dry-run "$A"/A-*.pdf "$A"/B-*.pdf "$A"/C-*.pdf
    $S --copies 25 --receipt ~/sbsbz/events/MM-DD-YYYY-flyer-print/private/print-receipt.json \
