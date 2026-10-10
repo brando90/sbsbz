@@ -1,8 +1,10 @@
 {
-  "_comment": "Fictional example. Real facts files hold payee contact details and live only in events/<MM-DD-YYYY>-<task>/private/.",
+  "_comment": "Fictional example. Real facts files hold payee contact details and live only in events/MM-DD-YYYY-fo-<payee>/private/ (ignored by the root .gitignore).",
   "payee": {
     "name": "Jordan Example",
     "email": "jordan@example.com",
+    "phone": "650-555-0100",
+    "address": "123 Example St, Palo Alto, CA 94301",
     "stanford_affiliation": "none",
     "w9_on_file": true,
     "ongoing_instructor": true,

@@ -14,8 +14,9 @@ Copies: GitHub is canonical. Put a Drive copy in the Marketing folder's "Agent s
 ## Limits that bind
 - **The FO submits.** GrantEd needs the FO's own SUNet login and completed training, so agents prepare exact field values and attachments and stop there. Agents never sign in with someone's credentials. They never submit GrantEd funding or payment requests or assuepay payments, and never send money (Venmo, Zelle, bank). Brando or the FO does those steps.
 - **Messages are drafts until Brando says "send".** When he does, follow the club email copy rule in `CLAUDE.md` (BCC `brandojazz@gmail.com` and `brando9@stanford.edu`).
-- **The repository is public.** Invoices, chat extracts, payee contact or tax details, statements, balances and receipts go in `events/MM-DD-YYYY-fo-<task>/private/`. Give that folder a `.gitignore` containing `private/`, and confirm it with `git check-ignore`. Commit only skill or process changes.
+- **The repository is public.** Invoices, chat extracts, payee contact or tax details, statements, balances and receipts go in `events/MM-DD-YYYY-fo-<task>/private/`. The root `.gitignore` ignores every dated `events/MM-DD-YYYY-fo-*/` folder and every `private/` directory, so nothing in them reaches git, not even a folder name with the payee in it. Confirm with `git check-ignore`, and never commit a file inside them. Commit only skill or process changes.
 - **Chats are personal.** Extract finance facts only (date, chat name, amount, who taught, who paid), never surrounding conversation.
+- **Instructors never see one another's invoices (Brando, 10-10-2026).** One payee's invoice may show the agent what format works, but each payee's invoice is generated from that payee's own facts file with `scripts/make_invoice.py`. Each payee gets a separate private folder, in the local checkout (ignored by git) and in Drive (owner-only). Never put one payee's name, rate, contact details or invoice into another payee's invoice, email, folder or shared document.
 
 ## Current state (re-verify every run)
 As of 10-09-2026 the FO role is in transition. Read the newest "Team responsibilities" doc and the officers chat before naming the FO. Lorena's guide says the President cannot be the FO; check with Stanford Student Enterprises (SSE) before Brando takes the role. Balances in old exports are stale: ask the FO for a fresh GrantEd statement before quoting any number.
@@ -33,11 +34,11 @@ As of 10-09-2026 the FO role is in transition. Read the newest "Team responsibil
 4. **Drive:** see `references/sources.md` for the onboarding guide, the statement export and the Accounting sheet.
 
 ## Workflow A: an invoice or quote arrives (most common)
-1. Make `events/MM-DD-YYYY-fo-<payee>/` with the `.gitignore`, then copy the sources into `private/source/` (step above).
+1. Make `events/MM-DD-YYYY-fo-<payee>/` (ignored by the root `.gitignore`), then copy the sources into `private/source/` (step above).
 2. Read the invoice: run `pdftotext -layout`, render it with `pdftoppm -r 70 -png -singlefile` and look at the page; open images directly.
 3. From the chats and the FO, collect: the agreed rate and the message it came from, each date taught, who actually taught (announcements are sometimes wrong), what was already paid and by whom, and the funding status.
 4. Write `private/<payee>-<MM-DD-YYYY>-facts.json` following `references/invoice-facts.example.json`. Unknown values stay `null`; never guess.
-5. Run `python3 scripts/invoice_check.py private/<facts>.json --out private/<payee>-check-report.md`. Exit 2 means blocked, 1 means fixes needed, 0 means no fixes. The verdict also says whether the next step is a funding request, waiting for approval, or FO review of the payment.
+5. From the repository root, run `python3 skills/sbsbz-financial-officer/scripts/invoice_check.py events/MM-DD-YYYY-fo-<payee>/private/<payee>-<MM-DD-YYYY>-facts.json --out events/MM-DD-YYYY-fo-<payee>/private/<payee>-check-report.md`. Exit 2 means blocked, 1 means fixes needed, 0 means no fixes. The verdict also says whether the next step is a funding request, waiting for approval, or FO review of the payment.
 6. Write `private/packet.md` containing:
    - the verdict and findings
    - the GrantEd draft
@@ -56,6 +57,8 @@ As of 10-09-2026 the FO role is in transition. Read the newest "Team responsibil
 - **one session per invoice** with its service date, a description ("Guest dance instruction, SBSBZ weekly Bachata class, MM-DD-YYYY") and the agreed rate
 - no Venmo, Zelle or cash instructions: Stanford pays outside payees by check (mail or pickup) after they return the W-9 that GrantEd emails them
 - PDF format
+
+**Drafting an invoice for a payee** (when they have none, or theirs needs too many fixes): write their facts file with only what the sources show, leaving unknown values `null`. Then, from the repository root, run `F=events/MM-DD-YYYY-fo-<payee>/private; python3 skills/sbsbz-financial-officer/scripts/make_invoice.py $F/<payee>-<MM-DD-YYYY>-facts.json --out $F/<payee>-invoice-DRAFT-<n>.pdf --draft`. Missing fields (class date, phone, address, rate) print as yellow blanks for the payee to fill in; without `--draft` the script refuses an invoice with blanks. If records disagree on the rate, ask the payee to confirm it in writing, and invoice only sessions nobody has paid yet. Run `invoice_check.py` on the same facts file. Attach the PDF to a Gmail draft asking the payee to confirm the rate and fill the blanks. Their written reply becomes the agreement on the amount. Because the cloud `private/` folder is lost with the container, copy the PDF, the facts file and the packet into the payee's owner-only Drive folder.
 
 Ask for future sessions' invoices at least a month ahead. A recurring outside instructor also needs OSE's non-student registration: the Non-Student Involvement Form, a HireRight background check and Core 10 training (policy P9). Start it with the first invoice.
 
