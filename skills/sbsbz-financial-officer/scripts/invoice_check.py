@@ -36,7 +36,7 @@ def check(f, today):
     lines = inv.get("lines", [])
 
     # Payee identity, tax form and eligibility
-    for key in ("name", "email"):
+    for key in ("name", "email", "phone"):
         if not payee.get(key):
             add("FIX", f"Payee {key} missing on the invoice.")
     email = payee.get("email", "")
@@ -67,13 +67,18 @@ def check(f, today):
                    "'Stanford Bachata Sensual & Brazilian Zouk (SBSBZ), VSO account 5089, Stanford University'.")
     if not inv.get("number"):
         add("FIX", "Invoice number missing.")
+    if not inv.get("date"):
+        add("FIX", "Invoice date missing.")
     if PRIVATE_PAY.search(inv.get("payment_instructions", "")):
         add("FIX", "Invoice asks for Venmo/Zelle/cash. Stanford pays outside payees by check (mail or pickup) after "
                    "the W-9, and peer-to-peer apps are not allowed for services (KB 8112129, 2852097). Remove the line.")
-    total = sum(float(l.get("amount", 0)) for l in lines)
+    total = sum(float(l.get("amount") or 0) for l in lines)
     for l in lines:
-        if abs(float(l.get("qty", 1)) * float(l.get("rate", 0)) - float(l.get("amount", 0))) > 0.005:
-            add("FIX", f"Line '{l.get('description', '')[:40]}': qty x rate != amount.")
+        name = (l.get("description") or "")[:40]
+        if l.get("rate") is None or l.get("amount") is None:
+            add("FIX", f"Line '{name}': rate or amount missing.")
+        elif abs(float(l.get("qty") or 1) * float(l["rate"]) - float(l["amount"])) > 0.005:
+            add("FIX", f"Line '{name}': qty x rate != amount.")
     if inv.get("total") is not None and abs(total - float(inv["total"])) > 0.005:
         add("FIX", f"Line items sum to ${total:.2f} but the total says ${float(inv['total']):.2f}.")
     else:
@@ -92,7 +97,7 @@ def check(f, today):
         add("CHECK", "No agreed rate on record. Agree the rate in writing before requesting funds.")
     else:
         for l in lines:
-            if float(l.get("rate", 0)) != float(rate):
+            if l.get("rate") is not None and float(l["rate"]) != float(rate):
                 add("CHECK", f"Invoice rate ${l.get('rate')} differs from agreed ${rate} ({agree.get('source', 'no source')}).")
     if not (agree.get("written_agreement") or agree.get("written_quote_and_acceptance")):
         add("FIX", "No written agreement on the amount to attach. GrantEd accepts an email or text agreeing on the "

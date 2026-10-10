@@ -116,3 +116,7 @@ client/public/__manus__/version.json
 smtp_config.json
 __pycache__/
 .venv/
+
+# Financial Officer (FO) work: invoices, payee details and packets stay local; the folder names carry payee names
+events/[0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]-fo-*/
+private/
