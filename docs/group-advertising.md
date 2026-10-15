@@ -226,3 +226,9 @@ The current Drive print and image assets were replaced in place at the existing 
 ## Anthropology sharing confirmed — 10-13-2026
 
 The coordinator confirmed on 10-12-2026 that the weekly-class introduction was sent to Anthropology's department events list. Treat this quarterly introduction as covered; do not resend the advert or send a routine follow-up for it. Exact list membership and individual delivery remain unverified. This confirmation does not authorize recurring weekly submissions.
+
+## Aeronautics and Astronautics sharing confirmed — 10-15-2026
+
+The coordinator confirmed on 10-13-2026 that the weekly-class introduction was shared with the department's students on Slack. Treat this quarterly introduction as covered across email and social channels; no repeat advert or routine nudge. Exact channel membership and readership remain unverified. This does not authorize recurring weekly submissions.
+
+Automation timing: checks run only at midnight Pacific, daily while email routes remain unresolved, then Monday at midnight for future-quarter readiness. No daytime catch-up checks.
