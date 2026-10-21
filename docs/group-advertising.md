@@ -232,3 +232,7 @@ The coordinator confirmed on 10-12-2026 that the weekly-class introduction was s
 The coordinator confirmed on 10-13-2026 that the weekly-class introduction was shared with the department's students on Slack. Treat this quarterly introduction as covered across email and social channels; no repeat advert or routine nudge. Exact channel membership and readership remain unverified. This does not authorize recurring weekly submissions.
 
 Automation timing: checks run only at midnight Pacific, daily while email routes remain unresolved, then Monday at midnight for future-quarter readiness. No daytime catch-up checks.
+
+## Calendar publication verified — 10-21-2026
+
+Calendar publication verified — 10-21-2026: Stanford accepted “SBSBZ Weekly Bachata Class” on 10-19-2026, and the public page is live: https://events.stanford.edu/event/sbsbz-weekly-bachata-class . At verification it displayed 11-19-2026 and 12-03-2026, 7–9 PM, at EVGR C Dance Studio. This confirms those calendar entries, not October weekly coverage, email-list distribution or a named instructor. Do not create a duplicate listing or use this receipt to resend pending department adverts. Verify the intended occurrence before reusing calendar details.
