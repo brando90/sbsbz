@@ -13,7 +13,7 @@ Copies: GitHub is canonical. Put a Drive copy in the Marketing folder's "Agent s
 
 ## Limits that bind
 - **Agents may sign in and submit as Brando (Brando, 10-14-2026).** An agent with Brando's stored Stanford login (password manager; the Duo push or text code is on his phone, so he approves that step) may sign in to GrantEd and CardinalEngage and submit the funding applications and payment requests he asked for. Before submitting, check the request against `references/policy.md`, and report the request number (GSC-…, S-…) afterwards.
-- **What stays Brando's.** Agents never take trainings, quizzes or attestations as him (Finance 101, Core 10, OSE leadership training): Stanford treats them as his personal certification. They never approve requests as President, never pay through assuepay, and never send money (Venmo, Zelle, bank).
+- **What stays Brando's.** Agents take trainings, quizzes or attestations as him (Finance 101, Core 10, OSE leadership training) only on his explicit go for that exact training: Stanford treats them as his personal certification. He gave it for Finance 101 on 10-20-2026. They never approve requests as President, never pay through assuepay, and never send money (Venmo, Zelle, bank).
 - **Messages are drafts until Brando says "send".** When he does, follow the club email copy rule in `CLAUDE.md` (BCC `brandojazz@gmail.com` and `brando9@stanford.edu`).
 - **The repository is public.** Invoices, chat extracts, payee contact or tax details, statements, balances and receipts go in `events/MM-DD-YYYY-fo-<task>/private/`. The root `.gitignore` ignores every dated `events/MM-DD-YYYY-fo-*/` folder and every `private/` directory, so nothing in them reaches git, not even a folder name with the payee in it. Confirm with `git check-ignore`, and never commit a file inside them. Commit only skill or process changes.
 - **Chats are personal.** Extract finance facts only (date, chat name, amount, who taught, who paid), never surrounding conversation.
@@ -22,7 +22,7 @@ Copies: GitHub is canonical. Put a Drive copy in the Marketing folder's "Agent s
 ## Current state (re-verify every run)
 As of 10-14-2026, GrantEd's "My Roles" for Brando shows **Financial Officer SBSBZ (5089)**, and CardinalEngage lists him as an FO, with a different officer as President. GrantEd syncs nightly from the CardinalEngage officer roster, so an officer change shows up in GrantEd the next day (KB 1318849). One person cannot be both President and FO (policy R2). Read balances from GrantEd's dashboard on the day; never quote an old export.
 
-**Training is yearly.** Finance 101 For VSO Leaders (STARS SSE-2024) must be redone every academic year by the President, VP and FO (policy R1). Brando's last completion is 01-11-2026, which was for 2025-26. In 2025 the club was deactivated for missing OSE's mid-November training deadline. See Workflow F.
+**Training is yearly.** Finance 101 For VSO Leaders (STARS SSE-2024) must be redone every academic year by the President, VP and FO (policy R1). **Brando completed it for 2026-27 on 10-20-2026** (STARS Training History, top row; the two 01-11-2026 rows are the 2025-26 completion). The next retake is due for 2027-28, in Cedar, which replaces STARS on 12-08-2026. In 2025 the club was deactivated for missing OSE's mid-November training deadline. Retake steps: Workflow F and `references/finance-101-notes.md` ("Retaking it").
 
 ## Finding the inputs
 1. **A path Brando gives, or `~/Downloads`** (`ls -t ~/Downloads | head`). The same invoice often also sits in WhatsApp. Compare `shasum -a 256` and keep one copy.
@@ -130,11 +130,14 @@ Compare the newest GrantEd statement export with the Accounting sheet. List:
 Write `private/status-MM-DD-YYYY.md` and send Brando or the FO a five-line summary.
 
 ## Workflow F: yearly officer training (each fall)
-1. In September, check Axess > STARS > All Learning > Training History for each of the President, VP and FO. Find "SSE Capgroups Financial Workshop: Finance 101 For VSO Leaders" (SSE-2024), and note whether its completion date falls in the current academic year. Also check Core 10 (OSE-2000) and OSE's Student Organization Leadership Training, along with OSE's deadline for it (TreeMail, about mid-November).
-2. Anyone not done for this year takes the course themselves: about 25 minutes, self-paced, in 10 lessons, ending with an ethics scenario quiz and a final True/False acknowledgment. Send them `references/finance-101-notes.md` or the one-page cheat sheet in Brando's Drive, so they can click through fast.
+1. In September, check Axess > STARS > All Learning > Training History for each of the President, VP and FO. Find "SSE Capgroups Financial Workshop: Finance 101 For VSO Leaders" (SSE-2024), and note whether its completion date falls in the current academic year. Brando's current one: 10-20-2026 (2026-27); next due 2027-28, on Cedar (replaces STARS 12-08-2026). Also check Core 10 (OSE-2000) and OSE's Student Organization Leadership Training, along with OSE's deadline for it (TreeMail, about mid-November).
+2. Anyone not done for this year retakes the course (about 25 minutes, self-paced, 10 lessons with 3 videos, an ethics scenario quiz and a final True/False acknowledgment). The exact retake path:
+   - Axess > STARS > Launch/Complete, find the course row, then Launch. A "Table Of Contents" page opens with **Re-Launch**, which resumes the old enrollment. The course opens in a new tab.
+   - Do the 10 lessons in order. Each video must play to the end before Continue shows (the Payments lesson has 2). Every tab and every accordion row must be opened, including "Inappropriate Usage" under Ethical Behavior and all 4 rows of Overcoming Rationalizations. Scroll to the page bottom for Continue.
+   - The quiz is lesson 8: 10 questions, pass mark 80%. The answers are in the private cheat-sheet Doc, not in this public repo.
+   - The Final Acknowledgment (one True/False question, pass mark 100%) is the certify step. Only the officer, or an agent on the officer's explicit go, takes it.
+   - Exit with BOOKMARK/EXIT (top right). The course tab closes and All Learning shows the new status at once. Axess emails the certificate to the officer.
 3. GrantEd lifts its hold the next business day. If it is urgent, email the completion certificate to `banking@sse.stanford.edu` for a same-day lift.
-
-Agents only check status and prepare notes. Never open or advance the course as someone else: the course records progress as each lesson is viewed.
 
 ## Rules
 `references/policy.md` lists each rule with its source and whether it is official or from club notes. Cite the source when a rule decides an outcome.

@@ -2,7 +2,7 @@
 
 **Doc link:** <https://github.com/brando90/sbsbz/blob/main/skills/sbsbz-financial-officer/references/finance-101-notes.md>
 
-**TLDR:** These are notes on the yearly GrantEd officer training (STARS SSE-2024, version `sse-2024-v01`, read 10-14-2026), in course order, so an officer can review it quickly and agents can apply it. It is about 25 minutes, self-paced, in 10 lessons with 3 videos, an ethics scenario quiz and a final True/False acknowledgment. The President, VP and FO must each finish it **every academic year**, and GrantEd lifts its hold the next business day. Each officer takes the course themselves; these notes do not replace it.
+**TLDR:** These are notes on the yearly GrantEd officer training (STARS SSE-2024, version `sse-2024-v01`, read 10-14-2026), in course order, so an officer can review it quickly and agents can apply it. It is about 25 minutes, self-paced, in 10 lessons with 3 videos, an ethics scenario quiz and a final True/False acknowledgment. The President, VP and FO must each finish it **every academic year**, and GrantEd lifts its hold the next business day. Brando completed it for 2026-27 on 10-20-2026; see "Retaking it" at the end. These notes do not replace the course.
 
 ## 1. ASSU (Associated Students of Stanford University)
 - Every student is a member. The ASSU funds 700+ VSOs (Voluntary Student Organizations).
@@ -84,3 +84,11 @@ What the scenarios teach:
 - Individuals answer under the Student Conduct Charter, and groups under the Stanford Group Accountability Process (SGAP). The outcome can be anything from probation to expulsion, and a graduating senior's diploma can be held.
 - **Final acknowledgment:** True or False, "this training is a basic introduction and does not cover all financial policies". The answer is True: the full rules are in the FO Knowledge Base (<https://sse.frontkb.com/en>), from CapGroup and at Managers' Office Hours, and funding questions go to UGS or GSC.
 - **Completion:** exit with BOOKMARK/EXIT in the top-right corner. Axess emails a certificate within minutes. If the hold needs lifting the same day, send that certificate to `banking@sse.stanford.edu`.
+
+## Retaking it (2026-27 round, done 10-20-2026)
+- **Status:** Brando completed it for 2026-27 on 10-20-2026 (STARS Training History, top row). The next retake is due for 2027-28, in Cedar, which replaces STARS on 12-08-2026. Expect the path to change then; re-check it in September 2027.
+- **Path:** STARS > Launch/Complete > Launch > "Table Of Contents" page > **Re-Launch** (resumes the old enrollment, even one stuck at 33%). The course opens in a new tab.
+- **Gates:** 10 lessons in order. Each video must play to the end before Continue shows (the Payments lesson has 2). Every tab and accordion row must be opened (Ethical Behavior: "Inappropriate Usage"; Overcoming Rationalizations: 4 rows). Continue sits about 10 pages down.
+- **Quiz:** lesson 8, 10 questions, pass mark 80%. Submit each, scroll, then Next.
+- **Certify step:** the Final Acknowledgment (one True/False question, pass mark 100%), then Continue to the completion page.
+- **After:** BOOKMARK/EXIT (top right). The status updates at once, Axess emails the certificate, and GrantEd's hold lifts the next day. For an urgent lift, email the certificate to `banking@sse.stanford.edu`.
