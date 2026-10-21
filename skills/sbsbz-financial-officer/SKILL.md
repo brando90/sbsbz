@@ -70,6 +70,7 @@ Build it from the class plan (dates × instructor × agreed rate) and any social
 
 - One funding line per session or expense, each in the right account. Instructors go under Honoraria (2900), as a Service Payment line.
 - Keep each application under $1,000, split by month. Above $500 a quote or invoice must be attached to each line; above $1,000 an officer must attend the Thursday GSC meeting.
+- Several sessions can go in one application, one line each; there is no $200-per-request cap (policy P12). GSC is very slow in 2026–27, so file as early as the class plan allows.
 - Submit at least one month ahead (ASSU). GSC itself needs 3 weekly meetings before the event for ≤$500, 4 for ≤$1,000 and 5 above that.
 - GSC's weekly cutoff is Sunday 5 PM. Quick Grants are reviewed only in weeks 1-9 of a quarter, so requests filed during breaks or finals wait.
 - No retroactive funding: the money must be posted to the account before anyone is booked or paid.
