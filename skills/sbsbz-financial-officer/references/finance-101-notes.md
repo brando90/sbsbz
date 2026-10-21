@@ -2,7 +2,7 @@
 
 **Doc link:** <https://github.com/brando90/sbsbz/blob/main/skills/sbsbz-financial-officer/references/finance-101-notes.md>
 
-**TLDR:** These are notes on the yearly GrantEd officer training (STARS SSE-2024, version `sse-2024-v01`, read 10-14-2026), in course order, so an officer can review it quickly and agents can apply it. It is about 25 minutes, self-paced, in 10 lessons with 3 videos, an ethics scenario quiz and a final True/False acknowledgment. The President, VP and FO must each finish it **every academic year**, and GrantEd lifts its hold the next business day. Brando completed it for 2026-27 on 10-20-2026; see "Retaking it" at the end. These notes do not replace the course.
+**TLDR:** These are notes on the yearly GrantEd officer training (STARS SSE-2024, version `sse-2024-v01`, read 10-14-2026), in course order, so an officer can review it quickly and agents can apply it. It is about 25 minutes, self-paced, in 10 lessons with 3 videos, an ethics scenario quiz and a final True/False acknowledgment. The President, VP and FO must each finish it **every academic year**, and GrantEd lifts its hold the next business day. Brando completed it for 2026-27 on 10-20-2026; see "Retaking it" at the end. Each officer takes the course themselves; these notes do not replace it.
 
 ## 1. ASSU (Associated Students of Stanford University)
 - Every student is a member. The ASSU funds 700+ VSOs (Voluntary Student Organizations).
