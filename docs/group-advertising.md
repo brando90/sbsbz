@@ -94,3 +94,54 @@ Business, Education, Sustainability, Humanities and Sciences, and Engineering ou
 Escondido Village Graduate Residences A rejected the class advert: only neighborhood community associates may post to its announce list. The moderator identifies neighborhood chat for residents and community-associate review/forwarding for outside organizers. Do not retry announce directly, invent a forwarding address, label ordinary promotion urgent, or bypass the restriction. Check the existing residence-wide social post and any pending relay before requesting another share.
 
 Verify the active mailbox before every scheduled search. An empty result from another connected account is not evidence about the outreach mailbox; use an authenticated browser fallback and record the verified account privately.
+
+## Resident/fellow newsletter route — 09-28-2026
+
+Graduate Medical Education (GME) offered newsletter inclusion; actual publication is unverified. The newsletter is issued on the second Tuesday of each month, with submissions due the preceding Friday. Use the [event submission form](https://docs.google.com/forms/d/e/1FAIpQLScEdrvYcAXkiospQUl3STm1WbQSrFu6Sls6sPgHjmoW45vWQA/viewform) for future events. This establishes a submission route, not automatic acceptance or quarterly repeat permission.
+
+The next regular issue is 10-13-2026, with a 10-09-2026 deadline. Both the 09-24 class and 10-02 party precede that issue. A process-only clarification asked the editor to hold those dated items and confirm the intended issue and replacement procedure. Do not submit a duplicate form while that request is pending. Prepare replacement copy only from confirmed future details; a requested venue is not an approved venue.
+
+## Verified graduate route and organizer clarifications — 09-30-2026
+
+- Graduate Student Council (GSC): the 09-29-2026 assu-grads newsletter published the October 2 Mega Bachata Social. This establishes a broad graduate channel publication, not recurring-class coverage or proof every student read it. For future events open to the entire graduate community, use the [submission form](https://forms.gle/yHoSmqCE2nB3iM1VA), preferably one to two weeks ahead; the newsletter normally runs once weekly. Do not resubmit the published party.
+- Graduate Medical Education (GME) clarification: a separate weekly Tuesday housestaff/educational-staff newsletter accepts upcoming events directly through the well-being program manager, without a form. The monthly newsletter/form described above remains a separate route. Weekly cutoff and actual party publication are unverified. The party was already sent directly; do not duplicate it through a form or another sender.
+- The postdoc announcements administrator offered to share the October 2 party with postdoc community groups. Actual channels and distribution remain unverified. Hold additional party submissions; this offer does not establish publication of the earlier class request.
+
+## Residence sender restrictions and delivery — 10-03-2026
+
+Residence email outcome correction: Rains Chat and Lyman Unofficial rejected the party advert from the personal Gmail sender, with notices citing probable nonmember restrictions. A later Rains list-delivered copy from the Stanford sender is verified; Rains is covered, while Lyman publication remains unverified. That historical account switch is not a reusable retry procedure. Do not retry either advert, switch senders after rejection, or infer that an older successful residence post permits every account. For a future permitted campaign, verify the approved sender or coordinate one owner-authorized member relay after checking existing posts and pending submissions.
+
+## Bechtel submission restriction — 10-05-2026
+
+The [Communications Support Request Form](https://docs.google.com/forms/d/e/1FAIpQLSf5zOXzufIIlcSL3mDLBsM3lrCwZ0GG-Us6KLz2Ko3aBhEwgA/viewform) linked from the newsletter site is explicitly for Student Affairs professional staff. It is not a student-club advertising submission route; do not submit as staff. The social newsletter remains an unverified lead until its editor confirms external-club eligibility, lead time and frequency. Check existing submissions and relays before any contact.
+
+## Medical-owner follow-up — 10-07-2026
+
+Medical-student route: one process-only follow-up has now been sent in the existing owner conversation after cross-account checks. No advert copy or attachments were repeated. Owner guidance and student-wide publication remain unverified. Do not send another routine nudge; wait for an actionable reply or investigate an appropriate alternative without duplicating pending outreach.
+
+## Email-route reconciliation — 10-09-2026
+
+The 39 sending-server acceptances recorded below are historical, not 39 verified audience deliveries. One Business School address subsequently returned a permanent unknown-user failure; do not retry it.
+
+- Statistics: coordinator confirmed sharing. Exact list membership and reach remain unverified; treat the quarterly introduction as covered.
+- Sociology graduate students: coordinator promised a relay; distribution remains pending.
+- Philosophy graduate students: a forward addressed to the graduate list with the flyer is verified; individual/member delivery is not independently verified. Hold further submissions.
+- Physics undergraduates: the society leader directed submission to `sups-stanford@lists.stanford.edu`, also linked from the [official society page](https://physics.stanford.edu/undergraduate/stanford-university-physics-society-sups). A process-only reply asked about prior officer coverage and permitted sender/attachments. No direct list advert has been sent; await clarification.
+- Business School: the failed address is unsuitable. The [official Office of Student Life contact](https://www.gsb.stanford.edu/stanford-community/plan-event/reservations) is a routing lead only; advertising eligibility and audience overlap require verification before outreach.
+
+No advert was resent during this check. Keep medical, clinical, postdoctoral, moderation and other owner-relay holds; the medical route's one routine follow-up is already used. New dates or future instructors require organizer confirmation. Daily email-only checks continue; no social posting, printing or flyer redesign is authorized by a wake-up.
+
+
+## Anthropology sharing confirmed — 10-13-2026
+
+The coordinator confirmed on 10-12-2026 that the weekly-class introduction was sent to Anthropology's department events list. Treat this quarterly introduction as covered; do not resend the advert or send a routine follow-up for it. Exact list membership and individual delivery remain unverified. This confirmation does not authorize recurring weekly submissions.
+
+## Aeronautics and Astronautics sharing confirmed — 10-15-2026
+
+The coordinator confirmed on 10-13-2026 that the weekly-class introduction was shared with the department's students on Slack. Treat this quarterly introduction as covered across email and social channels; no repeat advert or routine nudge. Exact channel membership and readership remain unverified. This does not authorize recurring weekly submissions.
+
+Automation timing: checks run only at midnight Pacific, daily while email routes remain unresolved, then Monday at midnight for future-quarter readiness. No daytime catch-up checks.
+
+## Calendar publication verified — 10-21-2026
+
+Calendar publication verified — 10-21-2026: Stanford accepted “SBSBZ Weekly Bachata Class” on 10-19-2026, and the public page is live: https://events.stanford.edu/event/sbsbz-weekly-bachata-class . At verification it displayed 11-19-2026 and 12-03-2026, 7–9 PM, at EVGR C Dance Studio. This confirms those calendar entries, not October weekly coverage, email-list distribution or a named instructor. Do not create a duplicate listing or use this receipt to resend pending department adverts. Verify the intended occurrence before reusing calendar details.

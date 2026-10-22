@@ -1,0 +1,121 @@
+{
+  "formEditorUrl": "https://docs.google.com/forms/d/1ODR8esRacKufUkt_JaQYVa5xTbI4QSVl64JH-wgqhpc/edit",
+  "formRespondentUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd3WFtffQqpoAJQ4rZVgCIPuX9clsf9pEStQr10-SveRd_i1g/viewform",
+  "plannerUrl": "https://docs.google.com/document/d/1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA/edit",
+  "responsibilitiesUrl": "https://docs.google.com/document/d/1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g/edit",
+  "folderUrl": "https://drive.google.com/drive/folders/19MZ0o8Qp-HGriG6drdUCJElnUlO7x9N-",
+  "formEditors": [
+    "brandojazz@gmail.com (owner)",
+    "Y.Dan.Rubinstein@gmail.com",
+    "caitlee@stanford.edu",
+    "hbosch@stanford.edu",
+    "sbsbz.su@gmail.com"
+  ],
+  "verification": {
+    "published": true,
+    "acceptingResponses": true,
+    "responders": "Anyone with link",
+    "responseSummaryPublic": false,
+    "signInRequired": false,
+    "invalidContactEmailRejected": true,
+    "nonstudentCanContinueWithoutStanfordEmail": true,
+    "questions": 13,
+    "sections": 3,
+    "testDraftCleared": true,
+    "plannerPlaceholderReplacedAndHyperlinkVerified": true,
+    "responsesAtRevision": 1,
+    "existingDanResponsePreserved": true,
+    "singleRequiredEmailQuestion": true,
+    "emailValidation": "Text: Email; no Stanford-domain restriction",
+    "liveRevisedEmailQuestionVerified": true
+  },
+  "danReview": {
+    "chat": "Dan Rubinstein (private WhatsApp DM)",
+    "sentLocal": "2026-09-13 20:33 America/Los_Angeles",
+    "status": "Delivered",
+    "approvalPending": false,
+    "feedbackLocal": "2026-09-13 20:49 America/Los_Angeles",
+    "feedback": "Combine redundant email questions and ask current students to use Stanford email.",
+    "revision": "Removed optional Stanford-email question with zero responses; renamed required contact email question to request Stanford email for current students.",
+    "revisedApprovalRequestLocal": "2026-09-13 20:54 America/Los_Angeles",
+    "revisedApprovalRequestStatus": "Delivered",
+    "approvedLocal": "2026-09-13 20:58 America/Los_Angeles",
+    "approvalText": "yep go for it! consider also pinning it to the whatsapp group for a week or so (and we might need a refresher post later in the week depending on how many people respond)."
+  },
+  "mainRecruitmentDestination": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
+  "broadPostSent": true,
+  "publication": {
+    "sentLocal": "2026-09-13 20:59 America/Los_Angeles",
+    "destination": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
+    "status": "Sent; visible single checkmark on 8:59 PM message",
+    "duplicateCheck": "No recruitment post before sending; latest prior message was Jeff joining at 8:29 PM",
+    "wording": "Recruitment section of planner preserved; internal notes omitted",
+    "pinned": false,
+    "danSuggestion": "Consider pinning for a week and a refresher later depending on responses; no follow-up post scheduled."
+  },
+  "emailPublication": {
+    "to": "stanford_bachata_zouk@lists.stanford.edu",
+    "from": "brando9@stanford.edu",
+    "subject": "SBSBZ: Passing the baton — Fall leadership & roster",
+    "sentLocal": "2026-09-13 21:15 America/Los_Angeles",
+    "status": "Mail sent banner and message in Stanford Sent folder verified",
+    "recipientSource": "SBSBZ advertising protocol and prior Stanford Sent announcements",
+    "duplicateCheck": "Gmail Sent search empty for today; Stanford Sent list search latest prior email July 15",
+    "deliveryToAllSubscribers": "Not independently verified; no moderation result checked",
+    "bcc": []
+  },
+  "facebookPublication": {
+    "group": "Stanford Bachata Sensual & Brazilian Zouk",
+    "groupId": "857433758788901",
+    "url": "https://www.facebook.com/groups/857433758788901/posts/1793775035154764/",
+    "as": "Brando Miranda",
+    "status": "Published; visible group post, post-insights link and full post dialog verified",
+    "duplicateCheck": "Group title searches plus New posts feed; newest prior post three days ago",
+    "formLinkVerified": true,
+    "studentEligibilityCorrection": {
+      "verified": true,
+      "text": "undergraduate or graduate students",
+      "postdocRemoved": true,
+      "duplicatePostCreated": false
+    }
+  },
+  "prioritiesUpdate": {
+    "documentId": "1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "section": "This week’s priorities",
+    "source": "Dan private WhatsApp message at 9:11 PM, forwarded by user",
+    "verified": true,
+    "items": [
+      "Budget: year/quarter funds and allocations with Caitlin",
+      "Rooms and weekly Bachata/Zouk class/social schedule",
+      "Agree instructor-outreach owner; candidates Nelly Caldeira, Alexia & Zohra; $150/hour/instructor estimate only",
+      "Announce quarter after details confirmed",
+      "Direct instructor payment proposal requires official guidance"
+    ],
+    "noNewOwnersAssigned": true
+  },
+  "instagramPublication": {
+    "account": "stanford_bachata_sensual_zouk",
+    "url": "https://www.instagram.com/stanford_bachata_sensual_zouk/p/DdQTWBlm0H_/",
+    "publishedLocal": "2026-09-13 21:42 America/Los_Angeles",
+    "verified": true,
+    "fullNarrativeCaption": true,
+    "studentEligibility": "undergraduate or graduate students",
+    "graphic": "/Users/brandomiranda/sbsbz/leadership-transition/assets/fall-leadership-instagram.png",
+    "aiLabel": true,
+    "altText": true,
+    "formRoute": "Existing bio Linktree -> Facebook group -> Fall Transition & Leadership Roster post; WhatsApp group also noted; direct respondent URL in caption",
+    "directBioFormLinkAdded": false,
+    "limitation": "Instagram web restricts profile link editing to mobile. Authenticated Linktree account differs from bio Linktree; no links changed.",
+    "personalInstagramPublished": false,
+    "facebookCrosspost": false
+  },
+  "danCoordinationTonight": {
+    "automation": "dan-coordination-tonight",
+    "status": "PAUSED",
+    "pausedLocal": "2026-09-13 22:15 America/Los_Angeles",
+    "lastPollLocal": "2026-09-13 22:14 America/Los_Angeles",
+    "latestDanActivity": "Raised-hands reaction to the 9:46 PM officers acknowledgement; no further decisions",
+    "fifthPriorityAddedAndVerified": "Student-fair recruitment and cross-promotion; owners, registration and staffing unconfirmed",
+    "acknowledgementSentLocal": "2026-09-13 21:46 America/Los_Angeles"
+  }
+}

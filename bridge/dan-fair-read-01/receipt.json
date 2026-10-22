@@ -1,0 +1,33 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "title": "SBSBZ — Team responsibilities & next steps",
+    "revisionId": "ANLCKQmBe3Sq0Z76yhbGe85JSVGBpeDBiIuVvKnQUBOVeuuJo4V2sEGJIunro3ls_ay2I4GFAzL8NnzeVYHH8fSJ_SepAwU03KDzZirxBZY",
+    "documentUrl": "https://docs.google.com/document/d/1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "dateElement": 3,
+      "person": 10,
+      "richLink": 4
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

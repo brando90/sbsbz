@@ -1,0 +1,4659 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "documentId": "1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA",
+    "title": "Transition Planner - Stanford Bachata/Zouk",
+    "revisionId": "ANLCKQnemLYFJbLbSFiQw8eOtpNJapEyOM2X2GHFPK0M5M4bSoDnN3OG67tLwEtLn14bJiOTrIPyS6oLei6VjLXD_Vzxu2qocLJ_BzYS7RM",
+    "suggestionsViewMode": "SUGGESTIONS_INLINE",
+    "url": null,
+    "body": null,
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "title": "Tab 1",
+        "parentTabId": null,
+        "index": 0,
+        "nestingLevel": null,
+        "iconEmoji": null,
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 46,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 46,
+                    "textRun": {
+                      "content": "Draft text for Brando post to WhatsApp group\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 46,
+              "endIndex": 117,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 46,
+                    "endIndex": 111,
+                    "textRun": {
+                      "content": "Stanford Bachata & Zouk Club: Fall Transition & Leadership Roster",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 111,
+                    "endIndex": 117,
+                    "textRun": {
+                      "content": " 💃🕺\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 117,
+              "endIndex": 543,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 117,
+                    "endIndex": 543,
+                    "textRun": {
+                      "content": "Hey everyone! As many of you know, this is going to be my last quarter at Stanford. I’ve enjoyed teaching and organizing Bachata and Zouk classes over the years and I hope that they will continue after I graduate for many years to come. Outside of classes and conferences and research, this club has been a very fulfilling experience, not just for dance, but because of all the people I had a chance to meet and  get to know.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 543,
+              "endIndex": 722,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 543,
+                    "endIndex": 722,
+                    "textRun": {
+                      "content": "As we prep for the upcoming academic year, we are transitioning leadership and setting up our official Stanford ASSU/OSE club roster for studio space, funding, and campus events.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 722,
+              "endIndex": 951,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 722,
+                    "endIndex": 792,
+                    "textRun": {
+                      "content": "If you are an enrolled Stanford student (Undergrad, Grad, or Postdoc):",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 792,
+                    "endIndex": 929,
+                    "textRun": {
+                      "content": " Please take 60 seconds to fill out this quick form so we can confirm our official student base and identify our next leadership board:  ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 929,
+                    "endIndex": 951,
+                    "textRun": {
+                      "content": "[Link to Google Form]\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 951,
+              "endIndex": 1153,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 951,
+                    "endIndex": 1153,
+                    "textRun": {
+                      "content": "(Note: Community members and alumni are always welcome at our socials and open practices, but only matriculated Stanford students can serve as official ASSU officers and secure university space/grants)\n",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1153,
+              "endIndex": 1391,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1153,
+                    "endIndex": 1391,
+                    "textRun": {
+                      "content": "If you love these dances and want real leadership/management experience running socials, bringing in guest instructors, and managing club funding, check out the officer section in the form. Let’s keep Zouk and Bachata thriving on campus!\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1391,
+              "endIndex": 1392,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1391,
+                    "endIndex": 1392,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1392,
+              "endIndex": 1394,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1392,
+                    "endIndex": 1393,
+                    "horizontalRule": {
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1393,
+                    "endIndex": 1394,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1394,
+              "endIndex": 1437,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1394,
+                    "endIndex": 1415,
+                    "textRun": {
+                      "content": "Google form content:\u000b",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1415,
+                    "endIndex": 1436,
+                    "textRun": {
+                      "content": "Google Form Blueprint",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1436,
+                    "endIndex": 1437,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1437,
+              "endIndex": 1479,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1437,
+                    "endIndex": 1479,
+                    "textRun": {
+                      "content": "Section 1: Contact & Stanford Affiliation\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1479,
+              "endIndex": 1504,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1479,
+                    "endIndex": 1488,
+                    "textRun": {
+                      "content": "Full Name",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1488,
+                    "endIndex": 1504,
+                    "textRun": {
+                      "content": " (Short answer)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1504,
+              "endIndex": 1545,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1504,
+                    "endIndex": 1529,
+                    "textRun": {
+                      "content": "Preferred Name / Nickname",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1529,
+                    "endIndex": 1545,
+                    "textRun": {
+                      "content": " (Short answer)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1545,
+              "endIndex": 1623,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1545,
+                    "endIndex": 1567,
+                    "textRun": {
+                      "content": "Stanford Email Address",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1567,
+                    "endIndex": 1608,
+                    "textRun": {
+                      "content": " (Short answer, validation: must contain ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1608,
+                    "endIndex": 1621,
+                    "textRun": {
+                      "content": "@stanford.edu",
+                      "textStyle": {
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.09411765,
+                              "green": 0.5019608,
+                              "blue": 0.21960784
+                            }
+                          }
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Roboto Mono",
+                          "weight": 400
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1621,
+                    "endIndex": 1623,
+                    "textRun": {
+                      "content": ")\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1623,
+              "endIndex": 1670,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1623,
+                    "endIndex": 1654,
+                    "textRun": {
+                      "content": "Phone Number / WhatsApp Contact",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1654,
+                    "endIndex": 1670,
+                    "textRun": {
+                      "content": " (Short answer)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1670,
+              "endIndex": 1708,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1670,
+                    "endIndex": 1689,
+                    "textRun": {
+                      "content": "Current Affiliation",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1689,
+                    "endIndex": 1708,
+                    "textRun": {
+                      "content": " (Multiple choice)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1708,
+              "endIndex": 1774,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1708,
+                    "endIndex": 1774,
+                    "textRun": {
+                      "content": "Stanford Undergraduate (Frosh / Soph / Junior / Senior / Co-term)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1774,
+              "endIndex": 1779,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1774,
+                    "endIndex": 1779,
+                    "textRun": {
+                      "content": "Year\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "nestingLevel": 2,
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1779,
+              "endIndex": 1822,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1779,
+                    "endIndex": 1822,
+                    "textRun": {
+                      "content": "Stanford Graduate Student (Master’s / PhD)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1822,
+              "endIndex": 1839,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1822,
+                    "endIndex": 1839,
+                    "textRun": {
+                      "content": "Stanford Postdoc\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1839,
+              "endIndex": 1864,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1839,
+                    "endIndex": 1864,
+                    "textRun": {
+                      "content": "Stanford Faculty / Staff\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1864,
+              "endIndex": 1897,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1864,
+                    "endIndex": 1897,
+                    "textRun": {
+                      "content": "Community Member / Non-affiliate\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1897,
+              "endIndex": 1941,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1897,
+                    "endIndex": 1925,
+                    "textRun": {
+                      "content": "Department / Major / Program",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1925,
+                    "endIndex": 1941,
+                    "textRun": {
+                      "content": " (Short answer)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.r9lzrab3baje",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 1941,
+              "endIndex": 1969,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1941,
+                    "endIndex": 1969,
+                    "textRun": {
+                      "content": "Section 2: Dance Background\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1969,
+              "endIndex": 2006,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1969,
+                    "endIndex": 1992,
+                    "textRun": {
+                      "content": "Primary Dance Interests",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1992,
+                    "endIndex": 2006,
+                    "textRun": {
+                      "content": " (Checkboxes)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2006,
+              "endIndex": 2021,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2006,
+                    "endIndex": 2021,
+                    "textRun": {
+                      "content": "Brazilian Zouk\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2021,
+              "endIndex": 2062,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2021,
+                    "endIndex": 2062,
+                    "textRun": {
+                      "content": "Bachata (Sensual / Traditional / Fusion)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2062,
+              "endIndex": 2075,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2062,
+                    "endIndex": 2075,
+                    "textRun": {
+                      "content": "Both equally\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2075,
+              "endIndex": 2135,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2075,
+                    "endIndex": 2135,
+                    "textRun": {
+                      "content": "Other partner dances (Salsa, Tango, West Coast Swing, etc.)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2135,
+              "endIndex": 2170,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2135,
+                    "endIndex": 2151,
+                    "textRun": {
+                      "content": "Experience Level",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2151,
+                    "endIndex": 2170,
+                    "textRun": {
+                      "content": " (Multiple choice)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2170,
+              "endIndex": 2220,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2170,
+                    "endIndex": 2220,
+                    "textRun": {
+                      "content": "Complete beginner (< 3 months; excited to learn!)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2220,
+              "endIndex": 2289,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2220,
+                    "endIndex": 2289,
+                    "textRun": {
+                      "content": "Beginner / Intermediate (3 - 12 months; taken a few classes/socials)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2289,
+              "endIndex": 2350,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2289,
+                    "endIndex": 2350,
+                    "textRun": {
+                      "content": "Intermediate / Advanced (12+ months; social dance regularly)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.mnjykbdgkghy",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2350,
+              "endIndex": 2391,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2350,
+                    "endIndex": 2391,
+                    "textRun": {
+                      "content": "Section 3: Executive Leadership Interest\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2391,
+              "endIndex": 2686,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2391,
+                    "endIndex": 2667,
+                    "textRun": {
+                      "content": "The club needs an official student leadership team to secure spaces, manage ASSU funding, and run weekly classes/socials. Time commitment is a few hours at the beginning of each quarter + light weekly communications (emails/whatsapp). Would you be interested in taking a role?",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2667,
+                    "endIndex": 2686,
+                    "textRun": {
+                      "content": " (Multiple choice)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2686,
+              "endIndex": 2703,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2686,
+                    "endIndex": 2703,
+                    "textRun": {
+                      "content": "Yes, absolutely!\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2703,
+              "endIndex": 2746,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2703,
+                    "endIndex": 2746,
+                    "textRun": {
+                      "content": "Maybe / Open to a small or supportive role\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2746,
+              "endIndex": 2787,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2746,
+                    "endIndex": 2787,
+                    "textRun": {
+                      "content": "No, just want to participate as a dancer\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2787,
+              "endIndex": 2828,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2787,
+                    "endIndex": 2814,
+                    "textRun": {
+                      "content": "Which role(s) interest you?",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2814,
+                    "endIndex": 2828,
+                    "textRun": {
+                      "content": " (Checkboxes)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2828,
+              "endIndex": 2911,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2828,
+                    "endIndex": 2838,
+                    "textRun": {
+                      "content": "President:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2838,
+                    "endIndex": 2911,
+                    "textRun": {
+                      "content": " Vision, strategy, event planning, and university administrative liaison\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2911,
+              "endIndex": 3014,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2911,
+                    "endIndex": 2941,
+                    "textRun": {
+                      "content": "Financial Officer (Treasurer):",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2941,
+                    "endIndex": 3014,
+                    "textRun": {
+                      "content": " ASSU grant writing, budget allocation, instructor payments, and banking\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 3014,
+              "endIndex": 3116,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3014,
+                    "endIndex": 3041,
+                    "textRun": {
+                      "content": "Secretary & Communications:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3041,
+                    "endIndex": 3116,
+                    "textRun": {
+                      "content": " WhatsApp/social media, room reservations, newsletter, and event marketing\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 3116,
+              "endIndex": 3258,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3116,
+                    "endIndex": 3158,
+                    "textRun": {
+                      "content": "Event/DJ/Logistics Coordinator (multiple):",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3158,
+                    "endIndex": 3258,
+                    "textRun": {
+                      "content": " Sound setup, social logistics, DJ curation, beginner check-ins, instructor outreach & coordination\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "nestingLevel": 1,
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 3258,
+              "endIndex": 3368,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3258,
+                    "endIndex": 3353,
+                    "textRun": {
+                      "content": "Tell us briefly why you’d like to get involved or what you’d like to see the club do this year:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3353,
+                    "endIndex": 3368,
+                    "textRun": {
+                      "content": " (Long answer)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.5eflgudozqeo",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 3368,
+              "endIndex": 3369,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3368,
+                    "endIndex": 3369,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3369,
+              "endIndex": 3371,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3369,
+                    "endIndex": 3370,
+                    "horizontalRule": {
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 3370,
+                    "endIndex": 3371,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.gxmoudasg6lq",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3371,
+              "endIndex": 3372,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3371,
+                    "endIndex": 3372,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ligyif1obrk2",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3372,
+              "endIndex": 3419,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3372,
+                    "endIndex": 3419,
+                    "textRun": {
+                      "content": "Notes: Stanford Tango Lessons for Bachata/Zouk\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.kgkgjfwv46x8",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3419,
+              "endIndex": 3434,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3419,
+                    "endIndex": 3434,
+                    "textRun": {
+                      "content": "Leila Yokoyama\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3434,
+              "endIndex": 3435,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3434,
+                    "endIndex": 3435,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3435,
+              "endIndex": 3617,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3435,
+                    "endIndex": 3450,
+                    "textRun": {
+                      "content": "Key takeaways:\u000b",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3450,
+                    "endIndex": 3617,
+                    "textRun": {
+                      "content": "1) Email is their most effective communications channel. Also use IG and WhatsApp, but emails at the start of the week announcing upcoming classes are most effective.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3617,
+              "endIndex": 3618,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3617,
+                    "endIndex": 3618,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3618,
+              "endIndex": 3826,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3618,
+                    "endIndex": 3826,
+                    "textRun": {
+                      "content": "2) Club fairs (separate grad and undergrad ones at the start of each academic year) are the biggest source of new members. Need to register and plan booth staffing and presence (banners? info sheets? demos?)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3826,
+              "endIndex": 3827,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3826,
+                    "endIndex": 3827,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3827,
+              "endIndex": 3857,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3827,
+                    "endIndex": 3857,
+                    "textRun": {
+                      "content": "3) Regular promotion through \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3857,
+              "endIndex": 3874,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3857,
+                    "endIndex": 3867,
+                    "textRun": {
+                      "content": "Stanford  ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 3867,
+                    "endIndex": 3872,
+                    "textRun": {
+                      "content": "Cards",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://ose.stanford.edu/cards"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3872,
+                    "endIndex": 3874,
+                    "textRun": {
+                      "content": " \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.q9rjg9b6gjml",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3874,
+              "endIndex": 3980,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3874,
+                    "endIndex": 3980,
+                    "textRun": {
+                      "content": "Cross promotion with other dance groups including Dancebreak (and also verbal announcements at the event)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.q9rjg9b6gjml",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3980,
+              "endIndex": 4043,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3980,
+                    "endIndex": 4043,
+                    "textRun": {
+                      "content": "Flyers at Richard Powers dance classes + in-class announcement\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.q9rjg9b6gjml",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4043,
+              "endIndex": 4044,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4043,
+                    "endIndex": 4044,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4044,
+              "endIndex": 4415,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4044,
+                    "endIndex": 4415,
+                    "textRun": {
+                      "content": "4) Leadership recruiting: Direct conversations with potential leaders based on personality and active participation in the club. Time commitment is limited: a few hours at the start of each quarter to reserve rooms, organize teachers. Weekly email post (plus IG and WhatsApp as needed). Need to cultivate next generation of leaders on an ongoing basis (i.e. every year).\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4415,
+              "endIndex": 4416,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4415,
+                    "endIndex": 4416,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4416,
+              "endIndex": 4428,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4416,
+                    "endIndex": 4428,
+                    "textRun": {
+                      "content": "Quick recap\n",
+                      "textStyle": {
+                        "bold": true,
+                        "fontSize": {
+                          "magnitude": 17,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ibbj9mvow5wk",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 4428,
+              "endIndex": 5320,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4428,
+                    "endIndex": 5320,
+                    "textRun": {
+                      "content": "Leila shared insights on running a successful student dance club, specifically to help with the transition of leadership for the Bachata and Zouk club at Stanford. Leila shared her experience with the Tango Club, detailing how they recruited members through club fairs, Instagram, and Richard Powers' dance classes. She explained the challenges of space reservation, budgeting, and university policies regarding community participation and fundraising. Leila described the informal leadership structure of the Tango Club, emphasizing that members joined out of passion for the dance rather than for resume-building. She also discussed the time commitment for leadership, which was mostly upfront work at the start of each quarter. The conversation covered communication methods, such as email and WhatsApp, and the importance of finding committed individuals to ensure the club's continuity.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5320,
+              "endIndex": 5321,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5320,
+                    "endIndex": 5321,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5321,
+              "endIndex": 5333,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5321,
+                    "endIndex": 5332,
+                    "textRun": {
+                      "content": "Next steps ",
+                      "textStyle": {
+                        "bold": true,
+                        "fontSize": {
+                          "magnitude": 17,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5332,
+                    "endIndex": 5333,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.eyt9a26pxbfg",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 5333,
+              "endIndex": 5458,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5333,
+                    "endIndex": 5349,
+                    "textRun": {
+                      "content": "Confirm whether ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 5349,
+                    "endIndex": 5458,
+                    "textRun": {
+                      "content": "the Bachata/Zouk club has applied for the annual ASSU grant and confirm the status of the financial officer.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.vgmvyzfnh3ej",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5458,
+              "endIndex": 5518,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5458,
+                    "endIndex": 5518,
+                    "textRun": {
+                      "content": "Forward the standing reservation form request for Roble Gym\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.lk4l72rkv7os",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5518,
+              "endIndex": 5595,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5518,
+                    "endIndex": 5595,
+                    "textRun": {
+                      "content": "Confirm whether B/Z has signed up for Club Fair and has booth staffing plans\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.lk4l72rkv7os",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5595,
+              "endIndex": 5603,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5595,
+                    "endIndex": 5603,
+                    "textRun": {
+                      "content": "Summary\n",
+                      "textStyle": {
+                        "bold": true,
+                        "fontSize": {
+                          "magnitude": 17,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.i3qzmxpbjogj",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 5603,
+              "endIndex": 5604,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5603,
+                    "endIndex": 5604,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5604,
+              "endIndex": 5634,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5604,
+                    "endIndex": 5634,
+                    "textRun": {
+                      "content": "Leila's Tango Club Experience\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.uk8uuji51vz0",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 5634,
+              "endIndex": 6168,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5634,
+                    "endIndex": 6056,
+                    "textRun": {
+                      "content": "Leila discussed her experience with the tango club, explaining that she initially attended lessons as a freshman but found the diverse age groups uncomfortable. She returned later in her freshman year and discovered she enjoyed tango. Leila eventually joined the club's leadership as vice president in her sophomore year after the graduating seniors asked for help. Most effective recruitment channel for leadership team: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6056,
+                    "endIndex": 6126,
+                    "textRun": {
+                      "content": "Direct personal appeals to join the leadership team by current leaders",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6126,
+                    "endIndex": 6168,
+                    "textRun": {
+                      "content": " as well as volunteers asking to do more.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6168,
+              "endIndex": 6169,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6168,
+                    "endIndex": 6169,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6169,
+              "endIndex": 6210,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6169,
+                    "endIndex": 6210,
+                    "textRun": {
+                      "content": "Student Dance Club Leadership Transition\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.kfac1tux5y88",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 6210,
+              "endIndex": 6458,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6210,
+                    "endIndex": 6458,
+                    "textRun": {
+                      "content": "Dan and Leila discussed the leadership transition of a student dance club, particularly focusing on the Tango Club at Stanford. Leila explained that her motivation to take on leadership came from wanting to help after being inspired by the tango. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6458,
+              "endIndex": 6459,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6458,
+                    "endIndex": 6459,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6459,
+              "endIndex": 6493,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6459,
+                    "endIndex": 6493,
+                    "textRun": {
+                      "content": "Dance Club Recruitment Strategies\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.yq18kvvb03nh",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 6493,
+              "endIndex": 6961,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6493,
+                    "endIndex": 6688,
+                    "textRun": {
+                      "content": "Leila explained that while dance clubs face challenges in recruiting students due to time constraints, they naturally attract interest through club fairs and social media channels. She noted that",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6688,
+                    "endIndex": 6738,
+                    "textRun": {
+                      "content": " email is the most effective communication channel",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6738,
+                    "endIndex": 6961,
+                    "textRun": {
+                      "content": ", though the club also uses Instagram and the cards system run by the Associated Students. Leila mentioned that students often sign up for their mailing list and follow their Instagram without specific advertising to them.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6961,
+              "endIndex": 6962,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6961,
+                    "endIndex": 6962,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6962,
+              "endIndex": 6997,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6962,
+                    "endIndex": 6997,
+                    "textRun": {
+                      "content": "Student Recruitment for Tango Club\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.wcnnblc26i09",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 6997,
+              "endIndex": 7644,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6997,
+                    "endIndex": 7644,
+                    "textRun": {
+                      "content": "Leila explained that student recruitment for their tango club primarily happens through ASSU announcements and club fairs at the beginning of the year, with the undergrad club fair scheduled for September 30th to October 2nd and the grad club fair on September 18th. She mentioned that Richard Powers' dance classes, which attract 60-70 students each, are also effective recruitment channels, with opportunities to place flyers and make announcements during class. When asked about relevance for other dance styles like Bachata, Leila indicated that Bachata would likely be appropriate since it's similar to what Powers teaches in Social Dance 1.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7644,
+              "endIndex": 7675,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7644,
+                    "endIndex": 7675,
+                    "textRun": {
+                      "content": "Tango Class Promotion Strategy\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.usb7ii5zl35m",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 7675,
+              "endIndex": 8156,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7675,
+                    "endIndex": 8156,
+                    "textRun": {
+                      "content": "Leila discussed the promotion of tango classes at Stanford Ballroom, mentioning that they currently teach basic bachata moves and have offered classes at Dance Break. She highlighted the success of their performances at the Viennese Ball, which helped showcase the potential of tango to a wider audience. Leila noted that while they have a core group of dedicated dancers, there is no specific incentive for students to continue beyond basic lessons, making retention a challenge.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8156,
+              "endIndex": 8192,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8156,
+                    "endIndex": 8192,
+                    "textRun": {
+                      "content": "University Dance Space Reservations\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.e2z4y3to16jf",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 8192,
+              "endIndex": 8665,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8192,
+                    "endIndex": 8665,
+                    "textRun": {
+                      "content": "Leila explained the process for reserving university spaces for dance activities, including options like EBGR studios, Havana Room, Kennedy grad room, Robley studios through the Department of Theater and Performance Studies, and EPC. She noted specific rules and quotas for different spaces, such as the two-week advance reservation limit at EPC and the twice-a-quarter limit at the Havana room. Leila also mentioned that Koret is the only space where payment is required.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8665,
+              "endIndex": 8666,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8665,
+                    "endIndex": 8666,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8666,
+              "endIndex": 8704,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8666,
+                    "endIndex": 8704,
+                    "textRun": {
+                      "content": "Tango Club Donation Policy Challenges\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.rzp2kbh6y2n8",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 8704,
+              "endIndex": 9073,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8704,
+                    "endIndex": 9073,
+                    "textRun": {
+                      "content": "Leila explained that the tango club receives its annual grant from ASSU but learned two years ago that accepting outside donations directly from community members must go through the university. She mentioned that two dance groups were previously penalized for allowing non-Stanford students to pay for lessons, leading to stricter enforcement of university policies. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 9073,
+              "endIndex": 9074,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9073,
+                    "endIndex": 9074,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 9074,
+              "endIndex": 9111,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9074,
+                    "endIndex": 9111,
+                    "textRun": {
+                      "content": "Tango Club Operations and Management\n",
+                      "textStyle": {
+                        "bold": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 13,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.412g8kwi4kad",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 9111,
+              "endIndex": 9657,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9111,
+                    "endIndex": 9116,
+                    "textRun": {
+                      "content": "Leila",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 9116,
+                    "endIndex": 9657,
+                    "textRun": {
+                      "content": " discussed the financial aspects, including the need for a financial officer to apply for grants and the costs of paying instructors, with recent sessions costing around $2,000 total. Leila outlined the leadership structure and recruitment process, noting that the leadership team's time commitment varies but typically involves 3 hours of work at the beginning of each quarter followed by attending regular lessons. She also mentioned upcoming workshops with an Italian instructor and the implementation of an RSVP system for these events.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 9657,
+              "endIndex": 9658,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9657,
+                    "endIndex": 9658,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        },
+        "headers": null,
+        "footers": null,
+        "footnotes": null,
+        "documentStyle": {
+          "background": {
+            "color": {}
+          },
+          "pageNumberStart": 1,
+          "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "pageSize": {
+            "height": {
+              "magnitude": 792,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 612,
+              "unit": "PT"
+            }
+          },
+          "marginHeader": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "marginFooter": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "useCustomHeaderFooterMargins": true,
+          "documentFormat": {
+            "documentMode": "PAGES"
+          }
+        },
+        "suggestedDocumentStyleChanges": null,
+        "namedStyles": {
+          "styles": [
+            {
+              "namedStyleType": "NORMAL_TEXT",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 115,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "COLLAPSE_LISTS",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_1",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_2",
+              "textStyle": {
+                "bold": false,
+                "fontSize": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 18,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_3",
+              "textStyle": {
+                "bold": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.2627451,
+                      "green": 0.2627451,
+                      "blue": 0.2627451
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_4",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_5",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_6",
+              "textStyle": {
+                "italic": true,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "TITLE",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 26,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 3,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "SUBTITLE",
+              "textStyle": {
+                "italic": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 15,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            }
+          ]
+        },
+        "suggestedNamedStylesChanges": null,
+        "lists": {
+          "kix.5eflgudozqeo": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                }
+              ]
+            }
+          },
+          "kix.lk4l72rkv7os": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "smallCaps": false,
+                    "foregroundColor": {
+                      "color": {
+                        "rgbColor": {}
+                      }
+                    }
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                }
+              ]
+            }
+          },
+          "kix.mnjykbdgkghy": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                }
+              ]
+            }
+          },
+          "kix.q9rjg9b6gjml": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "DECIMAL",
+                  "glyphFormat": "%0)",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "ALPHA",
+                  "glyphFormat": "%1)",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "END",
+                  "glyphType": "ROMAN",
+                  "glyphFormat": "%2)",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "DECIMAL",
+                  "glyphFormat": "(%3)",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "ALPHA",
+                  "glyphFormat": "(%4)",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "END",
+                  "glyphType": "ROMAN",
+                  "glyphFormat": "(%5)",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "DECIMAL",
+                  "glyphFormat": "%6.",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "ALPHA",
+                  "glyphFormat": "%7.",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "END",
+                  "glyphType": "ROMAN",
+                  "glyphFormat": "%8.",
+                  "indentFirstLine": {
+                    "magnitude": 342,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 360,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                }
+              ]
+            }
+          },
+          "kix.r9lzrab3baje": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                }
+              ]
+            }
+          },
+          "kix.vgmvyzfnh3ej": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "smallCaps": false,
+                    "foregroundColor": {
+                      "color": {
+                        "rgbColor": {}
+                      }
+                    }
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {
+                    "underline": false
+                  },
+                  "startNumber": 1
+                }
+              ]
+            }
+          }
+        },
+        "namedRanges": null,
+        "inlineObjects": null,
+        "positionedObjects": null,
+        "documentId": "1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA",
+        "document_url": "https://docs.google.com/document/d/1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA"
+      }
+    ],
+    "document_url": "https://docs.google.com/document/d/1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA"
+  },
+  "isError": false
+}

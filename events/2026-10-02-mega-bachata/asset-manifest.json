@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-02",
+  "end_date": "2026-10-03",
+  "timezone": "America/Los_Angeles",
+  "class": "20:00\u201321:00",
+  "social": "21:00\u201301:00",
+  "dj": "DJ Nokturnal",
+  "partiful": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
+  "drive_folder": "https://drive.google.com/drive/folders/1pyhmPpJ1i0630MRelTrK_LiSVmGwmvCQ",
+  "qr_verified": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
+  "files": [
+    {
+      "file": "flyer-oct-2-dj-nokturnal.png",
+      "bytes": 1849375,
+      "sha256": "4331e2421d38e860185f7c2886b3c0db530379b96f09c539ab1447ac5db04340"
+    },
+    {
+      "file": "archive/original-sept-19-dj-nick.png",
+      "bytes": 1186340,
+      "sha256": "36881f730efc5d58b79487d77f48884ea9d002d22003e0bea7819cd8bfbfe8fa"
+    },
+    {
+      "file": "dj-nokturnal/Nokturnal-09578.jpg",
+      "bytes": 1676236,
+      "sha256": "2f34085572a0fb669ce5572613041e19739950484570ec7724d1ed01c3b6b8ea"
+    },
+    {
+      "file": "dj-nokturnal/Nokturnal-09989.jpg",
+      "bytes": 2176951,
+      "sha256": "eb98c69b6e71a848e4a94c7f000ecc1f436f8a26d4373279be0d4859f924de0d"
+    },
+    {
+      "file": "dj-nokturnal/Nokturnal-09793.jpg",
+      "bytes": 1995963,
+      "sha256": "5a2ef96099131f97cbab772405d6518b1be04520443b15c9e982f6953f26f0c8"
+    },
+    {
+      "file": "dj-nokturnal/Nokturnal-00113.jpg",
+      "bytes": 2428132,
+      "sha256": "2846494c10fcea1f8cd76b61b3e9fd5ebf4a395068b460f4f202a4bdfd3f8451"
+    }
+  ]
+}

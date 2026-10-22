@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA",
+    "title": "Transition Planner - Stanford Bachata/Zouk",
+    "revisionId": "ANLCKQnemLYFJbLbSFiQw8eOtpNJapEyOM2X2GHFPK0M5M4bSoDnN3OG67tLwEtLn14bJiOTrIPyS6oLei6VjLXD_Vzxu2qocLJ_BzYS7RM",
+    "documentUrl": "https://docs.google.com/document/d/1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 2
+    },
+    "tabsScanned": [
+      "t.0"
+    ],
+    "controls": [],
+    "nativeElements": [
+      {
+        "type": "horizontalRule",
+        "startIndex": 1392,
+        "endIndex": 1393,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[9]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 1392,
+          "endIndex": 1394,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 3369,
+        "endIndex": 3370,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[46]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 3369,
+          "endIndex": 3371,
+          "namedStyleType": "TITLE",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      }
+    ]
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

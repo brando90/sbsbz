@@ -1,0 +1,15 @@
+{
+  "batch": 2,
+  "requested_by": "Brando, 10-09-2026 ~14:20 PDT (\"Again duh\"), explicit resend of the 13:31 batch",
+  "submitted_by": "Claude Code (claude-opus-5-5)",
+  "submitted_at": "2026-10-09T14:21:33-07:00",
+  "options": "lp -d CardinalPrint -n 25 -o media=Letter -o sides=one-sided -o CNColorMode=color -o ColorModel=RGB -o CNDuplex=None -o fit-to-page",
+  "jobs": [
+    {"job_id": 864, "file": "assets/A-Campus-Casual-Bachata-and-Zouk-10-09-2026.pdf", "sha256": "b5d6d5f93b97a066fbb24915fba1be391cf8f8eb399b1d4b0edb16761be56f99", "copies": 25, "driver_state": "completed", "printer_message": ""},
+    {"job_id": 865, "file": "assets/B-Your-First-Class-Bachata-and-Zouk-10-09-2026.pdf", "sha256": "e8be6cac1e3c45b5b0fcee0efa6321b54411323dd3d6103799b04e638293bac4", "copies": 25, "driver_state": "completed", "printer_message": ""},
+    {"job_id": 866, "file": "assets/C-Just-Come-Dance-Bachata-and-Zouk-10-09-2026.pdf", "sha256": "9ce63915dd372715236a4fdc6e278318778ec128125fc27edce2830692406e8f", "copies": 25, "driver_state": "completed", "printer_message": ""}
+  ],
+  "total_copies": 75,
+  "earlier_batch_still_queued": "jobs 861-863 (13:31 PDT) remain releasable until ~13:31 PDT 10-11-2026 unless already printed",
+  "physical_release_verified": false
+}

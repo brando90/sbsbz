@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ",
+    "title": "Protocol for advertising marketing & Weekly Adverisment & Room Reservation & Socials",
+    "revisionId": "ANLCKQnDOR_z2ZbtqDKTkk2FTbPEwrxfZMiKYcH5G34yBoM9h-0MVOJQNmQ1hn_LbSTdX2qk4jSvFAv4tQIapQ",
+    "documentUrl": "https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 10,
+      "inlineObjectElement": 3
+    },
+    "tabsScanned": [
+      "t.p8qyts3hb7v5",
+      "t.b94uemnq5trc",
+      "t.9q26m96xnirj",
+      "t.vn6z9f9daou6",
+      "t.svp85gkwg08t"
+    ],
+    "controls": [],
+    "nativeElements": [
+      {
+        "type": "horizontalRule",
+        "startIndex": 659,
+        "endIndex": 660,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[27]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 659,
+          "endIndex": 661,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 1480,
+        "endIndex": 1481,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[36]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 1480,
+          "endIndex": 1482,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 1964,
+        "endIndex": 1965,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[51]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 1964,
+          "endIndex": 1966,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 3630,
+        "endIndex": 3631,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[94]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 3630,
+          "endIndex": 3632,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 4057,
+        "endIndex": 4058,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[114]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 4057,
+          "endIndex": 4059,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 4659,
+        "endIndex": 4660,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[135]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 4659,
+          "endIndex": 4661,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 4996,
+        "endIndex": 4997,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[147]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 4996,
+          "endIndex": 4998,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 5479,
+        "endIndex": 5480,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[167]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 5479,
+          "endIndex": 5481,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 6098,
+        "endIndex": 6099,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[187]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 6098,
+          "endIndex": 6100,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 6962,
+        "endIndex": 6963,
+        "tabId": "t.p8qyts3hb7v5",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[210]",
+          "tabId": "t.p8qyts3hb7v5",
+          "segmentId": null,
+          "startIndex": 6962,
+          "endIndex": 6964,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "inlineObjectElement",
+        "startIndex": 509,
+        "endIndex": 510,
+        "tabId": "t.b94uemnq5trc",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[1].body.content[13]",
+          "tabId": "t.b94uemnq5trc",
+          "segmentId": null,
+          "startIndex": 509,
+          "endIndex": 511,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "inlineObjectId": "kix.67th0b6v1h15",
+          "textStyle": {
+            "bold": true
+          }
+        }
+      },
+      {
+        "type": "inlineObjectElement",
+        "startIndex": 2027,
+        "endIndex": 2028,
+        "tabId": "t.b94uemnq5trc",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[1].body.content[40]",
+          "tabId": "t.b94uemnq5trc",
+          "segmentId": null,
+          "startIndex": 2027,
+          "endIndex": 2029,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "inlineObjectId": "kix.3lduxcfybo84",
+          "textStyle": {}
+        }
+      },
+      {
+        "type": "inlineObjectElement",
+        "startIndex": 544,
+        "endIndex": 545,
+        "tabId": "t.9q26m96xnirj",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[2].body.content[17]",
+          "tabId": "t.9q26m96xnirj",
+          "segmentId": null,
+          "startIndex": 544,
+          "endIndex": 546,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "inlineObjectId": "kix.6pmq33rs7niz",
+          "textStyle": {}
+        }
+      }
+    ]
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

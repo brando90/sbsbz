@@ -1,0 +1,433 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "title": "SBSBZ — Team responsibilities & next steps",
+    "revisionId": "ANLCKQmBe3Sq0Z76yhbGe85JSVGBpeDBiIuVvKnQUBOVeuuJo4V2sEGJIunro3ls_ay2I4GFAzL8NnzeVYHH8fSJ_SepAwU03KDzZirxBZY",
+    "documentUrl": "https://docs.google.com/document/d/1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {
+      "dateElement": 3,
+      "person": 10,
+      "richLink": 4
+    },
+    "tabsScanned": [
+      "t.0"
+    ],
+    "controls": [],
+    "nativeElements": [
+      {
+        "type": "dateElement",
+        "startIndex": 52,
+        "endIndex": 53,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[2]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 44,
+          "endIndex": 224,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "timestamp": "2026-09-13T12:00:00Z",
+          "locale": "en",
+          "dateFormat": "DATE_FORMAT_MONTH_DAY_YEAR_ABBREVIATED",
+          "timeFormat": "TIME_FORMAT_DISABLED",
+          "displayText": "Sep 13, 2026"
+        }
+      },
+      {
+        "type": "dateElement",
+        "startIndex": 237,
+        "endIndex": 238,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[3]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 224,
+          "endIndex": 362,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "timestamp": "2026-10-02T12:00:00Z",
+          "locale": "en",
+          "dateFormat": "DATE_FORMAT_MONTH_DAY_YEAR_ABBREVIATED",
+          "timeFormat": "TIME_FORMAT_DISABLED",
+          "displayText": "Oct 2, 2026"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 371,
+        "endIndex": 372,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[4]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 362,
+          "endIndex": 385,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "brando9@stanford.edu"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 729,
+        "endIndex": 730,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[7]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 715,
+          "endIndex": 748,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "hbosch@stanford.edu"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 1380,
+        "endIndex": 1381,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[13]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 1371,
+          "endIndex": 1402,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "katrinsh@stanford.edu"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 1931,
+        "endIndex": 1932,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[16]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 1921,
+          "endIndex": 1953,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "caitlee@stanford.edu"
+        }
+      },
+      {
+        "type": "dateElement",
+        "startIndex": 2428,
+        "endIndex": 2429,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[22]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 2375,
+          "endIndex": 2509,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": "kix.pwhn1aezzab3",
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "timestamp": "2026-09-15T12:00:00Z",
+          "locale": "en",
+          "dateFormat": "DATE_FORMAT_MONTH_DAY_YEAR_ABBREVIATED",
+          "timeFormat": "TIME_FORMAT_DISABLED",
+          "displayText": "Sep 15, 2026"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 2526,
+        "endIndex": 2527,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[23]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 2509,
+          "endIndex": 2554,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "Y.Dan.Rubinstein@gmail.com"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 2826,
+        "endIndex": 2827,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[26]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 2811,
+          "endIndex": 2855,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "abhinavg@stanford.edu"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 3213,
+        "endIndex": 3214,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[29]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 3201,
+          "endIndex": 3242,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "elchilds@stanford.edu"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 3510,
+        "endIndex": 3511,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[32]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 3488,
+          "endIndex": 3536,
+          "namedStyleType": "HEADING_2",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "riepingc@stanford.edu"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 3845,
+        "endIndex": 3846,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[36]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 3840,
+          "endIndex": 3921,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "Y.Dan.Rubinstein@gmail.com"
+        }
+      },
+      {
+        "type": "person",
+        "startIndex": 3946,
+        "endIndex": 3947,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[37]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 3921,
+          "endIndex": 4125,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "email": "caitlee@stanford.edu"
+        }
+      },
+      {
+        "type": "richLink",
+        "startIndex": 5730,
+        "endIndex": 5731,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[46]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 5708,
+          "endIndex": 5732,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "title": "Protocol for advertising marketing & Weekly Adverisment & Room Reservation & Socials",
+          "uri": "https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ/edit",
+          "mimeType": "application/vnd.google-apps.kix"
+        }
+      },
+      {
+        "type": "richLink",
+        "startIndex": 5752,
+        "endIndex": 5753,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[47]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 5732,
+          "endIndex": 5754,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "title": "Transition Planner - Stanford Bachata/Zouk",
+          "uri": "https://docs.google.com/document/d/1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA/edit",
+          "mimeType": "application/vnd.google-apps.kix"
+        }
+      },
+      {
+        "type": "richLink",
+        "startIndex": 5768,
+        "endIndex": 5769,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[48]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 5754,
+          "endIndex": 5770,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "title": "SBSBZ - constitution",
+          "uri": "https://docs.google.com/document/d/1an7OtMuhlXnpJe6X_ESOOhW1rOcfPuoTYLZwuhWFBTk/edit",
+          "mimeType": "application/vnd.google-apps.kix"
+        }
+      },
+      {
+        "type": "richLink",
+        "startIndex": 5796,
+        "endIndex": 5797,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[49]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 5770,
+          "endIndex": 5798,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "title": "Monthly meeting agenda",
+          "uri": "https://docs.google.com/document/d/1Qgkj4RJfC7jVfNkHUs_s4jkXVLVWOu9Vq_GcEVVfFHc/edit",
+          "mimeType": "application/vnd.google-apps.kix"
+        }
+      }
+    ]
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

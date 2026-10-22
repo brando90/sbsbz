@@ -1,0 +1,59 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/Users/brandomiranda/sbsbz/bridge/planner-formlink-read-01",
+  "target": {
+    "documentId": "1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA",
+    "title": "Transition Planner - Stanford Bachata/Zouk",
+    "revisionId": "ANLCKQnemLYFJbLbSFiQw8eOtpNJapEyOM2X2GHFPK0M5M4bSoDnN3OG67tLwEtLn14bJiOTrIPyS6oLei6VjLXD_Vzxu2qocLJ_BzYS7RM",
+    "documentUrl": "https://docs.google.com/document/d/1AluJjlK204Xi0ehbdKHNXitXNRfTUBmrmy-a7muNuOA",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 2
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/planner-formlink-read-01/document-result.json",
+      "bytes": 153740,
+      "sha256": "e90c684c551a33cc2889b7326249d4edc8ffccc94e9921423e2bc3aac1e24665"
+    },
+    "control_inventory": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/planner-formlink-read-01/control-inventory.json",
+      "bytes": 2149,
+      "sha256": "8345a491a3ccfebee8deaf098e71fa452e81d2e40ceacaac5fb3460c8a63b20b"
+    },
+    "document_outline": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/planner-formlink-read-01/document-outline.json",
+      "bytes": 47048,
+      "sha256": "e82c1fe641eb6d12a5fcc643af55b13c99a13ed517867b8fc489922d0514cfcb"
+    },
+    "document_text": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/planner-formlink-read-01/document-text.md",
+      "bytes": 15104,
+      "sha256": "4d165c44e15e8d253bdc57cac4a8c3b15036aeff15c1fd93a20afa0891b1c9e8"
+    },
+    "receipt": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/planner-formlink-read-01/receipt.json",
+      "bytes": 1009,
+      "sha256": "ff0cce5529c2be3c844034744ccc2e05b2d682ff3c3835f42e6a10c3801a6d1e"
+    }
+  },
+  "error": null
+}
