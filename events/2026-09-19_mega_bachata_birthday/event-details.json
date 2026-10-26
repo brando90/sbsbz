@@ -1,0 +1,114 @@
+{
+  "title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
+  "date": "2026-09-19",
+  "class_time": "20:00–21:00",
+  "instructors": [
+    "Brando",
+    "Marta"
+  ],
+  "social_start": "2026-09-19T21:00:00-07:00",
+  "end": "2026-09-20T01:00:00-07:00",
+  "venue": "Hacienda Commons at Rains",
+  "address": "796 Escondido Rd, Stanford, CA 94305",
+  "map_url": "https://maps.app.goo.gl/NgcWLjxzMZJz7XQg8",
+  "website_url": "https://brando90.github.io/sbsbz/",
+  "linktree_url": "https://linktr.ee/ultimate_brando9",
+  "partiful_url": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
+  "admission": "Free",
+  "dj": "Nick",
+  "food": "Free AMAZING Mediterranean Food",
+  "flyer": "assets/mega_bachata_party_mediterranean_v14.png",
+  "whatsapp_group": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
+  "email_from": "brandojazz@gmail.com",
+  "email_to": "stanford_bachata_zouk@lists.stanford.edu",
+  "email_copy": "brando.science@gmail.com",
+  "approval_status": "PARTIFUL_APPROVED_OTHER_ACTIONS_PENDING",
+  "send_mode": "USER_SENDS_MANUALLY",
+  "email_sent": false,
+  "whatsapp_sent": false,
+  "invitations_sent": false,
+  "flyer_qr_target": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
+  "flyer_food_line": "Free AMAZING Mediterranean Food",
+  "flyer_status": "V14_MEDITERRANEAN_FOOD",
+  "flyer_layout_preview": "assets/mega_bachata_party_mediterranean_v14.png",
+  "flyer_layout_status": "FOOD_BAND_ONLY_SYMMETRY_PRESERVED",
+  "flyer_ready_for_distribution": true,
+  "live_partiful_cover": "assets/mega_bachata_party_sept19_brando_marta_v13.png",
+  "final_flyer": "assets/mega_bachata_party_mediterranean_v14.png",
+  "flyer_icons": [
+    "gold outline graduation cap beside class",
+    "gold outline hummus bowl beside food",
+    "gold location pin beside venue"
+  ],
+  "flyer_layout_preview_drive_url": "https://drive.google.com/file/d/13QgipFRjh24jnm8f7L5MU93Z7BRd6XRV/view",
+  "available_qr_codes": {
+    "partiful": {
+      "asset": "assets/partiful_event_qr.png",
+      "decoded_url": "https://partiful.com/e/ohtSD9MnHe6u71JQx60X",
+      "verified": true
+    },
+    "linktree": {
+      "asset": "assets/linktree_qr.png",
+      "decoded_url": "https://linktr.ee/ultimate_brando9",
+      "verified": true
+    }
+  },
+  "flyer_qr_label": "JOIN THE PARTY",
+  "flyer_code_verified": true,
+  "flyer_code_test_widths": [
+    1024,
+    768,
+    512
+  ],
+  "flyer_exact_compositing_authorized": true,
+  "flyer_dimensions": [
+    1024,
+    1728
+  ],
+  "flyer_footer_center_x": 512,
+  "instructor_credit": "Brando & Marta",
+  "partiful_cover_approval_status": "APPROVED",
+  "partiful_cover_status": "UPLOAD_BLOCKED_CHROME_FILE_ACCESS",
+  "partiful_cover_updated_at": "2026-09-11T19:58:33-07:00",
+  "partiful_cover_observed_image_id": "hkipR6CHHT4cLsEGVhCQd",
+  "partiful_live_title": "MEGA BACHATA PARTY — Brando’s Belated Birthday",
+  "partiful_live_location_status": "SET_VERIFIED",
+  "partiful_other_field_updates": "APPLIED_VERIFIED",
+  "partiful_details_verified_at": "2026-09-12T12:30:09-07:00",
+  "partiful_description_status": "APPLIED_VERIFIED",
+  "partiful_details_approval_status": "APPROVED",
+  "partiful_live_location": "Hacienda Commons at Rains",
+  "partiful_live_address": "796 Escondido Rd, Stanford, CA 94305",
+  "rescheduled_from": "2026-09-18",
+  "reschedule_requested_at": "2026-09-11T18:53:10-07:00",
+  "reschedule_status": "APPLIED_VERIFIED",
+  "partiful_reschedule_status": "APPLIED_VERIFIED",
+  "reschedule_end_time_confirmation": "User explicitly retained original 1 AM finish; only date/day changes.",
+  "instructor_update_requested_at": "2026-09-11T19:58:33-07:00",
+  "partiful_instructor_status": "APPLIED_VERIFIED",
+  "website_event_status": "APPLIED_VERIFIED",
+  "website_event_update_pr": "https://github.com/brando90/sbsbz/pull/13",
+  "website_event_update_commit": "c6d67bdd3dcb20080f383192463b895607c62215",
+  "public_food_timing": "Do not advertise a serving time",
+  "public_food_timing_status": "OMITTED_FROM_PUBLIC_COPY_AND_LIVE_PAGES",
+  "food_vendor_status": "QUOTE_PENDING_NOT_BOOKED",
+  "food_vendor_candidate": "Holyland",
+  "public_food_vendor": null,
+  "food_preferences": {
+    "include": [
+      "chicken kebabs",
+      "kefta kebabs",
+      "extra hummus",
+      "salad"
+    ],
+    "exclude": [
+      "eggplant",
+      "baba ghanouj",
+      "rice",
+      "fries"
+    ],
+    "pita": "small amount",
+    "budget_max_all_in_usd": 700
+  },
+  "website_event_deployment": "https://github.com/brando90/sbsbz/actions/runs/34714191367"
+}

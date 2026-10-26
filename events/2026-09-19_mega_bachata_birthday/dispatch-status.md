@@ -1,0 +1,43 @@
+# Approval and delivery status
+
+**TLDR:** The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent.
+
+| Item | State |
+|---|---|
+| WhatsApp announcement | Prepared for manual sending; not sent |
+| Email announcement | Prepared for manual sending; not sent |
+| Existing Partiful | Full title, venue/address and new description verified; cover replacement blocked |
+| Venue/food/website refinements to Partiful | Applied and verified on the saved page, including the map, Linktree and Brando & Marta instructor credit |
+| Current tree flyer v14 | Current version 14 verified in Drive/local files; Partiful upload blocked |
+| Unsent email attachment | Updated to the exact version-14 flyer; not sent |
+| Linktree website destination | Old destination is broken; proposed fix awaits approval and account sign-in |
+| Approval scope | Partiful corrections requested; title/location/new description applied, cover upload blocked; separate Linktree edit and automatic sending remain unapproved |
+| Invitation/text-blast authorization | None |
+
+Proposed WhatsApp target: Stanford Bachata Sensual & Brazilian Zouk (SBSBZ), approximately 600 members, verified by the current chat header. Exact membership was not exported. No message was sent or left in the composer.
+
+Proposed email: Brando Miranda <brandojazz@gmail.com> to stanford_bachata_zouk@lists.stanford.edu, copying brando.science@gmail.com. Prior sent announcements and the club marketing protocol corroborate the main list. The connected Gmail account is available. The Gmail connector is available if sending is later explicitly requested. No authentication probe or send was attempted.
+
+Website owner confirmed consolidation and deployment: https://brando90.github.io/sbsbz/ . Public home page also verified in this task’s browser. Canonical Linktree: https://linktr.ee/ultimate_brando9 . Its old club-website button still points to the dead Manus address; the other task reached a real Linktree sign-in page and could not edit it. See manus-event-handoff.md for the exact correction.
+
+After the user manually sends, record only what they confirm or what an authorized sent-history check verifies: channel, time with timezone, destination, attachment version, observable message identifier and outcome. Do not mark messages sent based on approval alone.
+
+## Historical publication records
+
+Cover completion verified: 2026-09-11T14:52:41-07:00 at https://partiful.com/e/ohtSD9MnHe6u71JQx60X . Applied assets/mega_bachata_party_trees_review_v11.png; visible saved cover image identifier pWzE0ZFRLaiJtjH7LAh61. User explicitly requested this replacement. Remaining location/description changes were not applied.
+
+Partiful details completion verified: 2026-09-11T15:07:59-07:00. Following the user’s explicit request to update the outdated event text, saved the full title “MEGA BACHATA PARTY — Brando’s Belated Birthday”, selected 796 Escondido Rd, Stanford, CA, United States as the dedicated address, named the location “Hacienda Commons at Rains”, and applied the exact description in partiful.md. The saved page confirms the map, ZIP 94305 in the description, instructor credit “Brando, Sarika, & Sophia”, class 8–9 PM, social 9 PM–1 AM, Nick, free entry, free tacos by Chuy around 10 PM, birthday/graduation wording, website and Linktree. The version-11 cover is retained. This supersedes the earlier cover-only location/description status. Date/times, privacy and guest list were not changed. No announcements or invitations were sent.
+
+## Current reschedule and instructor update
+
+2026-09-11T19:58:33-07:00: User changed only the day/date to Saturday September 19, then replaced the class credit with Brando & Marta. Class remains 8–9 PM and social 9 PM–1 AM, ending Sunday September 20. Updated the existing Partiful description and cover; corrected the accidental 2 AM header after the user explicitly retained 1 AM. Current flyer: assets/mega_bachata_party_sept19_brando_marta_v13.png. Current Drive: https://drive.google.com/file/d/1CoRiYcX50MKqT6IFknMLEbIM6A_MWFhC/view. No email, WhatsApp, Slack, Discord, Partiful invitations or text blasts sent. Website date update was published through https://github.com/brando90/sbsbz/pull/9; instructor update is published and live-verified through https://github.com/brando90/sbsbz/pull/10 (commit 39852f51e6cd588e37e60af99776594a9aefd2bd).
+
+Saved Partiful verification: 2026-09-11T20:03:57-07:00. Outside the editor, the existing event shows Saturday Sep 19, 8 PM–1 AM, Hacienda Commons at Rains, the complete address and description with Brando & Marta. Cover image identifier: hkipR6CHHT4cLsEGVhCQd. Guest count remains 1 Going; activity remains 1 update. No messages or invitations were sent.
+
+## Public taco timing removed
+
+2026-09-11T21:05:54-07:00: User requested free tacos without an advertised serving time. Removed timing from WhatsApp, Slack, Discord, email, the unsent email body, Partiful copy and the review packet. The saved Partiful page now reads FREE TACOS BY CHUY, retains the same version-13 cover and schedule, and still shows 1 Going / 1 activity update. Website update published through https://github.com/brando90/sbsbz/pull/11 at 7c059e325378929c2dde468bc7bde738ac1f70cc; https://github.com/brando90/sbsbz/actions/runs/34671977076 succeeded and its owner verified FREE tacos by Chuy on the live page. Expanded reusable-promo-prompt.md with date/DJ/tacos inputs, standing defaults, complete production requirements and manual-send boundary. Original service logistics remain in historical organizer reference notes only. Nothing sent.
+
+## Mediterranean food revision — current
+
+2026-09-12T12:30:09-07:00: The version-14 Mediterranean flyer is saved and its event code is verified. The website and Partiful description say “Free AMAZING Mediterranean Food”; Partiful still shows version 13 because Chrome denied the cover upload. Messages remain unsent. New flyer: assets/mega_bachata_party_mediterranean_v14.png. Drive: https://drive.google.com/file/d/13QgipFRjh24jnm8f7L5MU93Z7BRd6XRV/view. Website published via https://github.com/brando90/sbsbz/pull/13, merge c6d67bdd3dcb20080f383192463b895607c62215; deployment https://github.com/brando90/sbsbz/actions/runs/34714191367 succeeded and the website task verified the exact live phrase. No serving time, vendor claim or old endorsement in current public copy. Holyland quote remains unbooked; no eggplant, rice or fries.
