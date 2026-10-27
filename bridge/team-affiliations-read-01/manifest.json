@@ -1,0 +1,61 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/Users/brandomiranda/sbsbz/bridge/team-affiliations-read-01",
+  "target": {
+    "documentId": "1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "title": "SBSBZ — Team responsibilities & next steps",
+    "revisionId": "ANLCKQmLO0_hXQKQmZM1jqQE7HvqMfgSJ-5UN4y6Cf66nRgI8Hz3kdi4OmctkSev5lIYnficGHtcSj_iVo7IfyBkI4IyIxrDPz1W6GD-LTo",
+    "documentUrl": "https://docs.google.com/document/d/1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "selectedTabId": "t.0"
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "dateElement": 3,
+      "person": 8,
+      "richLink": 4
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/team-affiliations-read-01/document-result.json",
+      "bytes": 56894,
+      "sha256": "e313c4e239971f7339bbe0ca289981b51a0aac28ee79b4373828b856ff86fb03"
+    },
+    "control_inventory": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/team-affiliations-read-01/control-inventory.json",
+      "bytes": 11085,
+      "sha256": "8a745dfd8a36cf266d80ecd0aad0d87e98ce256e1ff69f0d540232cec3cb99f9"
+    },
+    "document_outline": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/team-affiliations-read-01/document-outline.json",
+      "bytes": 18781,
+      "sha256": "f7d5399b515e3b34bded76bfbaecc43736ff72ae6ba760fe22571e59b86c052c"
+    },
+    "document_text": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/team-affiliations-read-01/document-text.md",
+      "bytes": 6208,
+      "sha256": "c72c0e03cedd81d9d7fa3ee076b7012be7c58ff6d79981cf87a5b43b822cc1f9"
+    },
+    "receipt": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/team-affiliations-read-01/receipt.json",
+      "bytes": 1049,
+      "sha256": "4e0006042bad22438a6ed8464268d3bbc836c8be78e10a4ec6a2d4e9c1217553"
+    }
+  },
+  "error": null
+}

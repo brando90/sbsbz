@@ -1,0 +1,323 @@
+{
+  "campaign": "Autumn Quarter 2026 campus-wide classes",
+  "authorized_date": "2026-09-21",
+  "approval": "User explicitly requested campus-wide advertising following Drive protocol",
+  "timezone": "America/Los_Angeles",
+  "flyer": "/Users/brandomiranda/Downloads/SBSBZ-Autumn-Poster-Options-2026-09-21/A-Campus-Casual.jpg",
+  "flyer_drive": "https://drive.google.com/file/d/1RpcMgO9314DQXl5pBVHBISwhICa954QS/view",
+  "protocols": [
+    "https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ/edit",
+    "https://docs.google.com/document/d/1ZJ5SODZh2-lqm8H8qhvAN6jwtByrqbXK1uPvizRMQWo/edit"
+  ],
+  "scope_notes": [
+    "Quarterly schedule announcement, not a duplicate of Sept17 single-class campaign.",
+    "No invented Zouk schedule or quarter end date.",
+    "Discord only Social Dance @ Stanford; Instagram only club account.",
+    "Dance-news no attachments and check quarter limit.",
+    "Bay Area Facebook groups optional/social-only, not included for campus class campaign.",
+    "No paid boosts or print transactions."
+  ],
+  "targets": [
+    {
+      "platform": "email",
+      "target": "stanford_bachata_zouk@lists.stanford.edu",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|email|stanford_bachata_zouk@lists.stanford.edu",
+      "evidence": "Verified outbound campaign message in Stanford Outlook Sent; exact recipient, campaign subject, and A-Campus-Casual.jpg attachment."
+    },
+    {
+      "platform": "email",
+      "target": "rains-chat@lists.stanford.edu",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|email|rains-chat@lists.stanford.edu",
+      "sent_at": "2026-09-21T08:40:00-07:00",
+      "evidence": "Outlook Stanford Sent shows exact subject, rains-chat recipient, BCC/CC, and A-Campus-Casual.jpg attachment. No quarter duplicate in prior Sent history."
+    },
+    {
+      "platform": "email",
+      "target": "evgr-a-announce@lists.stanford.edu",
+      "status": "officer-relay-requested",
+      "prior_campaign_status": "hold-posting-rights-and-history",
+      "dedup_key": "autumn-2026|email|evgr-a-announce@lists.stanford.edu",
+      "evidence": "Officers received exact destination and approved flyer link at09:25 Sept21. EVGR A/C prior nonmember moderation confirmed July15/June24; B explicitly CA-only; comunidad prior nonmember rejection. Direct posting not completed; authorized member/CA relay requested."
+    },
+    {
+      "platform": "email",
+      "target": "evgr-b-announce@lists.stanford.edu",
+      "status": "officer-relay-requested",
+      "prior_campaign_status": "hold-ca-relay",
+      "dedup_key": "autumn-2026|email|evgr-b-announce@lists.stanford.edu",
+      "evidence": "Officers received exact destination and approved flyer link at09:25 Sept21. EVGR A/C prior nonmember moderation confirmed July15/June24; B explicitly CA-only; comunidad prior nonmember rejection. Direct posting not completed; authorized member/CA relay requested."
+    },
+    {
+      "platform": "email",
+      "target": "evgr-c-announce@lists.stanford.edu",
+      "status": "officer-relay-requested",
+      "prior_campaign_status": "hold-posting-rights-and-history",
+      "dedup_key": "autumn-2026|email|evgr-c-announce@lists.stanford.edu",
+      "evidence": "Officers received exact destination and approved flyer link at09:25 Sept21. EVGR A/C prior nonmember moderation confirmed July15/June24; B explicitly CA-only; comunidad prior nonmember rejection. Direct posting not completed; authorized member/CA relay requested."
+    },
+    {
+      "platform": "email",
+      "target": "lyman-unofficial@lists.stanford.edu",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|email|lyman-unofficial@lists.stanford.edu",
+      "evidence": "Verified outbound campaign message in Stanford Outlook Sent; exact recipient, campaign subject, and A-Campus-Casual.jpg attachment."
+    },
+    {
+      "platform": "email",
+      "target": "comunidad@lists.stanford.edu",
+      "status": "officer-relay-requested",
+      "prior_campaign_status": "hold-membership",
+      "dedup_key": "autumn-2026|email|comunidad@lists.stanford.edu",
+      "evidence": "Officers received exact destination and approved flyer link at09:25 Sept21. EVGR A/C prior nonmember moderation confirmed July15/June24; B explicitly CA-only; comunidad prior nonmember rejection. Direct posting not completed; authorized member/CA relay requested."
+    },
+    {
+      "platform": "email",
+      "target": "centrograds@lists.stanford.edu",
+      "status": "sent-verified",
+      "prior_campaign_status": "hold-compose-risk",
+      "dedup_key": "autumn-2026|email|centrograds@lists.stanford.edu",
+      "evidence": "Verified outbound campaign message in Stanford Outlook Sent; exact recipient, campaign subject, and A-Campus-Casual.jpg attachment."
+    },
+    {
+      "platform": "email",
+      "target": "dance-news@lists.stanford.edu",
+      "status": "submitted-moderation",
+      "prior_campaign_status": "hold-quarter-announcement",
+      "dedup_key": "autumn-2026|email|dance-news@lists.stanford.edu",
+      "evidence": "Stanford inbox verified Sept21 8:48AM acknowledgment from dance-news-owner: Your message to dance-news awaits moderator approval; reason Post to moderated list. Exact Autumn subject. No duplicate submission."
+    },
+    {
+      "platform": "slack",
+      "target": "Rains #resident-announcements",
+      "url": "https://rains-slack.slack.com/archives/CNQ9KUUUD",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|Rains #resident-announcements",
+      "message_url": "https://rains-slack.slack.com/archives/CNQ9KUUUD/p1790005830512969",
+      "evidence": "Recent messages checked; verified new Autumn message and A-Campus-Casual.jpg in channel."
+    },
+    {
+      "platform": "slack",
+      "target": "CS PhD #cs_phd-random",
+      "url": "https://csphdcommunity.slack.com/archives/C01APLEDM9P",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|CS PhD #cs_phd-random",
+      "message_url": "https://csphdcommunity.slack.com/archives/C01APLEDM9P/p1790005755697589",
+      "evidence": "Recent messages checked; verified new Autumn message and A-Campus-Casual.jpg in channel."
+    },
+    {
+      "platform": "slack",
+      "target": "EVGR #evgr-residents-all",
+      "url": "https://stanford-evgr.slack.com/archives/C019CL62UDC",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|EVGR #evgr-residents-all",
+      "evidence": "Native Slack verified Autumn caption and flyer A with final server URL after processing.",
+      "message_url": "https://stanford-evgr.slack.com/archives/C019CL62UDC/p1790006215821919"
+    },
+    {
+      "platform": "slack",
+      "target": "EVGR #evgr-dance",
+      "url": "https://stanford-evgr.slack.com/archives/C047L69RGEB",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|EVGR #evgr-dance",
+      "message_url": "https://stanford-evgr.slack.com/archives/C047L69RGEB/p1790006254580809",
+      "evidence": "Recent posts checked; published Autumn caption and flyer A verified with server message URL."
+    },
+    {
+      "platform": "slack",
+      "target": "Lyman #general",
+      "url": "https://stanford-lyman.slack.com/archives/C01A4CUNVQF",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|Lyman #general",
+      "evidence": "Native Slack verified full Autumn caption and flyer A at08:58:23 with final server message URL. No resend needed.",
+      "message_url": "https://stanford-lyman.slack.com/archives/C01A4CUNVQF/p1790006303751829"
+    },
+    {
+      "platform": "slack",
+      "target": "DataScience #random",
+      "url": "https://stanford-datascience.slack.com/archives/CM1CB570B",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|DataScience #random",
+      "message_url": "https://stanford-datascience.slack.com/archives/CM1CB570B/p1790006416499889",
+      "evidence": "Recent posts checked; published Autumn caption and flyer A verified with server message URL."
+    },
+    {
+      "platform": "slack",
+      "target": "MSCS #random",
+      "url": "https://stanford-mscs.slack.com/archives/CSEF4EDS5",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|MSCS #random",
+      "message_url": "https://stanford-mscs.slack.com/archives/CSEF4EDS5/p1790006371036239",
+      "evidence": "Recent posts checked; published Autumn caption and flyer A verified with server message URL."
+    },
+    {
+      "platform": "slack",
+      "target": "EDGE #social",
+      "url": "https://edgefellowshipprogram.slack.com/archives/C01JNSLL2G2",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|slack|EDGE #social",
+      "message_url": "https://edgefellowshipprogram.slack.com/archives/C01JNSLL2G2/p1790006456098879",
+      "evidence": "Recent posts checked; published Autumn caption and flyer A verified with server message URL."
+    },
+    {
+      "platform": "discord",
+      "target": "Social Dance @ Stanford #cross-campus-announcements",
+      "url": "https://discord.com/channels/1409968641989935296/1409980377195483208",
+      "actual_target": "Social Dance @ Stanford #cross-campus-announcements",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|discord|Social Dance @ Stanford #cross-campus-announcements",
+      "evidence": "Browser confirmed Sept21 9:05AM Autumn caption and fully uploaded A-Campus-Casual.jpg in Social Dance @ Stanford cross-campus-announcements; attachment id1551625508528070657. Prior Sept16 event checked."
+    },
+    {
+      "platform": "instagram",
+      "target": "SBSBZ feed and story",
+      "url": "https://www.instagram.com/stanford_bachata_sensual_zouk/",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|instagram|SBSBZ feed and story",
+      "feed_id": "1059563670326217",
+      "evidence": "Meta Published feed Sept21 09:12, combined club accounts id1059563670326217. Story success alert confirmed after both club accounts selected, entire flyer visible in each preview; Facebook swipe-up link to club Linktree; Instagram QR retained."
+    },
+    {
+      "platform": "facebook",
+      "target": "SBSBZ page",
+      "url": "https://www.facebook.com/profile.php?id=100088177813469",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|facebook|SBSBZ page",
+      "feed_id": "1059563670326217",
+      "evidence": "Meta Published feed Sept21 09:12, combined club accounts id1059563670326217. Story success alert confirmed after both club accounts selected, entire flyer visible in each preview; Facebook swipe-up link to club Linktree; Instagram QR retained."
+    },
+    {
+      "platform": "facebook",
+      "target": "SBSBZ group",
+      "url": "https://www.facebook.com/groups/857433758788901",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|facebook|SBSBZ group",
+      "message_url": "https://www.facebook.com/groups/857433758788901/permalink/1800207377844863/",
+      "evidence": "New Brando Miranda post verified in group feed, about a minute ago, approved Autumn caption and flyer A; photo id10175480967915302."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|whatsapp|Stanford Bachata Sensual & Brazilian Zouk (SBSBZ)",
+      "evidence": "WhatsApp shows Your HD photo with full Autumn caption, Sept21 9:13AM, Sent to SBSBZ, Sent. Recent history checked."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Latinos Grad",
+      "actual_target": "Stanford LATAM \ud83c\udf32 (Latinos)",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|whatsapp|Stanford LATAM \ud83c\udf32 (Latinos)",
+      "evidence": "HD A flyer with exact Autumn caption, recent messages checked. Native Sent state verified; VSR reaction received confirms delivery. Sept21 9:15-9:18AM."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Zouk Bay Chat",
+      "actual_target": "Zouk Bay Chat",
+      "status": "held-relevance-and-target",
+      "prior_campaign_status": "hold-relevance",
+      "dedup_key": "autumn-2026|whatsapp|Zouk Bay Chat",
+      "evidence": "Exact protocol group not found; Zouk Bay search returns Active Zoukers announcement community. Quarter flyer has no confirmed Zouk class yet, so not substituting another community."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Rains chat",
+      "actual_target": "Rains Events!",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|whatsapp|Rains Events!",
+      "evidence": "New HD Autumn flyer in Rains Events at9:17, upload complete and chat-list receipt; old Sept16 class post checked."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Salsa Chat",
+      "actual_target": "Salsa Chat",
+      "status": "blocked-group-not-found",
+      "prior_campaign_status": "blocked-group-not-found",
+      "dedup_key": "autumn-2026|whatsapp|Salsa Chat",
+      "evidence": "Rechecked WhatsApp global chat search Sept21 for Salsa/Germans: no matching protocol groups; only unrelated contact results.",
+      "relay": "Exact missing/restricted groups and flyer link sent to officers09:25; delivery verified. Awaiting authorized relay, not counted as posted."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Baychata",
+      "actual_target": "Baychata Sensual Community",
+      "status": "blocked-admin-only",
+      "prior_campaign_status": "blocked-admin-only",
+      "dedup_key": "autumn-2026|whatsapp|Baychata Sensual Community",
+      "evidence": "Rechecked Sept21 native group: Only admins can send messages.",
+      "relay": "Exact missing/restricted groups and flyer link sent to officers09:25; delivery verified. Awaiting authorized relay, not counted as posted."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Mexican",
+      "actual_target": "Mexicanos en Stanford \ud83c\uddf2\ud83c\uddfd",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|whatsapp|Mexicanos en Stanford \ud83c\uddf2\ud83c\uddfd",
+      "evidence": "HD A flyer with exact Autumn caption, recent messages checked. Native Sent state verified; VSR reaction received confirms delivery. Sept21 9:15-9:18AM."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Germans@Stanford",
+      "actual_target": "Germans@Stanford",
+      "status": "blocked-group-not-found",
+      "prior_campaign_status": "blocked-group-not-found",
+      "dedup_key": "autumn-2026|whatsapp|Germans@Stanford",
+      "evidence": "Rechecked WhatsApp global chat search Sept21 for Salsa/Germans: no matching protocol groups; only unrelated contact results.",
+      "relay": "Exact missing/restricted groups and flyer link sent to officers09:25; delivery verified. Awaiting authorized relay, not counted as posted."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Germans@Berkeley",
+      "actual_target": "Germans@Berkeley",
+      "status": "blocked-group-not-found",
+      "prior_campaign_status": "blocked-group-not-found",
+      "dedup_key": "autumn-2026|whatsapp|Germans@Berkeley",
+      "evidence": "Rechecked WhatsApp global chat search Sept21 for Salsa/Germans: no matching protocol groups; only unrelated contact results.",
+      "relay": "Exact missing/restricted groups and flyer link sent to officers09:25; delivery verified. Awaiting authorized relay, not counted as posted."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "VSRs@Stanford",
+      "actual_target": "VSRs at Stanford\ud83e\udd73\ud83e\udd73",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|whatsapp|VSRs at Stanford\ud83e\udd73\ud83e\udd73",
+      "evidence": "HD A flyer with exact Autumn caption, recent messages checked. Native Sent state verified; VSR reaction received confirms delivery. Sept21 9:15-9:18AM."
+    },
+    {
+      "platform": "whatsapp",
+      "target": "Sundays @the Deck House \ud83c\udf88 (+ cool bachata kids \ud83d\ude09)",
+      "status": "sent-verified",
+      "prior_campaign_status": "sent-verified",
+      "dedup_key": "autumn-2026|whatsapp|Sundays @the Deck House \ud83c\udf88 (+ cool bachata kids \ud83d\ude09)",
+      "evidence": "HD A flyer with exact Autumn caption, recent messages checked. Native Sent state verified; VSR reaction received confirms delivery. Sept21 9:15-9:18AM."
+    }
+  ],
+  "officer_update": {
+    "target": "SBSZ Official Officers Chat",
+    "sent_at": "2026-09-21T09:25:00-07:00",
+    "status": "delivered",
+    "purpose": "Campaign status, exact remaining relay destinations, approved flyer link, and duplicate prevention"
+  },
+  "overall_status": "Directly accessible destinations posted; Dance-News moderation and officer relays remain outstanding."
+}

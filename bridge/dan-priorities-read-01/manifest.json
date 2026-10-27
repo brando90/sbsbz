@@ -1,0 +1,61 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/Users/brandomiranda/sbsbz/bridge/dan-priorities-read-01",
+  "target": {
+    "documentId": "1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "title": "SBSBZ — Team responsibilities & next steps",
+    "revisionId": "ANLCKQn0iXi6wnrGKrUtRNJ20BdvtNkdN44ofHzTlo7XsW0ieGXo7ac-UxmPMVcBVfO4jw0Dxt3DPgOQqovhMs3uvxsczzDaKVCjoNHPpbU",
+    "documentUrl": "https://docs.google.com/document/d/1ENOiPhiavd7RLFnDDcqmJkcJRsvVZWmtst_vVhKxi4g",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "dateElement": 3,
+      "person": 8,
+      "richLink": 4
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/dan-priorities-read-01/document-result.json",
+      "bytes": 63314,
+      "sha256": "73d00cf9f4f334cb98e5217362fbe1970b81929a588736ce1a9efb17fbff77d3"
+    },
+    "control_inventory": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/dan-priorities-read-01/control-inventory.json",
+      "bytes": 11088,
+      "sha256": "ba0ff7491ec744f812aa0d686d08c8bf56ac2a0d814d44225c3cb7d2a3e34265"
+    },
+    "document_outline": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/dan-priorities-read-01/document-outline.json",
+      "bytes": 23437,
+      "sha256": "883f74152f6577e42aa0525be1960605dab4f90766eae9655d10ba9ce96b9653"
+    },
+    "document_text": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/dan-priorities-read-01/document-text.md",
+      "bytes": 7634,
+      "sha256": "6482d7663e0b347ac6013b5ed81b10847b2e87e1b4cc261d9b5abc00b3d0e4bc"
+    },
+    "receipt": {
+      "path": "/Users/brandomiranda/sbsbz/bridge/dan-priorities-read-01/receipt.json",
+      "bytes": 1048,
+      "sha256": "87a93f4ae6298a3105bd3debaad1345014b4b548812ed2813aace51055b180d4"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/Users/brandomiranda/sbsbz/events/09-24-2026-bachata-reminder/trusted-read-template",
+  "target": {
+    "documentId": "1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ",
+    "title": "Protocol for advertising marketing & Weekly Adverisment & Room Reservation & Socials",
+    "revisionId": "ANLCKQnDOR_z2ZbtqDKTkk2FTbPEwrxfZMiKYcH5G34yBoM9h-0MVOJQNmQ1hn_LbSTdX2qk4jSvFAv4tQIapQ",
+    "documentUrl": "https://docs.google.com/document/d/1FyYdOTh5r36k_-0pmpxaVjaBOjrcEir8NuieYOMQucQ",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 10,
+      "inlineObjectElement": 3
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/Users/brandomiranda/sbsbz/events/09-24-2026-bachata-reminder/trusted-read-template/document-result.json",
+      "bytes": 618252,
+      "sha256": "64a491c8361e7c1b36ce31e770762efef2ef3db4610f36d77f3ac2fda7040170"
+    },
+    "control_inventory": {
+      "path": "/Users/brandomiranda/sbsbz/events/09-24-2026-bachata-reminder/trusted-read-template/control-inventory.json",
+      "bytes": 8798,
+      "sha256": "3395f517781809aaf1d8728ff69f02722cde22bacef74d08bff2fe15dbd46a9f"
+    },
+    "document_outline": {
+      "path": "/Users/brandomiranda/sbsbz/events/09-24-2026-bachata-reminder/trusted-read-template/document-outline.json",
+      "bytes": 148474,
+      "sha256": "fb67124eb560565bc0fd382a8db1fd4cab99b134f0d4e3ca2f0427b2f12f6d81"
+    },
+    "document_text": {
+      "path": "/Users/brandomiranda/sbsbz/events/09-24-2026-bachata-reminder/trusted-read-template/document-text.md",
+      "bytes": 28256,
+      "sha256": "f3679436aae53562b20db4aa0eb08ce38a8c2895324c78337fcca5e38199419c"
+    },
+    "receipt": {
+      "path": "/Users/brandomiranda/sbsbz/events/09-24-2026-bachata-reminder/trusted-read-template/receipt.json",
+      "bytes": 1063,
+      "sha256": "7c9a5477955d93dca9a3e2e482aaa5504aaf27c1ebfe712a0c96262479c80e86"
+    }
+  },
+  "error": null
+}
