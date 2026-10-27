@@ -5,18 +5,25 @@
     "stanford_bachata_zouk@lists.stanford.edu",
     "rains-chat@lists.stanford.edu",
     "evgr-a-announce@llists.stanford.edu",
-    "evgr-b-announce@llists.stanford.edu",
     "evgr-c-announce@llists.stanford.edu",
     "lyman-unofficial@lists.stanford.edu"
   ],
   "always_bcc": [
     "Tophnotch@gmail.com",
     "riepingc@stanford.edu",
-    "brando9@stanford.edu"
+    "brando9@stanford.edu",
+    "brandojazz@gmail.com"
   ],
   "quarterly_lists": [
     "dance-news@lists.stanford.edu",
     "comunidad@lists.stanford.edu",
     "centrograds@lists.stanford.edu"
+  ],
+  "resident_forwarding_only": [
+    {
+      "address": "evgr-b-chat@lists.stanford.edu",
+      "restriction": "Only neighborhood residents may post; arrange a willing resident forwarder. Direct organizer post returned a residents-only notice. Do not include in automatic sends.",
+      "excluded_route": "evgr-b-announce: reserved for community-associate events"
+    }
   ]
 }
